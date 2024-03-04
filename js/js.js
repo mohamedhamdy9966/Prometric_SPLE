@@ -124,7 +124,53 @@ const questions = [
             { text: "ionized drugs is lipid soluble and diffusible" ,correct:"true"},
             { text: "it does not require carrier" ,correct:"false"},
         ]  
-    }
+    },
+    {
+        question: "Concerning Characteristics of (Zero order kinetics) which of the following is correct :",
+        answers: [
+            { text: "the t 1/2 is constant" ,correct:"false"},
+            { text: "Log-Plasma Concentration-time curve is linear" ,correct:"false"},
+            { text: "The rate of the process is proportional to the concentration of the drug" ,correct:"false"},
+            { text: "A constant amount of drug is eliminated per unit time" ,correct:"true"},
+        ]  
+    },
+    {
+        question: "A highly irritant drug in the form of an aqueous solution can be administered by" ,
+        answers: [
+            { text: "Subcutaneous injection" ,correct:"false"},
+            { text: "Intramuscular injection" ,correct:"false"},
+            { text: "Intravenous injection" ,correct:"true"},
+            { text: "intra-articular injection" ,correct:"false"},
+        ]  
+    },
+    {
+        question: "All of the following are possible consequences of phase 1 (non-synthetic) biotransformation EXCEPT " ,
+        answers: [
+            { text: "Production of a pharmacologically inactive metabolite" ,correct:"false"},
+            { text: "conversion of one pharmacologically active to another active substance" ,correct:"false"},
+            { text: "conversion of a pharmacologically inactive to an active substance" ,correct:"false"},
+            { text: "Combination of a drug with an endogenous substance" ,correct:"true"},
+        ]  
+    },
+    {
+        question: "Which of the following is correct as regards to drugs bound to plasma protein " ,
+        answers: [
+            { text: "Pharmacologically active" ,correct:"false"},
+            { text: "Diffusible through capillary walls" ,correct:"false"},
+            { text: "Excreted by glomerular filtration" ,correct:"false"},
+            { text: "A reservoir from which free drug can be dissociated" ,correct:"true"},
+        ]  
+    },
+    {
+        question: "Which of the following can inhibit hepatic microsomal enzymes" ,
+        answers: [
+            { text: "Phenobarbitone" ,correct:"false"},
+            { text: "Valporic acid" ,correct:"true"},
+            { text: "Phenytoin" ,correct:"false"},
+            { text: "Rifampicin" ,correct:"false"},
+        ]  
+    },
+    
 ];
 const questionElement = document.getElementById("question");
 const answersButton = document.getElementById("answer_btn");
