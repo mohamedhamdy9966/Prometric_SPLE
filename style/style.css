@@ -138,3 +138,77 @@ form input [type=button].operator{
     left: 620px;
     top: 80px;
 }
+@media screen and (min-width: 480px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        background: #056b0d;
+        height: 100vh;
+    }
+    
+    .app {
+        background: pink;
+        width: 80%; /* Adjust width for smaller screens */
+        max-width: 600px;
+        margin: 100px auto 0;
+        border-radius: 10px;
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    
+    .app h1 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        color: gray;
+        font-weight: 600;
+        border-bottom: 1px solid brown;
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    
+    .quiz {
+        padding: 10px 0; /* Adjust padding for smaller screens */
+    }
+    
+    .quiz h2 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        color: rgb(60, 112, 9);
+        font-weight: 800;
+    }
+    
+    .btn {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 8px; /* Adjust padding for smaller screens */
+        margin: 8px 0; /* Adjust margin for smaller screens */
+    }
+    
+    #next_btn {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        width: 100%; /* Make it full width on smaller screens */
+        padding: 12px; /* Adjust padding for smaller screens */
+        margin: 15px 0;
+        display: block;
+    }
+    
+    .calculator-button {
+        width: 30px; /* Adjust width for smaller screens */
+        height: 30px; /* Adjust height for smaller screens */
+        margin: 3px; /* Adjust margin for smaller screens */
+    }
+    
+    .calculator {
+        width: 100%; /* Make it full width on smaller screens */
+    }
+    
+    .form .display input {
+        width: 100%; /* Make it full width on smaller screens */
+    }
+    
+    .timer {
+        width: 70px; /* Adjust width for smaller screens */
+        left: 20px; /* Adjust left position for smaller screens */
+        top: 20px; /* Adjust top position for smaller screens */
+    }
+    
+  }
