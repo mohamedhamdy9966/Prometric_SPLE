@@ -1,36 +1,42 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background: #056b0d;
     height: 100vh;
 }
-.app{
+
+.app {
     background: pink;
     width: 60%;
-    max-width: 600;
+    max-width: 600px; /* Add 'px' to specify units */
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
 }
-.app h1{
-    font-weight: 25px;
+
+.app h1 {
+    font-size: 25px;
     color: gray;
     font-weight: 600;
     border-bottom: 1px solid brown;
     padding: 30px;
 }
-.quiz{
+
+.quiz {
     padding: 20px 0;
 }
-.quiz h2{
+
+.quiz h2 {
     font-size: 20px;
     color: rgb(60, 112, 9);
     font-weight: 800;
 }
-.btn{
+
+.btn {
     background: rgb(8, 43, 63);
     color: bisque;
     font-weight: 400;
@@ -43,14 +49,17 @@ body{
     cursor: pointer;
     transition: all 0.8s;
 }
-.btn:hover:not([disabled]){
+
+.btn:hover:not([disabled]) {
     background: bisque;
     color: rgb(27, 27, 26);
 }
-.btn:disabled{
+
+.btn:disabled {
     cursor: no-drop;
 }
-#next_btn{
+
+#next_btn {
     background: rgb(29, 151, 35);
     color: antiquewhite;
     font-weight: 600;
@@ -64,17 +73,20 @@ body{
     font-size: 29px;
     display: none;
 }
-.shit{
+
+.shit {
     background: brown;
     font-size: large;
     cursor: not-allowed;
 }
-.perfecto{
+
+.perfecto {
     background: rgb(82, 124, 20);
     font-size: larger;
     cursor: not-allowed;
 }
-.calculator-button{
+
+.calculator-button {
     border-radius: 10px;
     margin: 5px;
     padding: 2px;
@@ -83,6 +95,7 @@ body{
     color: black;
     font-weight: 700;
 }
+
 .calculator form input[type=button] {
     width: 50px;
     height: 40px;
@@ -95,28 +108,32 @@ body{
     background: transparent;
     font-size: 20px;
     color: #34b5ff;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
-.calculator{
+
+.calculator {
     padding: 10px;
     border-radius: 10px;
     background: #3a4452;
     width: 350px;
     display: none;
 }
-.actived{
+
+.actived {
     display: block;
     padding: 10px;
     border-radius: 10px;
     background: #3a4452;
     width: 350px;
 }
-form .display{
-display: flex;
-justify-content: flex-end;
-margin: 20px 0;
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
 }
-form .display input{
+
+form .display input {
     text-align: right;
     flex: 1;
     font-size: 45px;
@@ -124,10 +141,12 @@ form .display input{
     background: transparent;
     width: 300px;
 }
-form input [type=button].operator{
+
+form input [type=button].operator {
     width: 10px;
 }
-.timer{
+
+.timer {
     border-radius: 10px;
     border: 1px solid black;
     color: brown;
@@ -138,77 +157,9 @@ form input [type=button].operator{
     left: 620px;
     top: 80px;
 }
+
 @media screen and (min-width: 480px) {
-    * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-    }
-    
-    body {
-        background: #056b0d;
-        height: 100vh;
-    }
-    
     .app {
-        background: pink;
-        width: 80%; /* Adjust width for smaller screens */
-        max-width: 600px;
-        margin: 100px auto 0;
-        border-radius: 10px;
-        padding: 20px; /* Adjust padding for smaller screens */
+        width: 80%;
     }
-    
-    .app h1 {
-        font-size: 20px; /* Adjust font size for smaller screens */
-        color: gray;
-        font-weight: 600;
-        border-bottom: 1px solid brown;
-        padding: 20px; /* Adjust padding for smaller screens */
-    }
-    
-    .quiz {
-        padding: 10px 0; /* Adjust padding for smaller screens */
-    }
-    
-    .quiz h2 {
-        font-size: 18px; /* Adjust font size for smaller screens */
-        color: rgb(60, 112, 9);
-        font-weight: 800;
-    }
-    
-    .btn {
-        font-size: 14px; /* Adjust font size for smaller screens */
-        padding: 8px; /* Adjust padding for smaller screens */
-        margin: 8px 0; /* Adjust margin for smaller screens */
-    }
-    
-    #next_btn {
-        font-size: 20px; /* Adjust font size for smaller screens */
-        width: 100%; /* Make it full width on smaller screens */
-        padding: 12px; /* Adjust padding for smaller screens */
-        margin: 15px 0;
-        display: block;
-    }
-    
-    .calculator-button {
-        width: 30px; /* Adjust width for smaller screens */
-        height: 30px; /* Adjust height for smaller screens */
-        margin: 3px; /* Adjust margin for smaller screens */
-    }
-    
-    .calculator {
-        width: 100%; /* Make it full width on smaller screens */
-    }
-    
-    .form .display input {
-        width: 100%; /* Make it full width on smaller screens */
-    }
-    
-    .timer {
-        width: 70px; /* Adjust width for smaller screens */
-        left: 20px; /* Adjust left position for smaller screens */
-        top: 20px; /* Adjust top position for smaller screens */
-    }
-    
-  }
+}
