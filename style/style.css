@@ -158,7 +158,7 @@ form input [type=button].operator {
     top: 80px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 180px) and (max-width: 768px) {
     .app {
         width: 80%;
     }
