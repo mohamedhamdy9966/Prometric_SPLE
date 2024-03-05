@@ -168,7 +168,25 @@ const questions = [
             { text: "Valporic acid" ,correct:"true"},
             { text: "Phenytoin" ,correct:"false"},
             { text: "Rifampicin" ,correct:"false"},
-        ]  
+        ]
+    },
+    {
+        question: "Who's responsible for for accreditation of health care systems ?" ,
+        answers: [
+            { text: "SFDA" ,correct:"false"},
+            { text: "WHO" ,correct:"false"},
+            { text: "MOH" ,correct:"false"},
+            { text: "CBAHI" ,correct:"true"},
+        ]
+    },
+    {
+        question: "Which of the following error detection strategies result in limiting detection ?" ,
+        answers: [
+            { text: "Bar-coding" ,correct:"false"},
+            { text: "trigger tools" ,correct:"false"},
+            { text: "voluntary reporting" ,correct:"false"},
+            { text: "mandatory reporting" ,correct:"true"},
+        ]
     },
     
 ];
@@ -196,7 +214,11 @@ function startTimer() {
     let timeRemaining = quizDuration;
 
     timer = setInterval(function () {
-        timerElement.innerHTML = `Time: ${timeRemaining}s`;
+        const hours = Math.floor(timeRemaining / 3600);
+        const minutes = Math.floor((timeRemaining % 3600) / 60);
+        const seconds = timeRemaining % 60;
+
+        timerElement.innerHTML = `Time: ${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
 
         if (timeRemaining <= 0) {
             clearInterval(timer);
@@ -206,6 +228,24 @@ function startTimer() {
         timeRemaining--;
     }, 1000);
 }
+
+function formatTime(time) {
+    return time < 10 ? `0${time}` : time;
+}
+// function startTimer() {
+//     let timeRemaining = quizDuration;
+
+//     timer = setInterval(function () {
+//         timerElement.innerHTML = `Time: ${timeRemaining}s`;
+
+//         if (timeRemaining <= 0) {
+//             clearInterval(timer);
+//             Score();
+//         }
+
+//         timeRemaining--;
+//     }, 1000);
+// }
 // setTimeout(() => {
 //      startQuiz();   
 // }, 60000);
