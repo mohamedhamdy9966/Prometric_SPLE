@@ -166,23 +166,17 @@ form input [type=button].operator {
         position: absolute;
         text-align: center;
         top: 60px;
-        left: 180px;
+        left: 165px;
     }
     .calculator {
-        width: 240px;
+        width: 220px;
     }
     .calculator form input[type=button] {
         width: 20px;
         height: 20px;
-        margin: 10px;
-        background-color: rgb(247, 8, 139);
-        border: 1px solid whitesmoke;
-        border-radius: 10px;
-        cursor: pointer;
-        outline: 0;
-        background: transparent;
         font-size: 10px;
-        color: #34b5ff;
-        box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    form .display input {
+        width: 100px;
     }
 }
