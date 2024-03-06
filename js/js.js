@@ -188,7 +188,60 @@ const questions = [
             { text: "mandatory reporting" ,correct:"true"},
         ]
     },
-    
+    {
+        question: "Which of the following is phase-|| reaction of drug metabolism" ,
+        answers: [
+            { text: "Oxidation" ,correct:"false"},
+            { text: "Hydrolysis" ,correct:"false"},
+            { text: "Reduction" ,correct:"false"},
+            { text: "Acetylation" ,correct:"true"},
+        ]
+    },
+    {
+        question: "Which of the following is the precursor for 5_hydroxytryptamine ?" ,
+        answers: [
+            { text: "Proline" ,correct:"false"},
+            { text: "alanine" ,correct:"false"},
+            { text: "glutamine" ,correct:"false"},
+            { text: "tryptophan" ,correct:"true"},
+        ]
+    },
+    {
+        question: "What is the antidote of heparin toxicity ?" ,
+        answers: [
+            { text: "Protamine sulfate" ,correct:"true"},
+            { text: "Sodium Salicylate" ,correct:"false"},
+            { text: "Naloxone" ,correct:"false"},
+            { text: "Glucagon" ,correct:"false"},
+        ]
+    },
+    {
+        question: "Which of the following anesthetics drugs has a higher risk of causing anemia " ,
+        answers: [
+            { text: "propofol" ,correct:"false"},
+            { text: "ketamine" ,correct:"false"},
+            { text: "isoflurane" ,correct:"false"},
+            { text: "nitrous oxide" ,correct:"true"},
+        ]
+    },
+    {
+        question: "Which Amino acid we give for anorexia ?" ,
+        answers: [
+            { text: "alanine" ,correct:"false"},
+            { text: "arginine" ,correct:"false"},
+            { text: "valine" ,correct:"true"},
+            { text: "thymine" ,correct:"false"},
+        ]
+    },
+    {
+        question: "Glucosamine uses for " ,
+        answers: [
+            { text: "osteoporosis" ,correct:"false"},
+            { text: "osteomyelitis" ,correct:"false"},
+            { text: "osteoarthritis" ,correct:"false"},
+            { text: "Diabetes mellitus" ,correct:"true"},
+        ]
+    }, 
 ];
 const questionElement = document.getElementById("question");
 const answersButton = document.getElementById("answer_btn");
