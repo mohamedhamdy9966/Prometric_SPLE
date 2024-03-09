@@ -238,10 +238,55 @@ const questions = [
         answers: [
             { text: "osteoporosis" ,correct:"false"},
             { text: "osteomyelitis" ,correct:"false"},
-            { text: "osteoarthritis" ,correct:"false"},
-            { text: "Diabetes mellitus" ,correct:"true"},
+            { text: "osteoarthritis" ,correct:"true"},
+            { text: "Diabetes mellitus" ,correct:"false"},
         ]
-    }, 
+    },
+    {
+        question: "which the carrier in krebs cycle ?" ,
+        answers: [
+            { text: "career in cycle" ,correct:"false"},
+            { text: "oxaloacetate" ,correct:"false"},
+            { text: "Citric acid" ,correct:"true"},
+            { text: "lactic acid" ,correct:"false"},
+        ]
+    },
+    {
+        question: "number of atp in glycolysis ?" ,
+        answers: [
+            { text: "1" ,correct:"false"},
+            { text: "22" ,correct:"false"},
+            { text: "24" ,correct:"false"},
+            { text: "2" ,correct:"true"},
+        ]
+    },
+    {
+        question: "Acetyl coA and citric acid cycle which vitamin is used ?" ,
+        answers: [
+            { text: "B6" ,correct:"false"},
+            { text: "B12" ,correct:"false"},
+            { text: "B2" ,correct:"true"},
+            { text: "B9" ,correct:"false"},
+        ]
+    },
+    {
+        question: "which of the following is anticoagulant agent" ,
+        answers: [
+            { text: "Aspirin" ,correct:"false"},
+            { text: "Warfarin" ,correct:"true"},
+            { text: "clopidogril" ,correct:"false"},
+            { text: "D.streptokinase" ,correct:"false"},
+        ]
+    },
+    {
+        question: "Risk factors for DVT ?" ,
+        answers: [
+            { text: "Age" ,correct:"false"},
+            { text: "food rich of VK" ,correct:"false"},
+            { text: "surgery" ,correct:"true"},
+            { text: "sex" ,correct:"false"},
+        ]
+    },
 ];
 const questionElement = document.getElementById("question");
 const answersButton = document.getElementById("answer_btn");
