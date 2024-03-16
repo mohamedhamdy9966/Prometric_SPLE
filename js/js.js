@@ -1,5 +1,6 @@
 const questions = [
-    {
+    { 
+        // number1
         question: "what is used For Cough from Herbs ?" ,
         answers: [
             { text: "Anise" ,correct:false},
@@ -9,6 +10,7 @@ const questions = [
         ]
     },
     {
+        // number2
         question: "what is best Known For dry Cough ?" ,
         answers: [
             { text: "Guafincin" ,correct:false},
@@ -18,6 +20,7 @@ const questions = [
         ] 
     },
     {
+        // number3
         question: "Warfarin Toxicity Treated with ?" ,
         answers: [
             { text: "Atropine" ,correct:false},
@@ -27,6 +30,7 @@ const questions = [
         ]
     },
     {
+        // number4
         question: "Digoxin toxicity Treated with ?" ,
         answers: [
             { text: "Neostigamine" ,correct:"false"},
@@ -36,6 +40,7 @@ const questions = [
         ]
     },
     {
+        // number5
         question: "BerriBerri Comes from lack of ?" ,
         answers: [
             { text: "B2" ,correct:"false"},
@@ -45,6 +50,7 @@ const questions = [
         ]  
     },
     {
+        // number6
         question: "Drugs Can Induce their effects by all the following mechanisms except " ,
         answers: [
             { text: "inhibition of target enzymes" ,correct:"false"},
@@ -54,6 +60,7 @@ const questions = [
         ]  
     },
     {
+        // number7
         question: "Pharmacokinetics  is the study of the kinetics of the drug which includes the following except " ,
         answers: [
             { text: "Absorbtion" ,correct:"false"},
@@ -63,6 +70,7 @@ const questions = [
         ]  
     },
     {
+        // number8
         question: "Advantages of the oral route of drug administration include the following except " ,
         answers: [
             { text: "Most Convenient" ,correct:"false"},
@@ -72,6 +80,7 @@ const questions = [
         ]  
     },
     {
+        // number9
         question: "The Sublingual Route of drug administration is suitable for" ,
         answers: [
             { text: "Drug Rapidly Destroyed By liver" ,correct:"true"},
@@ -81,6 +90,7 @@ const questions = [
         ]  
     },
     {
+        // number10
         question: "Advantages of the intravenous route of drug administration include the following except " ,
         answers: [
             { text: "Rapid on set" ,correct:"false"},
@@ -90,6 +100,7 @@ const questions = [
         ]  
     },
     {
+        // number11
         question: "The following route is the best method for administration of oily drugs " ,
         answers: [
             { text: "Intravenous" ,correct:"false"},
@@ -99,6 +110,7 @@ const questions = [
         ]  
     },
     {
+        // number12
         question: "Enteric Coated Tablets are used in " ,
         answers: [
             { text: "Drugs irritant to stomach" ,correct:"true"},
@@ -108,6 +120,7 @@ const questions = [
         ]  
     },
     {
+        // number13
         question: "Which of the following drugs is produced by recombinant Dna technology " ,
         answers: [
             { text: "Atropine" ,correct:"false"},
@@ -117,6 +130,7 @@ const questions = [
         ]  
     },
     {
+        // number14
         question: "All of the Following statements concerning (simple diffusion of drugs through lipid membranes) are true except " ,
         answers: [
             { text: "it occurs along a concentration gradient" ,correct:"false"},
@@ -126,6 +140,7 @@ const questions = [
         ]  
     },
     {
+        // number15
         question: "Concerning Characteristics of (Zero order kinetics) which of the following is correct :",
         answers: [
             { text: "the t 1/2 is constant" ,correct:"false"},
@@ -135,6 +150,7 @@ const questions = [
         ]  
     },
     {
+        // number16
         question: "A highly irritant drug in the form of an aqueous solution can be administered by" ,
         answers: [
             { text: "Subcutaneous injection" ,correct:"false"},
@@ -144,6 +160,7 @@ const questions = [
         ]  
     },
     {
+        // number17
         question: "All of the following are possible consequences of phase 1 (non-synthetic) biotransformation EXCEPT " ,
         answers: [
             { text: "Production of a pharmacologically inactive metabolite" ,correct:"false"},
@@ -153,6 +170,7 @@ const questions = [
         ]  
     },
     {
+        // number18
         question: "Which of the following is correct as regards to drugs bound to plasma protein " ,
         answers: [
             { text: "Pharmacologically active" ,correct:"false"},
@@ -162,6 +180,7 @@ const questions = [
         ]  
     },
     {
+        // number19
         question: "Which of the following can inhibit hepatic microsomal enzymes" ,
         answers: [
             { text: "Phenobarbitone" ,correct:"false"},
@@ -171,6 +190,7 @@ const questions = [
         ]
     },
     {
+        // number20
         question: "Who's responsible for for accreditation of health care systems ?" ,
         answers: [
             { text: "SFDA" ,correct:"false"},
@@ -180,6 +200,7 @@ const questions = [
         ]
     },
     {
+        // number21
         question: "Which of the following error detection strategies result in limiting detection ?" ,
         answers: [
             { text: "Bar-coding" ,correct:"false"},
@@ -189,6 +210,7 @@ const questions = [
         ]
     },
     {
+        // number22
         question: "Which of the following is phase-|| reaction of drug metabolism" ,
         answers: [
             { text: "Oxidation" ,correct:"false"},
@@ -198,6 +220,7 @@ const questions = [
         ]
     },
     {
+        // number23
         question: "Which of the following is the precursor for 5_hydroxytryptamine ?" ,
         answers: [
             { text: "Proline" ,correct:"false"},
@@ -207,6 +230,7 @@ const questions = [
         ]
     },
     {
+        // number24
         question: "What is the antidote of heparin toxicity ?" ,
         answers: [
             { text: "Protamine sulfate" ,correct:"true"},
@@ -216,6 +240,7 @@ const questions = [
         ]
     },
     {
+        // number25
         question: "Which of the following anesthetics drugs has a higher risk of causing anemia " ,
         answers: [
             { text: "propofol" ,correct:"false"},
@@ -225,6 +250,7 @@ const questions = [
         ]
     },
     {
+        // number26
         question: "Which Amino acid we give for anorexia ?" ,
         answers: [
             { text: "alanine" ,correct:"false"},
@@ -234,6 +260,7 @@ const questions = [
         ]
     },
     {
+        // number27
         question: "Glucosamine uses for " ,
         answers: [
             { text: "osteoporosis" ,correct:"false"},
@@ -243,6 +270,7 @@ const questions = [
         ]
     },
     {
+        // number28
         question: "which the carrier in krebs cycle ?" ,
         answers: [
             { text: "career in cycle" ,correct:"false"},
@@ -252,6 +280,7 @@ const questions = [
         ]
     },
     {
+        // number29
         question: "number of atp in glycolysis ?" ,
         answers: [
             { text: "1" ,correct:"false"},
@@ -261,6 +290,7 @@ const questions = [
         ]
     },
     {
+        // number30
         question: "Acetyl coA and citric acid cycle which vitamin is used ?" ,
         answers: [
             { text: "B6" ,correct:"false"},
@@ -270,6 +300,7 @@ const questions = [
         ]
     },
     {
+        // number31
         question: "which of the following is anticoagulant agent" ,
         answers: [
             { text: "Aspirin" ,correct:"false"},
@@ -279,12 +310,193 @@ const questions = [
         ]
     },
     {
+        // number32
         question: "Risk factors for DVT ?" ,
         answers: [
             { text: "Age" ,correct:"false"},
             { text: "food rich of VK" ,correct:"false"},
             { text: "surgery" ,correct:"true"},
             { text: "sex" ,correct:"false"},
+        ]
+    },
+    {
+        // number33
+        question: "Which type of Medication error if patient experiences anaphylaxis shock from prescribed drug ?" ,
+        answers: [
+            { text: "Category c" ,correct:"false"},
+            { text: "Category D" ,correct:"false"},
+            { text: "Category H" ,correct:"true"},
+            { text: "Category I" ,correct:"false"},
+        ]
+    },
+    {
+        // number34
+        question: "A Patient visit Pharmacy with a prescription, but the brand of drug prescribed is un available, What is the best action ?" ,
+        answers: [
+            { text: "Give same active ingredient in other brand and counsel patient on the change" ,correct:"true"},
+            { text: "Give same active ingredient in other brand without telling patient anything" ,correct:"false"},
+            { text: "don't dispense the prescription" ,correct:"false"},
+            { text: "dispense drug with other active ingredient with same company" ,correct:"false"},
+        ]
+    },
+    {
+        // number35
+        question: "Which Antacid cause low magnesium levels in patient ?" ,
+        answers: [
+            { text: "Ranitidine" ,correct:"false"},
+            { text: "Proton-pump inhibitor" ,correct:"true"},
+            { text: "Sucralfate" ,correct:"false"},
+            { text: "Misoprostol" ,correct:"false"},
+        ]
+    },
+    {
+        // number36
+        question: "Which cause hypertensive crisis in patient on lisinopril, metformin, topiramate, phenelzine. eats tyramine-rich foods ?" ,
+        answers: [
+            { text: "Lisinopril" ,correct:"false"},
+            { text: "Topiramate" ,correct:"false"},
+            { text: "Metformin" ,correct:"false"},
+            { text: "Phenelzine" ,correct:"true"},
+        ]
+    },
+    {
+        // number37
+        question: "Which of the following responsible for managing the procurement of medicines, devices and medical supplies for government hospitals and healthcare facilities ?" ,
+        answers: [
+            { text: "Saudi Central Board for accreditation of healthcare institutions" ,correct:"false"},
+            { text: "saudi food and drug administration" ,correct:"false"},
+            { text: "Ministry of health of Saudi Arabia" ,correct:"false"},
+            { text: "National Unified procurement company" ,correct:"true"},
+        ]
+    },
+    {
+        // number38
+        question: "Who should the background, affect, Troubling, Handling, and empathy (BATHE) interviewing technique be used for ?" ,
+        answers: [
+            { text: "Neonatal Intensive care Patient" ,correct:"false"},
+            { text: "Pediatric Patients" ,correct:"false"},
+            { text: "Palliative care patient" ,correct:"true"},
+            { text: "Hypotension patients" ,correct:"false"},
+        ]
+    },
+    {
+        // number39
+        question: "What is the mechanism of action of mannitol ?" ,
+        answers: [
+            { text: "increase osmotic pressure" ,correct:"true"},
+            { text: "decrease osmotic pressure" ,correct:"false"},
+            { text: "don't change osmotic pressure" ,correct:"false"},
+            { text: "increase glomerular filtration by decrease osmotic pressure" ,correct:"false"},
+        ]
+    },
+    {
+        // number40
+        question: "Which of the following vitamins may speed wound healing ?" ,
+        answers: [
+            { text: "B9 (folic acid)" ,correct:"false"},
+            { text: "B5 (pantothenic acid)" ,correct:"true"},
+            { text: "D (calciferol)" ,correct:"false"},
+            { text: "E (tocopherol)" ,correct:"false"},
+        ]
+    },
+    {
+        // number41
+        question: "Which of the following hypertension drug prefers for patients with severe liver dysfunction ?" ,
+        answers: [
+            { text: "Lisinopril" ,correct:"false"},
+            { text: "Ramipril" ,correct:"false"},
+            { text: "Enalapril" ,correct:"true"},
+            { text: "Perindopril" ,correct:"false"},
+        ]
+    },
+    {
+        // number36
+        question: "" ,
+        answers: [
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"true"},
+            { text: "" ,correct:"false"},
+        ]
+    },
+    {
+        // number36
+        question: "" ,
+        answers: [
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"true"},
+            { text: "" ,correct:"false"},
+        ]
+    },
+    {
+        // number36
+        question: "" ,
+        answers: [
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"true"},
+            { text: "" ,correct:"false"},
+        ]
+    },
+    {
+        // number36
+        question: "" ,
+        answers: [
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"true"},
+            { text: "" ,correct:"false"},
+        ]
+    },
+    {
+        // number36
+        question: "" ,
+        answers: [
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"true"},
+            { text: "" ,correct:"false"},
+        ]
+    },
+    {
+        // number36
+        question: "" ,
+        answers: [
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"true"},
+            { text: "" ,correct:"false"},
+        ]
+    },
+    {
+        // number36
+        question: "" ,
+        answers: [
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"true"},
+            { text: "" ,correct:"false"},
+        ]
+    },
+    {
+        // number36
+        question: "" ,
+        answers: [
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"true"},
+            { text: "" ,correct:"false"},
+        ]
+    },
+    {
+        // number36
+        question: "" ,
+        answers: [
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"false"},
+            { text: "" ,correct:"true"},
+            { text: "" ,correct:"false"},
         ]
     },
 ];
