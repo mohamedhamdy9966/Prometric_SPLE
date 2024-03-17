@@ -410,93 +410,113 @@ const questions = [
         ]
     },
     {
-        // number36
-        question: "" ,
+        // number42
+        question: "Which of the following parameter need monitoring before first dose of fingolimod ?" ,
         answers: [
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"true"},
-            { text: "" ,correct:"false"},
+            { text: "Sensitivity test" ,correct:"false"},
+            { text: "Kidney function test" ,correct:"false"},
+            { text: "ECG" ,correct:"true"},
+            { text: "Vision changes" ,correct:"false"},
         ]
     },
     {
-        // number36
-        question: "" ,
+        // number43
+        question: "Which of the following is first line for low activity rheumatoid arthritis ?" ,
         answers: [
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"true"},
-            { text: "" ,correct:"false"},
+            { text: "Mercaptopurine" ,correct:"false"},
+            { text: "Hydroxycloroqueen" ,correct:"true"},
+            { text: "Abatacept" ,correct:"false"},
+            { text: "Adalimumab" ,correct:"false"},
         ]
     },
     {
-        // number36
-        question: "" ,
+        // number44
+        question: "Mother read the leaflet and found different indication than her daughter disease, what the mother level of education ?" ,
         answers: [
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"true"},
-            { text: "" ,correct:"false"},
+            { text: "very basic" ,correct:"false"},
+            { text: "Basic" ,correct:"false"},
+            { text: "intermediate" ,correct:"true"},
+            { text: "professional" ,correct:"false"},
         ]
     },
     {
-        // number36
-        question: "" ,
+        // number45
+        question: "How get in-depth information in research ?" ,
         answers: [
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"true"},
-            { text: "" ,correct:"false"},
+            { text: "survey" ,correct:"false"},
+            { text: "questioners" ,correct:"false"},
+            { text: "reviewing medical records" ,correct:"false"},
+            { text: "focus group" ,correct:"true"},
         ]
     },
     {
-        // number36
-        question: "" ,
+        // number46
+        question: "What is the function of small nuclear (snRNAs) in protein synthesis ?" ,
         answers: [
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"true"},
-            { text: "" ,correct:"false"},
+            { text: "ACT as catalyst" ,correct:"false"},
+            { text: "Genetic blueprint for the protein" ,correct:"false"},
+            { text: "translates genetic code to amino acid" ,correct:"false"},
+            { text: "modifies mRNA molecules" ,correct:"true"},
         ]
     },
     {
-        // number36
-        question: "" ,
+        // number47
+        question: "What is the intervention is A1c 6.8, he on metformin 850 BID fasting glucose are all normal, but one slightly higher ?" ,
         answers: [
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"true"},
-            { text: "" ,correct:"false"},
+            { text: "add sulfonylurea" ,correct:"false"},
+            { text: "continue on his medication" ,correct:"true"},
+            { text: "increase metformin dose" ,correct:"false"},
+            { text: "decrease metformin dose" ,correct:"false"},
         ]
     },
     {
-        // number36
-        question: "" ,
+        // number48
+        question: "what is the maximum initial dose of lamotrigine with valporic acid ?" ,
         answers: [
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"true"},
-            { text: "" ,correct:"false"},
+            { text: "25 mg PO daily for 2 weeks" ,correct:"true"},
+            { text: "50 mg PO daily for 2 weeks" ,correct:"false"},
+            { text: "100 mg PO daily for 2 weeks" ,correct:"false"},
+            { text: "400 mg PO daily for 2 weeks" ,correct:"false"},
         ]
     },
     {
-        // number36
-        question: "" ,
+        // number49
+        question: "which of the following antibiotic used for malaria prophylaxis before travel ?" ,
         answers: [
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"true"},
-            { text: "" ,correct:"false"},
+            { text: "Ampicillin" ,correct:"false"},
+            { text: "Doxycycline" ,correct:"true"},
+            { text: "Cefdinir" ,correct:"false"},
+            { text: "Vancomycin" ,correct:"false"},
         ]
     },
     {
-        // number36
-        question: "" ,
+        // number50
+        question: "which of the following antihistamine suitable for pharmacy student have exams and suffering from allergic rhinitis ?" ,
         answers: [
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"false"},
-            { text: "" ,correct:"true"},
-            { text: "" ,correct:"false"},
+            { text: "Promethazine" ,correct:"false"},
+            { text: "Fexofenadine" ,correct:"true"},
+            { text: "Chlorphenamine" ,correct:"false"},
+            { text: "Diphenydramine" ,correct:"false"},
+        ]
+    },
+    {
+        // number51
+        question: "Which of the following biochemical reaction need to convert codeine to morphine ?" ,
+        answers: [
+            { text: "Dealkylation" ,correct:"true"},
+            { text: "Reduction" ,correct:"false"},
+            { text: "Hydrolysis" ,correct:"false"},
+            { text: "Methylation" ,correct:"false"},
+        ]
+    },
+    {
+        // number52
+        question: "What is the relationship between childhood vaccines and autism ?" ,
+        answers: [
+            { text: "MMR vaccine causes autism" ,correct:"false"},
+            { text: "any vaccine can cause autism" ,correct:"false"},
+            { text: "Hepatitis B vaccine causes autism" ,correct:"false"},
+            { text: "None of the vaccines causes autism" ,correct:"true"},
         ]
     },
 ];
