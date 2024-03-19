@@ -519,6 +519,136 @@ const questions = [
             { text: "None of the vaccines causes autism" ,correct:"true"},
         ]
     },
+    {
+        // number53
+        question: "What type of antibody is adalimumab ?" ,
+        answers: [
+            { text: "Human recombinant immunoglobulin" ,correct:"true"},
+            { text: "chimeric immunoglobulin" ,correct:"false"},
+            { text: "murine antibodies" ,correct:"false"},
+            { text: "humanized antibodies" ,correct:"false"},
+        ]
+    },
+    {
+        // number54
+        question: "Which of the following inhibits insulin ?" ,
+        answers: [
+            { text: "Glucose" ,correct:"false"},
+            { text: "Epinephrine" ,correct:"true"},
+            { text: "Cortisol" ,correct:"false"},
+            { text: "Glucagon" ,correct:"false"},
+        ]
+    },
+    {
+        // number55
+        question: "What is the caused of interaction between smoking and theophylline ?" ,
+        answers: [
+            { text: "Smoking decreases metabolism thereby, decreases levels of theophylline" ,correct:"false"},
+            { text: "smoking increase metabolism thereby, decreases levels of theophylline" ,correct:"true"},
+            { text: "smoking increase metabolism thereby, increase levels of theophylline" ,correct:"false"},
+            { text: "smoking decreases metabolism thereby, increases levels of theophylline" ,correct:"false"},
+        ]
+    },
+    {
+        // number56
+        question: "Which immunoglobulin IG activates mast cells ?" ,
+        answers: [
+            { text: "immunoglobulin E" ,correct:"true"},
+            { text: "immunoglobulin G" ,correct:"false"},
+            { text: "immunoglobulin A" ,correct:"false"},
+            { text: "immunoglobulin D" ,correct:"false"},
+        ]
+    },
+    {
+        // number57
+        question: "case about patient diagnosed with GAD and doctors agree that he needs long acting benzodiazepines" ,
+        answers: [
+            { text: "lorazepam" ,correct:"false"},
+            { text: "alprazolam" ,correct:"false"},
+            { text: "midazolam" ,correct:"false"},
+            { text: "diazepam" ,correct:"true"},
+        ]
+    },
+    {
+        // number58
+        question: "patient has sleep problems what is the best medication ?" ,
+        answers: [
+            { text: "Zolpidem" ,correct:"true"},
+            { text: "lorazepam" ,correct:"false"},
+            { text: "diazepam" ,correct:"false"},
+            { text: "Midazolam" ,correct:"false"},
+        ]
+    },
+    {
+        // number59
+        question: "The patient had her last period before the 13 months. she's experiencing hot flashes, she has a historycotomy, Best choice ?" ,
+        answers: [
+            { text: "Estrogen" ,correct:"true"},
+            { text: "Progesterone" ,correct:"false"},
+            { text: "Estrogen and progesterone" ,correct:"false"},
+            { text: "Progesterone and aldosterone" ,correct:"false"},
+        ]
+    },
+    {
+        // number60
+        question: "hepatic insufficiency and recently diagnosed with tonic clonic seizure, what is the best treatment ?" ,
+        answers: [
+            { text: "Phenytoin" ,correct:"false"},
+            { text: "Valporic acid" ,correct:"false"},
+            { text: "Ethosuxmide" ,correct:"false"},
+            { text: "Gabapentin" ,correct:"true"},
+        ]
+    },
+    {
+        // number61
+        question: "which of the following insulin has the longest duration of action ?" ,
+        answers: [
+            { text: "Aspart" ,correct:"false"},
+            { text: "Detemir" ,correct:"false"},
+            { text: "Glargine" ,correct:"false"},
+            { text: "Degludec" ,correct:"true"},
+        ]
+    },
+    {
+        // number62
+        question: "What is the effect of smoking on theophylline ?" ,
+        answers: [
+            { text: "inhibition of CYP3A4" ,correct:"false"},
+            { text: "inducer of CYP1A2" ,correct:"true"},
+            { text: "No effect" ,correct:"false"},
+            { text: "Decrease excretion of theophylline" ,correct:"false"},
+        ]
+    },
+    {
+        // number63
+        question: "Which herb causes hypoglycemia ?" ,
+        answers: [
+            { text: "St johns wart" ,correct:"false"},
+            { text: "Fenugreek" ,correct:"true"},
+            { text: "Anise" ,correct:"false"},
+            { text: "peppermint" ,correct:"false"},
+        ]
+    },
+    {
+        // number64
+        question: "Patient forget her tablet in bathroom what will happen to tablet ?" ,
+        answers: [
+            { text: "calcitrol" ,correct:"true"},
+            { text: "ergocalciferol" ,correct:"false"},
+            { text: "estradiol" ,correct:"false"},
+            { text: "calcidol" ,correct:"false"},
+        ]
+    },
+    {
+        // number65
+        question: "thyroid toxicity ?" ,
+        answers: [
+            { text: "Amiodarone" ,correct:"true"},
+            { text: "Digoxin" ,correct:"false"},
+            { text: "Warfarin" ,correct:"false"},
+            { text: "Piracetam" ,correct:"false"},
+        ]
+    },
 ];
 const questionElement = document.getElementById("question");
 const answersButton = document.getElementById("answer_btn");
