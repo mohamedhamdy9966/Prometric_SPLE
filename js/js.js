@@ -649,6 +649,136 @@ const questions = [
             { text: "Piracetam" ,correct:"false"},
         ]
     },
+    {
+        // number66
+        question: "amount of drug is 5 mg in 1 ml what is the amount of drug in 1 tsp in microgram ?" ,
+        answers: [
+            { text: "5" ,correct:"false"},
+            { text: "25" ,correct:"false"},
+            { text: "2500" ,correct:"false"},
+            { text: "25000" ,correct:"true"},
+        ]
+    },
+    {
+        // number67
+        question: "A solution is made by dissolving 17.52 g of NaCl exactly 2000 ml. what is the molarity of this solution ?" ,
+        answers: [
+            { text: "3.33" ,correct:"false"},
+            { text: "0.15" ,correct:"true"},
+            { text: "3.00 * 10 -4" ,correct:"false"},
+            { text: "1.6 * 10 -4" ,correct:"false"},
+        ]
+    },
+    {
+        // number68
+        question: "5ml of injection that conc. 0.4% calculate the amount of drug ?" ,
+        answers: [
+            { text: "0.2 mg" ,correct:"false"},
+            { text: "2 mg" ,correct:"false"},
+            { text: "20 mg" ,correct:"true"},
+            { text: "200 mg" ,correct:"false"},
+        ]
+    },
+    {
+        // number69
+        question: "Prescription : Hydrocortisone 2% w/w , cold cream 60 gm , you have hydrocortisone solu. 100mg/ml.. how many milliliters will you use from the solution ?" ,
+        answers: [
+            { text: "10 ml" ,correct:"false"},
+            { text: "20 ml" ,correct:"true"},
+            { text: "30 ml" ,correct:"false"},
+            { text: "40 ml" ,correct:"false"},
+        ]
+    },
+    {
+        // number70
+        question: "How gm of substance X must added to 2000 gm of 10% substance X solution in order to prepare 25% of substance X solution" ,
+        answers: [
+            { text: "400 gm" ,correct:"true"},
+            { text: "40 gm" ,correct:"false"},
+            { text: "4 gm" ,correct:"false"},
+            { text: "0.4 gm" ,correct:"false"},
+        ]
+    },
+    {
+        // number71
+        question: "A patient weighting 80 Kg is supposed to receive a drug at a dose of 2mg/kg/day. what is the dose that the patient should take for each day :" ,
+        answers: [
+            { text: "40 mg" ,correct:"false"},
+            { text: "80 mg" ,correct:"false"},
+            { text: "160 mg" ,correct:"true"},
+            { text: "320 mg" ,correct:"false"},
+        ]
+    },
+    {
+        // number72
+        question: "Drug X is a given to a 70 kg patient at an infusion rate of 0.95 mg/kg/hr. How much drug we need for a 12-hr infusion bottle" ,
+        answers: [
+            { text: "798 mg" ,correct:"true"},
+            { text: "66.5 mg" ,correct:"false"},
+            { text: "665 mg" ,correct:"false"},
+            { text: "84 mg" ,correct:"false"},
+        ]
+    },
+    {
+        // number73
+        question: "Which of the following is the function of the pharmacy and therapeutic committee in a hospital ?" ,
+        answers: [
+            { text: "Responsible for poison management" ,correct:"false"},
+            { text: "Monitor the adverse reaction reporting" ,correct:"false"},
+            { text: "Monitor the medication error reporting" ,correct:"false"},
+            { text: "responsible for drug formulary management" ,correct:"true"},
+        ]
+    },
+    {
+        // number74
+        question: "Which of the following distribution systems works better for medicine requiring a higher level of controls ?" ,
+        answers: [
+            { text: "Bulk ward stock" ,correct:"false"},
+            { text: "Direct Procurement" ,correct:"false"},
+            { text: "Automated dispensing" ,correct:"true"},
+            { text: "individual medication order" ,correct:"false"},
+        ]
+    },
+    {
+        // number75
+        question: "which of the following medication has a side effect of metallic taste ?" ,
+        answers: [
+            { text: "cefuroxime" ,correct:"false"},
+            { text: "azithromycin" ,correct:"false"},
+            { text: "ciprofloxacin" ,correct:"false"},
+            { text: "metronidazole" ,correct:"true"},
+        ]
+    },
+    {
+        // number76
+        question: "Which of the following anesthetics drug has a higher risk of causing hepatic toxicity ?" ,
+        answers: [
+            { text: "Propofol" ,correct:"false"},
+            { text: "Ketamine" ,correct:"false"},
+            { text: "Isoflurane" ,correct:"true"},
+            { text: "Nitrous oxide" ,correct:"false"},
+        ]
+    },
+    {
+        // number77
+        question: "What is the type of anemia lack of intrinsic factor ?" ,
+        answers: [
+            { text: "Megaloblastic anemia" ,correct:"false"},
+            { text: "Pernicious anemia" ,correct:"true"},
+            { text: "Hemolytic anemia" ,correct:"false"},
+            { text: "Aplastic anemia" ,correct:"false"},
+        ]
+    },
+    {
+        // number78
+        question: "which drug is used to treat an anaphylactic reaction ?" ,
+        answers: [
+            { text: "Atropine" ,correct:"false"},
+            { text: "Adrenaline" ,correct:"true"},
+            { text: "Isoprinosine" ,correct:"false"},
+            { text: "Phentolamine" ,correct:"false"},
+        ]
+    },
 ];
 const questionElement = document.getElementById("question");
 const answersButton = document.getElementById("answer_btn");
