@@ -779,6 +779,276 @@ const questions = [
             { text: "Phentolamine" ,correct:"false"},
         ]
     },
+    {
+        // number79
+        question: "in which phase of clinical trials is the investigative drug compared with another drug ?" ,
+        answers: [
+            { text: "phase 0" ,correct:"false"},
+            { text: " phase 1" ,correct:"false"},
+            { text: "phase 2" ,correct:"false"},
+            { text: "phase 3" ,correct:"true"},
+        ]
+    },
+    {
+        // number80
+        question: "What is the measurement unit of a cost utility analysis (CUA)?" ,
+        answers: [
+            { text: "Neutral Unite" ,correct:"false"},
+            { text: "Monitory" ,correct:"false"},
+            { text: "Quality-adjusted life years" ,correct:"true"},
+            { text: "Willingness-to-pay" ,correct:"false"},
+        ]
+    },
+    {
+        // number81
+        question: "What vaccine are required for patient with COPD ?" ,
+        answers: [
+            { text: "BCG Vaccine" ,correct:"false"},
+            { text: "Pneumococcal polysaccharide vaccine" ,correct:"true"},
+            { text: "Oral polio vaccine" ,correct:"false"},
+            { text: "Hepatitis B vaccine" ,correct:"false"},
+        ]
+    },
+    {
+        // number82
+        question: "Which of the following vaccine used to prevent shingles ?" ,
+        answers: [
+            { text: "Varicella vaccine" ,correct:"false"},
+            { text: "HPV vaccine" ,correct:"false"},
+            { text: "pneumococcal conjugate vaccine" ,correct:"false"},
+            { text: "Zoster vaccine" ,correct:"true"},
+        ]
+    },
+    {
+        // number83
+        question: "What type of pharmacoeconomics analysis should be conducted for two medications with different costs and effectiveness ?" ,
+        answers: [
+            { text: "Cost minimization analysis" ,correct:"false"},
+            { text: "Cost benefit analysis" ,correct:"true"},
+            { text: "cost effectiveness analysis" ,correct:"false"},
+            { text: "Cost utility analysis" ,correct:"false"},
+        ]
+    },
+    {
+        // number84
+        question: "A doctor wants to compare between cefazolin and oxacillin in treating infection, what source should he check ?" ,
+        answers: [
+            { text: "Random Control Trials (RCTs)" ,correct:"true"},
+            { text: "Case report" ,correct:"false"},
+            { text: "Case control studies" ,correct:"false"},
+            { text: "Cohort studies" ,correct:"false"},
+        ]
+    },
+    {
+        // number85
+        question: "Which infection is considered critical in pregnant woman ?" ,
+        answers: [
+            { text: "Tetanus" ,correct:"false"},
+            { text: "Toxoplasmosis" ,correct:"true"},
+            { text: "Malaria" ,correct:"false"},
+            { text: "Pinworm" ,correct:"false"},
+        ]
+    },
+    {
+        // number86
+        question: "Which of the following medication can cause severe diarrhea ?" ,
+        answers: [
+            { text: "Leucovorin" ,correct:"false"},
+            { text: "Irinotecan" ,correct:"true"},
+            { text: "Peglotigase" ,correct:"false"},
+            { text: "Rasburicase" ,correct:"false"},
+        ]
+    },
+    {
+        // number87
+        question: "Which of the following is best used to treat pinworm infection ?" ,
+        answers: [
+            { text: "Metronidazole" ,correct:"false"},
+            { text: "Albendazole" ,correct:"true"},
+            { text: "Ketoconazole" ,correct:"false"},
+            { text: "Rifampicin" ,correct:"false"},
+        ]
+    },
+    {
+        // number89
+        question: "Which of the following is the max dose of statin in patient taking verapamil ?" ,
+        answers: [
+            { text: "4 mg" ,correct:"false"},
+            { text: "5 mg" ,correct:"false"},
+            { text: "10 mg" ,correct:"true"},
+            { text: "40 mg" ,correct:"false"},
+        ]
+    },
+    {
+        // number90
+        question: "Diabetic patient was diagnosed with chronic liver failure, he is currently on metformin, Enalapril , Pioglitazone and insulin. which medication should be stopped ?" ,
+        answers: [
+            { text: "Metformin" ,correct:"false"},
+            { text: "Enalapril" ,correct:"false"},
+            { text: "Pioglitazone" ,correct:"true"},
+            { text: "insulin" ,correct:"false"},
+        ]
+    },
+    {
+        // number91
+        question: "T lymphocyte is considered a part of which immunity ?" ,
+        answers: [
+            { text: "Natural immunity" ,correct:"false"},
+            { text: "Adaptive immunity" ,correct:"true"},
+            { text: "Active immunity" ,correct:"false"},
+            { text: "Passive immunity" ,correct:"false"},
+        ]
+    },
+    {
+        // number92
+        question: "Which of the following drugs can enhance clopidogril effects ?" ,
+        answers: [
+            { text: "Omeprazole" ,correct:"false"},
+            { text: "Cimetidine" ,correct:"true"},
+            { text: "Phenytoin" ,correct:"false"},
+            { text: "Valporic acid" ,correct:"false"},
+        ]
+    },
+    {
+        // number93
+        question: "Patient was diagnosed with urinary tract infection, he has a history of G6PD deficiency , which of the following antibiotics should be avoided ?" ,
+        answers: [
+            { text: "Nitrofurantoin" ,correct:"true"},
+            { text: "ampicillin" ,correct:"false"},
+            { text: "Gentamicin" ,correct:"false"},
+            { text: "Levofloxacin" ,correct:"false"},
+        ]
+    },
+    {
+        // number94
+        question: "Which type of cost is anxiety and fear ?" ,
+        answers: [
+            { text: "Direct medical cost" ,correct:"false"},
+            { text: "Direct non medical cost" ,correct:"false"},
+            { text: "Intangible cost" ,correct:"true"},
+            { text: "Indirect cost" ,correct:"false"},
+        ]
+    },
+    {
+        // number95
+        question: "Which of the following medications has role in treatment of respiratory syncytial virus (RSV) in newborn ?" ,
+        answers: [
+            { text: "Ribavirin" ,correct:"true"},
+            { text: "Omalizumab" ,correct:"false"},
+            { text: "Doxycycline" ,correct:"false"},
+            { text: "Azithromycin" ,correct:"false"},
+        ]
+    },
+    {
+        // number96
+        question: "Which of the following medications can be used in diabetic insipidus ?" ,
+        answers: [
+            { text: "Oxytocin" ,correct:"false"},
+            { text: "Convapatan" ,correct:"true"},
+            { text: "Desmopressin" ,correct:"false"},
+            { text: "Tolcapone" ,correct:"false"},
+        ]
+    },
+    {
+        // number97
+        question: "Which of the following is the active form of vitamin D ?" ,
+        answers: [
+            { text: "1,25 dihydroxycholecalciferol" ,correct:"true"},
+            { text: "calcidiol" ,correct:"false"},
+            { text: "25 hydroxycholecalciferol" ,correct:"false"},
+            { text: "Ergocalciferol" ,correct:"false"},
+        ]
+    },
+    {
+        // number98
+        question: "Patient presented to ER with pinpoint pupil, which drug overdose is suspected ?" ,
+        answers: [
+            { text: "Heroine" ,correct:"true"},
+            { text: "Naloxone" ,correct:"false"},
+            { text: "Atropine" ,correct:"false"},
+            { text: "Scopolamine" ,correct:"false"},
+        ]
+    },
+    {
+        // number99
+        question: "Which of the following is considered high intensity statin ?" ,
+        answers: [
+            { text: "Rosuvastatin 20 mg" ,correct:"true"},
+            { text: "Atorvastatin 10 mg" ,correct:"false"},
+            { text: "Pitavastatin 1 mg" ,correct:"false"},
+            { text: "Simavastatin 20 mg" ,correct:"false"},
+        ]
+    },
+    {
+        // number100
+        question: "ISO 5 ?" ,
+        answers: [
+            { text: "100" ,correct:"true"},
+            { text: "1000" ,correct:"false"},
+            { text: "10000" ,correct:"false"},
+            { text: "10" ,correct:"false"},
+        ]
+    },
+    {
+        // number101
+        question: "25 years old female didn't exposed to the sun two months ago , when she exposed for  minutes she got er face sun burn , doctor prescribed her sun block when she applied it for 18 minutes she got the same degree of sun burn but in her back. what is the calculated sun block spf ?" ,
+        answers: [
+            { text: "spf 7" ,correct:"false"},
+            { text: "spf 9" ,correct:"true"},
+            { text: "spf 10" ,correct:"false"},
+            { text: "spf 15" ,correct:"false"},
+        ]
+    },
+    {
+        // number102
+        question: "patient suffers from short term insomnia and is prescribed zolpidem , how many refills should be given ?" ,
+        answers: [
+            { text: "0 refills" ,correct:"true"},
+            { text: "1 refill" ,correct:"false"},
+            { text: "2 refills" ,correct:"false"},
+            { text: "3 refills" ,correct:"false"},
+        ]
+    },
+    {
+        // number103
+        question: "A doctor was in contact with a patient with C.difficile the doctor wiped his hand with antiseptic wipes " ,
+        answers: [
+            { text: "Need to use hand sanitizer" ,correct:"false"},
+            { text: "Antiseptic wipe is enough" ,correct:"false"},
+            { text: "Need to wash hands with soap and water" ,correct:"true"},
+            { text: "Need to wash hands with just water" ,correct:"false"},
+        ]
+    },
+    {
+        // number104
+        question: "Which major histocompatibility complex (MHC) molecule does T helper (CD4+) cells bind to ?" ,
+        answers: [
+            { text: "MHC 2" ,correct:"true"},
+            { text: "MHC 1" ,correct:"false"},
+            { text: "MHC 8" ,correct:"false"},
+            { text: "none of the above" ,correct:"false"},
+        ]
+    },
+    {
+        // number105
+        question: "Which drug have more efficacy ?" ,
+        answers: [
+            { text: "NNT = 15" ,correct:"false"},
+            { text: "NNT = 20" ,correct:"false"},
+            { text: "NNT = 12" ,correct:"false"},
+            { text: "NNT = 5" ,correct:"true"},
+        ]
+    },
+    {
+        // number88
+        question: "ST segment represent what ?" ,
+        answers: [
+            { text: "atrial conductivity" ,correct:"false"},
+            { text: "atrioventricular conduction" ,correct:"false"},
+            { text: "ventricular conduction" ,correct:"false"},
+            { text: "ventricular plateau" ,correct:"true"},
+        ]
+    },
 ];
 const questionElement = document.getElementById("question");
 const answersButton = document.getElementById("answer_btn");
@@ -793,13 +1063,63 @@ let timer;
 
 const quizDuration = 7200;
 
+// Create form element
+var loginForm = document.createElement("form");
+loginForm.setAttribute("id", "loginForm");
+
+// Create username input field
+var usernameInput = document.createElement("input");
+usernameInput.setAttribute("type", "text");
+usernameInput.setAttribute("placeholder", "Username");
+usernameInput.setAttribute("id", "username");
+
+// Create password input field
+var passwordInput = document.createElement("input");
+passwordInput.setAttribute("type", "password");
+passwordInput.setAttribute("placeholder", "Password");
+passwordInput.setAttribute("id", "password");
+
+// Create submit button
+var submitButton = document.createElement("input");
+submitButton.setAttribute("type", "submit");
+submitButton.setAttribute("value", "Login");
+
+// Append elements to form
+loginForm.appendChild(usernameInput);
+loginForm.appendChild(passwordInput);
+loginForm.appendChild(submitButton);
+
+// Append form to the document body
+document.body.appendChild(loginForm);
+
+loginForm.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+    const enteredUsername = usernameInput.value;
+    const enteredPassword = passwordInput.value;
+    login(enteredUsername, enteredPassword); // Call the login function with entered credentials
+});
+
+function login(user, password) {
+    if (user === "Essam1993" && password === "Abdallah@1993") {
+        startQuiz(); // Call startQuiz if credentials are correct
+    } else {
+        alert("Please enter your correct credentials");
+
+    }
+}
+
 function startQuiz() {
+    // Perform actions to start the quiz
     currentQuestionIndex = 0;
     sofa = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
     startTimer();
 }
+
+// Example of how to call login function
+// Replace 'username' and 'password' with actual values
+
 function startTimer() {
     let timeRemaining = quizDuration;
 
