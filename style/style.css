@@ -181,3 +181,6 @@ form input [type=button].operator {
         width: 100px;
     }
 }
+.hidden {
+    display: none;
+}

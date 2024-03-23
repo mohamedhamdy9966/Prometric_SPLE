@@ -1099,12 +1099,13 @@ loginForm.addEventListener("submit", function(event) {
     login(enteredUsername, enteredPassword); // Call the login function with entered credentials
 });
 
-function login(user, password) {
-    if (user === "Essam1993" && password === "Abdallah@1993") {
+hideQuiz();
+
+function login(usernameInput, passwordInput) {
+    if (usernameInput === "Essam1993" && passwordInput === "Abdallah@1993") {
         startQuiz(); // Call startQuiz if credentials are correct
     } else {
-        alert("Please enter your correct credentials");
-
+        alert("Please enter your username and password right");
     }
 }
 
@@ -1115,6 +1116,20 @@ function startQuiz() {
     nextButton.innerHTML = "Next";
     showQuestion();
     startTimer();
+    hideLoginForm();
+    question.classList.remove("hidden");
+    answer_btn.classList.remove("hidden");
+    timer.classList.remove("hidden");
+}
+
+function hideLoginForm() {
+    loginForm.classList.add("hidden");
+}
+
+function hideQuiz() {
+    question.classList.add("hidden");
+    answer_btn.classList.add("hidden");
+    timer.classList.add("hidden");
 }
 
 // Example of how to call login function
@@ -1178,7 +1193,7 @@ function showQuestion() {
     });
 }
 
-startQuiz();
+// startQuiz();
 
 function resetState() {
     nextButton.style.display = "none";
