@@ -1099,7 +1099,6 @@ loginForm.addEventListener("submit", function(event) {
     login(enteredUsername, enteredPassword); // Call the login function with entered credentials
 });
 
-hideQuiz();
 
 function login(usernameInput, passwordInput) {
     if (usernameInput === "mohamedelhawary" && passwordInput === "elhawary@2024") {
@@ -1117,19 +1116,10 @@ function startQuiz() {
     showQuestion();
     startTimer();
     hideLoginForm();
-    question.classList.remove("hidden");
-    answer_btn.classList.remove("hidden");
-    timer.classList.remove("hidden");
 }
 
 function hideLoginForm() {
     loginForm.classList.add("hidden");
-}
-
-function hideQuiz() {
-    question.classList.add("hidden");
-    answer_btn.classList.add("hidden");
-    timer.classList.add("hidden");
 }
 
 // Example of how to call login function
