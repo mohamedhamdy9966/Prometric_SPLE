@@ -1050,6 +1050,608 @@ const questions = [
         ]
     },
 ];
+// const questions2 = [
+    // { 
+        // number1
+    //     question: "Which of the following compounds is urea cycle a biochemical reaction that produce urea from ?" ,
+    //     answers: [
+    //         { text: "Sucrose" ,correct:false},
+    //         { text: "Glucose" ,correct:false},
+    //         { text: "Glycogen" ,correct:false},
+    //         { text: "Ammonia" ,correct:true},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following is enzymes is responsible for forming DNA copy from RNA ?" ,
+    //     answers: [
+    //         { text: "Reverse transcriptase" ,correct:true},
+    //         { text: "DNA polymerase" ,correct:false},
+    //         { text: "Helicase" ,correct:false},
+    //         { text: "Primase" ,correct:false},
+    //     ]
+    // },
+    // {
+    //     // number1
+    //     question: "Which of the following is a potential serious side effect that is common among all anticoagulants agents ?" ,
+    //     answers: [
+    //         { text: "Hypokalemia" ,correct:false},
+    //         { text: "Major bleeding" ,correct:true},
+    //         { text: "Liver Dysfunction" ,correct:false},
+    //         { text: "Renal Dysfunction" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following is an example of a parenteral direct thrombin inhibitor ?" ,
+    //     answers: [
+    //         { text: "enoxaparin" ,correct:false},
+    //         { text: "argatroban" ,correct:true},
+    //         { text: "fondaparinux" ,correct:false},
+    //         { text: "unfractionated heparin" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following anti platelets is contraindicated patients with transient ischemic attack (TIA) or stroke ?" ,
+    //     answers: [
+    //         { text: "Prasugrel" ,correct:true},
+    //         { text: "Ticagrelor" ,correct:false},
+    //         { text: "Clopidogrel" ,correct:false},
+    //         { text: "Dipyridamole" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following anti platelets agents the highest risk of causing dyspnea ?" ,
+    //     answers: [
+    //         { text: "Prasugrel" ,correct:false},
+    //         { text: "Ticagrelor" ,correct:true},
+    //         { text: "Clopidogril" ,correct:false},
+    //         { text: "Warfarin" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following can decrease the effect of warfarin ?" ,
+    //     answers: [
+    //         { text: "antibiotics" ,correct:false},
+    //         { text: "paracetamol" ,correct:false},
+    //         { text: "multivitamins" ,correct:true},
+    //         { text: "calcium supplements" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following is parenteral direct thrombin inhibitor ?" ,
+    //     answers: [
+    //         { text: "Argatroban" ,correct:true},
+    //         { text: "Dabigatran" ,correct:false},
+    //         { text: "Heparin" ,correct:false},
+    //         { text: "Warfarin" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which side effect can be caused by statin therapy ?" ,
+    //     answers: [
+    //         { text: "Fatty liver" ,correct:false},
+    //         { text: "New onset Diabetes" ,correct:true},
+    //         { text: "Gout" ,correct:false},
+    //         { text: "Flushing" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following medication is anti androgen ?" ,
+    //     answers: [
+    //         { text: "Danazol" ,correct:false},
+    //         { text: "Tamoxifen" ,correct:false},
+    //         { text: "Finasteride" ,correct:true},
+    //         { text: "Mifepristone" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Before marketing phase ?" ,
+    //     answers: [
+    //         { text: "phase |||" ,correct:true},
+    //         { text: "phase ||" ,correct:false},
+    //         { text: "phase |V" ,correct:false},
+    //         { text: "phase V" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Patient take take morphine 90 mg and want replace by fentanyl patch" ,
+    //     answers: [
+    //         { text: "10 mg" ,correct:false},
+    //         { text: "15 mg" ,correct:false},
+    //         { text: "25 mg" ,correct:true},
+    //         { text: "30 mg" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following drugs both ant inflammatory and analgesic effect ?" ,
+    //     answers: [
+    //         { text: "Codeine" ,correct:false},
+    //         { text: "Pethidine" ,correct:false},
+    //         { text: "Ibuprofen" ,correct:true},
+    //         { text: "Paracetamol" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Aspirin is dispensed to an infant as antipyretic, Which of the following we should ask before dispensing the medication ?" ,
+    //     answers: [
+    //         { text: "Weight" ,correct:false},
+    //         { text: "Age" ,correct:true},
+    //         { text: "History of medications" ,correct:false},
+    //         { text: "Head Circumference" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "What is ibuprofen and aspirin drug drug interaction ?" ,
+    //     answers: [
+    //         { text: "Increase bleeding" ,correct:true},
+    //         { text: "decrease blood pressure" ,correct:false},
+    //         { text: "increase blood pressure" ,correct:false},
+    //         { text: "increase risk of myopathy" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Xanthine oxidase inhibitor used in gout ?" ,
+    //     answers: [
+    //         { text: "sulindac" ,correct:false},
+    //         { text: "allopurinol" ,correct:true},
+    //         { text: "naproxen" ,correct:false},
+    //         { text: "indomethacin" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following drugs is used for positive symptoms of schizophrenia ?" ,
+    //     answers: [
+    //         { text: "Haloperidol" ,correct:true},
+    //         { text: "levodopa" ,correct:false},
+    //         { text: "sertraline" ,correct:false},
+    //         { text: "citalopram" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following situations allow for accepting verbal order ?" ,
+    //     answers: [
+    //         { text: "in a code status" ,correct:true},
+    //         { text: "to start chemotherapy" ,correct:false},
+    //         { text: "When prescriber is on vacation" ,correct:false},
+    //         { text: "for a non-formulary drug request" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Which of the following is used as an electronic medication dispenser to improve medication adherence ?" ,
+    //     answers: [
+    //         { text: "text messaging" ,correct:false},
+    //         { text: "cell phone calendar" ,correct:false},
+    //         { text: "E-pill multi alarm Time Cap" ,correct:false},
+    //         { text: "Med-E-lert automatic pill dispenser" ,correct:true},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "Drugs used after trial in hospital ?" ,
+    //     answers: [
+    //         { text: "internal validity" ,correct:false},
+    //         { text: "external validity" ,correct:true},
+    //         { text: "reliability" ,correct:false},
+    //         { text: "responsibility" ,correct:false},
+    //     ]
+    // },
+    // { 
+    //     // number1
+    //     question: "NSAIDs low git risk ?" ,
+    //     answers: [
+    //         { text: "Diclophenac sodium" ,correct:false},
+    //         { text: "Celecoxib" ,correct:true},
+    //         { text: "Diclophenac potassium" ,correct:false},
+    //         { text: "ibuprofen" ,correct:false},
+    //     ]
+    // },
+// ];
 const questionElement = document.getElementById("question");
 const answersButton = document.getElementById("answer_btn");
 const nextButton = document.getElementById("next_btn");
@@ -1101,9 +1703,9 @@ loginForm.addEventListener("submit", function(event) {
 
 
 function login(usernameInput, passwordInput) {
-    if (usernameInput === "mohamedelhawary" && passwordInput === "elhawary@2024") {
+    if (usernameInput === "ahmedessam" && passwordInput === "essam@1993") {
         startQuiz(); // Call startQuiz if credentials are correct
-    } else if (usernameInput === "essafouad" && passwordInput === "essa@2024") {
+    } else if (usernameInput === "mohamedshokr" && passwordInput === "shokr@1998") {
         startQuiz(); // Call startQuiz if credentials are correct
     } else {
         alert("Please enter your username and password right");
