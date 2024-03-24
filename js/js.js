@@ -1705,7 +1705,7 @@ loginForm.addEventListener("submit", function(event) {
 function login(usernameInput, passwordInput) {
     if (usernameInput === "ahmedessam" && passwordInput === "essam@1993") {
         startQuiz(); // Call startQuiz if credentials are correct
-    } else if (usernameInput === "mohamedshokr" && passwordInput === "shokr@1998") {
+    } else if (usernameInput === "rahaf" && passwordInput === "rahaf@2024") {
         startQuiz(); // Call startQuiz if credentials are correct
     } else {
         alert("Please enter your username and password right");
