@@ -1826,7 +1826,7 @@ const questions = [
         question: "Which of the following inhibits insulin ?" ,
         answers: [
             { text: "Cortisol" ,correct:false},
-            { text: "Epinephrine" ,correct:true},
+            { text: "NorEpinephrine" ,correct:true},
             { text: "Glucagon" ,correct:false},
             { text: "Thyroxine" ,correct:false},
         ]
