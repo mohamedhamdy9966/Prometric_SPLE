@@ -30,6 +30,11 @@ body {
     padding: 20px 0;
 }
 
+.app h1 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .quiz h2 {
     font-size: 20px;
     color: rgb(60, 112, 9);
@@ -59,8 +64,34 @@ body {
     cursor: no-drop;
 }
 
+#finish_btn {
+    background: rgb(38, 69, 241);
+    color: antiquewhite;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+}
+
 #next_btn {
     background: rgb(29, 151, 35);
+    color: antiquewhite;
+    font-weight: 600;
+    width: 200px;
+    border: 0;
+    padding: 15px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 29px;
+    display: none;
+}
+
+#previous_btn {
+    background: rgb(236, 93, 11);
     color: antiquewhite;
     font-weight: 600;
     width: 200px;
