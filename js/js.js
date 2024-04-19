@@ -1825,7 +1825,7 @@ const questions = [
         // number78
         question: "Which of the following inhibits insulin ?" ,
         answers: [
-            { text: "Cortisol" ,correct:false},
+            { text: "Estrogen" ,correct:false},
             { text: "NorEpinephrine" ,correct:true},
             { text: "Glucagon" ,correct:false},
             { text: "Thyroxine" ,correct:false},
@@ -1837,8 +1837,8 @@ const questions = [
         answers: [
             { text: "Hypernatremia" ,correct:false},
             { text: "Hyponatremia" ,correct:false},
-            { text: "Hyperphosphatemia" ,correct:false},
-            { text: "Hypophosphatemia" ,correct:true},
+            { text: "Hyperphosphatemia" ,correct:true},
+            { text: "Hypophosphatemia" ,correct:false},
         ]
     },
         { 
