@@ -1185,8 +1185,8 @@ const questions = [
         // number14
         question: "Aspirin is dispensed to an infant as antipyretic, Which of the following we should ask before dispensing the medication ?" ,
         answers: [
-            { text: "Weight" ,correct:false},
-            { text: "Age" ,correct:true},
+            { text: "Weight" ,correct:true},
+            { text: "Age" ,correct:false},
             { text: "History of medications" ,correct:false},
             { text: "Head Circumference" ,correct:false},
         ]
