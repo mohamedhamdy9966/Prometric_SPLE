@@ -1049,1058 +1049,1133 @@ const questions = [
             { text: "ventricular plateau" ,correct:"true"},
         ]
     },
-];
-// const questions = [
-//     { 
-//         // number1
-//         question: "Which of the following compounds is urea cycle a biochemical reaction that produce urea from ?" ,
-//         answers: [
-//             { text: "Sucrose" ,correct:false},
-//             { text: "Glucose" ,correct:false},
-//             { text: "Glycogen" ,correct:false},
-//             { text: "Ammonia" ,correct:true},
-//         ]
-//     },
-//     { 
-//         // number2
-//         question: "Which of the following is enzymes is responsible for forming DNA copy from RNA ?" ,
-//         answers: [
-//             { text: "Reverse transcriptase" ,correct:true},
-//             { text: "DNA polymerase" ,correct:false},
-//             { text: "Helicase" ,correct:false},
-//             { text: "Primase" ,correct:false},
-//         ]
-//     },
-//     {
-//         // number3
-//         question: "Which of the following is a potential serious side effect that is common among all anticoagulants agents ?" ,
-//         answers: [
-//             { text: "Hypokalemia" ,correct:false},
-//             { text: "Major bleeding" ,correct:true},
-//             { text: "Liver Dysfunction" ,correct:false},
-//             { text: "Renal Dysfunction" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number4
-//         question: "Which of the following is an example of a parenteral direct thrombin inhibitor ?" ,
-//         answers: [
-//             { text: "enoxaparin" ,correct:false},
-//             { text: "argatroban" ,correct:true},
-//             { text: "fondaparinux" ,correct:false},
-//             { text: "unfractionated heparin" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number5
-//         question: "Which of the following anti platelets is contraindicated patients with transient ischemic attack (TIA) or stroke ?" ,
-//         answers: [
-//             { text: "Prasugrel" ,correct:true},
-//             { text: "Ticagrelor" ,correct:false},
-//             { text: "Clopidogrel" ,correct:false},
-//             { text: "Dipyridamole" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number6
-//         question: "Which of the following anti platelets agents the highest risk of causing dyspnea ?" ,
-//         answers: [
-//             { text: "Prasugrel" ,correct:false},
-//             { text: "Ticagrelor" ,correct:true},
-//             { text: "Clopidogril" ,correct:false},
-//             { text: "Warfarin" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number7
-//         question: "Which of the following can decrease the effect of warfarin ?" ,
-//         answers: [
-//             { text: "antibiotics" ,correct:false},
-//             { text: "paracetamol" ,correct:false},
-//             { text: "multivitamins" ,correct:true},
-//             { text: "calcium supplements" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number8
-//         question: "Which of the following is parenteral direct thrombin inhibitor ?" ,
-//         answers: [
-//             { text: "Argatroban" ,correct:true},
-//             { text: "Dabigatran" ,correct:false},
-//             { text: "Heparin" ,correct:false},
-//             { text: "Warfarin" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number9
-//         question: "Which side effect can be caused by statin therapy ?" ,
-//         answers: [
-//             { text: "Fatty liver" ,correct:false},
-//             { text: "New onset Diabetes" ,correct:true},
-//             { text: "Gout" ,correct:false},
-//             { text: "Flushing" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number10
-//         question: "Which of the following medication is anti androgen ?" ,
-//         answers: [
-//             { text: "Danazol" ,correct:false},
-//             { text: "Tamoxifen" ,correct:false},
-//             { text: "Finasteride" ,correct:true},
-//             { text: "Mifepristone" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number11
-//         question: "Before marketing phase ?" ,
-//         answers: [
-//             { text: "phase |||" ,correct:true},
-//             { text: "phase ||" ,correct:false},
-//             { text: "phase |V" ,correct:false},
-//             { text: "phase V" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number12
-//         question: "Patient take take morphine 90 mg and want replace by fentanyl patch" ,
-//         answers: [
-//             { text: "10 mg" ,correct:false},
-//             { text: "15 mg" ,correct:false},
-//             { text: "25 mg" ,correct:true},
-//             { text: "30 mg" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number13
-//         question: "Which of the following drugs both ant inflammatory and analgesic effect ?" ,
-//         answers: [
-//             { text: "Codeine" ,correct:false},
-//             { text: "Pethidine" ,correct:false},
-//             { text: "Ibuprofen" ,correct:true},
-//             { text: "Paracetamol" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number14
-//         question: "Aspirin is dispensed to an infant as antipyretic, Which of the following we should ask before dispensing the medication ?" ,
-//         answers: [
-//             { text: "Weight" ,correct:true},
-//             { text: "Age" ,correct:false},
-//             { text: "History of medications" ,correct:false},
-//             { text: "Head Circumference" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number15
-//         question: "What is ibuprofen and aspirin drug drug interaction ?" ,
-//         answers: [
-//             { text: "Increase bleeding" ,correct:true},
-//             { text: "decrease blood pressure" ,correct:false},
-//             { text: "increase blood pressure" ,correct:false},
-//             { text: "increase risk of myopathy" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number16
-//         question: "Xanthine oxidase inhibitor used in gout ?" ,
-//         answers: [
-//             { text: "sulindac" ,correct:false},
-//             { text: "allopurinol" ,correct:true},
-//             { text: "naproxen" ,correct:false},
-//             { text: "indomethacin" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number17
-//         question: "The following route of administration is not suitable for drugs with extensive hepatic first pass metabolism " ,
-//         answers: [
-//             { text: "Sublingual" ,correct:false},
-//             { text: "Oral" ,correct:true},
-//             { text: "Rectal" ,correct:false},
-//             { text: "Inhalation" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number18
-//         question: "An exaggerated normal pharmacological response to usual dose of drug is termed " ,
-//         answers: [
-//             { text: "Tolerance" ,correct:false},
-//             { text: "Supersensitivity" ,correct:true},
-//             { text: "Tachyphylaxis" ,correct:false},
-//             { text: "Idiosyncrasy" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number19
-//         question: "The ability of a drug to induce fetal malformation when given to a pregnant mother is termed :" ,
-//         answers: [
-//             { text: "Idiosyncrasy" ,correct:false},
-//             { text: "Tachyphylaxis" ,correct:false},
-//             { text: "Hypersensitivity" ,correct:false},
-//             { text: "Teratogenicity" ,correct:true},
-//         ]
-//     },
-//     { 
-//         // number20
-//         question: "The bioavailability of drugs after intravenous administration is :" ,
-//         answers: [
-//             { text: "10%" ,correct:false},
-//             { text: "25%" ,correct:false},
-//             { text: "50%" ,correct:false},
-//             { text: "100%" ,correct:true},
-//         ]
-//     },
-//     { 
-//         // number21
-//         question: "The volume of IV injection may vary from :" ,
-//         answers: [
-//             { text: "1-4 ml" ,correct:false},
-//             { text: "1-500 ml" ,correct:true},
-//             { text: "1-2 ml" ,correct:false},
-//             { text: "5-10 ml" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number22
-//         question: "The plasma concentration of theophylline after a simple IV dose of 300 mg was 9 mg/liter. calculate the volume of distribution (VD) :" ,
-//         answers: [
-//             { text: "3 L" ,correct:false},
-//             { text: "15 L" ,correct:false},
-//             { text: "33 L" ,correct:true},
-//             { text: "45 L" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number23
-//         question: "it is desired to maintain a plasma concentration of 0.15 g/L of carbenicillin in a patient. Plasma clearance equals 8.82 L/Hour. Calculate the infusion rate" ,
-//         answers: [
-//             { text: "5 gm/hour" ,correct:false},
-//             { text: "2.4 gm/hour" ,correct:false},
-//             { text: "3 gm/hour" ,correct:false},
-//             { text: "1.3 gm/hour" ,correct:true},
-//         ]
-//     },
-//     { 
-//         // number24
-//         question: "A drug has a t1/2 of 3 hours. What is the elimination rate constant (Kel) for this drug in a patient ?" ,
-//         answers: [
-//             { text: "0.15 hours" ,correct:false},
-//             { text: "0.231 hours" ,correct:true},
-//             { text: "0.33 hours" ,correct:false},
-//             { text: "0.6 hours" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number25
-//         question: "A drug was given in a loading dose of 98 mg to attain the desired plasma concentration of a 0.002 mg/ml. calculate the volume of distribution (VD)" ,
-//         answers: [
-//             { text: "39 L" ,correct:false},
-//             { text: "49 L" ,correct:true},
-//             { text: "59 L" ,correct:false},
-//             { text: "47 L" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number26
-//         question: "All of the following drugs may enhance breast milk production by increasing prolactin levels except" ,
-//         answers: [
-//             { text: "Halopridol" ,correct:false},
-//             { text: "Methyldopa" ,correct:false},
-//             { text: "Metoclopramide" ,correct:false},
-//             { text: "Bromocriptine" ,correct:true},
-//         ]
-//     },
-//     { 
-//         // number27
-//         question: "IF drug has A greater efficacy than drug B , then drug A :" ,
-//         answers: [
-//             { text: "is more toxic than drug B" ,correct:false},
-//             { text: "Has a greater affinity for the receptor than drug B" ,correct:false},
-//             { text: "Has a greater margin of safety than drug B" ,correct:false},
-//             { text: "is capable of producing a greater maximum effect than drug B" ,correct:true},
-//         ]
-//     },
-//     { 
-//         // number28
-//         question: "Digoxin is a drug still used for managing heart failure. the half-life of the drug is about 36 hours. How long will it take for blood levels of the drug to reach a steady concentration (Plateau) ?" ,
-//         answers: [
-//             { text: "36 hours" ,correct:false},
-//             { text: "3 days" ,correct:false},
-//             { text: "7 days" ,correct:true},
-//             { text: "14 days" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number29
-//         question: "Reductions of which one Pharmacokinetic factor does not account for more adverse drug effects in the elderly ?" ,
-//         answers: [
-//             { text: "absorbtion" ,correct:true},
-//             { text: "distribution" ,correct:false},
-//             { text: "hepatic metabolism" ,correct:false},
-//             { text: "renal excretion" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number30
-//         question: "Aspirin induced hemolytic anemia in G-6-PD deficiency is termed :" ,
-//         answers: [
-//             { text: "Teratogenecity" ,correct:false},
-//             { text: "Drug dependence" ,correct:false},
-//             { text: "Idiosyncrasy" ,correct:true},
-//             { text: "Hypersensitivity" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number31
-//         question: "Which of the following is the antidote in iron toxicity ?" ,
-//         answers: [
-//             { text: "Deferoxamine" ,correct:true},
-//             { text: "Ca gluconate" ,correct:false},
-//             { text: "Protamine sulfate" ,correct:false},
-//             { text: "Aluminum hydroxide" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number32
-//         question: "Which of the following is the antidote for propranolol ?" ,
-//         answers: [
-//             { text: "Insulin" ,correct:false},
-//             { text: "Glucagon" ,correct:true},
-//             { text: "Prednisone" ,correct:false},
-//             { text: "Calcium carbonate" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number33
-//         question: "Which of the following should be stopped 48 hrs before radio contrast dye imagining ?" ,
-//         answers: [
-//             { text: "Metformin" ,correct:true},
-//             { text: "Pioglitazone" ,correct:false},
-//             { text: "Acarbose" ,correct:false},
-//             { text: "Glipizide" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number34
-//         question: "which of the following medications is a member of glucagon like peptide agonists ?" ,
-//         answers: [
-//             { text: "Metformin" ,correct:false},
-//             { text: "Linagliptin" ,correct:false},
-//             { text: "Dapagliflozin" ,correct:false},
-//             { text: "Exenatide" ,correct:true},
-//         ]
-//     },
-//     { 
-//         // number35
-//         question: "Drug A has a volume of distribution of 500 L. 10% is excreted unchanged with a total clearance of 80 L/h. what is the hepatic clearance ?" ,
-//         answers: [
-//             { text: "90 L/hr" ,correct:false},
-//             { text: "85 L/hr" ,correct:false},
-//             { text: "72 L/hr" ,correct:true},
-//             { text: "63 L/hr" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number36
-//         question: "Which method is used to sterilize gloves ?" ,
-//         answers: [
-//             { text: "Autoclave" ,correct:true},
-//             { text: "Dry heat" ,correct:false},
-//             { text: "Infrared radiation" ,correct:false},
-//             { text: "Soap" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number37
-//         question: "What is the role of ministry of health about relation between MMR vaccine and autism ?" ,
-//         answers: [
-//             { text: "Recall the vaccine" ,correct:false},
-//             { text: "Could be targeted for specific people" ,correct:false},
-//             { text: "Enforce Policy Support" ,correct:true},
-//             { text: "There is no role for the Ministry of health" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number38
-//         question: "Which of the following is a side effect associated with aminoglycosides ?" ,
-//         answers: [
-//             { text: "Retinopathy" ,correct:false},
-//             { text: "Ototoxicity" ,correct:true},
-//             { text: "Alopecia" ,correct:false},
-//             { text: "Hepatotoxicity" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number39
-//         question: "Antidote of Tinzaparin ?" ,
-//         answers: [
-//             { text: "Proteins sulfate" ,correct:true},
-//             { text: "Vitamin K" ,correct:false},
-//             { text: "Prothrombin complex concentrate" ,correct:false},
-//             { text: "Idarucizumab" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number40
-//         question: "Which of the following is considered an outcome in cost utility analysis ?" ,
-//         answers: [
-//             { text: "Montary value" ,correct:false},
-//             { text: "Blood pressure reduction" ,correct:false},
-//             { text: "Dollars" ,correct:false},
-//             { text: "Adjusted quality of life" ,correct:true},
-//         ]
-//     },
-//     { 
-//         // number41
-//         question: "Patient has allergic rhinitis and the doctor wants to prescribe pseudoephedrine.Patient has a history of hypertension what should you do ?" ,
-//         answers: [
-//             { text: "Use pseudoephedrine with caution if hypertension is uncontrolled" ,correct:false},
-//             { text: "Don't dispense the prescription" ,correct:false},
-//             { text: "Use pseudoephedrine with caution if hypertension is controlled" ,correct:true},
-//             { text: "Pseudoephedrine can be safely used in this case" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number42
-//         question: "someone wants to open a pharmacy but there are no enough saudi pharmacists to hire. which of the following is true ?" ,
-//         answers: [
-//             { text: "No way to open it" ,correct:false},
-//             { text: "MOH may make an exception of nationality" ,correct:true},
-//             { text: "Anyone can open a pharmacy" ,correct:false},
-//             { text: "Hire anyone despite their profession" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number43
-//         question: "Patient was prescribed Adalimumab for rheumatoid arthritis and he knew it may cause malignancy. What is the suitable intervention ?" ,
-//         answers: [
-//             { text: "Assure him that it causes malignancy" ,correct:false},
-//             { text: "Tell him about benefits Vs risks of the medication" ,correct:true},
-//             { text: "Advice him not to take the medication" ,correct:false},
-//             { text: "Don't dispense the medication" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number44
-//         question: "Which of the following is the antidote of heparin ?" ,
-//         answers: [
-//             { text: "Protamine Sulfate" ,correct:true},
-//             { text: "Vitamin K" ,correct:false},
-//             { text: "Idarusizumab" ,correct:false},
-//             { text: "Prothrombin complex concentrate (PCC)" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number45
-//         question: "Which of the following medications decrease Warfarin Levels and decrease INR ?" ,
-//         answers: [
-//             { text: "Ceftriaxone" ,correct:false},
-//             { text: "Metronidazole" ,correct:false},
-//             { text: "Rifampin" ,correct:true},
-//             { text: "Erythromycin" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number46
-//         question: "How much litres is the plasma volume in adult person ?" ,
-//         answers: [
-//             { text: "3-5 L" ,correct:true},
-//             { text: "1.5 L" ,correct:false},
-//             { text: "9 L" ,correct:false},
-//             { text: "2 L" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number47
-//         question: "Which of the following is the appropriate age that quadrivalent menengiococcal vaccine MCV4 is given in KSA ?" ,
-//         answers: [
-//             { text: "At birth" ,correct:false},
-//             { text: "3 months" ,correct:false},
-//             { text: "6 months" ,correct:false},
-//             { text: "9 months" ,correct:true},
-//         ]
-//     },
-//     { 
-//         // number48
-//         question: "Bacterial genome consists of which of the following ?" ,
-//         answers: [
-//             { text: "RNA & DNA" ,correct:true},
-//             { text: "DNA only" ,correct:false},
-//             { text: "RNA only" ,correct:false},
-//             { text: "mRNA only" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number49
-//         question: "Which of the following vitamins has role in breast cancer prevention ?" ,
-//         answers: [
-//             { text: "Vitamin C" ,correct:false},
-//             { text: "Vitamin B1" ,correct:false},
-//             { text: "Vitamin D" ,correct:true},
-//             { text: "Vitamin B12" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number50
-//         question: "Which of the following are appropriate combination which can be used in patient suffering from glaucoma and asthma ?" ,
-//         answers: [
-//             { text: "Timolol and Propranolol" ,correct:false},
-//             { text: "Betaxolol and Latanoprost" ,correct:true},
-//             { text: "Bimatoprost" ,correct:false},
-//             { text: "Brimonidine and Timolol" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number51
-//         question: "Which of the following is the cornerstone in treatment of diarrhea ?" ,
-//         answers: [
-//             { text: "Fluids and electrolytes replacement" ,correct:true},
-//             { text: "Loperamind" ,correct:false},
-//             { text: "Nifurozoxaide" ,correct:false},
-//             { text: "Bismuth Subsalisylate" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number52
-//         question: "Patient presented with black stool. his medication history includes paracetamol and ibuprofen. Which of the following is correct ?" ,
-//         answers: [
-//             { text: "Gastrointestinal bleeding due to paracetamol" ,correct:false},
-//             { text: "Gastrointestinal bleeding due to Ibuprofen" ,correct:true},
-//             { text: "Dark stool is not a sign of Gastrointestinal Bleeding" ,correct:false},
-//             { text: "Black stool is normal" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number53
-//         question: "Which of the following immunosuppressants causes hirsutism ?" ,
-//         answers: [
-//             { text: "Prednisone" ,correct:false},
-//             { text: "Cyclosporine" ,correct:true},
-//             { text: "Tacrolimus" ,correct:false},
-//             { text: "Adalimumab" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number54
-//         question: "Which of the following label which must be written for vincristine vial ?" ,
-//         answers: [
-//             { text: "Fatal if given intrathecal only iv infusion" ,correct:true},
-//             { text: "Protect from light" ,correct:false},
-//             { text: "Should be given Intrathecally" ,correct:false},
-//             { text: "Protect from moisture" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number55
-//         question: "Which of the following is a main side effect associated with doxorubicin ?" ,
-//         answers: [
-//             { text: "Neurotoxicity" ,correct:false},
-//             { text: "Nephrotoxicity" ,correct:false},
-//             { text: "Cardiotoxicity" ,correct:true},
-//             { text: "Ototoxicity" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number56
-//         question: "Which of the following drugs is used for positive symptoms of schizophrenia ?" ,
-//         answers: [
-//             { text: "Halopridol" ,correct:true},
-//             { text: "levodopa" ,correct:false},
-//             { text: "sertraline" ,correct:false},
-//             { text: "citalopram" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number57
-//         question: "Which of the following situations allow for accepting verbal order ?" ,
-//         answers: [
-//             { text: "in a code status" ,correct:true},
-//             { text: "to start chemotherapy" ,correct:false},
-//             { text: "When prescriber is on vacation" ,correct:false},
-//             { text: "for a non-formulary drug request" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number58
-//         question: "Which of the following is used as an electronic medication dispenser to improve medication adherence ?" ,
-//         answers: [
-//             { text: "text messaging" ,correct:false},
-//             { text: "cell phone calendar" ,correct:false},
-//             { text: "E-pill multi alarm Time Cap" ,correct:false},
-//             { text: "Med-E-lert automatic pill dispenser" ,correct:true},
-//         ]
-//     },
-//     { 
-//         // number59
-//         question: "Drugs used after trial in hospital ?" ,
-//         answers: [
-//             { text: "internal validity" ,correct:false},
-//             { text: "external validity" ,correct:true},
-//             { text: "reliability" ,correct:false},
-//             { text: "responsibility" ,correct:false},
-//         ]
-//     },
-//     { 
-//         // number60
-//         question: "NSAIDs low git risk ?" ,
-//         answers: [
-//             { text: "Diclophenac sodium" ,correct:false},
-//             { text: "Celecoxib" ,correct:true},
-//             { text: "Diclophenac potassium" ,correct:false},
-//             { text: "ibuprofen" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number61
-//         question: "What is the constant rate of elimination of a drug where t1/2 is a 6 hours ?" ,
-//         answers: [
-//             { text: "0.2/hour" ,correct:false},
-//             { text: "0.3hour" ,correct:false},
-//             { text: "0.12hour" ,correct:false},
-//             { text: "0.11hour" ,correct:true},
-//         ]
-//     },
-//         { 
-//         // number62
-//         question: "A drug has a volume of distribution (Vd) of 49 litres, t1/2 of 3 hours. Calculate the clearance :" ,
-//         answers: [
-//             { text: "1.32 L/hour" ,correct:false},
-//             { text: "3.32 L/hour" ,correct:false},
-//             { text: "11.32 L/hour" ,correct:true},
-//             { text: "0.32 L/hour" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number63
-//         question: "Which one of these infections has vaccination ?" ,
-//         answers: [
-//             { text: "Varicella" ,correct:true},
-//             { text: "HIV" ,correct:false},
-//             { text: "HCV" ,correct:false},
-//             { text: "None" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number64
-//         question: "Which one of the following is more liable for influenza complications ?" ,
-//         answers: [
-//             { text: "healthy woman" ,correct:false},
-//             { text: "Pregnant" ,correct:true},
-//             { text: "Males" ,correct:false},
-//             { text: "11 year old child" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number65
-//         question: "Which of these equations is used to estimate creatinine clearance in adult ?" ,
-//         answers: [
-//             { text: "Schwartz" ,correct:false},
-//             { text: "Winter" ,correct:false},
-//             { text: "Cockcroft-Gault" ,correct:true},
-//             { text: "Young's" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number66
-//         question: "Which of the following is the most side effect associated with ICS inhaled corticosteroids ?" ,
-//         answers: [
-//             { text: "Fever" ,correct:false},
-//             { text: "Skin Rash" ,correct:false},
-//             { text: "Oral thrush" ,correct:true},
-//             { text: "Hair loss" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number67
-//         question: "Which of the following microorganism is responsible for dental carries ?" ,
-//         answers: [
-//             { text: "Streptococcus mutans" ,correct:true},
-//             { text: "Streptococcus pneumonia" ,correct:false},
-//             { text: "Streptococcus pyrogens" ,correct:false},
-//             { text: "Streptococcus aglactia" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number68
-//         question: "Young man admitted to ER with deep wound in his foot and his history of vaccination unknown. Which of the following interventions are appropriate ?" ,
-//         answers: [
-//             { text: "Give Td vaccine and TIG immunoglobulin" ,correct:true},
-//             { text: "Give Td vaccine only" ,correct:false},
-//             { text: "Give TIG immunoglobulin only" ,correct:false},
-//             { text: "Give nothing" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number69
-//         question: "A drug has a volume of distribution of 49 liters and a steady state concentration (Css) of 2 mg/liter. The loading dose is :" ,
-//         answers: [
-//             { text: "100 mg" ,correct:false},
-//             { text: "98 mg" ,correct:true},
-//             { text: "96 mg" ,correct:false},
-//             { text: "102 mg" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number70
-//         question: "Which of the following is the best timing to take insulin glargine ?" ,
-//         answers: [
-//             { text: "Before breakfast" ,correct:false},
-//             { text: "Before lunch" ,correct:false},
-//             { text: "Before dinner" ,correct:false},
-//             { text: "Before bedtime" ,correct:true},
-//         ]
-//     },
-//         { 
-//         // number71
-//         question: "Which of the following accurately defines half life ?" ,
-//         answers: [
-//             { text: "Time required for 50% of the drug to be absorbed" ,correct:false},
-//             { text: "Time required for 50% of the drug to be distributed" ,correct:false},
-//             { text: "Time required for 50% of the drug to be metabolized" ,correct:false},
-//             { text: "Time required for 50% of the drug to be eliminated" ,correct:true},
-//         ]
-//     },
-//         { 
-//         // number72
-//         question: "Which of the following is the chemical name for vitamin B12 ?" ,
-//         answers: [
-//             { text: "Cyanocobalamin" ,correct:true},
-//             { text: "Niacin" ,correct:false},
-//             { text: "Riboflavin" ,correct:false},
-//             { text: "Thiamine" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number73
-//         question: "30 year old woman came to ER with blueish sputum,diarrhea,vomiting,blue discoloration along gum line. Which heavy metal toxicity is suspected ?" ,
-//         answers: [
-//             { text: "Mercury" ,correct:false},
-//             { text: "Iron" ,correct:false},
-//             { text: "Lead" ,correct:true},
-//             { text: "Copper" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number74
-//         question: "Which of the following supplements can cause heart burn ?" ,
-//         answers: [
-//             { text: "Calcium carbonate" ,correct:false},
-//             { text: "Sodium hydroxide" ,correct:false},
-//             { text: "Potassium Chloride" ,correct:true},
-//             { text: "Magnesium hydroxide" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number75
-//         question: "Which of the following is the vector in plaque Fever ?" ,
-//         answers: [
-//             { text: "Fleas" ,correct:false},
-//             { text: "Tics" ,correct:false},
-//             { text: "Mosquito" ,correct:true},
-//             { text: "Worm" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number76
-//         question: "Which of the following can cause severe hypoglycemia ?" ,
-//         answers: [
-//             { text: "Glimeperide" ,correct:true},
-//             { text: "Pioglitazone" ,correct:false},
-//             { text: "Metformin" ,correct:false},
-//             { text: "Acarbose" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number77
-//         question: "Which of the following is an alpha hemolytic bacteria ?" ,
-//         answers: [
-//             { text: "Pseudomonas" ,correct:false},
-//             { text: "Actinobacter" ,correct:false},
-//             { text: "E.coli" ,correct:false},
-//             { text: "Streptococcus Pneumonia" ,correct:true},
-//         ]
-//     },
-//         { 
-//         // number78
-//         question: "Which of the following inhibits insulin ?" ,
-//         answers: [
-//             { text: "Estrogen" ,correct:false},
-//             { text: "NorEpinephrine" ,correct:true},
-//             { text: "Glucagon" ,correct:false},
-//             { text: "Thyroxine" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number79
-//         question: "Which is the indication of sevelamer ?" ,
-//         answers: [
-//             { text: "Hypernatremia" ,correct:false},
-//             { text: "Hyponatremia" ,correct:false},
-//             { text: "Hyperphosphatemia" ,correct:true},
-//             { text: "Hypophosphatemia" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number80
-//         question: "Which of the following is the recommended lab monitoring for Clozapine ?" ,
-//         answers: [
-//             { text: "Absolute Neutrophilic count" ,correct:true},
-//             { text: "Platelets" ,correct:false},
-//             { text: "Eye exam" ,correct:false},
-//             { text: "Liver function test" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number81
-//         question: "What Electrolytes are low in refeeding syndrome ?" ,
-//         answers: [
-//             { text: "Mg, K, PO4" ,correct:true},
-//             { text: "Mg, Cu, Al" ,correct:false},
-//             { text: "Ca, Na, Cu" ,correct:false},
-//             { text: "Na, PO4, Al" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number82
-//         question: "Patient with UGT1A1 mutation, which drug will have high risk of side-effects when used in such patient ?" ,
-//         answers: [
-//             { text: "Atazanavir" ,correct:true},
-//             { text: "Sofobuvir" ,correct:false},
-//             { text: "Acyclovir" ,correct:false},
-//             { text: "Cyclosporine" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number83
-//         question: "4 weeks old infant is diagnosed with patient ductus arterious. The doctor wants to avoid performing surgery. Which drug will be administrated to avoid a surgical closure ?" ,
-//         answers: [
-//             { text: "IV Propranolol" ,correct:false},
-//             { text: "IV Procainamide" ,correct:false},
-//             { text: "IV indomethacin" ,correct:true},
-//             { text: "IV alprostadil" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number84
-//         question: "Which of the following is considered high alert medication ?" ,
-//         answers: [
-//             { text: "Dextrose 50%" ,correct:true},
-//             { text: "0.9 NS" ,correct:false},
-//             { text: "Ibuprofen" ,correct:false},
-//             { text: "Lopermide" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number85
-//         question: "How many natural amino acids in the human body ?" ,
-//         answers: [
-//             { text: "20" ,correct:true},
-//             { text: "21" ,correct:false},
-//             { text: "22" ,correct:false},
-//             { text: "23" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number86
-//         question: "What vaccines are required for patient with Asthma/COPD ?" ,
-//         answers: [
-//             { text: "Meningococcus vaccine" ,correct:false},
-//             { text: "Pneumococcal vaccine" ,correct:true},
-//             { text: "Tdap" ,correct:false},
-//             { text: "Rubella" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number87
-//         question: "Which of the following is an adverse reactions associated with Cyclophosphamide ?" ,
-//         answers: [
-//             { text: "Optic neuritis" ,correct:false},
-//             { text: "Ototoxicity" ,correct:false},
-//             { text: "Hemorrhagic cystitis" ,correct:true},
-//             { text: "Cardiotoxicity" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number88
-//         question: "Which of the following is considered the most evident study ?" ,
-//         answers: [
-//             { text: "Case control" ,correct:false},
-//             { text: "Cross sectional" ,correct:false},
-//             { text: "Cohort" ,correct:false},
-//             { text: "Meta analysis" ,correct:true},
-//         ]
-//     },
-//         { 
-//         // number89
-//         question: "Which of the following committees is dedicated to developing and maintaining a list of approved medicine for the hospital medicines for the hospital use ?" ,
-//         answers: [
-//             { text: "MOH" ,correct:false},
-//             { text: "SFDA" ,correct:false},
-//             { text: "MOE" ,correct:false},
-//             { text: "Pharmacy & Therapeutic" ,correct:true},
-//         ]
-//     },
-//         { 
-//         // number90
-//         question: "Which of the following could be used for measurement in Case control design ?" ,
-//         answers: [
-//             { text: "Incidence" ,correct:false},
-//             { text: "Odds ratio" ,correct:true},
-//             { text: "Relative risk" ,correct:false},
-//             { text: "Relative risk ration" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number91
-//         question: "A drug given as 200 mg single dose , results in a peak plasma concentration of a 0.04 mg/ml. The apparent volume of distribution (Vd) is :" ,
-//         answers: [
-//             { text: "3 liters" ,correct:false},
-//             { text: "4 liters" ,correct:false},
-//             { text: "5 liters" ,correct:true},
-//             { text: "6 liters" ,correct:false},
-//         ]
-//     },
-//         { 
-//         // number1
-//         question: "what is used For Cough from Herbs ?" ,
-//         answers: [
-//             { text: "Anise" ,correct:false},
-//             { text: "Myrrh" ,correct:true},
-//             { text: "Ginger" ,correct:false},
-//             { text: "Peppermint" ,correct:false},
-//         ]
-//     },
-//     {
-//         // number2
-//         question: "what is best Known For dry Cough ?" ,
-//         answers: [
-//             { text: "Guafincin" ,correct:false},
-//             { text: "Dextromethorphan" ,correct:true},
-//             { text: "Salbutmol" ,correct:false},
-//             { text: "Theophylline" ,correct:false},
-//         ] 
-//     },
-//     {
-//         // number3
-//         question: "Warfarin Toxicity Treated with ?" ,
-//         answers: [
-//             { text: "Atropine" ,correct:false},
-//             { text: "Sodium BiCarbonate" ,correct:false},
-//             { text: "Calcium in Saline" ,correct:false},
-//             { text: "Vit k" ,correct:true},
-//         ]
-//     },
-//     {
-//         // number4
-//         question: "Digoxin toxicity Treated with ?" ,
-//         answers: [
-//             { text: "Neostigamine" ,correct:"false"},
-//             { text: "Defab" ,correct:"true"},
-//             { text: "Pyridoxine" ,correct:"false"},
-//             { text: "Physostigamine" ,correct:"false"},
-//         ]
-//     },
-//     {
-//         // number5
-//         question: "BerriBerri Comes from lack of ?" ,
-//         answers: [
-//             { text: "B2" ,correct:"false"},
-//             { text: "B1" ,correct:"true"},
-//             { text: "B6" ,correct:"false"},
-//             { text: "B12" ,correct:"false"},
-//         ]  
-//     },
-//     {
-//         // number6
-//         question: "Drugs Can Induce their effects by all the following mechanisms except " ,
-//         answers: [
-//             { text: "inhibition of target enzymes" ,correct:"false"},
-//             { text: "Binding to plasma proteins" ,correct:"true"},
-//             { text: "Binding to target receptors" ,correct:"false"},
-//             { text: "Blockade of iron channel" ,correct:"false"},
-//         ]  
-//     },
-//     {
-//         // number7
-//         question: "Pharmacokinetics  is the study of the kinetics of the drug which includes the following except " ,
-//         answers: [
-//             { text: "Absorbtion" ,correct:"false"},
-//             { text: "Uses" ,correct:"true"},
-//             { text: "Excretion" ,correct:"false"},
-//             { text: "Metabolism" ,correct:"false"},
-//         ]  
-//     },
-//     {
-//         // number8
-//         question: "Advantages of the oral route of drug administration include the following except " ,
-//         answers: [
-//             { text: "Most Convenient" ,correct:"false"},
-//             { text: "Best Route in emergency" ,correct:"true"},
-//             { text: "Easiest Route" ,correct:"false"},
-//             { text: "Most economic" ,correct:"false"},
-//         ]  
-//     },
-//     {
-//         // number9
-//         question: "The Sublingual Route of drug administration is suitable for" ,
-//         answers: [
-//             { text: "Drug Rapidly Destroyed By liver" ,correct:"true"},
-//             { text: "Drug used in large dose" ,correct:"false"},
-//             { text: "drug rapidly excreted by kidney" ,correct:"false"},
-//             { text: "Drug destroyed by salivary secretion" ,correct:"false"},
-//         ]  
-//     },
-//     {
-//         // number10
-//         question: "Advantages of the intravenous route of drug administration include the following except " ,
-//         answers: [
-//             { text: "Rapid on set" ,correct:"false"},
-//             { text: "Best on shock" ,correct:"false"},
-//             { text: "Best for highly Irritant drugs" ,correct:"false"},
-//             { text: "least in toxic reactions" ,correct:"true"},
-//         ]  
-//     },
-//     {
-//         // number11
-//         question: "The following route is the best method for administration of oily drugs " ,
-//         answers: [
-//             { text: "Intravenous" ,correct:"false"},
-//             { text: "Intramuscular" ,correct:"true"},
-//             { text: "Inhalation" ,correct:"false"},
-//             { text: "Sublingual" ,correct:"false"},
-//         ]  
-//     },
-//     {
-//         // number12
-//         question: "Enteric Coated Tablets are used in " ,
-//         answers: [
-//             { text: "Drugs irritant to stomach" ,correct:"true"},
-//             { text: "Drugs destroyed by intestinal enzymes" ,correct:"false"},
-//             { text: "Antacids drugs" ,correct:"false"},
-//             { text: "Drugs destroyed by saliva" ,correct:"false"},
-//         ]  
-//     },
-//     {
-//         // number13
-//         question: "Which of the following drugs is produced by recombinant Dna technology " ,
-//         answers: [
-//             { text: "Atropine" ,correct:"false"},
-//             { text: "Human Insulin" ,correct:"true"},
-//             { text: "Digoxin" ,correct:"false"},
-//             { text: "Aspirin" ,correct:"false"},
-//         ]  
-//     },
-//     {
-//         // number14
-//         question: "All of the Following statements concerning (simple diffusion of drugs through lipid membranes) are true except " ,
-//         answers: [
-//             { text: "it occurs along a concentration gradient" ,correct:"false"},
-//             { text: "it does not require cellular energy" ,correct:"false"},
-//             { text: "ionized drugs is lipid soluble and diffusible" ,correct:"true"},
-//             { text: "it does not require carrier" ,correct:"false"},
-//         ]  
-//     },
+        { 
+        // number89
+        question: "A Saudi Man aged 30 years old named saif lives in makka with his family and his old parents aged 60 and 55 years old and his wife fatma and son called naif and daughter called somia,Which drug should be taken for optimum emergency management of an anaphylactic reaction for saif ?" ,
+        answers: [
+            { text: "Albuterol" ,correct:false},
+            { text: "Atropine" ,correct:false},
+            { text: "Epinephrine" ,correct:true},
+            { text: "Propranolol" ,correct:false},
+]},
+        { 
+        // number90
+        question: "A hypothetical drug, Drug X, can be administered by all the routes listed below. Which administration route is guaranteed to provide complete (100%) bioavailability of that drug ?" ,
+        answers: [
+            { text: "intramuscular" ,correct:false},
+            { text: "Intravenous" ,correct:true},
+            { text: "Oral" ,correct:false},
+            { text: "Rectal" ,correct:false},
+        ]
+    },
+        { 
+        // number91
+        question: "Cimetidine, is one of the best examples of a drug that inhibits the P450 system. That means it inhibits the ------ of some drugs :" ,
+        answers: [
+            { text: "Absorbtion" ,correct:false},
+            { text: "Distribution" ,correct:false},
+            { text: "Metabolism" ,correct:true},
+            { text: "Excretion" ,correct:false},
+        ]
+    },
+        { 
+        // number92
+        question: "Drug A increases blood pressure by 10 mm HG. Drug B increases pressure by 10 mm Hg also. Giving the two drugs together, each at their own (right) doses, increases blood pressure by 30 mm Hg. This is an example of :" ,
+        answers: [
+            { text: "Pharmacologic antagonism" ,correct:false},
+            { text: "Summation" ,correct:false},
+            { text: "Potentiation" ,correct:false},
+            { text: "Synergism" ,correct:true},
+        ]
+    },
+        { 
+        // number93
+        question: "X is a drug that is (extensively bound) to plasma proteins, if you give a therapeutic dose to a person with severe hypoalbuminemia, which one of the following effects would you expect to occur ?" ,
+        answers: [
+            { text: "A greater than normal (possibly toxic) response to the drug" ,correct:true},
+            { text: "A longer duration of action" ,correct:false},
+            { text: "A slower onset of action" ,correct:false},
+            { text: "A drug effect completely different from what X normally would cause" ,correct:false},
+        ]
+    },
+        { 
+        // number94
+        question: "A pharmacist works in a community pharmacy in Mekka in saudi arabia received a prescription to prepare a drug which the dose of it for a 70 kg adult is 80 mg but he will prepare it for the child called Fahad aged 8 years the dose for him is :" ,
+        answers: [
+            { text: "12.5" ,correct:false},
+            { text: "18" ,correct:false},
+            { text: "20" ,correct:false},
+            { text: "32" ,correct:true},
+        ]
+    },
+        { 
+        // number95
+        question: "Creatinine Clearance is used as a measure of :" ,
+        answers: [
+            { text: "Renal excretion rate" ,correct:false},
+            { text: "Glomerular filtration rate" ,correct:true},
+            { text: "Active renal secretion" ,correct:false},
+            { text: "Passive renal absorption" ,correct:false},
+        ]
+    },
+        { 
+        // number96
+        question: "All the following are phase II biotransformation reactions EXCEPT :" ,
+        answers: [
+            { text: "Hydrolysis" ,correct:true},
+            { text: "Acetylation" ,correct:false},
+            { text: "Methylation" ,correct:false},
+            { text: "Glucuronidation" ,correct:false},
+        ]
+    },
+        { 
+        // number97
+        question: "A foreigner Citizen called adam from Pakistan aged 35 years old lives in saudi arabia with his wife he took a drug that metabolism may generate a toxic metabolite :" ,
+        answers: [
+            { text: "Diazepam" ,correct:false},
+            { text: "Captopril" ,correct:false},
+            { text: "Phenobarbitone" ,correct:false},
+            { text: "Paracetamol" ,correct:true},
+        ]
+    },
+        { 
+        // number98
+        question: "Kazim is 60 years old man lives with his son and his wife in a family house with a maid to help him take care of him and serve his needs diagnosed with heart failure taking many drugs one of them is Digoxin at a target concentration of 1.5 Microgram/litre, Vd = 500 L , the required IV loading dose is : " ,
+        answers: [
+            { text: "0.5 mg" ,correct:false},
+            { text: "0.75 mg" ,correct:true},
+            { text: "1.0 mg" ,correct:false},
+            { text: "1.5 mg" ,correct:false},
+        ]
+    },]
+//         // { 
+//         // number102
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number103
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number104
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+// ];
+//         // { 
+//         // number92
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number93
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number94
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number95
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number96
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number97
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number98
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number99
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number100
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number101
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number102
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number103
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number104
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+// ];
+//         // { 
+//         // number92
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number93
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number94
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number95
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number96
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number97
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number98
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number99
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number100
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number101
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number102
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number103
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number104
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+// ];
+//         // { 
+//         // number92
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number93
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number94
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number95
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number96
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number97
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number98
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number99
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number100
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number101
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number102
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number103
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number104
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+// ];
+//         // { 
+//         // number92
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number93
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number94
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number95
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number96
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number97
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number98
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number99
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number100
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number101
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number102
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number103
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number104
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+// ];
+//         // { 
+//         // number92
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number93
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number94
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number95
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number96
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number97
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number98
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number99
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number100
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number101
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number102
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number103
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number104
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+// ];
+//         // { 
+//         // number92
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number93
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number94
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number95
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number96
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number97
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number98
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number99
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number100
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number101
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number102
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number103
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number104
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+// ];
+//         // { 
+//         // number92
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number93
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number94
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number95
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number96
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number97
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number98
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number99
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number100
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number101
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number102
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number103
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number104
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+// ];
 //         // { 
 //         // number92
 //     //     question: "" ,
@@ -2267,17 +2342,20 @@ var usernameInput = document.createElement("input");
 usernameInput.setAttribute("type", "text");
 usernameInput.setAttribute("placeholder", "Username");
 usernameInput.setAttribute("id", "username");
+usernameInput.classList.add("user-input");
 
 // Create password input field
 var passwordInput = document.createElement("input");
 passwordInput.setAttribute("type", "password");
 passwordInput.setAttribute("placeholder", "Password");
 passwordInput.setAttribute("id", "password");
+passwordInput.classList.add("user-input");
 
 // Create submit button
 var submitButton = document.createElement("input");
 submitButton.setAttribute("type", "submit");
 submitButton.setAttribute("value", "Login");
+submitButton.classList.add("login-input");
 
 // Append elements to form
 loginForm.appendChild(usernameInput);
@@ -2309,6 +2387,20 @@ function login(usernameInput, passwordInput) {
     }
 }
 
+//slice questions
+// Shuffle the questions array to ensure randomness
+function shuffle(questions) {
+    for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
+    }
+    return questions;
+}
+
+// Select the first 10 questions after shuffling
+const shuffledQuestions = shuffle(questions).slice(0, 105);
+
+
 // startQuiz();
 function startQuiz() {
     // Perform actions to start the quiz
@@ -2333,6 +2425,9 @@ function startQuiz() {
 
 function hideLoginForm() {
     loginForm.classList.add("hidden");
+    usernameInput.classList.add("hidden");
+    passwordInput.classList.add("hidden");
+    submitButton.classList.add("hidden");
 }
 
 function startTimer() {
@@ -2360,7 +2455,7 @@ function formatTime(time) {
 
 function showQuestion() {
     resetState();
-    let currentQuestion = questions[currentQuestionIndex];
+    let currentQuestion = shuffledQuestions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.
     question;
@@ -2387,6 +2482,20 @@ function resetState() {
     };
 }
 
+document.addEventListener('mousedown', function(event) {
+    // Check if the right mouse button is clicked (button 2) and prevent default context menu
+    if (event.button === 2) {
+        // Prevent the default context menu from appearing
+        event.preventDefault();
+        
+        // Check if the clicked element is a button
+        if (event.target.classList.contains('btn')) {
+            // Add line-through style to the clicked button's text
+            event.target.style.textDecoration = 'line-through';
+        }
+    }
+});
+// select the answer button
 function selectAnswer(e) {
     const selectedButton = e.target;
     const isCorrect = selectedButton.dataset.correct === "true";
@@ -2409,15 +2518,15 @@ function selectAnswer(e) {
 
 function finishQuiz() {
     Score();
-    currentQuestionIndex = questions.length;
+    currentQuestionIndex = shuffledQuestions.length;
 }
 
 function addEventListeners() {
     finishButton.addEventListener("click", finishQuiz);
     nextButton.addEventListener("click", () => {
-        if (currentQuestionIndex < questions.length) {
+        if (currentQuestionIndex < shuffledQuestions.length) {
             startNext();
-        } else if (currentQuestionIndex === questions.length) {
+        } else if (currentQuestionIndex === shuffledQuestions.length) {
             Score();
         } else {
             currentQuestionIndex = 0; // Reset currentQuestionIndex to 0 to start the quiz again
@@ -2429,9 +2538,16 @@ function addEventListeners() {
 
 addEventListeners();
 
+let answers = JSON.parse(localStorage.getItem("answers")) || Array(questions.length).fill(null);
+
+function selectedAnswer(index) {
+    answers[currentQuestionIndex] = index;
+    localStorage.setItem("answers", JSON.stringify(answers));
+}
+
 function startNext() {
     currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
+    if (currentQuestionIndex < shuffledQuestions.length) {
         showQuestion();
     } else {
         Score();
@@ -2441,7 +2557,7 @@ function startNext() {
 function Score() {
     clearInterval(timer);
     resetState();
-    questionElement.innerHTML = `Congratulations ! you scored ${sofa} out of ${questions.length}`;
+    questionElement.innerHTML = `Congratulations ! you scored ${sofa} out of ${shuffledQuestions.length}`;
     nextButton.innerHTML = "The End";
     nextButton.style.display = "block";
     previousButton.innerHTML = "Try Again";
