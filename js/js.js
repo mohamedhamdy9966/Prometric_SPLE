@@ -1147,78 +1147,78 @@ const questions = [
             { text: "1.0 mg" ,correct:false},
             { text: "1.5 mg" ,correct:false},
         ]
-    },]
-//         // { 
-//         // number102
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number103
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number104
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-// ];
-//         // { 
-//         // number92
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number93
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number94
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
+    },
+        { 
+        // number99
+        question: "Sharif is 40 years old pharmacist lives and work in geddah a patient came to the pharmacy and asked him about drug tolerance he answered " ,
+        answers: [
+            { text: "Decreased response to the usual dose of a drug" ,correct:true},
+            { text: "Increased response to the usual dose of a drug" ,correct:false},
+            { text: "Abnormal reaction to a drug due to genetic or enzyme defect" ,correct:false},
+            { text: "Inactivation of a drug be the kidney" ,correct:false},
+        ]
+    },
+        { 
+        // number100
+        question: "Ayman is a foreigner citizen lives in saudi arabia in riyad with his father who aged more than 70 years , his father needs" ,
+        answers: [
+            { text: "Larger dose than adult dose" ,correct:false},
+            { text: "Smaller dose than the adult dose" ,correct:true},
+            { text: "Equal dose to that of the adult dose" ,correct:false},
+            { text: "A dose that is equal to the infant dose" ,correct:false},
+        ]
+    },
+        { 
+        // number101
+        question: "Allergic reactions to drugs can result in all of the following clinical manifestations EXCEPT " ,
+        answers: [
+            { text: "Angioneurotic edema" ,correct:false},
+            { text: "Peptic Ulcer" ,correct:true},
+            { text: "Asthma" ,correct:false},
+            { text: "Fever" ,correct:false},
+        ]
+    },
+        { 
+        // number102
+        question: "Reversal of histamine-induced bronchonstriction by adrenaline is regarded as :" ,
+        answers: [
+            { text: "Competitive antagonism" ,correct:false},
+            { text: "NonCompetitive antagonism" ,correct:false},
+            { text: "Chemical antagonism" ,correct:false},
+            { text: "Physiological antagonism" ,correct:true},
+        ]
+    },
+        { 
+        // number103
+        question: "Meropenem is a new drug released in the market by a well known and trusted drug company the Pharmacokinetic parameters of a new drug are as follows : Vd = 80 L, Cl = 4 L/hour, the half life of this drud called meropenem equals :" ,
+        answers: [
+            { text: "3 hours" ,correct:false},
+            { text: "14 hours" ,correct:true},
+            { text: "78 hours" ,correct:false},
+            { text: "120 hours" ,correct:false},
+        ]
+    },
+        { 
+        // number104
+        question: "Sildenafil is a new drug released in the market by a well known and trusted drug company used for erectile dysfunction in men it first was made for treat hypertension patient,The maximum effect (Emax) achieved by a drug is a measure of :" ,
+        answers: [
+            { text: "Therapeutic index" ,correct:false},
+            { text: "Efficacy" ,correct:true},
+            { text: "Antagonist magnitude" ,correct:false},
+            { text: "Potency" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "With your knowledge ,pharmaceutical background and Experience in the Saudi and Global medical field especially in Pharmaceutical field Which of the following Statements INCORRECT :" ,
+        answers: [
+            { text: "Drug metabolism can be affected by genetic variation" ,correct:false},
+            { text: "Renal Excretion of a weak acid and/or base drugs is affected by urinary pH" ,correct:false},
+            { text: "Partial agonists have no effect in absence of agonist" ,correct:true},
+            { text: "Drugs with zero order Kinetics have a non-linear disappearance curve" ,correct:false},
+        ]
+    },
+];
 //         // { 
 //         // number95
 //     //     question: "" ,
