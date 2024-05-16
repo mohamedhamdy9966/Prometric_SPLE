@@ -2385,7 +2385,11 @@ function login(usernameInput, passwordInput) {
     }
     else if (usernameInput === "haninmubarak" && passwordInput === "hanin@2024") {
         startQuiz(); // Call startQuiz if credentials are correct
-    } else {
+    }
+    else if (usernameInput === "alaa_tallal" && passwordInput === "alaa@2024") {
+        startQuiz(); // Call startQuiz if credentials are correct
+    }
+    else {
         alert("Please enter your username and password right");
     }
 }
