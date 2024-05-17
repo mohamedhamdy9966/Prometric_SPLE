@@ -1268,57 +1268,57 @@ const questions = [
             { text: "Intranasal spray administration" ,correct:false},
         ]
     },
+        { 
+        // number216
+        question: "Mechanisms responsible for drug interactions include those related to :" ,
+        answers: [
+            { text: "Absorption" ,correct:false},
+            { text: "Biotransformation and excretion" ,correct:false},
+            { text: "Protein binding" ,correct:false},
+            { text: "All The above" ,correct:true},
+        ]
+    },
+        { 
+        // number217
+        question: "Which of the following is the best definition of any drug that has a quaternary structure ?" ,
+        answers: [
+            { text: "absorbed very well , with oral bioavailabilities of or very close to 100%" ,correct:false},
+            { text: "blocks both muscarinic and nicotinic receptors for ACh" ,correct:false},
+            { text: "derived from a plant" ,correct:false},
+            { text: "ionized at physiologic pH , can't enter the CNS well , if at all" ,correct:true},
+        ]
+    },
+        { 
+        // number218
+        question: "The margin of safety of a drug gives you information about the :" ,
+        answers: [
+            { text: "number of drug interactions that are likely to be caused" ,correct:false},
+            { text: "relative ratio between a drug's average lethal and average effective dose" ,correct:true},
+            { text: "number of indications for which it can be used" ,correct:false},
+            { text: "number of contraindications for which it shouldn't be used" ,correct:false},
+        ]
+    },
+        { 
+        // number219
+        question: "A drug cleared partially 50% by liver and 50% by kidney , it's normal dose is 300 mg/day. the suitable dose for a patient with creatinine clearance 20 ml/min (normal creatinine clearance = 100 ml/min) :" ,
+        answers: [
+            { text: "100 mg/day" ,correct:false},
+            { text: "130 mg/day" ,correct:false},
+            { text: "150 mg/day" ,correct:false},
+            { text: "180 mg/day" ,correct:true},
+        ]
+    },
+        { 
+        // number220
+        question: "Drug metabolism usually results in a product that is :" ,
+        answers: [
+            { text: "More likely to distribute intracellularly " ,correct:false},
+            { text: "Less lipid-soluble than the original drug" ,correct:true},
+            { text: "More likely to be absorbed by kidney tubules" ,correct:false},
+            { text: "Less polar than the original drug" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number100
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number101
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number102
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number103
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number104
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
