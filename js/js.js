@@ -1218,57 +1218,57 @@ const questions = [
             { text: "Drugs with zero order Kinetics have a non-linear disappearance curve" ,correct:false},
         ]
     },
+        { 
+        // number211
+        question: "Regarding biotransformation of most of the drugs" ,
+        answers: [
+            { text: "The general aim is to convert active lipid soluble drugs into inactive water soluble metabolites" ,correct:true},
+            { text: "Phase I metabolism includes conjugation with glucuronic acid" ,correct:false},
+            { text: "Always leads to inactivation of drugs" ,correct:false},
+            { text: "Phase II metabolism includes hydrolysis" ,correct:false},
+        ]
+    },
+        { 
+        // number212
+        question: "Two drugs with the same effect were given together , the net effect produced was greater then the sum of their individual effects. This phenomenon is termed :" ,
+        answers: [
+            { text: "Potentiation" ,correct:false},
+            { text: "Synergism" ,correct:true},
+            { text: "Addition" ,correct:false},
+            { text: "Cross tolerance" ,correct:false},
+        ]
+    },
+        { 
+        // number213
+        question: "A weak acid drug with pKa = 4 is placed in a solution which has a pH of 3 What is the ratio of unionized to ionized drug ?" ,
+        answers: [
+            { text: "0.1" ,correct:false},
+            { text: "1" ,correct:false},
+            { text: "10" ,correct:true},
+            { text: "100" ,correct:false},
+        ]
+    },
+        { 
+        // number214
+        question: "The phrase ( ability to bind to a receptor ) fits the definition of :" ,
+        answers: [
+            { text: "Affinity" ,correct:true},
+            { text: "Agonist" ,correct:false},
+            { text: "Antagonist" ,correct:false},
+            { text: "Efficacy" ,correct:false},
+        ]
+    },
+        { 
+        // number215
+        question: "Drug absorption is often irregular with :" ,
+        answers: [
+            { text: "Intravenous administration" ,correct:false},
+            { text: "Intramuscular administration" ,correct:false},
+            { text: "Rectal suppository administration" ,correct:true},
+            { text: "Intranasal spray administration" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number95
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number96
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number97
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number98
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number99
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number100
 //     //     question: "" ,
