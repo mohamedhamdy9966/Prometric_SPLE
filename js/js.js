@@ -1318,58 +1318,57 @@ const questions = [
             { text: "Less polar than the original drug" ,correct:false},
         ]
     },
+        { 
+        // number221
+        question: "Therapeutic drug monitoring is indicated in the following conditions EXCEPT :" ,
+        answers: [
+            { text: "Drug produces symptoms of toxicity" ,correct:false},
+            { text: "Non compliance is suspected" ,correct:false},
+            { text: "The dose of the drug doesn't produce the desired therapeutic effect" ,correct:false},
+            { text: "Easily measured therapeutic response" ,correct:true},
+        ]
+    },
+        { 
+        // number222
+        question: "Concerning first-order kinetics, which of the following is INCORRECT :" ,
+        answers: [
+            { text: "The rate of the process is proportional to concentration of the drug" ,correct:false},
+            { text: "Log Plasma concentration-time curve is linear" ,correct:false},
+            { text: "Digoxin follows this form of kinetics" ,correct:false},
+            { text: "A constant amount of drug is eliminated per unit time" ,correct:true},
+        ]
+    },
+        { 
+        // number223
+        question: "Concerning renal excretion of drugs, which of the following is CORRECT :" ,
+        answers: [
+            { text: "Protein-bound drugs are easily filtered through glomeruli" ,correct:false},
+            { text: "Drugs with large volume of distribution (Vd) have rapid clearance" ,correct:false},
+            { text: "Acidification of urine increase excretion of alkaline drugs" ,correct:true},
+            { text: "Alkalinization of urine decrease excretion of aspirin" ,correct:false},
+        ]
+    },
+        { 
+        // number224
+        question: "Which of the following drugs may follow zero order kinetics :" ,
+        answers: [
+            { text: "Diazepam" ,correct:false},
+            { text: "Phenobarbitone" ,correct:false},
+            { text: "Propranolol" ,correct:false},
+            { text: "Phenytoin" ,correct:true},
+        ]
+    },
+        { 
+        // number225
+        question: "Teratogenecity is" ,
+        answers: [
+            { text: "Drug induced disease" ,correct:false},
+            { text: "Decrease response to the usual dose of the drug" ,correct:false},
+            { text: "Abnormal response due to genetic abnormality" ,correct:false},
+            { text: "The drug induces fetal malformation when given to pregnant women" ,correct:true},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-// ];
-//         // { 
-//         // number92
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number93
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number94
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number95
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number96
 //     //     question: "" ,
