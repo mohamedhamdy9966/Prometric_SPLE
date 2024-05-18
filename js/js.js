@@ -2397,6 +2397,9 @@ function login(usernameInput, passwordInput) {
     else if (usernameInput === "hossam_ali" && passwordInput === "hossam@2024") {
         startQuiz(); // Call startQuiz if credentials are correct
     }
+    else if (usernameInput === "raghad" && passwordInput === "raghad@2024") {
+        startQuiz(); // Call startQuiz if credentials are correct
+    }
     else {
         alert("Please enter your username and password right");
     }
