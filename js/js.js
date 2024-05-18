@@ -1418,58 +1418,57 @@ const questions = [
             { text: "Decreased urinary excretion of a nonionized drug" ,correct:false},
         ]
     },
+        { 
+        // number231
+        question: "An old man named Fahad Came to hospital with renal failure which of these drugs need dose adjustments",
+        answers: [
+            { text: "Clindamycin" ,correct:false},
+            { text: "imipenem" ,correct:true},
+            { text: "Ceftriaxone" ,correct:false},
+            { text: "Linezolid" ,correct:false},
+        ]
+    },
+        { 
+        // number232
+        question: "Which of these drugs need double checks" ,
+        answers: [
+            { text: "Antibiotics" ,correct:false},
+            { text: "Antidepressants" ,correct:false},
+            { text: "Antiinflammatory" ,correct:false},
+            { text: "Anti thrombolytic" ,correct:true},
+        ]
+    },
+        { 
+        // number233
+        question: "A 62-year-old patient, otherwise healthy, was brought to the emergency department in a confused state after ingesting one green fruit of castor bean two hours ago. he had vomit once at home. He had dryness of mouth and the pupils were bilaterally dilated with sluggish reaction to light. He was treated symptomatically with activated charcoal. Which of the following is the main active constituent responsible for the toxic effect of castor seeds ?" ,
+        answers: [
+            { text: "Barbaloin" ,correct:false},
+            { text: "Ricin" ,correct:true},
+            { text: "Mezerein" ,correct:false},
+            { text: "Ergotamine" ,correct:false},
+        ]
+    },
+        { 
+        // number234
+        question: "A-65-year-old man asks about vaccination before he leaves for summer vacation next month. He brings his vaccination record for the past 4 years Today's Date : 05/31/2014 . Herpes Zoster : 8/2011 , Influenza : Every Year , Pneumococcal : 10/2011 . Which vaccination should this patient receive ?" ,
+        answers: [
+            { text: "Influenza" ,correct:false},
+            { text: "Pneumococcal polysaccharide" ,correct:true},
+            { text: "Hepatitis A" ,correct:false},
+            { text: "Measles , Mumps , Rubella" ,correct:false},
+        ]
+    },
+        { 
+        // number235
+        question: "Price of product was increased from 100 SA Riyals to 105 SA Riyals. This resulted in a large decline on demand from 120 to 80. Which of the following types of demand does this product follow ?" ,
+        answers: [
+            { text: "Latent" ,correct:false},
+            { text: "Elastic" ,correct:true},
+            { text: "Unaffected" ,correct:false},
+            { text: "Inelastic" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number101
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number102
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number103
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number104
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-// ];
 //         // { 
 //         // number92
 //     //     question: "" ,
