@@ -1368,37 +1368,37 @@ const questions = [
             { text: "The drug induces fetal malformation when given to pregnant women" ,correct:true},
         ]
     },
+        { 
+        // number226
+        question: "Which of the following is phase I biotransformation reaction :" ,
+        answers: [
+            { text: "Glucuronide conjugation with chloramphenicol" ,correct:false},
+            { text: "Glycine conjugation with salicylate" ,correct:false},
+            { text: "Hydrolysis of acetylcholine" ,correct:true},
+            { text: "Acetylation of Sulfonamides" ,correct:false},
+        ]
+    },
+        { 
+        // number227
+        question: "An abnormal reaction to a drug due to genetic abnormality is termed :" ,
+        answers: [
+            { text: "Tachyphylaxis" ,correct:false},
+            { text: "Teratogenicity" ,correct:false},
+            { text: "Idiosyncrasy" ,correct:true},
+            { text: "Hypersensitivity" ,correct:false},
+        ]
+    },
+        { 
+        // number228
+        question: "All of the following drgs cause enzyme induction Except :" ,
+        answers: [
+            { text: "Androgen" ,correct:false},
+            { text: "Phenobarbitone" ,correct:false},
+            { text: "Rifampicin" ,correct:false},
+            { text: "Cimetidine" ,correct:true},
+        ]
+    },
 ];
-//         // { 
-//         // number96
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number97
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number98
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number99
 //     //     question: "" ,
@@ -2478,7 +2478,9 @@ function showQuestion() {
     questionElement.innerHTML = questionNo + ". " + currentQuestion.
     question;
 
-    currentQuestion.answers.forEach(answer => {
+    const shuffledAnswers = shuffle(currentQuestion.answers);
+
+    shuffledAnswers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
@@ -2544,10 +2546,8 @@ function addEventListeners() {
     nextButton.addEventListener("click", () => {
         if (currentQuestionIndex < shuffledQuestions.length) {
             startNext();
-        } else if (currentQuestionIndex === shuffledQuestions.length) {
-            Score();
-        } else {
-            currentQuestionIndex = 0; // Reset currentQuestionIndex to 0 to start the quiz again
+        }else {
+            // currentQuestionIndex = 0; // Reset currentQuestionIndex to 0 to start the quiz again
             startQuiz(); // Start the quiz again
         }
     });
@@ -2576,7 +2576,7 @@ function Score() {
     clearInterval(timer);
     resetState();
     questionElement.innerHTML = `Congratulations ! you scored ${sofa} out of ${shuffledQuestions.length}`;
-    nextButton.innerHTML = "The End";
+    nextButton.innerHTML = "Try Again...";
     nextButton.style.display = "block";
     previousButton.innerHTML = "Try Again";
     // previousButton.style.display = "block";

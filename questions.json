@@ -1,0 +1,58 @@
+[
+    {
+        "title": "what is the name of the project ?",
+        "answer_1":"Html",
+        "answer_2":"Css",
+        "answer_3":"Java",
+        "answer_4":"C++",
+        "right_answer":"C++"
+    },
+    {
+        "title": "what is the name of the file ?",
+        "answer_1":"Xtml",
+        "answer_2":"Bootstrap",
+        "answer_3":"C--",
+        "answer_4":"XYZ",
+        "right_answer":"XYZ"
+    },
+    {
+        "title": "what is the name of the man ?",
+        "answer_1":"man",
+        "answer_2":"done",
+        "answer_3":"you",
+        "answer_4":"she",
+        "right_answer":"she"
+    },
+    {
+        "title": "what is the name of the legs ?",
+        "answer_1":"leg",
+        "answer_2":"legs",
+        "answer_3":"legend",
+        "answer_4":"hand",
+        "right_answer":"hand"
+    },
+    {
+        "title": "what is the name of the hair ?",
+        "answer_1":"who",
+        "answer_2":"wanner",
+        "answer_3":"win",
+        "answer_4":"lose",
+        "right_answer":"win"
+    },
+    {
+        "title": "what is the name of the family ?",
+        "answer_1":"why",
+        "answer_2":"how",
+        "answer_3":"where",
+        "answer_4":"when",
+        "right_answer":"why"
+    },
+    {
+        "title": "what is the name of the woman ?",
+        "answer_1":"he",
+        "answer_2":"she",
+        "answer_3":"they",
+        "answer_4":"we",
+        "right_answer":"we"
+    }
+]
