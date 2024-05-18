@@ -1618,37 +1618,37 @@ const questions = [
             { text: "Righteous" ,correct:false},
         ]
     },
+        { 
+        // number451
+        question: "A ptient with ASCVD and his lipid profile is controlled on statin 80 mg, he recently discovered that he is has a SLC)!B!*5, but however he has never complained about myopathy, what is the best course of actions :" ,
+        answers: [
+            { text: "Continue the same dose of statin" ,correct:true},
+            { text: "Switch to gemfibrozil" ,correct:false},
+            { text: "Reduce the dose of statin to 40 mg" ,correct:false},
+            { text: "Reduce the dose of statin to 20 mg" ,correct:false},
+        ]
+    },
+        { 
+        // number252
+        question: "Which of the following is a coomon enzyme polymorphism that could potentially alter clopidogrel efficacy ?" ,
+        answers: [
+            { text: "Cyp2c7" ,correct:false},
+            { text: "Cyp2c19" ,correct:true},
+            { text: "Cyp2c9" ,correct:false},
+            { text: "Cyp2c10" ,correct:false},
+        ]
+    },
+        { 
+        // number253
+        question: "" ,
+        answers: [
+            { text: "Affordability" ,correct:false},
+            { text: "Accessibility" ,correct:true},
+            { text: "Acceptability" ,correct:false},
+            { text: "Availability" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number93
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number94
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number95
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number96
 //     //     question: "" ,
