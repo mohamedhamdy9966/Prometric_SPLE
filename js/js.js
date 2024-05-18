@@ -1468,158 +1468,157 @@ const questions = [
             { text: "Inelastic" ,correct:false},
         ]
     },
+        { 
+        // number236
+        question: "Which of the immunoglobulin (Ig) is frequently found to beelevated in asthmatic patients ?" ,
+        answers: [
+            { text: "IgA" ,correct:false},
+            { text: "IgE" ,correct:true},
+            { text: "IgM" ,correct:false},
+            { text: "IgD" ,correct:false},
+        ]
+    },
+        { 
+        // number237
+        question: "A 48 woman suufers from fatigue, weakness and polyurination and lab tests proved that she is diabetic . A doctor prescribed her 850 mg metformin twice a day and so blood sugar become normal but after sometime she did another lab tests and the result was hemoglubinated sugar increased by 1% than the last result what will you advise her ?" ,
+        answers: [
+            { text: "Decrease metformin dose" ,correct:false},
+            { text: "Increase metformin dose" ,correct:true},
+            { text: "Do nothing" ,correct:false},
+            { text: "Shifting to another type insulin" ,correct:false},
+        ]
+    },
+        { 
+        // number238
+        question: "A pharmacy already has a medication for 3500 SAR but has side effects. There are two alternative drugs with the same efficacy, drug A costs 3000 SAR and drug B costs SAR, What is the best decision ?" ,
+        answers: [
+            { text: "Accept both drugs" ,correct:false},
+            { text: "Accept A and reject B" ,correct:true},
+            { text: "Reject both drugs" ,correct:false},
+            { text: "Reject A and accept B" ,correct:false},
+        ]
+    },
+        { 
+        // number239
+        question: "A Child called Fahad came with his parents suffers from bowel, leg, and bone pain, What should be given ?" ,
+        answers: [
+            { text: "Calcidol" ,correct:false},
+            { text: "Folic acid" ,correct:true},
+            { text: "Ergocholecaliferol" ,correct:false},
+            { text: "Ferritin" ,correct:false},
+        ]
+    },
+        { 
+        // number240
+        question: "A patient with sneezing, cold, and runny nose. Which treatment should you give ?" ,
+        answers: [
+            { text: "Paracetamol" ,correct:false},
+            { text: "Pseudoephedrine" ,correct:true},
+            { text: "Ibuprofen" ,correct:false},
+            { text: "Citric acid" ,correct:false},
+        ]
+    },
+        { 
+        // number241
+        question: "Which of the following medication error is difficult to prevent ?" ,
+        answers: [
+            { text: "Omission error" ,correct:false},
+            { text: "Allergic reactions to an unknown patient" ,correct:true},
+            { text: "Wrong time error" ,correct:false},
+            { text: "Incorrect duration of treatment" ,correct:false},
+        ]
+    },
+        { 
+        // number242
+        question: "A 20 year-old man encounters a serious road accident. He is brought to the hospital with deep wounds. His vaccination history is unknown.Which of the following would be best to administer to this patient at this time ?" ,
+        answers: [
+            { text: "Tetanus vaccine" ,correct:false},
+            { text: "Tetanus vaccine and tetanus immune globulin" ,correct:true},
+            { text: "Tetanus immune globulin" ,correct:false},
+            { text: "Tetanus vaccine and human papilloma virus vaccine" ,correct:false},
+        ]
+    },
+        { 
+        // number243
+        question: "Which of the following is used as an electronic medication dispenser to improve medication adherence ?" ,
+        answers: [
+            { text: "Text messaging" ,correct:false},
+            { text: "Med-E-Lert Automatic Pill Dispenser" ,correct:true},
+            { text: "Cell Phone Calendar" ,correct:false},
+            { text: "E-Pill MultiAlarm TimeCap" ,correct:false},
+        ]
+    },
+        { 
+        // number244
+        question: "Which of the following terms describes living microbe with reduced virulence and used for vaccination ?" ,
+        answers: [
+            { text: "Virulent" ,correct:false},
+            { text: "Attenuated" ,correct:true},
+            { text: "Dormant" ,correct:false},
+            { text: "Encapsulated" ,correct:false},
+        ]
+    },
+        { 
+        // number245
+        question: "A28-year-old pregnant woman called Heba Lives Abroad who in labor is admitted to the hospital in riyad related to her medical husband insurance. She tested positive for group B streptococcus colonization at her 36-week appointment. She has a penicillin allergy and her culture are resistant to both clindamycin and erythromycin. What is the recommended treatment for this patient ?" ,
+        answers: [
+            { text: "Cefazolin" ,correct:false},
+            { text: "Vancomycin" ,correct:true},
+            { text: "Penicillin G" ,correct:false},
+            { text: "Ceftriaxone" ,correct:false},
+        ]
+    },
+        { 
+        // number246
+        question: "67 year old man called Salman lives in Qasim with his wife without his children presents with complaints of tremors trouble waiding and masked face parkinsons disease is suspected levodopa is prescribed along with a compound to lower required dose of levodopa and to achieve an effective brain dopamine concentration. Which of the following is that most likely compound ?" ,
+        answers: [
+            { text: "Pergolide" ,correct:false},
+            { text: "Carbidopa" ,correct:true},
+            { text: "Selegiline" ,correct:false},
+            { text: "Entacapone" ,correct:false},
+        ]
+    },
+        { 
+        // number247
+        question: "What is the latin abbreviation for (after meals)?" ,
+        answers: [
+            { text: "A.C." ,correct:false},
+            { text: "P.C." ,correct:true},
+            { text: "A.A." ,correct:false},
+            { text: "I.C." ,correct:false},
+        ]
+    },
+        { 
+        // number248
+        question: "A drug has a clearance value of 4.75 L/hour and 65% is cleared vy renal excretion. Which of the following would be the non-renal clearance value ?" ,
+        answers: [
+            { text: "1.25 L/hour" ,correct:false},
+            { text: "1.66 L/hour" ,correct:true},
+            { text: "1.90 L/hour" ,correct:false},
+            { text: "2.05 L/hour" ,correct:false},
+        ]
+    },
+        { 
+        // number249
+        question: "Which of the following represents the immunity acquired by give living organism with attenuated virus ?" ,
+        answers: [
+            { text: "Local immunity" ,correct:false},
+            { text: "Artificial active immunity" ,correct:true},
+            { text: "Passive immunity" ,correct:false},
+            { text: "Natural Active immunity" ,correct:false},
+        ]
+    },
+        { 
+        // number450
+        question: "Which of the ethical principles do violates as a pharmacist when time and give consultations to only relative ?" ,
+        answers: [
+            { text: "Autonomy" ,correct:false},
+            { text: "Justice" ,correct:true},
+            { text: "Beneficence" ,correct:false},
+            { text: "Righteous" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number92
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number93
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number94
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number95
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number96
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number97
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number98
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number99
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number100
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number101
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number102
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number103
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number104
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-// ];
-//         // { 
-//         // number92
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number93
 //     //     question: "" ,
