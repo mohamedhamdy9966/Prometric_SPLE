@@ -1398,27 +1398,27 @@ const questions = [
             { text: "Cimetidine" ,correct:true},
         ]
     },
+        { 
+        // number229
+        question: "Which of the following is INCORRECT regarding drug distribution :" ,
+        answers: [
+            { text: "it depends on blood flow and size of organ" ,correct:false},
+            { text: "Depends on solubility of the drug in tissue" ,correct:false},
+            { text: "Is increased for drug which is less ionized" ,correct:false},
+            { text: "Is increased for drugs strongly bound to plasma proteins" ,correct:true},
+        ]
+    },
+        { 
+        // number230
+        question: "Which of the following would be likely the result of a decrease in urinary pH :" ,
+        answers: [
+            { text: "Decreased urinary excretion of a weak base" ,correct:false},
+            { text: "Increased urinary excretion of a weak acid" ,correct:false},
+            { text: "Increased urinary excretion of weak base" ,correct:true},
+            { text: "Decreased urinary excretion of a nonionized drug" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number99
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number100
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number101
 //     //     question: "" ,
