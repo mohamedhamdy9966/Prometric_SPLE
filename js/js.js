@@ -1611,7 +1611,7 @@ const questions = [
         { 
         // number450
         question: "Which of the ethical principles do violates as a pharmacist when time and give consultations to only relative ?" ,
-        image: `<img src="../images/123"></img>`,
+        // image: `<img src="../images/123"></img>`,
         answers: [
             { text: "Autonomy" ,correct:false},
             { text: "Justice" ,correct:true},
@@ -1622,7 +1622,7 @@ const questions = [
         { 
         // number451
         question: "A patient with ASCVD and his lipid profile is controlled on statin 80 mg, he recently discovered that he is has a SLC)!B!*5, but however he has never complained about myopathy, what is the best course of actions :" ,
-        image: `<img src="../images/123.png" alt="img"></img>`,
+        // image: `<img src="../images/123.png" alt="img"></img>`,
         answers: [
             { text: "Continue the same dose of statin" ,correct:true},
             { text: "Switch to gemfibrozil" ,correct:false},
@@ -1633,7 +1633,7 @@ const questions = [
         { 
         // number252
         question: "Which of the following is a coomon enzyme polymorphism that could potentially alter clopidogrel efficacy ?" ,
-        image: `<img src="../images/123.png" alt="img"></img>`,
+        // image: `<img src="../images/123.png" alt="img"></img>`,
         answers: [
             { text: "Cyp2c7" ,correct:false},
             { text: "Cyp2c19" ,correct:true},
@@ -1644,7 +1644,7 @@ const questions = [
         { 
         // number253
         question: "Which of the following is related to health services not reaching patients in rural area ?" ,
-        image: `<img src="../images/123" alt="img"></img>`,
+        // image: `<img src="../images/123" alt="img"></img>`,
         answers: [
             { text: "Affordability" ,correct:false},
             { text: "Accessibility" ,correct:true},
@@ -1652,108 +1652,107 @@ const questions = [
             { text: "Availability" ,correct:false},
         ]
     },
+        { 
+        // number254
+        question: "Which is the following FALSE regarding bioavailability :" ,
+        answers: [
+            { text: "It's calculated from comparison of the area under the plasma concentration time curves after IV and oral administration" ,correct:false},
+            { text: "Usually less than 100% after oral route" ,correct:false},
+            { text: "It's high for drugs undergoing extensive first pass hepatic metabolism" ,correct:true},
+            { text: "May be altered by pharmaceutical formulation" ,correct:false},
+        ]
+    },
+        { 
+        // number255
+        question: "Which of the following is FALSE regarding highly lipid soluble drugs :" ,
+        answers: [
+            { text: "Have low lipid/water coefficient" ,correct:false},
+            { text: "Not readily absorbed from gut" ,correct:false},
+            { text: "Are readily excreted without metabolism" ,correct:false},
+            { text: "All of the above" ,correct:true},
+        ]
+    },
+        { 
+        // number256
+        question: "Drug metabolism can result in one of the following :" ,
+        answers: [
+            { text: "Metabolites with greater water solubility than the parent compound" ,correct:false},
+            { text: "Glucuronic conjugation" ,correct:false},
+            { text: "Metabolites with greater pharmacological activity than the parent compound" ,correct:false},
+            { text: "All of the above" ,correct:true},
+        ]
+    },
+        { 
+        // number257
+        question: "Sources of data in insurance companies ?" ,
+        answers: [
+            { text: "Claims" ,correct:true},
+            { text: "Heath Data" ,correct:false},
+            { text: "Information Collection" ,correct:false},
+            { text: "Random Survey" ,correct:false},
+        ]
+    },
+        { 
+        // number258
+        question: "Which of the following error detection strategies result in limiting detection ?" ,
+        answers: [
+            { text: "bar-coding" ,correct:false},
+            { text: "trigger tools" ,correct:false},
+            { text: "voluntary reporting" ,correct:false},
+            { text: "mandatory reporting" ,correct:true},
+        ]
+    },
+        { 
+        // number259
+        question: "Mid goal to long term future goal ?" ,
+        answers: [
+            { text: "Mission" ,correct:false},
+            { text: "Vision" ,correct:true},
+            { text: "Plan" ,correct:false},
+            { text: "Strategy" ,correct:false},
+        ]
+    },
+        { 
+        // number260
+        question: "Preventive and curative institution is ?" ,
+        answers: [
+            { text: "Primary" ,correct:false},
+            { text: "Secondary" ,correct:true},
+            { text: "tertiary" ,correct:false},
+            { text: "Specialty" ,correct:false},
+        ]
+    },
+        { 
+        // number261
+        question: "Mission and vision can be present in which strategy ?" ,
+        answers: [
+            { text: "Planning" ,correct:false},
+            { text: "Organization" ,correct:false},
+            { text: "Strategic" ,correct:true},
+            { text: "Handling" ,correct:false},
+        ]
+    },
+        { 
+        // number262
+        question: "Long term plan use all aspects in organization ?" ,
+        answers: [
+            { text: "Strategy" ,correct:true},
+            { text: "Operation" ,correct:false},
+            { text: "Organization" ,correct:false},
+            { text: "Vision" ,correct:false},
+        ]
+    },
+        { 
+        // number263
+        question: "Pharmacist wrote email to another pharmacist to ask add medication to the formulary in the hospital this is consider as ?" ,
+        answers: [
+            { text: "Inter institutional" ,correct:false},
+            { text: "Intra institutional" ,correct:false},
+            { text: "Written communication" ,correct:true},
+            { text: "Non Verbal communication" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number96
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number97
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number98
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number99
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number100
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number101
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number102
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number103
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number104
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-// ];
 //         // { 
 //         // number92
 //     //     question: "" ,
