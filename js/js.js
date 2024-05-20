@@ -1752,77 +1752,77 @@ const questions = [
             { text: "Non Verbal communication" ,correct:false},
         ]
     },
+        { 
+        // number264
+        question: "Head of pharmacy decide to make group to arrange formulary drugs in hospital ?" ,
+        answers: [
+            { text: "Organizing" ,correct:false},
+            { text: "Planning" ,correct:true},
+            { text: "Leading" ,correct:false},
+            { text: "Handling" ,correct:false},
+        ]
+    },
+        { 
+        // number265
+        question: "You received a prescription on a plain paper what to do ?" ,
+        answers: [
+            { text: "Tell the manager " ,correct:false},
+            { text: "Talk to the prescriber and don't dispense it" ,correct:true},
+            { text: "Talk to Your colleague and ask for his opinion" ,correct:false},
+            { text: "Inform the police" ,correct:false},
+        ]
+    },
+        { 
+        // number266
+        question: "Pharmacist manager screamed on one of the pharmacists who dispensed wrong medication in front of all of the staff what is the good response ?" ,
+        answers: [
+            { text: "He should punish him in separate area" ,correct:false},
+            { text: "Ask for a meeting with the staff" ,correct:false},
+            { text: "Cut from his salary" ,correct:false},
+            { text: "Try to find the cause of the error and set solutions" ,correct:true},
+        ]
+    },
+        { 
+        // number267
+        question: "Which of the following is the function of the pharmacy and therapeutic committee in a hospital ?" ,
+        answers: [
+            { text: "Responsible for poison management" ,correct:false},
+            { text: "Monitor the adverse reaction reporting" ,correct:false},
+            { text: "Monitor the medication error reporting" ,correct:false},
+            { text: "Responsible for drug formulary management" ,correct:true},
+        ]
+    },
+        { 
+        // number268
+        question: "Which of the following committees is dedicated to developing and maintaining a list of approved medicine for the hospital medicines for the hospital use ?" ,
+        answers: [
+            { text: "Medical records" ,correct:false},
+            { text: "Medication audit" ,correct:false},
+            { text: "Quality assurance" ,correct:false},
+            { text: "Pharmacy and therapeutics" ,correct:true},
+        ]
+    },
+        { 
+        // number269
+        question: "Which of the following is the definition of management ?" ,
+        answers: [
+            { text: "The art of maximizing Profitability" ,correct:false},
+            { text: "The art of maximizing Productivity" ,correct:true},
+            { text: "The art of maximizing Possibilities" ,correct:false},
+            { text: "The art of maximizing Predictability" ,correct:false},
+        ]
+    },
+        { 
+        // number270
+        question: "A-65-year- old man presents to the Pharmacy for a refill his medication. On review of his refill history, The pharmacist noticed that he does not refill his medication regularly. Upon asking him, The Patient started that he has multiple medication that require complex administration. Which of the following non adherence factors affecting above patient ?" ,
+        answers: [
+            { text: "Patient related Factors" ,correct:false},
+            { text: "Provider related Factors" ,correct:false},
+            { text: "Health Care System Factors" ,correct:false},
+            { text: "Medication and Condition Factor" ,correct:true},
+        ]
+    },
 ];
-//         // { 
-//         // number92
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number93
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number94
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number95
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number96
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number97
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number98
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number99
 //     //     question: "" ,
@@ -2384,10 +2384,10 @@ function login(usernameInput, passwordInput) {
         alert("Hello , Ahmed ! you can close the browser and reopen the website again to change the questions module, Best Of Luck !");
         startQuiz(); // Call startQuiz if credentials are correct
     } 
-    else if (usernameInput === "hawary" && passwordInput === "hawary@2024") {
-        alert("Hello , Hawary ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-        startQuiz(); // Call startQuiz if credentials are correct
-    }
+    // else if (usernameInput === "hawary" && passwordInput === "hawary@2024") {
+    //     alert("Hello , Hawary ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
+    //     startQuiz(); // Call startQuiz if credentials are correct
+    // }
     else if (usernameInput === "haninmubarak" && passwordInput === "hanin@2024") {
         alert("Hello , Hanin ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
         startQuiz(); // Call startQuiz if credentials are correct
