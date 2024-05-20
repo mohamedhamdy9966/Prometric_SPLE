@@ -1611,6 +1611,7 @@ const questions = [
         { 
         // number450
         question: "Which of the ethical principles do violates as a pharmacist when time and give consultations to only relative ?" ,
+        image: `<img src="../images/123"></img>`,
         answers: [
             { text: "Autonomy" ,correct:false},
             { text: "Justice" ,correct:true},
@@ -1620,7 +1621,8 @@ const questions = [
     },
         { 
         // number451
-        question: "A ptient with ASCVD and his lipid profile is controlled on statin 80 mg, he recently discovered that he is has a SLC)!B!*5, but however he has never complained about myopathy, what is the best course of actions :" ,
+        question: "A patient with ASCVD and his lipid profile is controlled on statin 80 mg, he recently discovered that he is has a SLC)!B!*5, but however he has never complained about myopathy, what is the best course of actions :" ,
+        image: `<img src="../images/123.png" alt="img"></img>`,
         answers: [
             { text: "Continue the same dose of statin" ,correct:true},
             { text: "Switch to gemfibrozil" ,correct:false},
@@ -1631,6 +1633,7 @@ const questions = [
         { 
         // number252
         question: "Which of the following is a coomon enzyme polymorphism that could potentially alter clopidogrel efficacy ?" ,
+        image: `<img src="../images/123.png" alt="img"></img>`,
         answers: [
             { text: "Cyp2c7" ,correct:false},
             { text: "Cyp2c19" ,correct:true},
@@ -1640,7 +1643,8 @@ const questions = [
     },
         { 
         // number253
-        question: "" ,
+        question: "Which of the following is related to health services not reaching patients in rural area ?" ,
+        image: `<img src="../images/123" alt="img"></img>`,
         answers: [
             { text: "Affordability" ,correct:false},
             { text: "Accessibility" ,correct:true},
@@ -2317,9 +2321,11 @@ const questions = [
 
 const questionElement = document.getElementById("question");
 const answersButton = document.getElementById("answer_btn");
+const photo = document.getElementById("photo");
 const nextButton = document.getElementById("next_btn");
 const previousButton = document.getElementById("previous_btn");
 const finishButton = document.getElementById("finish_btn");
+const flagButton = document.getElementById("flag_btn");
 const calculator = document.getElementById("helper-calculator");
 const calculator_button = document.getElementById("calculator_button");
 const timerElement = document.getElementById("timer"); 
@@ -2362,6 +2368,7 @@ loginForm.appendChild(submitButton);
 // Append form to the document body
 document.body.appendChild(loginForm);
 
+// login function
 loginForm.addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the default form submission behavior
     const enteredUsername = usernameInput.value;
@@ -2369,37 +2376,72 @@ loginForm.addEventListener("submit", function(event) {
     login(enteredUsername, enteredPassword); // Call the login function with entered credentials
 });
 
-
+// handling username & password login
 function login(usernameInput, passwordInput) {
     if (usernameInput === "ahmedessam" && passwordInput === "essam@1993") {
         startQuiz(); // Call startQuiz if credentials are correct
     } 
     else if (usernameInput === "m" && passwordInput === "m") {
+        alert("Hello , Ahmed ! you can close the browser and reopen the website again to change the questions module, Best Of Luck !");
         startQuiz(); // Call startQuiz if credentials are correct
     } 
     else if (usernameInput === "hawary" && passwordInput === "hawary@2024") {
+        alert("Hello , Hawary ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
         startQuiz(); // Call startQuiz if credentials are correct
     }
     else if (usernameInput === "haninmubarak" && passwordInput === "hanin@2024") {
+        alert("Hello , Hanin ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
         startQuiz(); // Call startQuiz if credentials are correct
     }
     else if (usernameInput === "alaa_tallal" && passwordInput === "alaa@2024") {
+        alert("Hello , Alaa ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
         startQuiz(); // Call startQuiz if credentials are correct
     }
     else if (usernameInput === "khansa_gasm" && passwordInput === "khansa@2024") {
+        alert("Hello , Khansa ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
         startQuiz(); // Call startQuiz if credentials are correct
     }
     else if (usernameInput === "youssef_elanzy" && passwordInput === "youssef@2024") {
+        alert("Hello , Youssef ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
         startQuiz(); // Call startQuiz if credentials are correct
     }
     else if (usernameInput === "hossam_ali" && passwordInput === "hossam@2024") {
+        alert("Hello , Hossam ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
         startQuiz(); // Call startQuiz if credentials are correct
     }
     else if (usernameInput === "raghad" && passwordInput === "raghad@2024") {
+        alert("Hello , Raghad ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
         startQuiz(); // Call startQuiz if credentials are correct
     }
     else {
         alert("Please enter your username and password right");
+    }
+}
+
+//getting questions
+function getQuestions() {
+    let myRequest = new XMLHttpRequest();
+    myRequest.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status === 200) {
+            let questionsObject = JSON.parse(this.responseText);
+            let questionsCount = questionsObject.length;
+            createBullets(questionsCount);
+        }
+    };
+    myRequest.open("GET","questions.json", true);
+    myRequest.send();
+};
+
+//createBullets
+function createBullets (num) {
+    countSpan.innerHTML = num;
+    for (let i = 0; i < num; i++) {
+        let theBullet = document.createElement("span");
+        if (i === 0) {
+            theBullet.className = "on";
+            theBullet.innerHTML = i;
+        }
+        bulletsSpanContainer.appendChild(theBullet);
     }
 }
 
@@ -2422,23 +2464,14 @@ function startQuiz() {
     // Perform actions to start the quiz
     currentQuestionIndex = 0;
     sofa = 0;
-    nextButton.innerHTML = "Next";
-    previousButton.innerHTML = "Previous";
+    nextButton.innerHTML = "Next >";
+    previousButton.innerHTML = "< Previous";
     showQuestion();
     startTimer();
     hideLoginForm();
 }
 
-// function previewPreviousQuestion() {
-//     if (currentQuestionIndex > 0) {
-//             currentQuestionIndex--;
-//             nextButton.innerHTML = "Next";
-//             previousButton.innerHTML = "Previous";
-//             showQuestion();
-//             hideLoginForm();
-//     }
-// }
-
+//function to hide the login form after logging in
 function hideLoginForm() {
     loginForm.classList.add("hidden");
     usernameInput.classList.add("hidden");
@@ -2454,7 +2487,7 @@ function startTimer() {
         const minutes = Math.floor((timeRemaining % 3600) / 60);
         const seconds = timeRemaining % 60;
 
-        timerElement.innerHTML = `Time: ${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
+        timerElement.innerHTML = `Section Time Remaining: ${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
 
         if (timeRemaining <= 0) {
             clearInterval(timer);
@@ -2475,10 +2508,20 @@ function showQuestion() {
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.
     question;
+    // photoElement.innerHTML = ``
 
-    const shuffledAnswers = shuffle(currentQuestion.answers);
+     // Check if the current question has an image
+     if (currentQuestion.image) {
+        // Create an image element
+        const imageElement = document.createElement("img");
+        imageElement.src = currentQuestion.image;
+        imageElement.classList.add("question-image");
+        questionElement.appendChild(imageElement);
+    }
+    //shuffle the answers
+    // const shuffledAnswers = shuffle(currentQuestion.answers);
 
-    shuffledAnswers.forEach(answer => {
+    currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
@@ -2491,7 +2534,8 @@ function showQuestion() {
 }
 
 function resetState() {
-    nextButton.style.display = "none";
+    nextButton.style.display = "block";
+    flagButton.style.display = "block";
     // previousButton.style.display = "block";
     finishButton.style.display = "block";
     calculator_button.style.display = "block";  // or "flex" depending on the display style you want
@@ -2513,9 +2557,17 @@ document.addEventListener('mousedown', function(event) {
         }
     }
 });
+
+let answers = JSON.parse(sessionStorage.getItem("answers")) || Array(questions.length).fill(null);
+
 // select the answer button
 function selectAnswer(e) {
     const selectedButton = e.target;
+    const selectedIndex = Array.from(answersButton.children).indexOf(selectedButton);
+    answers[currentQuestionIndex] = selectedIndex; // Save the selected answer index
+    sessionStorage.setItem("answers", JSON.stringify(answers)); // Save answers to local storage
+    updateSelectedAnswer(selectedButton); // Update UI to highlight selected answer
+    showNavigationButtons(); // Show navigation buttons
     const isCorrect = selectedButton.dataset.correct === "true";
     if (isCorrect) {
         selectedButton.classList.add("perfecto");
@@ -2530,8 +2582,19 @@ function selectAnswer(e) {
         button.disabled = "true";
     });
     nextButton.style.display = "block";
-    // previousButton.style.display = "block";
+    flagButton.style.display = "block";
+    previousButton.style.display = "block";
     finishButton.style.display = "block";
+}
+
+// Define a function to update UI to highlight selected answer
+function updateSelectedAnswer(selectedButton) {
+    button.disabled = "true";
+    Array.from(answersButton.children).forEach(button => {
+        button.classList.remove("selected");
+        button.disabled = true;
+    });
+    selectedButton.classList.add("selected"); // Add selected class to the clicked button
 }
 
 function finishQuiz() {
@@ -2549,25 +2612,61 @@ function addEventListeners() {
             startQuiz(); // Start the quiz again
         }
     });
-    // previousButton.addEventListener("click", previewPreviousQuestion);
+    previousButton.addEventListener("click", previewPreviousQuestion);
 }
 
 addEventListeners();
 
-let answers = JSON.parse(localStorage.getItem("answers")) || Array(questions.length).fill(null);
+// Define a function to move to the previous question
+function previewPreviousQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        showQuestion();
+        showNavigationButtons(); // Show navigation buttons
+        highlightSelectedAnswer(); // Highlight previously selected answer
+        nextButton.style.display = "block";
+        previousButton.style.display = "block";
+    }
+};
 
-function selectedAnswer(index) {
-    answers[currentQuestionIndex] = index;
-    localStorage.setItem("answers", JSON.stringify(answers));
-}
-
+//start next question
 function startNext() {
     currentQuestionIndex++;
     if (currentQuestionIndex < shuffledQuestions.length) {
         showQuestion();
+        highlightSelectedAnswer(); // Highlight previously selected answer
+        showNavigationButtons(); // Show navigation buttons
     } else {
         Score();
     }
+};
+
+// Define a function to highlight previously selected answer
+function highlightSelectedAnswer() {
+    const selectedIndex = answers[currentQuestionIndex];
+    if (selectedIndex !== null && selectedIndex !== undefined) {
+        const selectedButton = answersButton.children[selectedIndex];
+        updateSelectedAnswer(selectedButton);
+        Array.from(answersButton.children).forEach( button => {
+            button.disabled = "true";
+        });
+    }
+};
+
+// Function to show or hide navigation buttons based on current question index
+function showNavigationButtons() {
+    if (currentQuestionIndex === 0) {
+        previousButton.style.display = "none"; // Hide previous button on first question
+    } else {
+        previousButton.style.display = "block"; // Show previous button on subsequent questions
+    }
+}
+
+function updateSelectedAnswer(selectedButton) {
+    Array.from(answersButton.children).forEach(button => {
+        button.classList.remove("selected"); 
+    });
+    selectedButton.classList.add("selected"); 
 }
 
 function Score() {
@@ -2576,8 +2675,8 @@ function Score() {
     questionElement.innerHTML = `Congratulations ! you scored ${sofa} out of ${shuffledQuestions.length}`;
     nextButton.innerHTML = "Try Again...";
     nextButton.style.display = "block";
-    previousButton.innerHTML = "Try Again";
-    // previousButton.style.display = "block";
+    previousButton.style.display = "none";
+    flagButton.style.display = "block";
     finishButton.style.display = "none";
     calculator_button.style.display = "none";  // or "flex" depending on the display style you want
 }

@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROMETRIC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <div class="app">
-        <div class="timer" id="timer">00.00.00</div>
+        <div class="timer" id="timer">Section Time Remaining<br>00.00.00</div>
         <h1>
             prometric SPLE 
             <button id="finish_btn">
@@ -20,6 +21,7 @@
                 questions here
             </h2>
             <button class="calculator-button" id="calculator_button">Calculator</button>
+            <div id="photo"><img src="" alt=""></div>
             <div class="calculator" id="helper-calculator">
                 <form action="">
                     <div class="display">
@@ -63,15 +65,24 @@
                 <div class="btn">3</div>
                 <div class="btn">4</div> -->
             </div>
-            <div id="next_btn">
-                Next
-            </div>
+            <div class="navigation-buttons">
         <div id="previous_btn">
             Previous
         </div>
+        <div id="flag_btn">
+            <i class="fa-solid fa-flag"></i>
+        </div>
+        <div id="next_btn">
+            Next
+    </div>
+        </div>
+        <div class="bullets">
+            <div class="spans">
+            </div>
+            </div>
         </div>
     <h6>
-        BY B & W
+        BY B&W
     </h6>
     </div>
     <script src="js/js.js"></script>
