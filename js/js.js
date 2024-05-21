@@ -2675,7 +2675,7 @@ function Score() {
     nextButton.innerHTML = "Try Again...";
     nextButton.style.display = "block";
     previousButton.style.display = "none";
-    flagButton.style.display = "block";
+    flagButton.style.display = "none";
     finishButton.style.display = "none";
     calculator_button.style.display = "none";  // or "flex" depending on the display style you want
 }
