@@ -1822,37 +1822,37 @@ const questions = [
             { text: "Medication and Condition Factor" ,correct:true},
         ]
     },
+        { 
+        // number271
+        question: "It's the broad range of health care services provided by in order to optimize therapeutic outcomes for individual patients Which of the following is the term used to describe the above-mentioned definition ?" ,
+        answers: [
+            { text: "Pharmaceutical care" ,correct:false},
+            { text: "Medication Counselling" ,correct:false},
+            { text: "Medication reconciliation" ,correct:false},
+            { text: "Medication therapy Management" ,correct:true},
+        ]
+    },
+        { 
+        // number272
+        question: "Free Medical Sample Drugs (formulary or non-formulary) are provided by pharmaceutical sales representatives to physicians or members of the health care team. Which of the following is the most appropriate recommended policy for dealing with sample drugs ?" ,
+        answers: [
+            { text: "Dispense them directly to the patient" ,correct:false},
+            { text: "Keep Them with the rest of original items" ,correct:false},
+            { text: "Keep in outpatient clinics or nursing units" ,correct:false},
+            { text: "Exclude them from in-patient pharmacy, drug store or doctor's offices" ,correct:true},
+        ]
+    },
+        { 
+        // number273
+        question: "The hierarchy is showing Hospital X organizational chart.A Pharmacist assigned as a clinical pharmacist in neuroscience ward. Which of the following managerial position will the co-worker re submitting a complaint ?" ,
+        answers: [
+            { text: "Pharmacy director" ,correct:false},
+            { text: "Medical Affair Director" ,correct:false},
+            { text: "Neuroscience ward director" ,correct:false},
+            { text: "Clinical pharmacy department head" ,correct:true},
+        ]
+    },
 ];
-//         // { 
-//         // number99
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number100
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number101
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number102
 //     //     question: "" ,
