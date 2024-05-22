@@ -1852,48 +1852,47 @@ const questions = [
             { text: "Clinical pharmacy department head" ,correct:true},
         ]
     },
+        { 
+        // number274
+        question: "Most on Prescription ?" ,
+        answers: [
+            { text: "Patient name - mrn - date" ,correct:false},
+            { text: "Physician name - number - signature" ,correct:false},
+            { text: "Patient name - age - sex - Diagnose" ,correct:false},
+            { text: "All of the above" ,correct:true},
+        ]
+    },
+        { 
+        // number275
+        question: "Which of the following medication has a side effect metallic taste ?" ,
+        answers: [
+            { text: "Cefuroxime" ,correct:false},
+            { text: "Azithromycin" ,correct:false},
+            { text: "Ciprofloxacin" ,correct:false},
+            { text: "Metronidazole" ,correct:true},
+        ]
+    },
+        { 
+        // number276
+        question: "Which of the following is the advantage of using intravenous anesthetic drugs ?" ,
+        answers: [
+            { text: "Produce fast onset of anesthesia" ,correct:true},
+            { text: "Helps in maintaining anesthesia" ,correct:false},
+            { text: "Increases the minimum alveolar concentration (MAC) of the anesthetic drugs." ,correct:false},
+            { text: "Produce less cardiovascular and respiratory suppression" ,correct:false},
+        ]
+    },
+        { 
+        // number277
+        question: "Which of the following is the mode of action of phentolamine ?" ,
+        answers: [
+            { text: "Beta-adrenergic Blocker" ,correct:false},
+            { text: "Beta-adrenergic Agonist" ,correct:false},
+            { text: "Alpha-adrenergic Agonist" ,correct:false},
+            { text: "Alpha-adrenergic Blocker (non selective alpha blocker) " ,correct:true},
+        ]
+    },
 ];
-//         // { 
-//         // number102
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number103
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number104
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-// ];
 //         // { 
 //         // number92
 //     //     question: "" ,
@@ -2325,9 +2324,12 @@ const nextButton = document.getElementById("next_btn");
 const previousButton = document.getElementById("previous_btn");
 const finishButton = document.getElementById("finish_btn");
 const flagButton = document.getElementById("flag_btn");
+const navigationButtons = document.getElementById("navigation_buttons");
 const calculator = document.getElementById("helper-calculator");
 const calculator_button = document.getElementById("calculator_button");
 const timerElement = document.getElementById("timer"); 
+let bulletsSpanContainer = document.querySelector(".bullets .spans");
+let bulletsContainer = document.querySelector(".bullets .spans");
 
 let currentQuestionIndex = 0;
 let sofa = 0;
@@ -2344,6 +2346,8 @@ var usernameInput = document.createElement("input");
 usernameInput.setAttribute("type", "text");
 usernameInput.setAttribute("placeholder", "Username");
 usernameInput.setAttribute("id", "username");
+usernameInput.setAttribute("pattern", "[A-Za-z]+"); // Ensure only letters
+usernameInput.required = true;
 usernameInput.classList.add("user-input");
 
 // Create password input field
@@ -2351,6 +2355,7 @@ var passwordInput = document.createElement("input");
 passwordInput.setAttribute("type", "password");
 passwordInput.setAttribute("placeholder", "Password");
 passwordInput.setAttribute("id", "password");
+passwordInput.required = true;
 passwordInput.classList.add("user-input");
 
 // Create submit button
@@ -2367,6 +2372,15 @@ loginForm.appendChild(submitButton);
 // Append form to the document body
 document.body.appendChild(loginForm);
 
+document.getElementById("username").addEventListener("input", function() {
+    const usernameError = document.getElementById("usernameError");
+    if (!/^[A-Za-z]*$/.test(this.value)) {
+        usernameError.textContent = "Username must contain only letters.";
+    } else {
+        usernameError.textContent = "";
+    }
+});
+
 // login function
 loginForm.addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the default form submission behavior
@@ -2376,73 +2390,96 @@ loginForm.addEventListener("submit", function(event) {
 });
 
 // handling username & password login
-function login(usernameInput, passwordInput) {
-    if (usernameInput === "ahmedessam" && passwordInput === "essam@1993") {
-        startQuiz(); // Call startQuiz if credentials are correct
-    } 
-    else if (usernameInput === "m" && passwordInput === "m") {
-        alert("Hello , Ahmed ! you can close the browser and reopen the website again to change the questions module, Best Of Luck !");
-        startQuiz(); // Call startQuiz if credentials are correct
-    } 
-    // else if (usernameInput === "hawary" && passwordInput === "hawary@2024") {
-    //     alert("Hello , Hawary ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-    //     startQuiz(); // Call startQuiz if credentials are correct
-    // }
-    else if (usernameInput === "haninmubarak" && passwordInput === "hanin@2024") {
-        alert("Hello , Hanin ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-        startQuiz(); // Call startQuiz if credentials are correct
-    }
-    else if (usernameInput === "alaa_tallal" && passwordInput === "alaa@2024") {
-        alert("Hello , Alaa ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-        startQuiz(); // Call startQuiz if credentials are correct
-    }
-    else if (usernameInput === "khansa_gasm" && passwordInput === "khansa@2024") {
-        alert("Hello , Khansa ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-        startQuiz(); // Call startQuiz if credentials are correct
-    }
-    else if (usernameInput === "youssef_elanzy" && passwordInput === "youssef@2024") {
-        alert("Hello , Youssef ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-        startQuiz(); // Call startQuiz if credentials are correct
-    }
-    else if (usernameInput === "hossam_ali" && passwordInput === "hossam@2024") {
-        alert("Hello , Hossam ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-        startQuiz(); // Call startQuiz if credentials are correct
-    }
-    else if (usernameInput === "raghad" && passwordInput === "raghad@2024") {
-        alert("Hello , Raghad ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-        startQuiz(); // Call startQuiz if credentials are correct
-    }
-    else {
-        alert("Please enter your username and password right");
-    }
-}
+// function login(usernameInput, passwordInput) {
+//     if (usernameInput === "ahmedessam" && passwordInput === "essam@1993") {
+//         startQuiz(); // Call startQuiz if credentials are correct
+//     } 
+//     else if (usernameInput === "m" && passwordInput === "m") {
+//         alert("Hello , Ahmed ! you can close the browser and reopen the website again to change the questions module, Best Of Luck !");
+//         startQuiz(); // Call startQuiz if credentials are correct
+//     } 
+//     // else if (usernameInput === "hawary" && passwordInput === "hawary@2024") {
+//     //     alert("Hello , Hawary ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
+//     //     startQuiz(); // Call startQuiz if credentials are correct
+//     // }
+//     else if (usernameInput === "haninmubarak" && passwordInput === "hanin@2024") {
+//         alert("Hello , Hanin ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
+//         startQuiz(); // Call startQuiz if credentials are correct
+//     }
+//     else if (usernameInput === "alaa_tallal" && passwordInput === "alaa@2024") {
+//         alert("Hello , Alaa ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
+//         startQuiz(); // Call startQuiz if credentials are correct
+//     }
+//     else if (usernameInput === "khansa_gasm" && passwordInput === "khansa@2024") {
+//         alert("Hello , Khansa ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
+//         startQuiz(); // Call startQuiz if credentials are correct
+//     }
+//     else if (usernameInput === "youssef_elanzy" && passwordInput === "youssef@2024") {
+//         alert("Hello , Youssef ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
+//         startQuiz(); // Call startQuiz if credentials are correct
+//     }
+//     else if (usernameInput === "hossam_ali" && passwordInput === "hossam@2024") {
+//         alert("Hello , Hossam ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
+//         startQuiz(); // Call startQuiz if credentials are correct
+//     }
+//     else if (usernameInput === "raghad" && passwordInput === "raghad@2024") {
+//         alert("Hello , Raghad ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
+//         startQuiz(); // Call startQuiz if credentials are correct
+//     }
+//     else {
+//         alert("Please enter your username and password right");
+//     }
+// }
 
-//getting questions
-function getQuestions() {
-    let myRequest = new XMLHttpRequest();
-    myRequest.onreadystatechange = function () {
-        if (this.readyState === 4 && this.status === 200) {
-            let questionsObject = JSON.parse(this.responseText);
-            let questionsCount = questionsObject.length;
-            createBullets(questionsCount);
-        }
+function login(usernameInput, passwordInput) {
+    const validCredentials = {
+        "ahmedessam": "essam@1993",
+        "m": "m",
+        "haninmubarak": "hanin@2024",
+        "alaatallal": "alaa@2024",
+        "khansagasm": "khansa@2024",
+        "youssefelanzy": "youssef@2024",
+        "hossamali": "hossam@2024",
+        "raghad": "raghad@2024"
     };
-    myRequest.open("GET","questions.json", true);
-    myRequest.send();
+
+    if (validCredentials[usernameInput] === passwordInput) {
+        alert(`Hello, ${usernameInput}! You can close the browser and reopen the website again to change the questions module. Best of luck!`);
+        startQuiz(); // Call startQuiz if credentials are correct
+    } else {
+        alert("Please enter your username and password correctly.");
+    }
 };
 
 //createBullets
-function createBullets (num) {
-    countSpan.innerHTML = num;
-    for (let i = 0; i < num; i++) {
+function createBullets () {
+    for (let i = 1; i < 106; i++) {
         let theBullet = document.createElement("span");
-        if (i === 0) {
-            theBullet.className = "on";
-            theBullet.innerHTML = i;
+        theBullet.textContent = i;
+        if (i === currentQuestionIndex) {
+            theBullet.classList.add("on");
         }
+        theBullet.addEventListener("click", () => handleBulletClick(i)); // Add event listener
         bulletsSpanContainer.appendChild(theBullet);
     }
-}
+};
+
+//scroll the bullets
+bulletsContainer.addEventListener("wheel", function(event) {
+    let deltaY = event.deltaY;
+    let scrollSpeed = 3; // Adjust this value to control scroll speed
+
+    bulletsContainer.scrollTop += deltaY > 0 ? scrollSpeed : -scrollSpeed;
+
+    // Prevent default scrolling behavior
+    event.preventDefault();
+});
+
+// Create a function to handle bullet span click
+function handleBulletClick(index) {
+    currentQuestionIndex = index - 1; // Adjust index to match array index
+    showQuestion();
+};
 
 //slice questions
 // Shuffle the questions array to ensure randomness
@@ -2468,6 +2505,7 @@ function startQuiz() {
     showQuestion();
     startTimer();
     hideLoginForm();
+    createBullets();
 }
 
 //function to hide the login form after logging in
@@ -2534,8 +2572,9 @@ function showQuestion() {
 
 function resetState() {
     nextButton.style.display = "block";
+    navigationButtons.display = "flex";
     flagButton.style.display = "block";
-    // previousButton.style.display = "block";
+    previousButton.style.display = "block";
     finishButton.style.display = "block";
     calculator_button.style.display = "block";  // or "flex" depending on the display style you want
     while (answersButton.firstChild) {
@@ -2553,8 +2592,8 @@ document.addEventListener('mousedown', function(event) {
         if (event.target.classList.contains('btn')) {
             // Add line-through style to the clicked button's text
             event.target.style.textDecoration = 'line-through';
-        }
-    }
+        };
+    };
 });
 
 let answers = JSON.parse(sessionStorage.getItem("answers")) || Array(questions.length).fill(null);
@@ -2581,6 +2620,7 @@ function selectAnswer(e) {
         button.disabled = "true";
     });
     nextButton.style.display = "block";
+    navigationButtons.style.display = "flex";
     flagButton.style.display = "block";
     previousButton.style.display = "block";
     finishButton.style.display = "block";
@@ -2603,6 +2643,7 @@ function finishQuiz() {
 
 function addEventListeners() {
     finishButton.addEventListener("click", finishQuiz);
+    // flagButton.addEventListener("click",flagQuestion);
     nextButton.addEventListener("click", () => {
         if (currentQuestionIndex < shuffledQuestions.length) {
             startNext();
@@ -2624,6 +2665,7 @@ function previewPreviousQuestion() {
         showNavigationButtons(); // Show navigation buttons
         highlightSelectedAnswer(); // Highlight previously selected answer
         nextButton.style.display = "block";
+        navigationButtons.display = "flex";
         previousButton.style.display = "block";
     }
 };
@@ -2640,6 +2682,13 @@ function startNext() {
     }
 };
 
+function flagQuestion(currentQuestionIndex) {
+    if (e.target.classList.contains) {
+        
+    } else {
+        
+    }
+}
 // Define a function to highlight previously selected answer
 function highlightSelectedAnswer() {
     const selectedIndex = answers[currentQuestionIndex];
@@ -2674,6 +2723,7 @@ function Score() {
     questionElement.innerHTML = `Congratulations ! you scored ${sofa} out of ${shuffledQuestions.length}`;
     nextButton.innerHTML = "Try Again...";
     nextButton.style.display = "block";
+    navigationButtons.style.display = "flex";
     previousButton.style.display = "none";
     flagButton.style.display = "none";
     finishButton.style.display = "none";
