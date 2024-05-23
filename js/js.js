@@ -1892,148 +1892,147 @@ const questions = [
             { text: "Alpha-adrenergic Blocker (non selective alpha blocker) " ,correct:true},
         ]
     },
+        { 
+        // number278
+        question: "Which of the following is a consequence of stimulation of alpha-1 Adreno receptors ?" ,
+        answers: [
+            { text: "A flushing Adrenergic Receptors" ,correct:false},
+            { text: "Increased Heart Rate" ,correct:false},
+            { text: "Constricted Bronchioles" ,correct:false},
+            { text: "Elevated blood pressure" ,correct:true},
+        ]
+    },
+        { 
+        // number279
+        question: "Which drug is used to treat an anaphylactic reaction ?" ,
+        answers: [
+            { text: "Atropine" ,correct:false},
+            { text: "Adrenaline" ,correct:true},
+            { text: "Isoprinosine" ,correct:false},
+            { text: "Phentolamine" ,correct:false},
+        ]
+    },
+        { 
+        // number280
+        question: "Which of the following is a property of amphetamine ?" ,
+        answers: [
+            { text: "it doesn't across the blood brain barrier" ,correct:false},
+            { text: "it stimulates the release of stored acetylcholine" ,correct:false},
+            { text: "it stimulates the release of stored norepinephrine" ,correct:true},
+            { text: "it stimulates the release of five hydroxytryptophan (5-HT)" ,correct:false},
+        ]
+    },
+        { 
+        // number281
+        question: "A 25-year-old driver was held for reckless driving and confronting a policeman. He is too confident, Talkative, restless and continuously walking around the hall. Which of the following is the drug that the driver is abusing ?" ,
+        answers: [
+            { text: "Diazepam" ,correct:false},
+            { text: "Theophylline" ,correct:false},
+            { text: "Amphetamine" ,correct:true},
+            { text: "Lysergic acid diethylamide (LSD)" ,correct:false},
+        ]
+    },
+        { 
+        // number282
+        question: "What is the pharmacological classification of Ipratropium bromide ?" ,
+        answers: [
+            { text: "Beta agonist" ,correct:false},
+            { text: "Alpha agonist" ,correct:false},
+            { text: "Cholineregic agonist" ,correct:false},
+            { text: "Antimuscarinic agent" ,correct:true},
+        ]
+    },
+        { 
+        // number283
+        question: "Which of the following describes the mechanism of action of Rivastigmine ?" ,
+        answers: [
+            { text: "Cholinesterase inhibitor" ,correct:true},
+            { text: "Alpha-a receptor inhibitor" ,correct:false},
+            { text: "Serotonin re uptake inhibitor" ,correct:false},
+            { text: "Angiotensin converting enzyme inhibitor" ,correct:false},
+        ]
+    },
+        { 
+        // number284
+        question: "Drugs to reverse action of atropine ?" ,
+        answers: [
+            { text: "Physotigmine" ,correct:true},
+            { text: "Benztropine" ,correct:false},
+            { text: "Disulfiram" ,correct:false},
+            { text: "Propranolol" ,correct:false},
+        ]
+    },
+        { 
+        // number285
+        question: "Catechol amine with COMT ?" ,
+        answers: [
+            { text: "Rapid metabolism" ,correct:true},
+            { text: "Slow Metabolism" ,correct:false},
+            { text: "Intermediate Metabolism" ,correct:false},
+            { text: "Very Slow Metabolism" ,correct:false},
+        ]
+    },
+        { 
+        // number286
+        question: "A 21-year-old patient went through respiratory depression after receiving anesthetic agent. Which of the following will counter act post-anesthetic respiratory depression ?" ,
+        answers: [
+            { text: "Morphine" ,correct:false},
+            { text: "Picrotoxin" ,correct:true},
+            { text: "Diazepam" ,correct:false},
+            { text: "Thiopental" ,correct:false},
+        ]
+    },
+        { 
+        // number287
+        question: "Which of the following drugs would decrease the amount of minimum alveolar concentration (MAC) for an anesthetic drug ?" ,
+        answers: [
+            { text: "Diazepam" ,correct:true},
+            { text: "Buspirone" ,correct:false},
+            { text: "Ephedrine" ,correct:false},
+            { text: "Loratadine" ,correct:false},
+        ]
+    },
+        { 
+        // number288
+        question: "Which depolarizing neuromuscular blocker is less potent than tubocurarine ?" ,
+        answers: [
+            { text: "Succinylcholine (Anectine)" ,correct:true},
+            { text: "Rocuronium (Zemuron)" ,correct:false},
+            { text: "Pipecuronium (Arduan)" ,correct:false},
+            { text: "Doxacurium (Nuromax)" ,correct:false},
+        ]
+    },
+        { 
+        // number289
+        question: "Which of the following is heparin antidote ?" ,
+        answers: [
+            { text: "Protamine Sulfate" ,correct:true},
+            { text: "Octreotide" ,correct:false},
+            { text: "N-Acetylcysteine" ,correct:false},
+            { text: "Naloxone Hydrochloride" ,correct:false},
+        ]
+    },
+        { 
+        // number290
+        question: "Which of the following situation is most likely to be controlled by administering parenteral calcium as an antidote ?" ,
+        answers: [
+            { text: "HypoKalemia" ,correct:false},
+            { text: "Verapamil" ,correct:true},
+            { text: "Heroine intoxication" ,correct:false},
+            { text: "Cocaine intoxication" ,correct:false},
+        ]
+    },
+        { 
+        // number291
+        question: "A 55-year-old man called Fahad presents with an excessive bronchial and oconasal secretions.History revealed, is exposed to an organophosphate insecticide. Which of the following is the best management ?" ,
+        answers: [
+            { text: "Atropine IV" ,correct:true},
+            { text: "Diphenhydramine orally" ,correct:false},
+            { text: "Pralidoxime intramuscularly" ,correct:false},
+            { text: "Physostigmine intramuscularly" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number92
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number93
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number94
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number95
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number96
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number97
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number98
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number99
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number100
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number101
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number102
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number103
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number104
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-// ];
 //         // { 
 //         // number92
 //     //     question: "" ,
