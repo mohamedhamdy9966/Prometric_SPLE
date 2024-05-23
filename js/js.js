@@ -2032,137 +2032,137 @@ const questions = [
             { text: "Physostigmine intramuscularly" ,correct:false},
         ]
     },
+        { 
+        // number292
+        question: "In case a patient develops toxicity from midazolam. Which of the following medications can be given as an antidote ?" ,
+        answers: [
+            { text: "Atropine" ,correct:false},
+            { text: "Flumazenil" ,correct:true},
+            { text: "Amifostine" ,correct:false},
+            { text: "Acetylcysteine" ,correct:false},
+        ]
+    },
+        { 
+        // number293
+        question: "Which of the following is the precursor for 5_hydroxytryptamine ?" ,
+        answers: [
+            { text: "Proline" ,correct:false},
+            { text: "Alanine" ,correct:false},
+            { text: "Glutamine" ,correct:false},
+            { text: "Tryptophan" ,correct:true},
+        ]
+    },
+        { 
+        // number294
+        question: "Where does the electron transport chain reaction pathway take ?" ,
+        answers: [
+            { text: "Cell Cytoplasm" ,correct:false},
+            { text: "Golgi Apparatus" ,correct:false},
+            { text: "Outer mitochondrial membrane" ,correct:false},
+            { text: "Inner mitochondrial membrane" ,correct:true},
+        ]
+    },
+        { 
+        // number295
+        question: "pH difference between extracellular and intracellular fluid is " ,
+        answers: [
+            { text: "Nil" ,correct:false},
+            { text: "0.2" ,correct:false},
+            { text: "0.4" ,correct:true},
+            { text: "0.8" ,correct:false},
+        ]
+    },
+        { 
+        // number296
+        question: "Role of Atp ?" ,
+        answers: [
+            { text: "Energy carrier" ,correct:true},
+            { text: "Oxygen carrier" ,correct:false},
+            { text: "Amino acid carrier" ,correct:false},
+            { text: "Glucose carrier" ,correct:false},
+        ]
+    },
+        { 
+        // number297
+        question: "Which is Cytokine ?" ,
+        answers: [
+            { text: "Leukotriene" ,correct:true},
+            { text: "Adrenaline" ,correct:false},
+            { text: "Gonadotropin" ,correct:false},
+            { text: "Glucagon" ,correct:false},
+        ]
+    },
+        { 
+        // number298
+        question: "Which Process does Insulin work on or increase ?" ,
+        answers: [
+            { text: "Glycogenolysis" ,correct:false},
+            { text: "Glyconeogenesis" ,correct:true},
+            { text: "Glucogensis" ,correct:false},
+            { text: "Ketogenesis" ,correct:false},
+        ]
+    },
+        { 
+        // number299
+        question: "The synthesis of Glycogen from Glucose called ?" ,
+        answers: [
+            { text: "Glycogenesis" ,correct:true},
+            { text: "Glyconeogenesis" ,correct:false},
+            { text: "Glucogenesis" ,correct:false},
+            { text: "Ketogenesis" ,correct:false},
+        ]
+    },
+        { 
+        // number300
+        question: "How much molecule ATP molecules are produced for every glucose." ,
+        answers: [
+            { text: "12" ,correct:false},
+            { text: "24" ,correct:false},
+            { text: "34" ,correct:true},
+            { text: "32" ,correct:false},
+        ]
+    },
+        { 
+        // number301
+        question: "Krebs cycle for production of ?" ,
+        answers: [
+            { text: "COMT" ,correct:false},
+            { text: "ATP" ,correct:true},
+            { text: "Necessary Amino acids" ,correct:false},
+            { text: "Non-Necessary Amino acids" ,correct:false},
+        ]
+    },
+        { 
+        // number302
+        question: "DNA ligase enzyme for ligation of ?" ,
+        answers: [
+            { text: "mRNA with TRNA" ,correct:false},
+            { text: "2mRNA molecules" ,correct:false},
+            { text: "2tRNA molecules" ,correct:false},
+            { text: "2DNA strands" ,correct:true},
+        ]
+    },
+        { 
+        // number303
+        question: "How many amino acid in the human body ?" ,
+        answers: [
+            { text: "20" ,correct:true},
+            { text: "30" ,correct:false},
+            { text: "40" ,correct:false},
+            { text: "28" ,correct:false},
+        ]
+    },
+        { 
+        // number304
+        question: "Which Parameter used when we give statin and there is Rhabdomyolysis ?" ,
+        answers: [
+            { text: "Creatine Kinase" ,correct:true},
+            { text: "Crcl" ,correct:false},
+            { text: "Creatine Conc" ,correct:false},
+            { text: "Fatty acids Conc" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number92
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number93
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number94
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number95
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number96
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number97
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number98
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number99
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number100
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number101
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number102
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number103
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number104
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
