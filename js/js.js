@@ -2468,7 +2468,7 @@ function createBullets () {
 //scroll the bullets
 bulletsContainer.addEventListener("wheel", function(event) {
     let deltaY = event.deltaY;
-    let scrollSpeed = 3; // Adjust this value to control scroll speed
+    let scrollSpeed = 20; // Adjust this value to control scroll speed
 
     bulletsContainer.scrollTop += deltaY > 0 ? scrollSpeed : -scrollSpeed;
 
