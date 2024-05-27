@@ -2326,7 +2326,8 @@ const flagButton = document.getElementById("flag_btn");
 const navigationButtons = document.getElementById("navigation_buttons");
 const calculator = document.getElementById("helper-calculator");
 const calculator_button = document.getElementById("calculator_button");
-const timerElement = document.getElementById("timer"); 
+const timerElement = document.getElementById("timer");
+const instructions = document.getElementById("instructions");
 let bulletsSpanContainer = document.querySelector(".bullets .spans");
 let bulletsContainer = document.querySelector(".bullets .spans");
 
@@ -2388,48 +2389,6 @@ loginForm.addEventListener("submit", function(event) {
     login(enteredUsername, enteredPassword); // Call the login function with entered credentials
 });
 
-// handling username & password login
-// function login(usernameInput, passwordInput) {
-//     if (usernameInput === "ahmedessam" && passwordInput === "essam@1993") {
-//         startQuiz(); // Call startQuiz if credentials are correct
-//     } 
-//     else if (usernameInput === "m" && passwordInput === "m") {
-//         alert("Hello , Ahmed ! you can close the browser and reopen the website again to change the questions module, Best Of Luck !");
-//         startQuiz(); // Call startQuiz if credentials are correct
-//     } 
-//     // else if (usernameInput === "hawary" && passwordInput === "hawary@2024") {
-//     //     alert("Hello , Hawary ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-//     //     startQuiz(); // Call startQuiz if credentials are correct
-//     // }
-//     else if (usernameInput === "haninmubarak" && passwordInput === "hanin@2024") {
-//         alert("Hello , Hanin ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-//         startQuiz(); // Call startQuiz if credentials are correct
-//     }
-//     else if (usernameInput === "alaa_tallal" && passwordInput === "alaa@2024") {
-//         alert("Hello , Alaa ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-//         startQuiz(); // Call startQuiz if credentials are correct
-//     }
-//     else if (usernameInput === "khansa_gasm" && passwordInput === "khansa@2024") {
-//         alert("Hello , Khansa ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-//         startQuiz(); // Call startQuiz if credentials are correct
-//     }
-//     else if (usernameInput === "youssef_elanzy" && passwordInput === "youssef@2024") {
-//         alert("Hello , Youssef ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-//         startQuiz(); // Call startQuiz if credentials are correct
-//     }
-//     else if (usernameInput === "hossam_ali" && passwordInput === "hossam@2024") {
-//         alert("Hello , Hossam ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-//         startQuiz(); // Call startQuiz if credentials are correct
-//     }
-//     else if (usernameInput === "raghad" && passwordInput === "raghad@2024") {
-//         alert("Hello , Raghad ! you can close the browser and reopen the website again to change the questions module, To Start The exam Press Ok. Best Of Luck !");
-//         startQuiz(); // Call startQuiz if credentials are correct
-//     }
-//     else {
-//         alert("Please enter your username and password right");
-//     }
-// }
-
 function login(usernameInput, passwordInput) {
     const validCredentials = {
         "ahmedessam": "essam@1993",
@@ -2480,6 +2439,7 @@ bulletsContainer.addEventListener("wheel", function(event) {
 function handleBulletClick(index) {
     currentQuestionIndex = index - 1; // Adjust index to match array index
     showQuestion();
+    highlightSelectedAnswer();
 };
 
 //slice questions
@@ -2515,6 +2475,7 @@ function hideLoginForm() {
     usernameInput.classList.add("hidden");
     passwordInput.classList.add("hidden");
     submitButton.classList.add("hidden");
+    instructions.classList.add("hidden");
 }
 
 function startTimer() {
@@ -2715,7 +2676,10 @@ function updateSelectedAnswer(selectedButton) {
     Array.from(answersButton.children).forEach(button => {
         button.classList.remove("selected"); 
     });
-    selectedButton.classList.add("selected"); 
+    selectedButton.classList.add("selected");
+    const bulletIndex = currentQuestionIndex;
+    const bulletSpan = document.querySelector(`.bullets .spans span:nth-child(${bulletIndex + 1})`);
+    bulletSpan.classList.add("answered");
 }
 
 function Score() {

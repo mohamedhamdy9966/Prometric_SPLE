@@ -305,8 +305,13 @@ form input [type=button].operator {
     background-color: rgb(13, 201, 13);
     cursor: pointer;
 }
-.bullets .spans span.on {
-    background-color: #0075ff;
+.answered {
+    background-color: #d6d7d8;
+    color: gray;
+    opacity: 0.9;
+    border-radius: 100% 100% 0 0;
+    font-size: larger;
+    padding: auto;
 }
 .bullets {
     border-top: 1px solid #dfdfdf;
