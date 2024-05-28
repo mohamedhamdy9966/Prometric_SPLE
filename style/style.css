@@ -282,7 +282,7 @@ form input[type=button].operator {
     #loginForm {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         margin-left: auto;
     }
     form .display input {
