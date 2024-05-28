@@ -3130,7 +3130,7 @@ function login(usernameInput, passwordInput) {
         "raghad": "raghad@2024",
         "ranakarim": "rana@2024",
         "hassan" : "hassan@2024",
-        // "rahaf" : "rahaf@2024"
+        "rahaf" : "rahaf@2024",
         "abdulmajeed" : "safar@2024",
         "emad" : "elghamdy@2024"
     };
