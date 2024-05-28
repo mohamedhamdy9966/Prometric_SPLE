@@ -281,10 +281,10 @@ form input[type=button].operator {
     }
     #loginForm {
         display: flex;
-        width: 80%;
+        width: 85%;
         justify-content: center;
         flex-direction: row;
-        margin-left: auto;
+        margin: auto;
     }
     form .display input {
         text-align: right;
