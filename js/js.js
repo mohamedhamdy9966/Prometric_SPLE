@@ -2400,7 +2400,8 @@ function login(usernameInput, passwordInput) {
         "hossamali": "hossam@2024",
         "raghad": "raghad@2024",
         "ranakarim": "rana@2024",
-        "hassan" : "hassan@2024"
+        "hassan" : "hassan@2024",
+        "rahaf" : "rahaf@2024"
     };
 
     if (validCredentials[usernameInput] === passwordInput) {
@@ -2416,7 +2417,7 @@ function createBullets () {
     for (let i = 1; i < 106; i++) {
         let theBullet = document.createElement("span");
         theBullet.textContent = i;
-        if (i === currentQuestionIndex) {
+        if (i+1 === currentQuestionIndex + 1) {
             theBullet.classList.add("on");
         }
         theBullet.addEventListener("click", () => handleBulletClick(i)); // Add event listener
@@ -2644,13 +2645,6 @@ function startNext() {
     }
 };
 
-function flagQuestion(currentQuestionIndex) {
-    if (e.target.classList.contains) {
-        
-    } else {
-        
-    }
-}
 // Define a function to highlight previously selected answer
 function highlightSelectedAnswer() {
     const selectedIndex = answers[currentQuestionIndex];

@@ -313,6 +313,10 @@ form input [type=button].operator {
     font-size: larger;
     padding: auto;
 }
+.on {
+    color: #34b5ff;
+    background-color: aliceblue;
+}
 .bullets {
     border-top: 1px solid #dfdfdf;
     background-color: #fff;
