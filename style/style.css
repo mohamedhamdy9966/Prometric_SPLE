@@ -267,7 +267,7 @@ form input[type=button].operator {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        width: 100px;
+        width: 120px;
         height: 30px;
         font-size: 12px;
     }
@@ -275,7 +275,7 @@ form input[type=button].operator {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        width: 50px;
+        width: 70px;
         height: 30px;
         margin: auto;
     }
@@ -283,7 +283,7 @@ form input[type=button].operator {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: auto;
     }
     form .display input {
         text-align: right;
