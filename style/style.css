@@ -209,7 +209,7 @@ border: 1px solid white;
 font-size: 21px;
 }
 .login-input {
-    display: flex;
+display: flex;
 justify-content: center;
 width: 200px;
 height: 30px;
@@ -236,7 +236,7 @@ form .display input {
     width: 300px;
 }
 
-form input [type=button].operator {
+form input[type=button].operator {
     width: 10px;
 }
 
@@ -256,8 +256,45 @@ form input [type=button].operator {
     .app {
         width: 80%;
     }
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        width: 9%;
+        overflow: auto;
+        height: 100vh;
+    }
+    .user-input {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .login-input {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 50px;
+        height: 30px;
+        margin: auto;
+    }
+    #loginForm {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    form .display input {
+        text-align: right;
+        flex: 1;
+        font-size: 20px;
+        width: 100px;
+    }
     .timer{
-        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
         text-align: center;
         top: 60px;
         left: 155px;
@@ -289,7 +326,7 @@ form input [type=button].operator {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 5 px;
+    padding: 3px;
     border: 1px solid transparent;
     height: 100vh;
     overflow-y: hidden;
