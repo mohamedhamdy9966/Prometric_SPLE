@@ -3131,6 +3131,7 @@ function login(usernameInput, passwordInput) {
         "ranakarim": "rana@2024",
         "hassan" : "hassan@2024",
         // "rahaf" : "rahaf@2024"
+        "abdulmajeed" : "safar@2024",
     };
 
     if (validCredentials[usernameInput] === passwordInput) {
