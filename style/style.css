@@ -281,7 +281,7 @@ form input[type=button].operator {
     }
     #loginForm {
         display: flex;
-        width: 85%;
+        width: 82%;
         justify-content: center;
         flex-direction: row;
         margin: auto;
