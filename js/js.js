@@ -3134,7 +3134,7 @@ function login(usernameInput, passwordInput) {
         "abdulmajeed" : "safar@2024",
         "emad" : "elghamdy@2024",
         "sharif" : "madkour@2024",
-        "AIC" : "aic@2024",
+        "AEC" : "aec@2024",
         "kabsha" : "kabsha@2024"
     };
 
