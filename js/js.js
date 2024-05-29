@@ -2322,117 +2322,117 @@ const questions = [
             { text: "Renal Dysfunction" ,correct:false},
         ]
     },
+        { 
+        // number321
+        question: "Which of the following is an example of a parenteral direct thrombin inhibitor?" ,
+        answers: [
+            { text: "enoxaparin" ,correct:false},
+            { text: "argatroban" ,correct:true},
+            { text: "fondaparinux" ,correct:false},
+            { text: "unfractionated heparin" ,correct:false},
+        ]
+    },
+        { 
+        // number322
+        question: "which of the following anti platelets is contraindicated patients with transient ischemic attack (TIA) or stroke?" ,
+        answers: [
+            { text: "Prasugrel" ,correct:true},
+            { text: "Ticagrelor" ,correct:false},
+            { text: "Clopidogrel" ,correct:false},
+            { text: "Dipyridamole" ,correct:false},
+        ]
+    },
+        { 
+        // number323
+        question: "which of the following antiplatelet agents the highest risk of causing dyspnea ?" ,
+        answers: [
+            { text: "Prasugrel" ,correct:false},
+            { text: "Ticagrelor" ,correct:true},
+            { text: "Clopidogrel" ,correct:false},
+            { text: "Dipyridamole" ,correct:false},
+        ]
+    },
+        { 
+        // number324
+        question: "Which of the following is the recommended anti-coagulation strategy for atrial fibrillation patient with a CHA2DS2-VACS score of 5?" ,
+        answers: [
+            { text: "aspirin" ,correct:false},
+            { text: "dabigatran" ,correct:true},
+            { text: "clopidogrel" ,correct:false},
+            { text: "no anticoagulation" ,correct:false},
+        ]
+    },
+        { 
+        // number325
+        question: "Which of the following could lead to decrease in international normalization ratio (INR) in a patient of warfarin therapy?" ,
+        answers: [
+            { text: "decrease the consumption of dietary vitamin K" ,correct:false},
+            { text: "carbamazepine therapy" ,correct:true},
+            { text: "cotrimoxazole therapy" ,correct:false},
+            { text: "metronidazole therapy" ,correct:false},
+        ]
+    },
+        { 
+        // number326
+        question: "- Which of the following is the preferred anticoagulant therapy during hemodialysis procedure?" ,
+        answers: [
+            { text: "Enoxaparin" ,correct:false},
+            { text: "Dabigatran" ,correct:false},
+            { text: "Rivaroxaban" ,correct:false},
+            { text: "Unfractionated heparin (UFH) " ,correct:true},
+        ]
+    },
+        { 
+        // number327
+        question: "Which of the following medications is an anticoagulant agent?" ,
+        answers: [
+            { text: "Aspirin" ,correct:false},
+            { text: "Warfain" ,correct:true},
+            { text: "Clopidogrel" ,correct:false},
+            { text: "D. Streptokinase" ,correct:false},
+        ]
+    },
+        { 
+        // number328
+        question: "Which of the following is the mechanism of action of apixaban?" ,
+        answers: [
+            { text: "an indirect inhibitor of thrombin" ,correct:false},
+            { text: "an indirect inhibitor of factor Xa" ,correct:false},
+            { text: "a direct inhibitor of thrombin " ,correct:false},
+            { text: "a direct inhibitor of factor Xa" ,correct:true},
+        ]
+    },
+        { 
+        // number329
+        question: "Which of the following can decrease the effect of warfarin?" ,
+        answers: [
+            { text: "Antibiotics" ,correct:false},
+            { text: "Paracetamol" ,correct:false},
+            { text: "Multivitamins" ,correct:true},
+            { text: "Calcium supplement" ,correct:false},
+        ]
+    },
+        { 
+        // number330
+        question: "Which of the following best represents the activity of dipyridamole?" ,
+        answers: [
+            { text: "It has fibrinolytic activity" ,correct:false},
+            { text: "It has antifibrinolytic activity" ,correct:false},
+            { text: "It is a platelet aggregation inhibitor" ,correct:true},
+            { text: "It is a phosphodiesterase enzyme inducer" ,correct:false},
+        ]
+    },
+        { 
+        // number331
+        question: "What is the route of administration of Enoxaparin?" ,
+        answers: [
+            { text: "Intrathecal bolus" ,correct:false},
+            { text: "Transdermal injection" ,correct:false},
+            { text: "Subcutaneous injection" ,correct:true},
+            { text: "Intramuscular injection " ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
