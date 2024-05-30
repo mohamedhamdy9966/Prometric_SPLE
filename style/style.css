@@ -318,7 +318,7 @@ form input[type=button].operator {
     display: none;
 }
 .selected {
-    color: rgb(43, 6, 252);
+    color: rgb(135, 133, 146);
     font-weight: bolder;
     font-size: larger;
 }
