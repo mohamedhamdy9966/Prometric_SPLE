@@ -1,4 +1,4 @@
-/* * {
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -19,11 +19,11 @@ flex-direction: row;
     background: rgb(224, 218, 218);
     width: 99%;
     max-width: 1200px; /* Add 'px' to specify units */
-    /* margin: 50px auto;
+    margin: 50px auto;
     border-radius: 10px;
     padding: 30px;
-} */
-/* 
+}
+
 .app h1 {
     font-size: 25px;
     color: gray;
@@ -195,8 +195,8 @@ form .display {
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
-} */
-/* .user-input {
+}
+.user-input {
 display: flex;
 justify-content: center;
 width: 300px;
@@ -377,4 +377,4 @@ background-image: url(https://www.google.com/url?sa=i&url=http%3A%2F%2Fsimpleico
 }
 .scratch {
     text-decoration: line-through;
-} */
+}
