@@ -2502,7 +2502,177 @@ const questions = [
             { text: "Warfarin" ,correct:false},
         ]
     },
+        { 
+        // number339
+        question: "how ibuprofen inhibit antiplatelet effect of aspirin ?" ,
+        answers: [
+            { text: "Ibuprofen bind to cox2 and hinder it's acetylation by aspirin" ,correct:false},
+            { text: "Ibuprofen bind to cox1 and hinder it's acetylation by aspirin" ,correct:true},
+            { text: "Ibuprofen bind to cox2 and hinder it's Oxidation by aspirin" ,correct:false},
+            { text: "Ibuprofen bind to cox1 and hinder it's Oxidation by aspirin" ,correct:false},
+        ]
+    },
+        { 
+        // number340
+        question: "patient on warfarin and has mechanical valve and INR 3.5, what should you do ?" ,
+        answers: [
+            { text: "No management" ,correct:true},
+            { text: "decrease warfarin dose" ,correct:false},
+            { text: "increase warfarin dose" ,correct:false},
+            { text: "replace warfarin" ,correct:false},
+        ]
+    },
+        { 
+        // number341
+        question: "Neonate with coagulopathy which vit K route will you use ?" ,
+        answers: [
+            { text: "Suppository" ,correct:false},
+            { text: "Iv" ,correct:true},
+            { text: "Sc" ,correct:false},
+            { text: "Im" ,correct:false},
+        ]
+    },
+        { 
+        // number342
+        question: "antiplatelet C.I. in patients with transient ischemic attack ?" ,
+        answers: [
+            { text: "dipyradimole" ,correct:false},
+            { text: "clopidogrel" ,correct:false},
+            { text: "prasugrel" ,correct:true},
+            { text: "ticagrelor" ,correct:false},
+        ]
+    },
+        { 
+        // number343
+        question: "INR monitoring after initiation as outpatient ?" ,
+        answers: [
+            { text: "next day" ,correct:false},
+            { text: "2-5 days" ,correct:true},
+            { text: "1 month" ,correct:false},
+            { text: "3 months" ,correct:false},
+        ]
+    },
+        { 
+        // number344
+        question: "treatments of pulmonary embolism?" ,
+        answers: [
+            { text: "Enoxaparin 40 mg sc once daily" ,correct:false},
+            { text: "Rivaroxaban" ,correct:false},
+            { text: "Enoxaparin 1 mg/ kg twice daily Or 2 mg/ kg once daily" ,correct:true},
+            { text: "Enoxaparin 5 mg/ kg twice daily Or 10 mg/ kg once daily" ,correct:false},
+        ]
+    },
+        { 
+        // number345
+        question: "patient is taking warfarin 4.5 mg PO daily came to the clinic with INR of 5.1 without any signs of active bleeding, what is the appropriate management for her ?" ,
+        answers: [
+            { text: "Hold warfarin and give vit K IV" ,correct:false},
+            { text: "Hold warfarin and resume with lower dose" ,correct:true},
+            { text: "Hold warfarin and give platelet" ,correct:false},
+            { text: "Hold warfarin and give StreptoKinase" ,correct:false},
+        ]
+    },
+        { 
+        // number346
+        question: "in pregnancy what the trimester can be use warfarin ?" ,
+        answers: [
+            { text: "first" ,correct:false},
+            { text: "second" ,correct:false},
+            { text: "third trimester" ,correct:false},
+            { text: "avoided use in pregnancy" ,correct:true},
+        ]
+    },
+        { 
+        // number347
+        question: "Pt use Warfarin 10mg and INR low why ?" ,
+        answers: [
+            { text: "Low dose" ,correct:false},
+            { text: "Dite" ,correct:true},
+            { text: "Low bioavailability of warfarin" ,correct:false},
+            { text: "Exercises" ,correct:false},
+        ]
+    },
+        { 
+        // number348
+        question: "which the fallowing uses in prophylaxis stroke ?" ,
+        answers: [
+            { text: "anticoagulant" ,correct:false},
+            { text: "thrombolytic drug" ,correct:false},
+            { text: "antipletalate" ,correct:true},
+            { text: "Warfarin" ,correct:false},
+        ]
+    },
 ];
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
