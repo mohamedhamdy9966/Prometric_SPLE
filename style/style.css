@@ -299,6 +299,7 @@ form input[type=button].operator {
         text-align: center;
         top: 60px;
         left: 155px;
+        width: 100px;
     }
     .calculator {
         width: 220px;
@@ -311,6 +312,10 @@ form input[type=button].operator {
     }
     form .display input {
         width: 100px;
+    }
+    #finish_btn {
+        width: -moz-fit-content;
+        width: fit-content;
     }
 }
 
