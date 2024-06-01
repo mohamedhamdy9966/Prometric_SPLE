@@ -2602,77 +2602,77 @@ const questions = [
             { text: "Warfarin" ,correct:false},
         ]
     },
+        { 
+        // number349
+        question: "Which the fallowing drugs inducing thrombocytopenia ?" ,
+        answers: [
+            { text: "UFH" ,correct:true},
+            { text: "LMWH" ,correct:false},
+            { text: "warfarin" ,correct:false},
+            { text: "Aspirin" ,correct:false},
+        ]
+    },
+        { 
+        // number350
+        question: "Which the fallowing drugs treatment thrombocytopenia ?" ,
+        answers: [
+            { text: "UFH" ,correct:false},
+            { text: "LMWH" ,correct:false},
+            { text: "warfarin" ,correct:false},
+            { text: "Argatroban" ,correct:true},
+        ]
+    },
+        { 
+        // number351
+        question: "Medication for osteoporosis in menopausal women given monthly ?" ,
+        answers: [
+            { text: "Zoledronic acid" ,correct:false},
+            { text: "ibandronate" ,correct:true},
+            { text: "raloxifene" ,correct:false},
+            { text: "Mefenamic acid" ,correct:false},
+        ]
+    },
+        { 
+        // number352
+        question: "Medication for osteoporosis in women given once per a year ?" ,
+        answers: [
+            { text: "Zoledronic acid" ,correct:true},
+            { text: "ibandronate" ,correct:false},
+            { text: "raloxifene" ,correct:false},
+            { text: "Mefenamic acid" ,correct:false},
+        ]
+    },
+        { 
+        // number353
+        question: "Medication for osteoporosis in women given weekly ?" ,
+        answers: [
+            { text: "Zoledronic acid" ,correct:false},
+            { text: "ibandronate" ,correct:false},
+            { text: "raloxifene" ,correct:false},
+            { text: "Alendronate" ,correct:true},
+        ]
+    },
+        { 
+        // number354
+        question: "gold standard test for Osteoporosis ?" ,
+        answers: [
+            { text: "(DEXA) dual-energy x-ray absorptiometry" ,correct:true},
+            { text: "CT" ,correct:false},
+            { text: "MRI" ,correct:false},
+            { text: "Reynold test" ,correct:false},
+        ]
+    },
+        { 
+        // number355
+        question: "Which of the following osteoporosis drugs can cause esophageal ulcers ?" ,
+        answers: [
+            { text: "denosumab" ,correct:false},
+            { text: "teriparatide" ,correct:false},
+            { text: "alendronate" ,correct:true},
+            { text: "zelodronic acid" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
