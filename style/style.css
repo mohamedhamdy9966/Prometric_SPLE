@@ -253,10 +253,10 @@ form input[type=button].operator {
     .app {
         width: 70%;
     }
-    .app h1 {
+    /* .app h1 {
         font-size: 15px;
         font-weight: 400;
-    }
+    } */
     .sidebar {
         display: flex;
         flex-direction: column;
@@ -298,7 +298,7 @@ form input[type=button].operator {
         justify-content: center;
         flex-direction: row;
         text-align: center;
-        top: 60px;
+        top: 50px;
         left: 155px;
         width: 100px;
     }
