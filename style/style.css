@@ -246,6 +246,7 @@ form input[type=button].operator {
 
 .timer {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
     border-radius: 10px;
