@@ -2775,7 +2775,7 @@ function login(usernameInput, passwordInput) {
         "sharif" : "madkour@2024",
         "AEC" : "aec@2024",
         "waleed" : "waleed@2024",
-        "saqar" : " saqar@2024",
+        "saqar" : " saqar",
         "moussa" : "moussa@2024"
     };
 
