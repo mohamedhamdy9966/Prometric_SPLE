@@ -316,6 +316,8 @@ form input[type=button].operator {
     #finish_btn {
         width: -moz-fit-content;
         width: fit-content;
+        font-size: 9px;
+        padding: 4px;
     }
 }
 
