@@ -298,8 +298,8 @@ form input[type=button].operator {
         justify-content: center;
         flex-direction: row;
         text-align: center;
-        top: 50px;
-        left: 155px;
+        /* top: 50px;
+        left: 155px; */
         width: 100px;
     }
     .calculator {
