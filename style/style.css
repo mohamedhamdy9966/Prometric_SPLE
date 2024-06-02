@@ -30,15 +30,12 @@ flex-direction: row;
     font-weight: 600;
     border-bottom: 1px solid brown;
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .quiz {
     padding: 20px 0;
-}
-
-.app h1 {
-    display: flex;
-    justify-content: space-between;
 }
 
 .quiz h2 {
@@ -255,6 +252,10 @@ form input[type=button].operator {
 @media screen and (min-width: 180px) and (max-width: 768px) {
     .app {
         width: 80%;
+    }
+    .app h1 {
+        font-size: 15px;
+        font-weight: 400;
     }
     .sidebar {
         display: flex;
