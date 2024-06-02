@@ -251,7 +251,7 @@ form input[type=button].operator {
 
 @media screen and (min-width: 180px) and (max-width: 768px) {
     .app {
-        width: 80%;
+        width: 70%;
     }
     .app h1 {
         font-size: 15px;
@@ -260,7 +260,7 @@ form input[type=button].operator {
     .sidebar {
         display: flex;
         flex-direction: column;
-        width: 18%;
+        width: 28%;
         overflow: auto;
         height: 100vh;
     }
