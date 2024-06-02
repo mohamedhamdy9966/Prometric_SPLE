@@ -2672,6 +2672,86 @@ const questions = [
             { text: "zelodronic acid" ,correct:false},
         ]
     },
+        { 
+        // number356
+        question: "Which of the following medications for osteoporosis will significantly reduce the risk of hip fracture ?" ,
+        answers: [
+            { text: "Phosphate" ,correct:false},
+            { text: "Risedronate" ,correct:true},
+            { text: "Raloxifene" ,correct:false},
+            { text: "Calcitonin" ,correct:false},
+        ]
+    },
+        { 
+        // number357
+        question: "A 65-year patient suffered from Osteomalacia with finger numbness, tingling and burning of extremities. The doctor prescribed vitamin D and an IV calcium supplement. Which of the following calcium salts did the physician most likely prescribed ?" ,
+        answers: [
+            { text: "Calcium citrate (21%calcium)" ,correct:false},
+            { text: "Calcium lactate(13%calcium)" ,correct:false},
+            { text: "Calcium gluconate (9%calcium)" ,correct:true},
+            { text: "Calcium phosphate (39% calcium)" ,correct:false},
+        ]
+    },
+        { 
+        // number358
+        question: "A 6-year-old child weighing 28 kg came to the clinic with viral infection. The physician prescribed acyclovir at a dose of 20 mg/kg four times a day. Acyclovir is available as 200 mg/5 ml oral suspension. How many milliliters would be administered per day ?" ,
+        answers: [
+            { text: "10" ,correct:false},
+            { text: "14" ,correct:false},
+            { text: "44" ,correct:false},
+            { text: "56" ,correct:true},
+        ]
+    },
+        { 
+        // number359
+        question: "A physician prescribed heparin at a dose of 75 units/Kg every six hours for a child weighing 15 kg, heparin is available in 2.5 ml vial containing 12,500 units. How many milliliters of heparin solution would be administered every day ?" ,
+        answers: [
+            { text: "0.5" ,correct:false},
+            { text: "0.9" ,correct:true},
+            { text: "1.5" ,correct:false},
+            { text: "1.8" ,correct:false},
+        ]
+    },
+        { 
+        // number360
+        question: "The following formula was prescribed by a dermatologist for a patient with dermatitis.Hydrocortisone 1.5% w/w , Cream base to make 50g . the pharmacist has two strengths of hydrocortisone creams in his hand, 2.5% and 1%. Therefore, in order to compound this prescription, the pharmacist is going to add these two creams strength together in certain proportions to fulfill this formulation. Which of the following is the weight ratio of the two strengths of hydrocortisone needed ?" ,
+        answers: [
+            { text: "1:2" ,correct:false},
+            { text: "1:1" ,correct:false},
+            { text: "0.5:1" ,correct:true},
+            { text: "2:1" ,correct:false},
+        ]
+    },
+        { 
+        // number361
+        question: "The pharmacist received a prescription to extemporaneously prepare moxifloxacin oral suspension from the 400 mg tablet in a concentration of 20 mg/ml with total volume of 60 mL Which of the following is the number of tablets of moxiflaxacin 400 mg needed to prepare the above prescription ?" ,
+        answers: [
+            { text: "2" ,correct:false},
+            { text: "3" ,correct:true},
+            { text: "4" ,correct:false},
+            { text: "6" ,correct:false},
+        ]
+    },
+        { 
+        // number362
+        question: "Drug X has an infusion rate of 0.95 mg/kg/hr. Which of the following is the amount of drug X (in mg) needed for a 12- hr infusion if patient weight is 70 kg ?" ,
+        answers: [
+            { text: "66.5 mg" ,correct:false},
+            { text: "84 mg" ,correct:false},
+            { text: "665 mg" ,correct:false},
+            { text: "798 mg" ,correct:true},
+        ]
+    },
+        { 
+        // number363
+        question: "A patient is to receive one mg of hydromorphine hydrochloride injection for pain. Hydromrophine hydrochloride is available as 500 mg in a 50 ml vial. How many milliliters would be injected ?" ,
+        answers: [
+            { text: "0.1" ,correct:true},
+            { text: "0.5" ,correct:false},
+            { text: "1.0" ,correct:false},
+            { text: "2.0" ,correct:false},
+        ]
+    },
 ];
 //         // { 
 //         // number105
@@ -2683,6 +2763,167 @@ const questions = [
 //     //         { text: "" ,correct:false},
 //     //     ]
 //     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+// ];
 
 const questionElement = document.getElementById("question");
 const answersButton = document.getElementById("answer_btn");
