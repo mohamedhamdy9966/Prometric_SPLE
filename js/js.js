@@ -3017,7 +3017,8 @@ function login(usernameInput, passwordInput) {
         "AEC" : "aec@2024",
         "waleed" : "waleed@2024",
         "saqar" : "saqar@2024",
-        "moussa" : "moussa@2024"
+        "moussa" : "moussa@2024",
+        "nader" : "nader@2024"
     };
 
     if (validCredentials[usernameInput] === passwordInput) {
