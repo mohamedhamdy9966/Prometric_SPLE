@@ -256,91 +256,126 @@ form input[type=button].operator {
     text-align: center;
 }
 
-@media screen and (min-width: 180px) and (max-width: 768px) {
+
+/* Responsive styles for tablets */
+@media screen and (max-width: 1024px) {
     .app {
-        width: 80%;
+        width: 90%; /* Adjust the width of .app container */
+        margin: 30px auto; /* Adjust margin */
+        padding: 20px; /* Adjust padding */
     }
+    .app h1 {
+        padding: 20px; /* Adjust padding */
+    }
+    .user-input,
+    .login-input {
+        width: 250px; /* Adjust width */
+        font-size: 18px; /* Adjust font size */
+    }
+    #loginForm {
+        margin-left: 0; /* Reset margin */
+    }
+    form .display input {
+        font-size: 35px; /* Adjust font size */
+        width: 250px; /* Adjust width */
+    }
+    .timer {
+        width: 100px; /* Adjust width */
+        font-size: 18px; /* Adjust font size */
+    }
+}
+
+/* Responsive styles for large screens */
+@media screen and (min-width: 1440px) {
+    .app {
+        max-width: 1400px; /* Adjust max-width */
+    }
+    .user-input,
+    .login-input {
+        width: 300px; /* Adjust width */
+        font-size: 20px; /* Adjust font size */
+    }
+    form .display input {
+        font-size: 40px; /* Adjust font size */
+        width: 300px; /* Adjust width */
+    }
+    .timer {
+        width: 120px; /* Adjust width */
+        font-size: 20px; /* Adjust font size */
+    }
+    .bullets .spans span {
+        width: 50px; /* Adjust width */
+        height: 15px; /* Adjust height */
+        font-size: 8px; /* Adjust font size */
+        padding: 2px; /* Adjust padding */
+    }
+
+    .sidebar {
+        width: 20%; /* Adjust width */
+    }
+}
+
+/* Responsive styles for mobile phones */
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    .app {
+        width: 80%; /* Adjust the width of .app container */
+    }
+    /* Adjust styles for h1 */
     .app h1 {
         padding: 5px;
     }
+    /* Adjust styles for .sidebar */
     .sidebar {
-        display: flex;
-        flex-direction: column;
-        width: 18%;
-        overflow: auto;
-        height: 100vh;
+        width: 20%; /* Adjust the width of .sidebar */
     }
-    .user-input {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        width: 120px;
-        height: 30px;
-        font-size: 12px;
-    }
+    /* Adjust styles for .user-input and .login-input */
+    .user-input,
     .login-input {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        width: 70px;
-        height: 30px;
-        margin: auto;
+        width: auto; /* Allow width to adjust dynamically */
+        font-size: 12px; /* Adjust font size */
     }
+    /* Adjust styles for #loginForm */
     #loginForm {
-        display: flex;
-        width: 82%;
-        justify-content: center;
-        flex-direction: row;
-        margin: auto;
+        width: 90%; /* Adjust the width of the form */
     }
-    form .display input {
-        text-align: right;
-        flex: 1;
-        font-size: 20px;
-        width: 100px;
+    /* Adjust styles for .timer */
+    .timer {
+        width: 100%; /* Adjust the width of the timer container */
     }
-    .timer{
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        text-align: center;
-        width: 100px;
-    }
-    #next_btn {
-        width: 40px;
-        font-size: 8px;
-    }
+    /* Adjust styles for buttons */
+    #next_btn,
     #previous_btn {
-        width: 40px;
-        font-size: 8px;
+        width: 70px; /* Adjust the width of next and previous buttons */
+        font-size: 10px; /* Adjust font size */
     }
     #flag_btn {
-        width: 25px;
-        font-size: 5px;
+        width: 30px; /* Adjust the width of flag button */
+        font-size: 7px; /* Adjust font size */
     }
+    /* Adjust styles for .calculator */
     .calculator {
-        width: 220px;
+        width: 100%; /* Adjust the width of the calculator container */
     }
+    /* Adjust styles for calculator buttons */
     .calculator form input[type=button] {
-        width: 30px;
-        height: 20px;
-        margin: 5px;
-        font-size: 10px;
+        width: 40px; /* Adjust the width of calculator buttons */
+        height: 30px; /* Adjust the height of calculator buttons */
+        font-size: 12px; /* Adjust font size */
+        margin: 5px; /* Adjust margin */
     }
-    form .display input {
-        width: 100px;
-    }
+    /* Adjust styles for #finish_btn */
     #finish_btn {
-        width: -moz-fit-content;
-        width: fit-content;
-        font-size: 9px;
-        padding: 4px;
+        font-size: 12px; /* Adjust font size */
+        padding: 6px; /* Adjust padding */
     }
     .bullets .spans span {
-        width: 25px;
-        height: 10px;
-        font-size: 4px;
-        padding: 2px 2px 2px 2px;
+        width: 40px; /* Adjust width */
+        height: 12px; /* Adjust height */
+        font-size: 6px; /* Adjust font size */
+        padding: 2px; /* Adjust padding */
+    }
+    .sidebar {
+        width: 20%; /* Adjust width */
     }
 }
 

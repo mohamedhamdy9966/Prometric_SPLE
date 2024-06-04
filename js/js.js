@@ -273,9 +273,9 @@ const questions = [
         // number28
         question: "which the carrier in krebs cycle ?" ,
         answers: [
-            { text: "career in cycle" ,correct:"false"},
+            { text: "Citric acid" ,correct:"false"},
             { text: "oxaloacetate" ,correct:"false"},
-            { text: "Citric acid" ,correct:"true"},
+            { text: "NADH" ,correct:"true"},
             { text: "lactic acid" ,correct:"false"},
         ]
     },
@@ -2214,7 +2214,7 @@ const questions = [
     },
         { 
         // number310
-        question: "Which the carrier in Krebs cycle ?" ,
+        question: "Which the carrier in Citric acid cycle ?" ,
         answers: [
             { text: "Carrier in krebs cycle" ,correct:false},
             { text: "Oxaloacetate" ,correct:true},
@@ -2752,67 +2752,67 @@ const questions = [
             { text: "2.0" ,correct:false},
         ]
     },
+        { 
+        // number364
+        question: "A solution contains 2.5 mg of a drug per milliliter. administered at a rate of 50 mg/hr. (1 ml = 30 drops). Which of the following Is the most appropriate infusion rate ?" ,
+        answers: [
+            { text: "5 drops/min" ,correct:false},
+            { text: "10 drops/min" ,correct:true},
+            { text: "20 drops/min" ,correct:false},
+            { text: "40 drops/min" ,correct:false},
+        ]
+    },
+        { 
+        // number365
+        question: "A 2.5% intravenous drug is infused at a rate of 1.5 ml/min. Which of the amount of the drug (in mg) that is infused in each hour ?" ,
+        answers: [
+            { text: "25" ,correct:false},
+            { text: "225" ,correct:false},
+            { text: "2000" ,correct:false},
+            { text: "2250" ,correct:true},
+        ]
+    },
+        { 
+        // number366
+        question: "A technician is preparing 250 ml of 70% (w/v) dextrose solution Which of the following is the total amount of dextrose (in grams) in the final preparation ?" ,
+        answers: [
+            { text: "125 g" ,correct:false},
+            { text: "150 g" ,correct:false},
+            { text: "175 g" ,correct:true},
+            { text: "200 g" ,correct:false},
+        ]
+    },
+        { 
+        // number367
+        question: "How many milliliters of paracetamol syrup of 120 mg/5 ml strength would be prepared using 1.8 kg of paracetamol ?" ,
+        answers: [
+            { text: "15,000 mL" ,correct:false},
+            { text: "30,000 mL" ,correct:false},
+            { text: "50,000 mL" ,correct:false},
+            { text: "75,000 mL" ,correct:true},
+        ]
+    },
+        { 
+        // number368
+        question: "What is the percentage w/v of 10 ml vial that contains 50 mEq of ammonium chloride per 10 ml if 1 mEq of ammonium chloride = 0.0535g ?" ,
+        answers: [
+            { text: "0.535" ,correct:false},
+            { text: "2.675" ,correct:true},
+            { text: "5.350" ,correct:false},
+            { text: "26.750" ,correct:false},
+        ]
+    },
+        { 
+        // number369
+        question: "One folic acid tablet contains 400 mcg of folic acid as an active ingredient. How many tablets would be required for the preparation of 30 grams of folic acid ?" ,
+        answers: [
+            { text: "5000 tablets" ,correct:false},
+            { text: "7500 tablets" ,correct:false},
+            { text: "50000 tablets" ,correct:false},
+            { text: "75000 tablets" ,correct:true},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
