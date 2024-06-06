@@ -9,6 +9,18 @@ body {
     height: 100vh;
 }
 
+h5 {
+color: rgb(15, 117, 24);
+margin: auto;
+padding: auto;
+}
+
+h4 {
+    color: brown;
+    margin: auto;
+    padding: auto;
+}
+
 .container {
 display: flex;
 justify-content: center;
@@ -398,7 +410,7 @@ form input[type=button].operator {
     overflow-y: hidden;
 }
 .bullets .spans span {
-    width: 70px;
+    width: 55px;
     height: 20px;
     padding: 2px 10px 5px 10px;
     background-color: #ddd;
@@ -431,15 +443,22 @@ form input[type=button].operator {
     height: 100vh;
 }
 .sidebar {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     width: 9%;
     overflow: auto;
     height: 100vh;
+    display: none;
 }
 .flagged {
 background-image: url(https://www.google.com/url?sa=i&url=http%3A%2F%2Fsimpleicon.com%2Fflag.html&psig=AOvVaw0Hp5iiy70P8xTXplYN9QKR&ust=1716419302118000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCws6jun4YDFQAAAAAdAAAAABAE);
 }
 .scratch {
     text-decoration: line-through;
+}
+#contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }

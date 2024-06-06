@@ -191,7 +191,7 @@ const questions = [
     },
     {
         // number20
-        question: "Who's responsible for for accreditation of health care systems ?" ,
+        question: "Who's responsible for accreditation of health care systems ?" ,
         answers: [
             { text: "SFDA" ,correct:"false"},
             { text: "WHO" ,correct:"false"},
@@ -2448,8 +2448,8 @@ const questions = [
         answers: [
             { text: "aspirin" ,correct:false},
             { text: "abciximab" ,correct:false},
-            { text: "clopidogrel" ,correct:false},
-            { text: "streptokinase" ,correct:true},
+            { text: "clopidogrel" ,correct:true},
+            { text: "streptokinase" ,correct:false},
         ]
     },
         { 
@@ -2812,57 +2812,207 @@ const questions = [
             { text: "75000 tablets" ,correct:true},
         ]
     },
+        { 
+        // number105
+        question: "A 6-year-old HIV infected boy measuring 0.9 m2 is to receive nevirapine 140 mg/m two times daily. Nevirapine is available as 50 mg/5 ml suspension. How many millilters of nevirapine suspension would be administered per dose ?" ,
+        answers: [
+            { text: "6.3" ,correct:false},
+            { text: "12.6" ,correct:true},
+            { text: "14.0" ,correct:false},
+            { text: "16.5" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A drug has a clearance value of 4.75 L/hour and 65% is cleared by renal excretion . Which of the following would be the non-renal clearance value ?" ,
+        answers: [
+            { text: "1.25 L/hrs" ,correct:false},
+            { text: "1.66 L/hrs" ,correct:true},
+            { text: "1.90 L/hrs" ,correct:false},
+            { text: "2.05 L/hrs" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A patient is to receive 400 ml intravenous infusion of a 1% drug that will be over 10 hours Which of the following is the amount (milligrams)of the drug that will be delivered in 15 minutes ?" ,
+        answers: [
+            { text: "100 mg" ,correct:true},
+            { text: "150 mg" ,correct:false},
+            { text: "200 mg" ,correct:false},
+            { text: "400 mg" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Penicillin-G potassium Is available in 50 ml vial containing 20 gram. Each milligram of penicillin-G potasslum is equal to 1500 units . How many units of penicillin G potassium are there in each vial ?" ,
+        answers: [
+            { text: "15,000,000" ,correct:false},
+            { text: "20,000,000" ,correct:false},
+            { text: "25,000,000" ,correct:false},
+            { text: "30,000,000" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "-A physician prescribes, for a 6-year-old child 10 mg, omeprazole daily for seven days as a syrup formulation. Omeprazóle capsules strength are available in the pharmacy is 10 mg Which of the following is the number of capsules required to make to suffice the total doses in the prescription if the final concentration syrup should be 2 mg/mL ?" ,
+        answers: [
+            { text: "2" ,correct:false},
+            { text: "3" ,correct:false},
+            { text: "5" ,correct:false},
+            { text: "7" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A 35-year-old individual is receiving 20 mg of propranolol hydro four times daily as a prophylaxis to migraine attacks. The drug 25% bioavailability due to extensive first pass effect.What amount of the drug reaches the systemic circulation after dosing ?" ,
+        answers: [
+            { text: "2.5 mg" ,correct:false},
+            { text: "5.0 mg" ,correct:true},
+            { text: "7.5 mg" ,correct:false},
+            { text: "10 mg" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 55-year-old man with a history of recurrent back pain is admitted to the hospital, he was prescribed paracetamol 1000 mg P.O Q6hr PRN for 1-month available tablet is 500mg. What is the maximum quantity given for a refill ?" ,
+        answers: [
+            { text: "8 tablets" ,correct:false},
+            { text: "24 tablets" ,correct:false},
+            { text: "42 tablets" ,correct:false},
+            { text: "240 tablets" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A child weighing 25 kg is prescribed acetazolamide 2.5 mg/kg every 12 hours. Acetazolamide is available in a liquid dosage form with strength of 25 mg/ml.How many milliliters would the patient be administered per dose ?" ,
+        answers: [
+            { text: "2.5" ,correct:true},
+            { text: "5.0" ,correct:false},
+            { text: "7.5" ,correct:false},
+            { text: "10" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "-The diclophenac sodium suppository is prepared according to the following formula:Diclophenac sodium 2.5% , Triglyceride base to make 1g . How many grams of diclophenac sodium should be used to prepare 24000 suppositories ?" ,
+        answers: [
+            { text: "120" ,correct:false},
+            { text: "240" ,correct:false},
+            { text: "480" ,correct:false},
+            { text: "600" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "Which of the following is the amount of dextrose (in grams) that is present in 100 ml of 10% dextrose solution ?" ,
+        answers: [
+            { text: "1" ,correct:false},
+            { text: "10" ,correct:true},
+            { text: "100" ,correct:false},
+            { text: "1000" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "a 4-year-old boy is admitted with dehydration. he is started on dextrose 5% and normal saline with 40 milliequivalent potassium chloride per liter at a rate of 40 ml per hour weight is 16 kilograms. How much potassium chloride (in milliequivalent per kilograms per day) is her receiving ?" ,
+        answers: [
+            { text: "2.4" ,correct:true},
+            { text: "3" ,correct:false},
+            { text: "4.5" ,correct:false},
+            { text: "6" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "which of the following is the percentage (%) strength of ketorolac tromethamine in an ophthalmic solution if 200 micrograms of the drug are present in 50 microliters of the solution ?" ,
+        answers: [
+            { text: "0.25" ,correct:false},
+            { text: "0.40" ,correct:true},
+            { text: "0.50" ,correct:false},
+            { text: "0.80" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "10 ml vial contains 1 gm of clindamycin hydrochloride. each milligram of clindamycin hydrochloride is equivalent to 800 micrograms (mcg) of clindamycin. How much clindamycin in micrograms (mcg) is present in 3 ml solution ?" ,
+        answers: [
+            { text: "240" ,correct:false},
+            { text: "2400" ,correct:false},
+            { text: "24000" ,correct:false},
+            { text: "240000" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A solution contains 27 mg of antipyrine per 500 microliter. How many grams of antipyrine are there in 3 ml of the solution ?" ,
+        answers: [
+            { text: "0.162 gm" ,correct:true},
+            { text: "0.270 gm" ,correct:false},
+            { text: "162 gm" ,correct:false},
+            { text: "270 gm" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 5-years-old girl weights 16 kilograms and is 95 centimeters tall. Which of the following is her body surface area in squared meter (m) ?" ,
+        answers: [
+            { text: "0.1" ,correct:false},
+            { text: "0.4" ,correct:false},
+            { text: "0.6" ,correct:true},
+            { text: "0.9" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "The following prescription is received in a hospital pharmacy: Losartan 25 mg, S: Take 1 tab BID M: 3 weeks, Which of the following instructions will be on the prescription label ?" ,
+        answers: [
+            { text: "Take 1 tablet once daily (21 tablets)" ,correct:false},
+            { text: "Take 2 tablets once daily (42 tablets)" ,correct:false},
+            { text: "Take 1 tablet twice daily (42 tablets)" ,correct:true},
+            { text: "Take 2 tablets twice daily (48 tablets)" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "How many milliliters are there in one table spoonful in a metric system?" ,
+        answers: [
+            { text: "2.5 ml" ,correct:false},
+            { text: "5.0 ml" ,correct:false},
+            { text: "10 ml" ,correct:false},
+            { text: "15 ml" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A solution contains 2.5 mg of a drug per milliliter. The drug is to be administered at a rate of 50 mg/hr. (1 mL= 30 drops). Which of the following is the most appropriate infusion rate ?" ,
+        answers: [
+            { text: "5 drops/min" ,correct:false},
+            { text: "10 drops/min" ,correct:true},
+            { text: "20 drops/min" ,correct:false},
+            { text: "40 drops/min" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A patient is to receive two drops of dexamethasone four times daily. The dexamethasone is available as 0.1% solution in a 5 ml bottle with a dropper calibrated to deliver 16 drop per ml. How many days will the bottle last ?" ,
+        answers: [
+            { text: "4" ,correct:false},
+            { text: "6" ,correct:false},
+            { text: "8" ,correct:false},
+            { text: "10" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "What is the specific gravity of a liquid if 121.92 ml of its weight is 107.56 g ?" ,
+        answers: [
+            { text: "0.882 s.g." ,correct:true},
+            { text: "1.88 s.g." ,correct:false},
+            { text: "2.88 s.g." ,correct:false},
+            { text: "8.822 s.g." ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
@@ -2937,6 +3087,8 @@ const calculator = document.getElementById("helper-calculator");
 const calculator_button = document.getElementById("calculator_button");
 const timerElement = document.getElementById("timer");
 const instructions = document.getElementById("instructions");
+const sidebar = document.getElementById("sidebar");
+const contact = document.getElementById("contact");
 let bulletsSpanContainer = document.querySelector(".bullets .spans");
 let bulletsContainer = document.querySelector(".bullets .spans");
 
@@ -3085,6 +3237,8 @@ function startQuiz() {
     startTimer();
     hideLoginForm();
     createBullets();
+    sidebar.style.display ="flex";
+    contact.style.display ="none";
 }
 
 //function to hide the login form after logging in
@@ -3125,8 +3279,6 @@ function showQuestion() {
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.
     question;
-    // photoElement.innerHTML = ``
-
      // Check if the current question has an image
      if (currentQuestion.image) {
         // Create an image element
