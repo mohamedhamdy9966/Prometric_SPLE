@@ -3012,27 +3012,107 @@ const questions = [
             { text: "8.822 s.g." ,correct:false},
         ]
     },
+        { 
+        // number105
+        question: "A physician prescribed 5000 units of heparin two times daily for five days. Heparin is available in a vial containing 20,000 units/ml. How many milliliters should be given for each dose ?" ,
+        answers: [
+            { text: "0.25" ,correct:true},
+            { text: "0.50" ,correct:false},
+            { text: "0.75" ,correct:false},
+            { text: "1.50" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A solution contains 5 gm of drug per 25 ml.Which of the following is the concentration, in mg/ml, of the drug ?" ,
+        answers: [
+            { text: "50 mg/ml" ,correct:false},
+            { text: "100 mg/ml" ,correct:false},
+            { text: "200 mg/ml" ,correct:true},
+            { text: "400 mg/ml" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 20-year-old boy who weighs 10 kg is prescribed Drug x as 1 mg/kg/hour infusion, The pharmacy prepared the prescription by diluting 5 ml of 25 mg/ml concentration via to100 ml with normal saline. Which of the following is the rate of infusion (in ml/hour) " ,
+        answers: [
+            { text: "2" ,correct:false},
+            { text: "4" ,correct:false},
+            { text: "6" ,correct:false},
+            { text: "8" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A drug has a total body clearance of 2.5 L/hr. Its hepatic metabolism accounts for 25% during less blood perfusion and 40 % when blood perfusion is higher to the liver . What will be the hepatic clearance value in fed state of stomach ?" ,
+        answers: [
+            { text: "0.50 L/hr" ,correct:false},
+            { text: "0.75 L/hr" ,correct:false},
+            { text: "1.00 L/hr" ,correct:true},
+            { text: "1.50 L/hr" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A physician ordered Labetalol hydrochloride intravenous infusion at a close of 500 micrograms/min over an hour for a hypertensive patient. Labetalol hydrochloride is available in a 20 ml vial containing 5 mg/ml of the drug . Which of the following is the amount in (milliliters) of labetalol hydrochloride solution that should be administered ?" ,
+        answers: [
+            { text: "4.5" ,correct:false},
+            { text: "6" ,correct:true},
+            { text: "7.5" ,correct:false},
+            { text: "10" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "An ointment was prepared by incorporating 15 g of a drug into 150 g of petrolatum. What would be the concentration of the drug in the ointment ?" ,
+        answers: [
+            { text: "0.91%" ,correct:false},
+            { text: "1.00%" ,correct:false},
+            { text: "0.10%" ,correct:false},
+            { text: "10.00%" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A 2.5%intravenous drug is infused at a rate of 1.5 m/min Which of the amount of the drug (in mg) that is infused in each hour ?" ,
+        answers: [
+            { text: "25" ,correct:false},
+            { text: "225" ,correct:false},
+            { text: "2000" ,correct:false},
+            { text: "2250" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "If a pharmacist has a stock solution of D5W and D50W How many milliliters form each solution will need in order to prepare a 450 ml of D15W solution ?" ,
+        answers: [
+            { text: "D50w/D5w=100/350" ,correct:true},
+            { text: "D50w/D5w=350/100" ,correct:false},
+            { text: "D50w/D5W=200/250" ,correct:false},
+            { text: "D50w/D5w= 250/200" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "How much of 5% w/v solution would be required to prepare 60 ml of 5mg/ml solution ?" ,
+        answers: [
+            { text: "6 ml" ,correct:true},
+            { text: "10 ml" ,correct:false},
+            { text: "15 ml" ,correct:false},
+            { text: "18 ml" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "The pharmacy receives a prescription for labetalol 800 mg twice daily for three days. The available strength of labetalol in the pharmacy is 200 mg. Which of the following is the number of 200 mg labetalol tablet needed to prepare the above prescriptions for the total duration ?" ,
+        answers: [
+            { text: "8" ,correct:false},
+            { text: "12" ,correct:false},
+            { text: "16" ,correct:false},
+            { text: "24" ,correct:true},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
