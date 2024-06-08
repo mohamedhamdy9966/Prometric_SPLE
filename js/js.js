@@ -3152,26 +3152,21 @@ loginForm.addEventListener("submit", function(event) {
 
 function login(usernameInput, passwordInput) {
     const validCredentials = {
-        // "ahmedessam": "essam@1993",
         "m": "m",
         "haninmubarak": "hanin@2024",
         "alaatallal": "alaa@2024",
         "khansagasm": "khansa@2024",
         "youssefelanzy": "youssef@2024",
-        "hossamali": "hossam@2024",
         "raghad": "raghad@2024",
         "ranakarim": "rana@2024",
-        "hassan" : "hassan@2024",
         // "rahaf" : "rahaf@2024",
-        // "abdulmajeed" : "safar@2024",
-        "emad" : "elghamdy@2024",
         "sharif" : "madkour@2024",
         // "AEC" : "aec@2024",
-        "waleed" : "waleed@2024",
         "saqar" : "saqar@2024",
         "moussa" : "moussa@2024",
         "nader" : "nader@2024",
-        "razan" : "razan@2024"
+        "razan" : "razan@2024" 
+        // ends in 7/7
     };
 
     if (validCredentials[usernameInput] === passwordInput) {
