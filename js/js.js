@@ -3112,7 +3112,197 @@ const questions = [
             { text: "24" ,correct:true},
         ]
     },
+        { 
+        // number105
+        question: "A drug vial contains 0.2% of drug x. Which of the following is the amount of the drug x (in mg) in a 5ml dose ?" ,
+        answers: [
+            { text: "0.1" ,correct:false},
+            { text: "1" ,correct:false},
+            { text: "10" ,correct:true},
+            { text: "100" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A patient is to receive 25 mg of dextromethorphan four times daily for cough. The pharmacist dispensed two 125 ml bottles containing 10 mg of dextromethorphan per 5 ml. How many days will the two bottles last ?" ,
+        answers: [
+            { text: "3" ,correct:false},
+            { text: "5" ,correct:true},
+            { text: "7" ,correct:false},
+            { text: "9" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A hospitalized patient with hypertension is prescribed nicardipine hydrochloride intravenous infusion at a dose of 5 mg per hour for four hours. Nicardipine hydrochloride is available as a 10 ml vial containing 25 mg of nicardipine hydrochloride. How many milliliters of nicardipine should be used ?" ,
+        answers: [
+            { text: "2.5" ,correct:false},
+            { text: "4.0" ,correct:false},
+            { text: "8.0" ,correct:true},
+            { text: "10.0" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 100 mL infusion bottle contains 2 g of potassium chloride (KCI). (Mol.wt.kcl= 74.6). Which of the following is the most likely amount of KCL present in the infusion bottle ?" ,
+        answers: [
+            { text: "12.7 mEq" ,correct:false},
+            { text: "20 mEq" ,correct:false},
+            { text: "26.8 mEq" ,correct:true},
+            { text: "78.5 mEq" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Heparin is prepared in a piggy-bag which contains 25,000 units in 250 ml. How many milliliters of heparin per hour must be given to a 70-kilogram male patient if infusion rate is 10 units\kg\hour ?" ,
+        answers: [
+            { text: "5 ml" ,correct:false},
+            { text: "7 ml" ,correct:true},
+            { text: "10 ml" ,correct:false},
+            { text: "20 ml" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "What is the weight of 60 ml olive oil (density: 0.92 g\ml) ?" ,
+        answers: [
+            { text: "36.66 gm" ,correct:false},
+            { text: "49.60 gm" ,correct:false},
+            { text: "55.20 gm" ,correct:true},
+            { text: "65.86 gm" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "How many grams of water are needed to make 100grams of 5% (W\W) solution of potassium acetate ?" ,
+        answers: [
+            { text: "57 g" ,correct:false},
+            { text: "95 g" ,correct:false},
+            { text: "115 g" ,correct:true},
+            { text: "140 g" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A patient is prescribed 0.25% alcaftadine ophthalmic solution, one drop for each eye per day. Alcaftadine is available in a 3 ml bottle and one ml contains 14 drops. How many days will the bottle last ?" ,
+        answers: [
+            { text: "6" ,correct:false},
+            { text: "13" ,correct:false},
+            { text: "17" ,correct:false},
+            { text: "21" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A500 infusion bottle contains 11.72 g of potassium chloride (kCI). The molecular weight of KCI= 74.6 grams. Which of the following is the amount of KCI, in milliequivalent (mEq), present in the bottle ?" ,
+        answers: [
+            { text: "0.637 mEq" ,correct:false},
+            { text: "6.37 mEq" ,correct:false},
+            { text: "11.72mEq" ,correct:false},
+            { text: "157.1 mEq" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A 65-year-old man (weight=70 kg) with acute decompensated heart failure is to be started on dobutamine 5 mcg\kg\ minute. The infusion bag contains dobutamine 150 mg in 100 ml of 0.9% sodium chloride. He has normal renal function. Which of the following is the rate of infusion of dobutamine ?" ,
+        answers: [
+            { text: "0.25 mL\hour" ,correct:false},
+            { text: "1.3 mL\hour" ,correct:false},
+            { text: "14 mL\hour" ,correct:true},
+            { text: "26 mL\hour" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 6-year-old HIV infected boy measuring o.9 m2 is to receive nevirapine 140 mg\m2 two times daily. Nevirapine is available as 50 mg\5 ml suspension. How many milliliters of nevirapine suspension would be administered per dose ?" ,
+        answers: [
+            { text: "6.3" ,correct:false},
+            { text: "12.6" ,correct:true},
+            { text: "14.0" ,correct:false},
+            { text: "16.5" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A patient is to receive 750 ml 5% dextrose over five hours. The intravenous infusion set delivers 10 drops\ ml. Which of the following is the flow rate in ml\min to deliver the prescribed volume ?" ,
+        answers: [
+            { text: "1.5" ,correct:false},
+            { text: "2.0" ,correct:false},
+            { text: "2.5" ,correct:true},
+            { text: "3.0" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A pharmacist calculates a dose of 500 µg/min for continuous infusion of dopamine based on weight of the patient. The concentration of a premixed dopamine infusion is 400 mg/250 ml. What is the most likely amount of dopamine in ml received by the patient in the first hour of treatment ?" ,
+        answers: [
+            { text: "10 ml" ,correct:false},
+            { text: "19 ml" ,correct:true},
+            { text: "24 ml" ,correct:false},
+            { text: "28 ml" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A drug was given to a patient with a constant intravenous infusion rate of 10 mg/hour. The half-life of the drug is three hours. Which of the following is the time in hours to reach steady state plasma concentration ?" ,
+        answers: [
+            { text: "10" ,correct:false},
+            { text: "15" ,correct:true},
+            { text: "20" ,correct:false},
+            { text: "30" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A syrup is 70% w/v solution of sucrose in water. How much of sucrose is required to prepare 500 ml of this syrup ?" ,
+        answers: [
+            { text: "250 g" ,correct:false},
+            { text: "300 g" ,correct:false},
+            { text: "350 g" ,correct:true},
+            { text: "400 g" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Lidocaine is commonly administered for patient exhibiting cardiac arrhythmias. Lidocaine pharmacokinetic parameters are as follows half- life = 2 hours, clearance = 9 mL/min/kg and volume of distribution = 70 L. Which of the following is the time (in minutes) needed to achieve 87.5% of the steady state concentration in a 70-kg individual ?" ,
+        answers: [
+            { text: "77 minutes" ,correct:false},
+            { text: "0.077 minutes" ,correct:true},
+            { text: "0.77 minutes" ,correct:false},
+            { text: "7.7 minutes" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 9-year-old child weighing 36 kg came to the clinic with chickenpox. The physician prescribed acyclovir at a dose of 20 mg/kg four times a day for five days. Acyclovir is available as 200 mg/5ml oral suspension. How many milliliters of suspension should be dispensed ?" ,
+        answers: [
+            { text: "240" ,correct:false},
+            { text: "320" ,correct:false},
+            { text: "360" ,correct:true},
+            { text: "540" ,correct:false},
+        ]
+    },
 ];
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
