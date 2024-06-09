@@ -462,3 +462,9 @@ background-image: url(https://www.google.com/url?sa=i&url=http%3A%2F%2Fsimpleico
     align-items: center;
     justify-content: space-between;
 }
+.question-image{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: auto;
+}

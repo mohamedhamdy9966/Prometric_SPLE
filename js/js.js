@@ -403,9 +403,9 @@ const questions = [
         // number41
         question: "Which of the following hypertension drug prefers for patients with severe liver dysfunction ?" ,
         answers: [
-            { text: "Lisinopril" ,correct:"false"},
+            { text: "Lisinopril" ,correct:"true"},
             { text: "Ramipril" ,correct:"false"},
-            { text: "Enalapril" ,correct:"true"},
+            { text: "Enalapril" ,correct:"false"},
             { text: "Perindopril" ,correct:"false"},
         ]
     },
@@ -1611,7 +1611,6 @@ const questions = [
         { 
         // number450
         question: "Which of the ethical principles do violates as a pharmacist when time and give consultations to only relative ?" ,
-        // image: `<img src="../images/123"></img>`,
         answers: [
             { text: "Autonomy" ,correct:false},
             { text: "Justice" ,correct:true},
@@ -1622,7 +1621,6 @@ const questions = [
         { 
         // number451
         question: "A patient with ASCVD and his lipid profile is controlled on statin 80 mg, he recently discovered that he is has a SLC)!B!*5, but however he has never complained about myopathy, what is the best course of actions :" ,
-        // image: `<img src="../images/123.png" alt="img"></img>`,
         answers: [
             { text: "Continue the same dose of statin" ,correct:true},
             { text: "Switch to gemfibrozil" ,correct:false},
@@ -1633,7 +1631,6 @@ const questions = [
         { 
         // number252
         question: "Which of the following is a coomon enzyme polymorphism that could potentially alter clopidogrel efficacy ?" ,
-        // image: `<img src="../images/123.png" alt="img"></img>`,
         answers: [
             { text: "Cyp2c7" ,correct:false},
             { text: "Cyp2c19" ,correct:true},
@@ -1644,7 +1641,6 @@ const questions = [
         { 
         // number253
         question: "Which of the following is related to health services not reaching patients in rural area ?" ,
-        // image: `<img src="../images/123" alt="img"></img>`,
         answers: [
             { text: "Affordability" ,correct:false},
             { text: "Accessibility" ,correct:true},
@@ -2285,6 +2281,7 @@ const questions = [
         { 
         // number317
         question: "A water-soluble vitamin catalyzes the carboxylation of acetyl-COA to form malonyl-CoA, which is required for the synthesis of fatty acids Which of the following vitamins plays this role ?" ,
+        image: "images/3.PNG",
         answers: [
             { text: "Biotin" ,correct:true},
             { text: "Riboflavin" ,correct:false},
@@ -3333,7 +3330,131 @@ const questions = [
             { text: "60" ,correct:true},
         ]
     },
-];
+        { 
+        // number105
+        question: "Which of the following is the calculation of the apparent volume of distribution if the patient received 400 mg of intravenous medication that produced immediate blood concentration of 10 microgram/ml ?" ,
+        answers: [
+            { text: "0.025 L" ,correct:false},
+            { text: "0.4 L" ,correct:false},
+            { text: "25 L" ,correct:false},
+            { text: "40 L" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A solution contains 2.5 mg of a drug per milliliter. The drug is to be administered at a rate of 50 mg/hr. (1 mL=30 drops). Which of the following is the most appropriate infusion rate ?" ,
+        answers: [
+            { text: "5 drops/min" ,correct:false},
+            { text: "10 drops/min" ,correct:true},
+            { text: "20 drops/min" ,correct:false},
+            { text: "40 drops/min" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 20 ml vial of penicillin-G potassium containing 2,000,000 units is available. Each mg of the drug is equivalent to 1600 units. How many milligrams of penicillin-G potassium are there in one ml of the solution ?" ,
+        answers: [
+            { text: "12.50" ,correct:false},
+            { text: "62.50" ,correct:false},
+            { text: "160" ,correct:false},
+            { text: "1250" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A drug vial contains 0.2% of drug X. Which of the following is the amount of the drug X (in mg) in a 10 ml dose ?" ,
+        answers: [
+            { text: "0.1" ,correct:false},
+            { text: "1" ,correct:false},
+            { text: "10" ,correct:false},
+            { text: "20" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "The vitamin-D solution is available in a 2.5 ml bottle containing 36,000 international units The recommended daily dose for children is 400 international units. Each ml of vitamin D solution contains 36 drops. How many drops should be administered to a child per day ?" ,
+        answers: [
+            { text: "1" ,correct:true},
+            { text: "2" ,correct:false},
+            { text: "4" ,correct:false},
+            { text: "12" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "The diagram shows the role of a vitamin as coenzyme for cystathionine synthase and cystathionase enzymes which catalyze the transsulfuration of methionine to cysteine (see image).Which of the following is the vitamin indicated by the star* in the figure ?" ,
+        image: "images/2.PNG",
+        answers: [
+            { text: "B2" ,correct:false},
+            { text: "B3" ,correct:false},
+            { text: "B5" ,correct:false},
+            { text: "B6" ,correct:true},
+        ]
+    },
+            { 
+        // number105
+        question: "Quinine is an important antimalarial drug with very complicated structure and is very sensitive stereochemistry (see image). Which pharmacological activity the drug will possess stereochemistry at the arrow has changed from R to S ?" ,
+        image: "images/4.PNG",
+        answers: [
+            { text: "anticancer" ,correct:false},
+            { text: "antimalarial" ,correct:false},
+            { text: "anticoagulant" ,correct:false},
+            { text: "antiarrhythmic" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "The structure of norepinephrine-serotonin reuptake inhibitor (NSRI) (see image) Which of the following structure modifications can transform this drug into a selective norepinephrine re-uptake inhibitor (SNRI) analogue ? " ,
+        image: "images/5.PNG",
+        answers: [
+            { text: "quaternization of the side chain amino group" ,correct:false},
+            { text: "transformation of the side chain amino group into a primary amine" ,correct:false},
+            { text: "replacement of the side chain N.N-dimethylamino group with a hydroxyl group" ,correct:false},
+            { text: "demethylation of the side chain tertiary amino group to yield a secondary amino group" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "Thalidomide is a potent immunomodulatory drug used to treat leprosy Thalidomide exist in two conformation structures with different pharmacological and toxicological activates teratogenicity is believed to be caused on conformational structure (see image). Which of the following is the most appropriate term used to call the two conformations of the thalidomide ?" ,
+        image: "images/6.PNG",
+        answers: [
+            { text: "Isomers" ,correct:false},
+            { text: "Epimers" ,correct:false},
+            { text: "Enatntimomers" ,correct:true},
+            { text: "diasteriomers" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A structure of the glibenclamide (glyburide)(see image). Which of the following pharmacophore does Glibenclamide (glyburide) contain ?" ,
+        image: "images/7.PNG",
+        answers: [
+            { text: "Benzenesulfate urea" ,correct:false},
+            { text: "Benzenesulfinyl urea" ,correct:false},
+            { text: "Benzenesulfhydryl urea" ,correct:false},
+            { text: "Benzenesulphonyl urea" ,correct:true},
+        ]
+    },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
