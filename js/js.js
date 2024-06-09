@@ -3214,7 +3214,7 @@ const questions = [
     },
         { 
         // number105
-        question: "A 6-year-old HIV infected boy measuring o.9 m2 is to receive nevirapine 140 mg\m2 two times daily. Nevirapine is available as 50 mg\5 ml suspension. How many milliliters of nevirapine suspension would be administered per dose ?" ,
+        question: "A 6-year-old HIV infected boy measuring o.9 m2 is to receive nevirapine 140 mg\m2 two times daily. Nevirapine is available as 50 mg / 5 ml suspension. How many milliliters of nevirapine suspension would be administered per dose ?" ,
         answers: [
             { text: "6.3" ,correct:false},
             { text: "12.6" ,correct:true},
@@ -3282,57 +3282,58 @@ const questions = [
             { text: "540" ,correct:false},
         ]
     },
+        { 
+        // number105
+        question: "How many grams of dextrose are in a 250 ml bag of 10% dextrose ?" ,
+        answers: [
+            { text: "12.5" ,correct:false},
+            { text: "25" ,correct:true},
+            { text: "50" ,correct:false},
+            { text: "100" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A water sample contains 9 ppm of magnesium. Which of the following is the percentage of magnesium in this sample ?" ,
+        answers: [
+            { text: "0.9%" ,correct:false},
+            { text: "0.09%" ,correct:false},
+            { text: "0.009%" ,correct:false},
+            { text: "0.0009%" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "Results data from a bioavailability study of four different dosage forms of an antibiotic drug is shown (see table). The volunteers fasted for 12 hours prior to taking the drug products. Urine samples were collected up to 72 hours after the administration of the drug to obtain the maximum urinary drug excretion. Which of the following is the absolute bioavailability of the tablet dosage form ?" ,
+        image:"images/1.PNG",
+        answers: [
+            { text: "80%" ,correct:false},
+            { text: "85%" ,correct:true},
+            { text: "90%" ,correct:false},
+            { text: "95%" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Which of the following is the expected bioavailability (F) of drugs given by intravenous route ?" ,
+        answers: [
+            { text: "less than 25%" ,correct:false},
+            { text: "25%-50%" ,correct:false},
+            { text: "75% -100%" ,correct:false},
+            { text: "100%" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A patient presents a prescription with the following antiviral regimen. Start with 50 mg then decrease by 10 mg every 2 days until finished. Which of the following quantities of 5 mg tablets is needed to fill this prescription ?" ,
+        answers: [
+            { text: "20" ,correct:false},
+            { text: "30" ,correct:false},
+            { text: "40" ,correct:false},
+            { text: "60" ,correct:true},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
