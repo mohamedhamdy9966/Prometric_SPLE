@@ -3435,6 +3435,248 @@ const questions = [
             { text: "Benzenesulphonyl urea" ,correct:true},
         ]
     },
+        { 
+        // number105
+        question: "A pharmacist adds 2 g of potassium chloride to 1L of D5W/1/2 normal saline. Atomic welghts (see table).Which of the following is the most likely osmolality of solution assuming the final volume as 1 L ?" ,
+        image: "images/8.PNG",
+        answers: [
+            { text: "54 mosm/L" ,correct:true},
+            { text: "300 mosm/L" ,correct:false},
+            { text: "400 mosm/L" ,correct:false},
+            { text: "460 mosm/L" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A budesonide inhaler delivers 200 puffs and each puff contains 100 micrograms of the drug. Which of the following is the amount (in milligrams) of total budesonide present in the inhaler ?" ,
+        answers: [
+            { text: "10 mg" ,correct:false},
+            { text: "20 mg" ,correct:true},
+            { text: "10000 mg" ,correct:false},
+            { text: "20000 mg" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 5OO infusion bottle contains 11.72g of potassium chloride (KCI). The molecular weight of KCL 74.6 grams. Which of the following is the amount of KCL in milliequivalent (mEq). present in the bottle ?" ,
+        answers: [
+            { text: "0. 637 mEq" ,correct:false},
+            { text: "6.37 mEq" ,correct:false},
+            { text: "11.72 mEq" ,correct:false},
+            { text: "157.1 mEq" ,correct:true},
+        ]
+    },
+];
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
+//         // { 
+//         // number105
+//     //     question: "" ,
+//     //     answers: [
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:true},
+//     //         { text: "" ,correct:false},
+//     //         { text: "" ,correct:false},
+//     //     ]
+//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
