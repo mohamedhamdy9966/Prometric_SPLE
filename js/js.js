@@ -3466,117 +3466,117 @@ const questions = [
             { text: "157.1 mEq" ,correct:true},
         ]
     },
+        { 
+        // number105
+        question: "A 500-mg dose of aspirin was given Intravenously to a patient produced an initial plasma concentration of 100 mg/L. If the half-life of the drug is 6.93 hours, what would be the total body clearance ?" ,
+        answers: [
+            { text: "50 Liters/hour" ,correct:false},
+            { text: "10 Liters/hour" ,correct:false},
+            { text: "5 Liters/hour" ,correct:false},
+            { text: "0.5 Liters/hour" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "How many grams of 5% diclofenac cream should be mixed with 100 g of 1% cream to make a 2.5% diclofenac cream ?" ,
+        answers: [
+            { text: "30 g" ,correct:false},
+            { text: "60 g" ,correct:true},
+            { text: "90 g" ,correct:false},
+            { text: "120 g" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "If multivitamin syrup contains 1501U of vitamin A in each milliliter. Which of the following quantities of international units of vitamin A would be provided by 1 teaspoonful ?" ,
+        answers: [
+            { text: "500" ,correct:false},
+            { text: "750" ,correct:true},
+            { text: "1000" ,correct:false},
+            { text: "2250" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Penicillin-G potassium is available in 50 ml vial containing 20 grams. Each milligram of penicillin-G potassium is equal to 1500 units. How many units of penicillin G potassium are there in each vial ?" ,
+        answers: [
+            { text: "15000000" ,correct:false},
+            { text: "20000000" ,correct:false},
+            { text: "25000000" ,correct:false},
+            { text: "30000000" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A physician ordered Labetalol hydrochloride intravenous infusion at a dose of 500 micrograms/min over an hour for a hypertensive patient. Labetalol hydrochloride is available in a 20 ml vial containing 5 mg/ml of the drug. Which of the following is the amount in (milliliters) of labetalol hydrochloride solution that should be administered ?" ,
+        answers: [
+            { text: "4.5" ,correct:false},
+            { text: "6" ,correct:true},
+            { text: "7.5" ,correct:false},
+            { text: "10" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A solution contains 448 mg of KCI (MW=74.5) and 468 mg of NaCl (MW=58.5) in 500 ml. Which of the following is the osmolar concentration of this solution ?" ,
+        answers: [
+            { text: "0.056" ,correct:true},
+            { text: "0.065" ,correct:false},
+            { text: "1.556" ,correct:false},
+            { text: "1.256" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 10 ml ampule of 0.25% nicardipine hydrochloride is given to a patient after prepared diluted with 5% dextrose to get the drug concentration of .1mg/ml. How many milliliters of 5% dextrose should be used ?" ,
+        answers: [
+            { text: "25" ,correct:false},
+            { text: "100" ,correct:false},
+            { text: "240" ,correct:true},
+            { text: "250" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A drug vial contains 0.4% of drug X. Which of the following is the amount of the drug X (in mg) in a 5 ml dose ?" ,
+        answers: [
+            { text: "0.2" ,correct:false},
+            { text: "2" ,correct:false},
+            { text: "20" ,correct:true},
+            { text: "200" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A patient is prescribed 15 mg of paclitaxel by intravenous infusion. Paclitaxel is added to 150 ml 5% dextrose solution. The infusion was given over two hours. Which of the following is the infusion rate ?" ,
+        answers: [
+            { text: "0.75 ml/min" ,correct:false},
+            { text: "1.25 ml/min" ,correct:true},
+            { text: "1.75 ml/min" ,correct:false},
+            { text: "2.50 ml/min" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "An elixir contains 5 mg of drug X per ml. Which of the following is the amount of the elixir (in micrograms) in one teaspoon dose ?" ,
+        answers: [
+            { text: "0.5" ,correct:false},
+            { text: "1000" ,correct:false},
+            { text: "1500" ,correct:false},
+            { text: "25000" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A patient is receiving an intravenous infusion of theophylline at a rate of 0.48 mg/min. The average population pharmacokinetic parameters of theophylline are as follow: volume of distribution=95 Liter, renal clearance 48 mL/min, and elimination half-life= 8 hours Which of the following is the time (in hours) needed to achieve 93.75% of the final steady-state concentration ?" ,
+        answers: [
+            { text: "8" ,correct:false},
+            { text: "12" ,correct:false},
+            { text: "24" ,correct:false},
+            { text: "32" ,correct:true},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
