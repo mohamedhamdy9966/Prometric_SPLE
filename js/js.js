@@ -3817,37 +3817,197 @@ const questions = [
             { text: "20mg" ,correct:false},
         ]
     },
+        { 
+        // number105
+        question: "A 25-year-old man with leukemia admitted to hematology oncology center. Who is allowed to read the patient file without additional permission ?" ,
+        answers: [
+            { text: "Patient's cousin who is working as out-patient nurse in the hospital" ,correct:false},
+            { text: "Medical resident in pediatric who wants to explore the risk leukemia" ,correct:false},
+            { text: "Clinical nutritionist who is assigned to calculate the requires for the patient" ,correct:true},
+            { text: "Pharmacy resident who is planning to do a research cell transplant" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Which of the following anti-neoplastic medications is known to cause bone marrow suppression ?" ,
+        answers: [
+            { text: "bleomycin" ,correct:false},
+            { text: "vincristine" ,correct:false},
+            { text: "doxorubicin" ,correct:true},
+            { text: "l-asparaginase" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Which of the following is an alkylating anticancer agent ?" ,
+        answers: [
+            { text: "cyclophosphamide" ,correct:true},
+            { text: "fluorouracil" ,correct:false},
+            { text: "doxorubicin" ,correct:false},
+            { text: "etoposide" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "42-year-old woman, a mother of 2 boys is diagnosed with cancer, treatment options includes either hysterectomy or chemotherapy The patient refused the surgery because she still wants to daughter, and do not want to receive any chemotherapy in protect her hair and beauty. What will be the most appropriate suggestion for her?" ,
+        answers: [
+            { text: "To starts chemotherapy with very low doses and less frequency" ,correct:false},
+            { text: "To go with the option of surgery immediately because it is" ,correct:false},
+            { text: "To discuss the risk and benefit with the patient and take the decision" ,correct:true},
+            { text: "To force the patient to receive chemotherapy and wear syn hair extensions" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Which of the following anti-cancer alkaloids act by stabilizing the microtubule polymer and protecting it from disassembly ?" ,
+        answers: [
+            { text: "Paclitaxel" ,correct:true},
+            { text: "Colchicine" ,correct:false},
+            { text: "Vinblastine" ,correct:false},
+            { text: "Camptothesin" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Which of the following is a recommendation to reduce the inadvertent intrathecal administration of vincristine ?" ,
+        answers: [
+            { text: "dispense the syringe without needle" ,correct:false},
+            { text: "dispense vincristine in 60-ml syringe" ,correct:false},
+            { text: "dispense vincristine in mini bag instead of syringe" ,correct:true},
+            { text: "dispense the vial for the nurse to prepare at the bedside" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "What is the most common adverse reaction of doxorubicin ?" ,
+        answers: [
+            { text: "Bone marrow depression" ,correct:false},
+            { text: "Hepatic toxicity" ,correct:false},
+            { text: "Cardiac toxicity" ,correct:true},
+            { text: "Skin necrosis" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "What is the therapeutic indication for nilotinib ?" ,
+        answers: [
+            { text: "Ulcerative colitis" ,correct:false},
+            { text: "Familial hyperlipidemia" ,correct:false},
+            { text: "Highly active and relapsing remitting multiple sclerosis" ,correct:false},
+            { text: "Philadelphia chromosome positive chronic myelogenous leukemia" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "40 years old women with breast cancer, topoisomerase is elevated, which drug should be used " ,
+        answers: [
+            { text: "Cyclophosphamide" ,correct:false},
+            { text: "Melphalan" ,correct:false},
+            { text: "Irinotican" ,correct:true},
+            { text: "Methotrexate" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "- Immune system works an important role in cancer treatment by ? " ,
+        answers: [
+            { text: "Macrophage" ,correct:false},
+            { text: "cytotoxic" ,correct:true},
+            { text: "complex" ,correct:false},
+            { text: "chelating" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "prevention breast cancer ?" ,
+        answers: [
+            { text: "Vit A 100" ,correct:false},
+            { text: "Vit D 200" ,correct:true},
+            { text: "None of them" ,correct:false},
+            { text: "Vit A + vit d" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Cysteine in chemotherapy agent benefit ?" ,
+        answers: [
+            { text: "Increase Target" ,correct:false},
+            { text: "Increase effects" ,correct:true},
+            { text: "increase solubility" ,correct:false},
+            { text: "More information need" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Acetaminophen is an antipyretic and an analgesic drug. It binds to a cytosolic protein. Which of the following types of bonds is formed between the protonated amine of the acetaminophen and the cytosolic acid of the aspartate residue of the protein ?" ,
+        answers: [
+            { text: "ionic bond" ,correct:false},
+            { text: "covalent bond" ,correct:false},
+            { text: "hydrogen bond" ,correct:true},
+            { text: "VAN_der walls interaction" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Which of the following molecules contains double bond ?" ,
+        answers: [
+            { text: "CH3" ,correct:false},
+            { text: "CNH" ,correct:false},
+            { text: "C2H2" ,correct:false},
+            { text: "C2H4" ,correct:true},
+        ]
+    },
+            { 
+        // number105
+        question: "Which of the following can be used safely in a patient with sulfa allergy ?" ,
+        answers: [
+            { text: "gliclazide" ,correct:false},
+            { text: "furosemide" ,correct:true},
+            { text: "sulfamethoxazole" ,correct:false},
+            { text: "sodium thiosulfate" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
+            // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+            // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+            // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+            // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
 // ];
 
 const questionElement = document.getElementById("question");
