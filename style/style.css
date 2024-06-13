@@ -397,8 +397,8 @@ form input[type=button].operator {
         width: 20%; /* Adjust width */
     }
     .question-image{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 }
 

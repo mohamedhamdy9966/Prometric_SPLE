@@ -3667,17 +3667,157 @@ const questions = [
             { text: "100" ,correct:false},
         ]
     },
+        { 
+        // number105
+        question: "A 1 milliequivalent of calcium chloride =0.0735 g. How many milliequivalents (Eq) of calcium chloride are there In a 10 ml vail containing 10 % calcium gluconate ?" ,
+        answers: [
+            { text: "1.36 mEq" ,correct:false},
+            { text: "13.6 mEq" ,correct:true},
+            { text: "73.5 mEq" ,correct:false},
+            { text: "136.0 mEq" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 1 milli equivalent (1 mEq) of calcium gluconate = 0.215 g. How many milli equivalents (mEq) per ml of calcium gluconate are there in a 50 ml vial containing 5 g of calcium gluconate ?" ,
+        answers: [
+            { text: "0.465 mEq/ml" ,correct:true},
+            { text: "2.320 mEq/ml" ,correct:false},
+            { text: "23.250 mEq/ml" ,correct:false},
+            { text: "46.500 mEq/ml" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 10 ml ampule of 0.25 % nicardipine hydrochloride is given to a patient after proper diluted with 5 % dextrose to get the drug concentration of 0.1 mg/ml. How many milliliters of 5 % dextrose should be used ?" ,
+        answers: [
+            { text: "25" ,correct:false},
+            { text: "100" ,correct:false},
+            { text: "240" ,correct:true},
+            { text: "250" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A preparation used 0.06 grams of drug X to prepare 120 tablets. Which of the following is the amount of the drug (in micrograms) in each tablet ?" ,
+        answers: [
+            { text: "0.5" ,correct:false},
+            { text: "5" ,correct:false},
+            { text: "50" ,correct:false},
+            { text: "500" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A 50 year-old girl weighing 20 kg is brought to the clinic with Lyme disease. The physician prescribed cefuroxime 12.5 mg/ kg twice daily for 14 days. The pharmacist has cefuroxime powder for suspension which after reconstitution with water forms 100 ml suspension with concentration of 125 mg 5 ml. How many bottles would the pharmacist dispense ?" ,
+        answers: [
+            { text: "1" ,correct:false},
+            { text: "2" ,correct:false},
+            { text: "3" ,correct:true},
+            { text: "4" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A child weighing 25 kg is prescribed acetazolamide 2.5 mg/kg every 12 hours. Acetazolamide is available in a liquid dosage form with strength of 25 mg/ ml. How many milliliters would the patient be administered per dose ?" ,
+        answers: [
+            { text: "2.5" ,correct:true},
+            { text: "5.0" ,correct:false},
+            { text: "7.5" ,correct:false},
+            { text: "10" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Which of the following is the amount of a drug (in gm) that is needed to make 150 ml of a solution if each teaspoonful must contain 7.5 mg of the drug ?" ,
+        answers: [
+            { text: "0.225" ,correct:true},
+            { text: "0.75" ,correct:false},
+            { text: "2.25" ,correct:false},
+            { text: "7.50" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A Young child weight =30 kg) diagnosed with pharyngitis has been prescribed Augmentin suspension (125 mg amoxicillin/31.25 mg clavulanate/ 5 ml) days. to be given as two teaspoons three times daily for five. Which of the following is the minimum suspension volume that should dispense ?" ,
+        answers: [
+            { text: "60" ,correct:false},
+            { text: "90" ,correct:false},
+            { text: "120" ,correct:false},
+            { text: "150" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A25 ml solution contains 5 grams of the drug. Which of the following is the drug concentration in mg/ml in the solution ?" ,
+        answers: [
+            { text: "50 mg/ml" ,correct:false},
+            { text: "100 mg/ml" ,correct:false},
+            { text: "200 mg/ml" ,correct:true},
+            { text: "400 mg/ml" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 1000-mg dose of a drug was given intravenously to a 25-year-old male patient weighing 60 Kg. the initial plasma concentration of the drug was found to be 10 mg/L, and the elimination rate constant was 0.1 h. Assuming linear kinetics, what would be the total body clearance ?" ,
+        answers: [
+            { text: "10 litres/hour" ,correct:true},
+            { text: "100 litres/hour" ,correct:false},
+            { text: "150 litres/hour" ,correct:false},
+            { text: "250 litres/hour" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A manufacturer wishes to produce a batch of compressed tablets each containing 800 mg active ingredient, with a mean table weight of 1.2 g. Which of the following is the weight of active ingredient that will be required for a total batch size of 720 kg ?" ,
+        answers: [
+            { text: "600 Kg" ,correct:false},
+            { text: "480 Kg" ,correct:true},
+            { text: "250 Kg" ,correct:false},
+            { text: "240 Kg" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "10 ml ampule of 0.25% nicardipine hydrochloride is given to a patient after proper diluted with 5% dextrose to get the drug concentration of 0.1 mg/ml. How many milliliter of $% dextrose should be used ?" ,
+        answers: [
+            { text: "25" ,correct:false},
+            { text: "100" ,correct:false},
+            { text: "240" ,correct:true},
+            { text: "250" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 500 ml intravenous infusion solution was prepared by adding 10 ML of 10 % Of anticancer drug to 490 ml of 5 % dextrose. Which of the following is the percentage strength of the drug in the Infusion solution ?" ,
+        answers: [
+            { text: "0.2 %" ,correct:true},
+            { text: "0.4 %" ,correct:false},
+            { text: "0.5 %" ,correct:false},
+            { text: "1.0 %" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A 5-year-old girl admitted to the Pediatric Intensive Care Unit (PICU) with severe hypotension. The physician prescribed dopamine infusion at a rate of 5mcg/kilogram/minute. The child weights 15 kilograms. How many milliliters are needed from an 80 mg/ml dopamine vial to prepare the 24-hour infusion ?" ,
+        answers: [
+            { text: "1 ml" ,correct:false},
+            { text: "1.4 ml" ,correct:true},
+            { text: "2 ml" ,correct:false},
+            { text: "2.5 ml" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "drug has volume of distribution 15 liter and oral bioavailability 0.6 What is the loading dose in mg required to reach 0.8mg/ml steady state concentration ?" ,
+        answers: [
+            { text: "200 mg" ,correct:false},
+            { text: "2000 mg" ,correct:false},
+            { text: "20000 mg" ,correct:true},
+            { text: "20mg" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
