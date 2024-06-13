@@ -295,6 +295,10 @@ form input[type=button].operator {
         width: 100px; /* Adjust width */
         font-size: 18px; /* Adjust font size */
     }
+    .question-image{
+        width: 250px;
+        height: 250px;
+    }
 }
 
 /* Responsive styles for large screens */
@@ -321,7 +325,10 @@ form input[type=button].operator {
         font-size: 8px; /* Adjust font size */
         padding: 2px; /* Adjust padding */
     }
-
+    .question-image{
+        width: 500px;
+        height: 500px;
+    }
     .sidebar {
         width: 20%; /* Adjust width */
     }
@@ -388,6 +395,10 @@ form input[type=button].operator {
     }
     .sidebar {
         width: 20%; /* Adjust width */
+    }
+    .question-image{
+        width: 150px;
+        height: 150px;
     }
 }
 

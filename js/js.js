@@ -3576,97 +3576,98 @@ const questions = [
             { text: "32" ,correct:true},
         ]
     },
+        { 
+        // number105
+        question: "A 4-year-old boy is admitted with dehydration. He is started on Dextrose 5% and normal saline with 40 milliequivalents potassium chloride per liter at a rate of 40 ml per hour. His weight is 16 kilograms. How much potassium chloride (in milli equivalent per kilogram per day) is her receiving ?" ,
+        answers: [
+            { text: "2.4" ,correct:true},
+            { text: "3" ,correct:false},
+            { text: "4.5" ,correct:false},
+            { text: "6" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Voltarol tablets contain 25 mg of Diclofenac Sodium. Molecular formula of Diclofenac Sodium: C14H10Cl2NO2.NA (see table). What is the amount of diclofenac per tablet of Voltarol ?" ,
+        image: "images/9.PNG",
+        answers: [
+            { text: "20.99" ,correct:false},
+            { text: "21.98" ,correct:false},
+            { text: "23.19" ,correct:true},
+            { text: "24.27" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A drug X is available in 100 mg/5 ml bottle. A prescription calls for: Drug X 200 mg three times daily for 7 days. How many (ml) are needed for the five days ?" ,
+        answers: [
+            { text: "7.5" ,correct:false},
+            { text: "15" ,correct:false},
+            { text: "75" ,correct:false},
+            { text: "150" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A drug was given to a patient with a constant intravenous infusion rate of 10 mg /hour. The half-life of the drug is three hours. Which of the following is the time in hours to reach steady state plasma concentration ?" ,
+        answers: [
+            { text: "10" ,correct:false},
+            { text: "15" ,correct:true},
+            { text: "20" ,correct:false},
+            { text: "30" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A pharmacy intern is preparing a solution containing 8.4 g of drug from an available stock solution labeled as 20% w/v. Which of the following is the volume he must take from 20% w/v solution ?" ,
+        answers: [
+            { text: "4.2 ml" ,correct:false},
+            { text: "8.4 ml" ,correct:false},
+            { text: "42 ml" ,correct:true},
+            { text: "84 ml" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "The pharmacy receives a prescription for labetalol 800 mg twice daily for three days. The available strength of labetalol in the pharmacy is 200 mg. Which of the following is the number of 200 mg labetalol tablet needed to prepare the above prescriptions for the total duration ?" ,
+        answers: [
+            { text: "8" ,correct:false},
+            { text: "12" ,correct:false},
+            { text: "16" ,correct:false},
+            { text: "24" ,correct:true},
+        ]
+    },
+        { 
+        // number105
+        question: "A prescription order asks for compounding dimenhydrinate syrup of strength of 12.5 mg/5 ml. How many 50 mg tablets of dimenhydrinate is needed to prepare a 60 mL of the syrup ?" ,
+        answers: [
+            { text: "1" ,correct:false},
+            { text: "2" ,correct:false},
+            { text: "3" ,correct:true},
+            { text: "6" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "The weekly dose of docetaxel is 40 mg/m2. How milliliters of docetaxel solution, 160 mg/16 ml would a patient measuring 1.5 m2 need every week ?" ,
+        answers: [
+            { text: "4" ,correct:false},
+            { text: "6" ,correct:true},
+            { text: "8" ,correct:false},
+            { text: "10" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "A drug vial contains 0.2% of drug X. Which of the following is the amount of the drug X (in mg) in a 5 ml dose ?" ,
+        answers: [
+            { text: "0.1" ,correct:false},
+            { text: "1" ,correct:false},
+            { text: "10" ,correct:true},
+            { text: "100" ,correct:false},
+        ]
+    },
 ];
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
-//         // { 
-//         // number105
-//     //     question: "" ,
-//     //     answers: [
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:true},
-//     //         { text: "" ,correct:false},
-//     //         { text: "" ,correct:false},
-//     //     ]
-//     // },
 //         // { 
 //         // number105
 //     //     question: "" ,
