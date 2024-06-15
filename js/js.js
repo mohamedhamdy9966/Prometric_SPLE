@@ -3967,8 +3967,94 @@ const questions = [
             { text: "sodium thiosulfate" ,correct:false},
         ]
     },
+            { 
+        // number105
+        question: "Aspirin is well-known antiplatelet aggregating agent (see image). What is the role of the acetyle group in its antiplatelet activity ?" ,
+        image: "images/10.PNG",
+        answers: [
+            { text: "it represents a good leaving group to form the active salicylic acid" ,correct:false},
+            { text: "it provides hydrogen binding with tyrosine moiety on COX binding" ,correct:false},
+            { text: "it provides covalent binding with serine moiety found on COX binding site" ,correct:true},
+            { text: "it provides hydrophobic binding with a tryptophan moiety on COX binding site" ,correct:false},
+        ]
+    },
+            { 
+        // number105
+        question: "Examine the drug in the figure (see image). What is the effect of replacement of the methoxyl group (boxed) with a hydroxyl group ?" ,
+        image: "images/11.PNG",
+        answers: [
+            { text: "Decrease in analgesic activity" ,correct:false},
+            { text: "Decrease in addition activity" ,correct:false},
+            { text: "Reduction in the antitussive activity" ,correct:true},
+            { text: "Lower affinity to morphine receptors" ,correct:false},
+        ]
+    },
+            { 
+        // number105
+        question: "The structure of erythromycin (see image). Which of the following is the reason why erythromycin is sensitive to acidic pH ?" ,
+        image: "images/12.PNG",
+        answers: [
+            { text: "The presence of lactone group in the ring" ,correct:false},
+            { text: "The presence of two basic sugars at position 3 and 5" ,correct:false},
+            { text: "The presence of 6 months methyl groups at alternate positions of the macrolide ring" ,correct:false},
+            { text: "Ketal fomation between hydroxyl group (6 and 12) and ketone at position 9" ,correct:true},
+        ]
+    },
+            { 
+        // number105
+        question: "Which of the following polymorphic enzyme is responsible for the conversion of codeine to morphine ?" ,
+        answers: [
+            { text: "CYP2D6" ,correct:true},
+            { text: "CYP2C9" ,correct:false},
+            { text: "CCR5 corecptor" ,correct:false},
+            { text: "N-Acetyltransferase" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "Structures of four antidepressant drugs (see image). Which of the following antidepressant structure undergoes a photo- oxidation reaction upon exposure to the light ?" ,
+        image: "images/13.PNG",
+        answers: [
+            { text: "1" ,correct:true},
+            { text: "2" ,correct:false},
+            { text: "3" ,correct:false},
+            { text: "4" ,correct:false},
+        ]
+    },
+            { 
+        // number105
+        question: "The chemical structure of four non-steroidal anti-inflammatory agents (NSAIDs) (see image). Which of the following NSAIDs has minimal possible gastric side effects ?" ,
+        image: "images/14.PNG",
+        answers: [
+            { text: "(ibuprofen)" ,correct:false},
+            { text: "(celecoxib) selective cox-2" ,correct:true},
+            { text: "(indomethacin)" ,correct:false},
+            { text: "(diclofenac)" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "Which of the following is the most common cause of drug instability ?" ,
+        answers: [
+            { text: "oxidation" ,correct:true},
+            { text: "racemization" ,correct:false},
+            { text: "epimerization" ,correct:false},
+            { text: "decarboxylation" ,correct:false},
+        ]
+    },
+            { 
+        // number105
+        question: "Structure of ciprofloxacin (SEE IMAGE ). Which of the following is the benefit of the piperazine group at position ?" ,
+        image: "images/16.PNG",
+        answers: [
+            { text: "Increases drug resistance to β-lactamase" ,correct:false},
+            { text: "improves the oral bioavailability of the drug" ,correct:false},
+            { text: "Increases lipophilicity and hence penetration of the bacterial cell wall" ,correct:false},
+            { text: "Improves the spectrum of antibacterial activity (especially Gramnegative)" ,correct:true},
+        ]
+    },
 ];
-            // { 
+                // { 
         // number105
     //     question: "" ,
     //     answers: [
@@ -3988,7 +4074,87 @@ const questions = [
     //         { text: "" ,correct:false},
     //     ]
     // },
+                // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
             // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+                // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+            // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+                // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+            // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+                // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+            // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+                // { 
         // number105
     //     question: "" ,
     //     answers: [
@@ -4097,9 +4263,9 @@ function login(usernameInput, passwordInput) {
         // "rahaf" : "rahaf@2024",
         "sharif" : "madkour@2024",
         // "AEC" : "aec@2024",
-        "saqar" : "saqar@2024",
-        "moussa" : "moussa@2024",
-        "nader" : "nader@2024",
+        // "saqar" : "saqar@2024",
+        // "moussa" : "moussa@2024",
+        // "nader" : "nader@2024",
         "razan" : "razan@2024",
         // ends in 7/7
         "nada" : "kassem@2024",
