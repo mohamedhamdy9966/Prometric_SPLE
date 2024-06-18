@@ -4053,118 +4053,221 @@ const questions = [
             { text: "Improves the spectrum of antibacterial activity (especially Gramnegative)" ,correct:true},
         ]
     },
+                { 
+        // number105
+        question: "Which one of the following is the effect to alkaline buffers that have in commercial formulations of aspirin ?" ,
+        answers: [
+            { text: "they have one effect on the rate of absorption" ,correct:false},
+            { text: "they increase the rate of its absorption by alkalinizing the pH of the stomach" ,correct:false},
+            { text: "they reduce the rate of absorption of aspirin by converting it to the less readily absorbed lonic form" ,correct:false},
+            { text: "they Increase the rate of absorption by increasing the PH immediately around the disintegrating aspirin particles and accelerating their dissolution" ,correct:true},
+        ]
+    },
+            { 
+        // number105
+        question: "Examine the chemical structure of diclofenac (see image). Which of the following structures best represents a major active metabolite of diclofenac ?" ,
+        image: "images/17.PNG",
+        answers: [
+            { text: "1" ,correct:false},
+            { text: "2" ,correct:false},
+            { text: "3" ,correct:true},
+            { text: "4" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "The presented structure belongs to the proton pump inhibitor tenatoprazol (see image). Which of the following metabolic reactions can occur at the pointed arrow on the structure ?" ,
+        image: "images/18.PNG",
+        answers: [
+            { text: "sulfation" ,correct:false},
+            { text: "oxidation" ,correct:true},
+            { text: "demethylation" ,correct:false},
+            { text: "glucoronidation" ,correct:false},
+        ]
+    },
+            { 
+        // number105
+        question: "Histamine (pKa=9.4) is endogenous chemical release when allergic reaction happened. As a pharmacist you are responsible to understand the mechanism and the conformation of this chemical in the blood (see image). Which of the following is the least dominant tautomer of the histamine ?" ,
+        image: "images/19.PNG",
+        answers: [
+            { text: "a" ,correct:false},
+            { text: "b" ,correct:false},
+            { text: "c" ,correct:true},
+            { text: "d" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "D-Galactose and D-Mannose are monosaccharide sugar. They have the same number of carbons and the same functional group, but they differ in their configurations. This reflects their pharmacoceutical uses (see image). Which of the following types of stereo-isomerization do these sugars represent ?" ,
+        answers: [
+            { text: "isomers" ,correct:false},
+            { text: "epimers" ,correct:false},
+            { text: "anomers" ,correct:false},
+            { text: "diasteromers" ,correct:true},
+        ]
+    },
+            { 
+        // number105
+        question: "Ropivancaine is an important local anesthetic. The figure shows the chemical structures of ropivacaine and 4 other local anesthetics (see image). Which of the following is the bioisoster for ropivacaine ?" ,
+        answers: [
+            { text: "Etidocaine" ,correct:false},
+            { text: "Bupvicaine" ,correct:false},
+            { text: "Mepvicaine" ,correct:false},
+            { text: "Levobupvicaine" ,correct:true},
+        ]
+    },
+                { 
+        // number105
+        question: "Amphotericin undergo which reaction ?" ,
+        answers: [
+            { text: "Hydrolysis" ,correct:true},
+            { text: "Alkylation" ,correct:false},
+            { text: "Reduction" ,correct:false},
+            { text: "Oxidation" ,correct:false},
+        ]
+    },
+            { 
+        // number105
+        question: "epimor of glucose ?" ,
+        answers: [
+            { text: "Ribose" ,correct:false},
+            { text: "galactose" ,correct:true},
+            { text: "deoxyribose" ,correct:false},
+            { text: "sucrose" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "Morphine to heroine ?" ,
+        answers: [
+            { text: "Carboxylation" ,correct:false},
+            { text: "Estrefication" ,correct:true},
+            { text: "Oxidation" ,correct:false},
+            { text: "Hydrolysis" ,correct:false},
+        ]
+    },
+            { 
+        // number105
+        question: "type of bond between amino acids ?" ,
+        answers: [
+            { text: "amide bond" ,correct:true},
+            { text: "disulfide bond" ,correct:false},
+            { text: "Ionic bond" ,correct:false},
+            { text: "Van der vals bond" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "Aspirin metabolism ?" ,
+        answers: [
+            { text: "Methylation" ,correct:false},
+            { text: "Hydroxylation" ,correct:true},
+            { text: "Conjugation" ,correct:false},
+            { text: "Esterfication" ,correct:false},
+        ]
+    },
+            { 
+        // number105
+        question: "Bond between Carboxyl and amine ?" ,
+        answers: [
+            { text: "hydrogen bond" ,correct:true},
+            { text: "ionic bond" ,correct:false},
+            { text: "vander wal" ,correct:false},
+            { text: "amide bond" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "Structures of zidovudine antivirals, marked 4 area on structure and asked about which part to remove that make the antiviral drug not effective ?" ,
+        answers: [
+            { text: "N3" ,correct:true},
+            { text: "CH3" ,correct:false},
+            { text: "C=O" ,correct:false},
+            { text: "OH" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "Which element is not involve in heterocyclic compounds ?" ,
+        answers: [
+            { text: "N" ,correct:false},
+            { text: "H" ,correct:false},
+            { text: "Se" ,correct:false},
+            { text: "Fe" ,correct:true},
+        ]
+    },
+                { 
+        // number105
+        question: "ephedrine phenylephrine additional of hydroxyl group what do to activity ?" ,
+        answers: [
+            { text: "increase alpha 1" ,correct:true},
+            { text: "decrease alpha 1" ,correct:false},
+            { text: "increase alpha 2" ,correct:false},
+            { text: "decrease alpha 2" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "Which of the following is the active metabolite of primidone ?" ,
+        answers: [
+            { text: "phenytoin" ,correct:false},
+            { text: "dopamine" ,correct:false},
+            { text: "phenobarbital" ,correct:true},
+            { text: "methsuximide" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "Which of the following is the therapeutic indication for methylphenidate ?" ,
+        answers: [
+            { text: "eczema" ,correct:false},
+            { text: "insomnia" ,correct:false},
+            { text: "anorexia nervous" ,correct:false},
+            { text: "attention deficit disorder in children" ,correct:true},
+        ]
+    },
+                { 
+        // number105
+        question: "A 6-year-old boy is brought with complaint of uncontrollable spasm-like movements and excessive eye blinking for four months. Chronic motor disorder was diagnosed.Which of the following is the best management ?" ,
+        answers: [
+            { text: "pregabalin" ,correct:false},
+            { text: "Haloperidol" ,correct:true},
+            { text: "Methadone" ,correct:false},
+            { text: "Chlorzoxazone" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "Which of the following is an inhibitory neurotransmitter ?" ,
+        answers: [
+            { text: "Aspartate" ,correct:false},
+            { text: "Valporic acid" ,correct:false},
+            { text: "Glutamate" ,correct:false},
+            { text: "Gama aminobutyric acid (GABA)" ,correct:true},
+        ]
+    },
+                { 
+        // number105
+        question: "67-year-old man presents with complaints of tremors trouble waiding and masked face Parkinson’s disease is suspected levodopa is prescribed along with a compound to lower required dose of levodopa and to achieve an effective brain dopamine concentration which of the following is that most likely compound ?" ,
+        answers: [
+            { text: "pergolide" ,correct:false},
+            { text: "selegiline" ,correct:false},
+            { text: "carbidopa" ,correct:true},
+            { text: "entacapone" ,correct:false},
+        ]
+    },
+                { 
+        // number105
+        question: "Which of the following is a potential side effect of using chlorpromazine in an elderly person ?" ,
+        answers: [
+            { text: "dyskinesia" ,correct:false},
+            { text: "constipation" ,correct:false},
+            { text: "urinary retention" ,correct:false},
+            { text: "tardive dyskinesia" ,correct:true},
+        ]
+    },
 ];
-                // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-            // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-                // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-            // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-                // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-            // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-                // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-            // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-                // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-            // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-                // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-            // { 
+                    // { 
         // number105
     //     question: "" ,
     //     answers: [
