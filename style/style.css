@@ -302,7 +302,9 @@ form input[type=button].operator {
     .calculator {
         width: 200px; /* Adjust the width of the calculator container for tablets */
     }
-
+    form input[type=button].operator {
+        width: 50px;
+    }
     .calculator form input[type=button] {
         width: 50px; /* Adjust the width of calculator buttons for tablets */
         height: 35px; /* Adjust the height of calculator buttons for tablets */
@@ -341,6 +343,9 @@ form input[type=button].operator {
     }
     .sidebar {
         width: 20%; /* Adjust width */
+    }
+    form input[type=button].operator {
+        width: 60px;
     }
 }
 
