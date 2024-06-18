@@ -245,7 +245,7 @@ form .display input {
 }
 
 form input[type=button].operator {
-    width: 10px;
+    width: 50px;
 }
 
 .timer-container {
@@ -298,6 +298,16 @@ form input[type=button].operator {
     .question-image{
         width: 250px;
         height: 250px;
+    }
+    .calculator {
+        width: 200px; /* Adjust the width of the calculator container for tablets */
+    }
+
+    .calculator form input[type=button] {
+        width: 50px; /* Adjust the width of calculator buttons for tablets */
+        height: 35px; /* Adjust the height of calculator buttons for tablets */
+        font-size: 14px; /* Adjust font size for tablets */
+        margin: 8px; /* Adjust margin for tablets */
     }
 }
 
@@ -381,6 +391,9 @@ form input[type=button].operator {
         height: 30px; /* Adjust the height of calculator buttons */
         font-size: 12px; /* Adjust font size */
         margin: 5px; /* Adjust margin */
+    }
+    form input[type=button].operator {
+        width: 40px;
     }
     /* Adjust styles for #finish_btn */
     #finish_btn {
