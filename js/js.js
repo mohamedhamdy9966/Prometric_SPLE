@@ -4266,8 +4266,138 @@ const questions = [
             { text: "tardive dyskinesia" ,correct:true},
         ]
     },
+                    { 
+        // number105
+        question: "14 years-old man expressed withdrawal symptoms from using benzodiazepine drug which included Irritability and aggression which of the following types of benzodiazepines is more likely associated with these symptoms ?" ,
+        answers: [
+            { text: "long-acting benzodiazepines" ,correct:false},
+            { text: "ultra-short acting benzodiazepines" ,correct:true},
+            { text: "benzodiazepines WITH ACTIVE METABOLITES" ,correct:false},
+            { text: "benzodiazepines with high plasma protein binding" ,correct:false},
+        ]
+    },
+                        { 
+        // number105
+        question: "A 38-year-old man is using citalopram 20mg po daily for depression which he has been taking for 1 year. A week ago, he had an infection and was prescribed linezolid 600 mg PO q12h for a total of 14 days. The patient began to get confused and easily agitated like he was breathing rapidly and started to sweat and developed. He was noticeably shaking. Which of the following is name of this drug-drug interact happened to this patient?" ,
+        answers: [
+            { text: "Hepatotoxicity" ,correct:false},
+            { text: "Seizure activity" ,correct:false},
+            { text: "Serotonin syndrome" ,correct:true},
+            { text: "Stevens Johnson syndrome" ,correct:false},
+        ]
+    },
+                        { 
+        // number105
+        question: "An elderly man presented to the emergency room with dizziness consciousness, and respiratory depression. He was recently medication for inability to sleep. Which of the following medications is the most likely drug involve toxicity?" ,
+        answers: [
+            { text: "Aspirin" ,correct:false},
+            { text: "Naproxen" ,correct:false},
+            { text: "Diazepam" ,correct:true},
+            { text: "Acetaminophen" ,correct:false},
+        ]
+    },
+                        { 
+        // number105
+        question: "An 18-year-old boy with a history of illicit drug use is suspected to have an overdose of benzodiazepines and is experiencing ataxia, drowsiness and nystagmus. Which of the following would be the best antidote ?" ,
+        answers: [
+            { text: "Activated charcoal 50grams" ,correct:false},
+            { text: "Flumazenil 300 mcg intravenously" ,correct:true},
+            { text: "Naloxone 400 mcg intramuscularly" ,correct:false},
+            { text: "Haloperidol 10 mg intramuscularly" ,correct:false},
+        ]
+    },
+                        { 
+        // number105
+        question: "which of the following is considered first line therapy for the management of partial seizures ?" ,
+        answers: [
+            { text: "Carbamazepine" ,correct:true},
+            { text: "Phenobarbital" ,correct:false},
+            { text: "Gabapentin" ,correct:false},
+            { text: "Primidone" ,correct:false},
+        ]
+    },
+                        { 
+        // number105
+        question: "Which of the following electrolyte imbalances predispose to lithium toxicity ?" ,
+        answers: [
+            { text: "magnesium" ,correct:false},
+            { text: "potassium" ,correct:false},
+            { text: "calcium" ,correct:false},
+            { text: "sodium" ,correct:true},
+        ]
+    },
+                        { 
+        // number105
+        question: "Which of the following anticonvulsants needs serum level monitoring for optimize safety and efficacy ?" ,
+        answers: [
+            { text: "Phenytoin" ,correct:true},
+            { text: "Locosamide" ,correct:false},
+            { text: "Topiramate" ,correct:false},
+            { text: "Levetiracetam" ,correct:false},
+        ]
+    },
+                        { 
+        // number105
+        question: "Which of the following dosage regimen is approved for severe Alzheimer's disease ?" ,
+        answers: [
+            { text: "Donepezil 23 mg daily" ,correct:true},
+            { text: "Memantine 5 mg daily" ,correct:false},
+            { text: "Rivastigmine 6 mg twice daily" ,correct:false},
+            { text: "Galantamine 12 mg twice daily" ,correct:false},
+        ]
+    },
+                        { 
+        // number105
+        question: "Which of the following counseling points is most important to discuss with a patient who is taking carbidopa/levodopa ?" ,
+        answers: [
+            { text: "Should be taken on an empty stomach" ,correct:false},
+            { text: "High-fat meal may increase the absorption" ,correct:false},
+            { text: "Should not be taken with calcium supplements" ,correct:false},
+            { text: "High-protein meal may decrease the absorption" ,correct:true},
+        ]
+    },
+                            { 
+        // number105
+        question: "Which of the following is the most likely reason for increased risk of falls in geriatric patients using tricyclic antidepressants ?" ,
+        answers: [
+            { text: "palpitations" ,correct:false},
+            { text: "weak muscles" ,correct:false},
+            { text: "orthostatic hypotension" ,correct:true},
+            { text: "difficulty in concentration" ,correct:false},
+        ]
+    },
+                            { 
+        // number105
+        question: "Which of the following medications is the most appropriate for nausea induced by the antiParkinson's drug bromocriptine ?" ,
+        answers: [
+            { text: "itopride" ,correct:false},
+            { text: "Domperidone" ,correct:true},
+            { text: "Metoclopramide" ,correct:false},
+            { text: "Chlorpheniramine" ,correct:false},
+        ]
+    },                   
+    { 
+        // number105
+        question: "Which of the following is the mechanism of action of entacapone ?" ,
+        answers: [
+            { text: "Inhibition of nicotinic receptors" ,correct:false},
+            { text: "Inhibition on dopamine-D2 receptors" ,correct:false},
+            { text: "Inhibition of monoamine oxidases (MAO)" ,correct:false},
+            { text: "Inhibition of catechol-O-methyltransferase (COMT)" ,correct:true},
+        ]
+    },
+                            { 
+        // number105
+        question: "Which of the following drugs causes oligohydrosis ?" ,
+        answers: [
+            { text: "Phenytoin" ,correct:false},
+            { text: "Topiramate" ,correct:true},
+            { text: "Zonisamide" ,correct:false},
+            { text: "Oxcarbazepine" ,correct:false},
+        ]
+    },
 ];
-                    // { 
+                            // { 
         // number105
     //     question: "" ,
     //     answers: [
