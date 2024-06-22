@@ -4634,6 +4634,15 @@ function showQuestion() {
         }
         button.addEventListener("click" , selectAnswer);
     });
+    updateProgressBar(); // Update progress bar when showing a question
+}
+
+function updateProgressBar() {
+    const totalQuestions = shuffledQuestions.length;
+    const progress = ((currentQuestionIndex + 1) / totalQuestions) * 100;
+    const progressBar = document.getElementById("progressBar");
+    progressBar.style.width = progress + "%";
+    // progressBar.innerHTML = Math.round(progress) + "%";
 }
 
 function resetState() {
