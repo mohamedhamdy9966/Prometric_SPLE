@@ -4726,27 +4726,28 @@ const questions = [
             { text: "Valerian Orally" ,correct:false},
         ]
     },
+        { 
+        // number105
+        question: "A colleague of yours asked you to identify the content of green leaves herbal supplement, he's been using for the past two weeks (as tea drink) to help him lose weight and boost his energy. He mentioned that he is starting to have the following symptoms: tremors, palpitation and lack of sleep (insomnia). You prepared aqueous and organic solutions from the leaves and performed phytochemical screening tests to identify the plant (see label result) Which of the following is the most likely active ingredient in the above plant ?" ,
+        image: "images/20.PNG",
+        answers: [
+            { text: "saponin" ,correct:false},
+            { text: "Alkaloid" ,correct:true},
+            { text: "Digitoxin" ,correct:false},
+            { text: "reducing sugar" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: " 49-year-old-woman is regularly drinking an herbal made from dry senna fruit she developed severe hepatotoxicity. which of the following is the active glycoside of the senna that is associated with hepatotoxic effect ?" ,
+        answers: [
+            { text: "flavonoid" ,correct:false},
+            { text: "saponine" ,correct:false},
+            { text: "triterpene" ,correct:false},
+            { text: "anthraquinone" ,correct:true},
+        ]
+    },
 ];
-        // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
-        // { 
-        // number105
-    //     question: "" ,
-    //     answers: [
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:true},
-    //         { text: "" ,correct:false},
-    //         { text: "" ,correct:false},
-    //     ]
-    // },
         // { 
         // number105
     //     question: "" ,
@@ -4946,13 +4947,14 @@ function login(usernameInput, passwordInput) {
         "ranakarim": "rana@2024",
         "rahaf" : "rahaf@2024",
         "saleh" : "saleh@2024",
-        // "AEC" : "aec@2024",
+        // "galal" : "galal@2024",
         "razan" : "razan@2024",
         // ends in 7/7
         "nada" : "kassem@2024",
         // ends in 21/7
-        "moaz" : "moaz@2024"
+        "moaz" : "moaz@2024",
         // ends in 14/8
+        "galal" : "galal@2024"
     };
 
     if (validCredentials[usernameInput] === passwordInput) {
