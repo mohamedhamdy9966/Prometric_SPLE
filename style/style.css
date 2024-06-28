@@ -21,7 +21,7 @@ h4 {
     padding: auto;
 }
 
-.container {
+.contain {
 display: flex;
 justify-content: center;
 flex-direction: row;
@@ -502,6 +502,7 @@ background-image: url(https://www.google.com/url?sa=i&url=http%3A%2F%2Fsimpleico
     background-color: #f3f3f3;
     border-radius: 25px;
     margin: 20px 0;
+    display: none;
 }
 
 #progressBar {
@@ -515,4 +516,10 @@ background-image: url(https://www.google.com/url?sa=i&url=http%3A%2F%2Fsimpleico
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.pdf-viewer {
+    width: 100%;
+    height: 990 px;
+    border: none;
+    margin: 20px 0;
 }

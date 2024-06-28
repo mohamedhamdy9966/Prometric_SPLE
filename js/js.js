@@ -4396,8 +4396,458 @@ const questions = [
             { text: "Oxcarbazepine" ,correct:false},
         ]
     },
+    { 
+        // number105
+        question: "Which of the following does mechanisms Carbidopa act as an anti-parkinsonian agent ?" ,
+        answers: [
+            { text: "Blocking dopamine receptors" ,correct:false},
+            { text: "Activating serotonin reuptake" ,correct:false},
+            { text: "Binding to alpha-7 nicotinic acetylcholine receptors" ,correct:false},
+            { text: "Decreasing the decarboxylation of levodopa in peripheral tissues" ,correct:true},
+        ]
+    },
+    { 
+        // number105
+        question: "Which of the following is the therapeutic use of the dietary supplement Valerian ?" ,
+        answers: [
+            { text: "Improve urinary flow" ,correct:false},
+            { text: "Reduce severity of a cold or virus infection" ,correct:false},
+            { text: "Improve memory" ,correct:false},
+            { text: "Mild sedative" ,correct:true},
+        ]
+    },
+    { 
+        // number105
+        question: "61-year-old was recently diagnosed with Parkinson's disease He was prescribed an antiParkinson medication. Later, he was presented to the clinic with mydriasis and narrow angle glaucoma. Which of the following medication was prescribed ?" ,
+        answers: [
+            { text: "Amantadine" ,correct:false},
+            { text: "Bromocriptine" ,correct:false},
+            { text: "Trihexyphenidyl" ,correct:true},
+            { text: "Levodopa (L-DOPA)" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: " Which of the following is the active metabolite of primidone ?" ,
+        answers: [
+            { text: "phenytoin" ,correct:false},
+            { text: "dopamine" ,correct:false},
+            { text: "phenobarbital" ,correct:true},
+            { text: "methsuximide" ,correct:false},
+        ]
+    },
+                          { 
+        // number105
+        question: " A 45-year-old woman was prescribed a sedative for anxiety to be taken at night. Three days later, she presented complaining of drowsiness, dysphoria and motor depression every morning. Which of the following medications was most likely prescribed ?" ,
+        answers: [
+            { text: "zolpidem" ,correct:false},
+            { text: "diazepam" ,correct:false},
+            { text: "ramelteon" ,correct:true},
+            { text: "midazolam" ,correct:false},
+        ]
+    },
+                          { 
+        // number105
+        question: "Which of the following medications is used to treat Alzheimer's disease ?" ,
+        answers: [
+            { text: "donepezil" ,correct:true},
+            { text: "amantadine" ,correct:false},
+            { text: "trihexyphenidyl" ,correct:false},
+            { text: "carbidopa-levodopa" ,correct:false},
+        ]
+    },
+                          { 
+        // number105
+        question: "Which of the following receptors is the target for morphine action ?" ,
+        answers: [
+            { text: "glutamate receptor" ,correct:false},
+            { text: "interleukin-2 receptor" ,correct:false},
+            { text: "mu (µ)opioid receptor" ,correct:true},
+            { text: "acetylcholine receptor" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Which of the following side effects is common with short half-life hypnotics ?" ,
+        answers: [
+            { text: "rebound insomnia" ,correct:true},
+            { text: "development of tolerance" ,correct:false},
+            { text: "induction of liver metabolic enzymes" ,correct:false},
+            { text: "retrograde amnesia during the next day" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: " A 67-year-old man presents with complaints of tremors, trouble walking and masked face,Parkinson's disease is suspected Levodopa is prescribed along with a compound to lower the required dose of levodopa and to achieve an effective brain-dopamine concentration.Which of the following is the most likely compound ?" ,
+        answers: [
+            { text: "pergolide" ,correct:false},
+            { text: "selegiline" ,correct:false},
+            { text: "carbidopa" ,correct:true},
+            { text: "entacapone" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Which anxiolytic drug has a slow onset of action ?" ,
+        answers: [
+            { text: "diazepam" ,correct:false},
+            { text: "buspirone (onset 2-4 week for anxiolytic effect)" ,correct:true},
+            { text: "alprazolam" ,correct:false},
+            { text: "phenobarbital" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Which of the following is the therapeutic use of the dietary supplement valerian ?" ,
+        answers: [
+            { text: "improve urinary flow" ,correct:false},
+            { text: "reduce severity of a cold or virus infection" ,correct:false},
+            { text: "improve memory" ,correct:false},
+            { text: "mild sedative" ,correct:true},
+        ]
+    },
+    { 
+        // number105
+        question: "Which of the following statements best describes L-DOPA ?" ,
+        answers: [
+            { text: "it is absorbed and converted to carbidopa" ,correct:false},
+            { text: "it activates nicotinic acetylcholine receptors" ,correct:false},
+            { text: "it is the drug of choice in the treatment of Alzheimer's disease" ,correct:false},
+            { text: "it crosses the blood brain barrier and is converted to dopamine" ,correct:true},
+        ]
+    },
+                          { 
+        // number105
+        question: "Which of the following adverse effects is associated with the use of barbiturates in elderly ?" ,
+        answers: [
+            { text: "Ataxia" ,correct:false},
+            { text: "Agitation" ,correct:false},
+            { text: "Dementia" ,correct:false},
+            { text: "Hypotension" ,correct:true},
+        ]
+    },
+                          { 
+        // number105
+        question: "Which of the following mechanism of actions most appropriately describes benzodiazepines ?" ,
+        answers: [
+            { text: "inhibit GABA's actions at the GABA receptor" ,correct:false},
+            { text: "Potentiate 5-HT's actions at the 5-HT receptor" ,correct:false},
+            { text: "Potentiate GABA's actions at the GABA receptor" ,correct:true},
+            { text: " Potentiate glutamate's actions at the NMDA receptor" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Which of the following is a therapeutic use of lorazepam ?" ,
+        answers: [
+            { text: "Antihistamine" ,correct:false},
+            { text: "Analgesic" ,correct:false},
+            { text: "Hypnotic" ,correct:true},
+            { text: "Diuretic" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Case Epilepsy patient and positive HLA-B (1502) Which the following antiepileptic can be use ?" ,
+        answers: [
+            { text: "Levetiracetam" ,correct:true},
+            { text: "Lamotrigine" ,correct:false},
+            { text: "Phenytoin" ,correct:false},
+            { text: "Carbamazepine" ,correct:false},
+        ]
+    },
+                          { 
+        // number105
+        question: "Drug of choice for patient has focal seizure with HLA-B 1502 positive ?" ,
+        answers: [
+            { text: "levetiracetam" ,correct:true},
+            { text: "Carbamazepine" ,correct:false},
+            { text: "Lamotrigine" ,correct:false},
+            { text: "Phenobarbital" ,correct:false},
+        ]
+    },
+                          { 
+        // number105
+        question: "Which of the following is the First line drug for Alzheimer ?" ,
+        answers: [
+            { text: "Amantadine" ,correct:false},
+            { text: "Donepezil" ,correct:true},
+            { text: "Levodopa" ,correct:false},
+            { text: "Dopamine" ,correct:false},
+        ]
+    },
+                          { 
+        // number105
+        question: "which is the following is the active metabolite of primidone ?" ,
+        answers: [
+            { text: "Phenytoin" ,correct:false},
+            { text: "Dopamine" ,correct:false},
+            { text: "Phenobarbital" ,correct:true},
+            { text: "Methsuximide" ,correct:false},
+        ]
+    },
+                          { 
+        // number105
+        question: "Memantine mechanism of action in alzeheimer ?" ,
+        answers: [
+            { text: "affinity uncompetitive N-methyl-D-aspartate (NMDA) receptor" ,correct:true},
+            { text: "Memantine also blocks the 5-hydroxytryptamine-3 receptor (at a potency similar to the NMDA receptor" ,correct:false},
+            { text: "Blocking GABA Receptor" ,correct:false},
+            { text: "Opening GABA Receptor" ,correct:false},
+        ]
+    },
+                          { 
+        // number105
+        question: " Which of the following mood stabilizers would be most appropriate in a patient with liver disease ?" ,
+        answers: [
+            { text: "lithium" ,correct:true},
+            { text: "valproic acid" ,correct:false},
+            { text: "carbamazepine" ,correct:false},
+            { text: "none of the above" ,correct:false},
+        ]
+    },
+                          { 
+        // number105
+        question: "Which of the following medications would be first-line monotherapy for an acute episode of mania ?" ,
+        answers: [
+            { text: "gabapentin" ,correct:false},
+            { text: "lithium" ,correct:true},
+            { text: "lamotrigine" ,correct:false},
+            { text: "haloperidol" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Pregnant with tonic-colonic seizure ?" ,
+        answers: [
+            { text: "Valproic acid + folic acid" ,correct:false},
+            { text: "lamotrigine" ,correct:true},
+            { text: "cyclizine" ,correct:false},
+            { text: "metformin" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Side effects of short half-life hypnotics ?" ,
+        answers: [
+            { text: "Rebound insomnia" ,correct:true},
+            { text: "Develpment of tolerance" ,correct:false},
+            { text: "Addiction" ,correct:false},
+            { text: "Anorexia" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Stevens-Johnson syndrome ?" ,
+        answers: [
+            { text: "Valproic acid" ,correct:true},
+            { text: "Quinidine" ,correct:false},
+            { text: "Isoniazid" ,correct:false},
+            { text: "Ethosuximide" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Common side effect of chlorpromazine ?" ,
+        answers: [
+            { text: "Headach" ,correct:false},
+            { text: "Dry cough" ,correct:false},
+            { text: "Akathisia" ,correct:true},
+            { text: "Agitation" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Breastfeeding + epilepsy ?" ,
+        answers: [
+            { text: "Levetiracetam" ,correct:true},
+            { text: "Phenytoin" ,correct:false},
+            { text: "Carbamazepine" ,correct:false},
+            { text: "topiramate" ,correct:false},
+        ]
+    },
+    { 
+        // number105
+        question: "Phenytoin metabolism reaction is ?" ,
+        answers: [
+            { text: "Oxidation" ,correct:true},
+            { text: "decarboxylation" ,correct:false},
+            { text: "Hydration" ,correct:false},
+            { text: "methylation" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Parkinson patient has dry cough he was using Selegline MAOI but stopped it before 3 weeks what to do ?" ,
+        answers: [
+            { text: "It is reasonable to give" ,correct:false},
+            { text: "Dextromethorphan" ,correct:true},
+            { text: "give Guaifenecin" ,correct:false},
+            { text: "Don't  give Guaifenecin " ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "which the following Increase lithium concentration ?" ,
+        answers: [
+            { text: "caffeine" ,correct:false},
+            { text: "diuretic" ,correct:true},
+            { text: "NSAIDs" ,correct:false},
+            { text: "fluid intake" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: " 45year old man who has been injured in a car accident is brought into the emergency room. His blood alcohol level on admission is 275 mg/dL. Hospital records show a prior wife confirms hospitalization for alcohol related seizures. His 3 weeks. What treatment that he has been drinking heavily for into withdrawal should be provided to the patient if he goes" ,
+        answers: [
+            { text: "Lorazepam" ,correct:true},
+            { text: "Pentobarbital" ,correct:false},
+            { text: "Phenytoin" ,correct:false},
+            { text: "Buspirone" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Another patient also on BZD for anxiety and she had car accident due to drowsiness. She mentioned that she took cimetidine for heart burn. What happened ?" ,
+        answers: [
+            { text: "Cimetidine increase the anxiolytic metabolism" ,correct:false},
+            { text: "Cimetidine decreased the anxiolytic metabolism" ,correct:true},
+            { text: "Cimetidine Blocked GABA Receptors" ,correct:false},
+            { text: "Cimetidine Opened GABA Receptors" ,correct:false},
+        ]
+    },
+        { 
+        // number105
+        question: "Case of status epilepsy already got lorazepam IV. what drug next ?" ,
+        answers: [
+            { text: "phenytoin IV" ,correct:true},
+            { text: "diazepam orally" ,correct:false},
+            { text: "phenobarbital iv" ,correct:false},
+            { text: "Valerian Orally" ,correct:false},
+        ]
+    },
 ];
-                            // { 
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
+        // number105
+    //     question: "" ,
+    //     answers: [
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:true},
+    //         { text: "" ,correct:false},
+    //         { text: "" ,correct:false},
+    //     ]
+    // },
+        // { 
         // number105
     //     question: "" ,
     //     answers: [
@@ -4423,6 +4873,7 @@ const timerElement = document.getElementById("timer");
 const instructions = document.getElementById("instructions");
 const sidebar = document.getElementById("sidebar");
 const contact = document.getElementById("contact");
+const progressContainer = document.getElementById("progressContainer");
 let bulletsSpanContainer = document.querySelector(".bullets .spans");
 let bulletsContainer = document.querySelector(".bullets .spans");
 
@@ -4493,12 +4944,9 @@ function login(usernameInput, passwordInput) {
         "youssefelanzy": "youssef@2024",
         "raghad": "raghad@2024",
         "ranakarim": "rana@2024",
-        // "rahaf" : "rahaf@2024",
+        "rahaf" : "rahaf@2024",
         "saleh" : "saleh@2024",
         // "AEC" : "aec@2024",
-        // "saqar" : "saqar@2024",
-        // "moussa" : "moussa@2024",
-        // "nader" : "nader@2024",
         "razan" : "razan@2024",
         // ends in 7/7
         "nada" : "kassem@2024",
@@ -4573,6 +5021,7 @@ function startQuiz() {
     createBullets();
     sidebar.style.display ="flex";
     contact.style.display ="none";
+    progressContainer.style.display="flex";
 }
 
 //function to hide the login form after logging in
@@ -4592,7 +5041,7 @@ function startTimer() {
         const minutes = Math.floor((timeRemaining % 3600) / 60);
         const seconds = timeRemaining % 60;
 
-        timerElement.innerHTML = `Section Time Remaining: ${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
+        timerElement.innerHTML = `<i class="fa-solid fa-clock"></i> Section Time Remaining: ${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
 
         if (timeRemaining <= 0) {
             clearInterval(timer);
