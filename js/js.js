@@ -4954,7 +4954,7 @@ function login(usernameInput, passwordInput) {
         // ends in 21/7
         "moaz" : "moaz@2024",
         // ends in 14/8
-        "galal" : "galal@2024"
+        // "galal" : "galal@2024"
     };
 
     if (validCredentials[usernameInput] === passwordInput) {
