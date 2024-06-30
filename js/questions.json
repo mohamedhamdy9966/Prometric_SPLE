@@ -2249,5 +2249,2030 @@
             { "text": "Heparin" ,"correct":false},
             { "text": "Warfarin" ,"correct":false}
         ]
-    }
+    },
+        {
+            "question": "how ibuprofen inhibit antiplatelet effect of aspirin?",
+            "answers": [
+                { "text": "Ibuprofen bind to cox2 and hinder it's acetylation by aspirin", "correct": false },
+                { "text": "Ibuprofen bind to cox1 and hinder it's acetylation by aspirin", "correct": true },
+                { "text": "Ibuprofen bind to cox2 and hinder it's Oxidation by aspirin", "correct": false },
+                { "text": "Ibuprofen bind to cox1 and hinder it's Oxidation by aspirin", "correct": false }
+            ]
+        },
+        {
+            "question": "patient on warfarin and has mechanical valve and INR 3.5, what should you do?",
+            "answers": [
+                { "text": "No management", "correct": true },
+                { "text": "decrease warfarin dose", "correct": false },
+                { "text": "increase warfarin dose", "correct": false },
+                { "text": "replace warfarin", "correct": false }
+            ]
+        },
+        {
+            "question": "Neonate with coagulopathy which vit K route will you use?",
+            "answers": [
+                { "text": "Suppository", "correct": false },
+                { "text": "Iv", "correct": true },
+                { "text": "Sc", "correct": false },
+                { "text": "Im", "correct": false }
+            ]
+        },
+        {
+            "question": "antiplatelet C.I. in patients with transient ischemic attack?",
+            "answers": [
+                { "text": "dipyradimole", "correct": false },
+                { "text": "clopidogrel", "correct": false },
+                { "text": "prasugrel", "correct": true },
+                { "text": "ticagrelor", "correct": false }
+            ]
+        },
+        {
+            "question": "INR monitoring after initiation as outpatient?",
+            "answers": [
+                { "text": "next day", "correct": false },
+                { "text": "2-5 days", "correct": true },
+                { "text": "1 month", "correct": false },
+                { "text": "3 months", "correct": false }
+            ]
+        },
+        {
+            "question": "treatments of pulmonary embolism?",
+            "answers": [
+                { "text": "Enoxaparin 40 mg sc once daily", "correct": false },
+                { "text": "Rivaroxaban", "correct": false },
+                { "text": "Enoxaparin 1 mg/ kg twice daily Or 2 mg/ kg once daily", "correct": true },
+                { "text": "Enoxaparin 5 mg/ kg twice daily Or 10 mg/ kg once daily", "correct": false }
+            ]
+        },
+        {
+            "question": "patient is taking warfarin 4.5 mg PO daily came to the clinic with INR of 5.1 without any signs of active bleeding, what is the appropriate management for her?",
+            "answers": [
+                { "text": "Hold warfarin and give vit K IV", "correct": false },
+                { "text": "Hold warfarin and resume with lower dose", "correct": true },
+                { "text": "Hold warfarin and give platelet", "correct": false },
+                { "text": "Hold warfarin and give StreptoKinase", "correct": false }
+            ]
+        },
+        {
+            "question": "in pregnancy what the trimester can be use warfarin?",
+            "answers": [
+                { "text": "first", "correct": false },
+                { "text": "second", "correct": false },
+                { "text": "third trimester", "correct": false },
+                { "text": "avoided use in pregnancy", "correct": true }
+            ]
+        },
+        {
+            "question": "Pt use Warfarin 10mg and INR low why?",
+            "answers": [
+                { "text": "Low dose", "correct": false },
+                { "text": "Dite", "correct": true },
+                { "text": "Low bioavailability of warfarin", "correct": false },
+                { "text": "Exercises", "correct": false }
+            ]
+        },
+        {
+            "question": "which the fallowing uses in prophylaxis stroke?",
+            "answers": [
+                { "text": "anticoagulant", "correct": false },
+                { "text": "thrombolytic drug", "correct": false },
+                { "text": "antipletalate", "correct": true },
+                { "text": "Warfarin", "correct": false }
+            ]
+        },
+        {
+            "question": "Which the fallowing drugs inducing thrombocytopenia?",
+            "answers": [
+                { "text": "UFH", "correct": true },
+                { "text": "LMWH", "correct": false },
+                { "text": "warfarin", "correct": false },
+                { "text": "Aspirin", "correct": false }
+            ]
+        },
+        {
+            "question": "Which the fallowing drugs treatment thrombocytopenia?",
+            "answers": [
+                { "text": "UFH", "correct": false },
+                { "text": "LMWH", "correct": false },
+                { "text": "warfarin", "correct": false },
+                { "text": "Argatroban", "correct": true }
+            ]
+        },
+        {
+            "question": "Medication for osteoporosis in menopausal women given monthly?",
+            "answers": [
+                { "text": "Zoledronic acid", "correct": false },
+                { "text": "ibandronate", "correct": true },
+                { "text": "raloxifene", "correct": false },
+                { "text": "Mefenamic acid", "correct": false }
+            ]
+        },
+        {
+            "question": "Medication for osteoporosis in women given once per a year?",
+            "answers": [
+                { "text": "Zoledronic acid", "correct": true },
+                { "text": "ibandronate", "correct": false },
+                { "text": "raloxifene", "correct": false },
+                { "text": "Mefenamic acid", "correct": false }
+            ]
+        },
+        {
+            "question": "Medication for osteoporosis in women given weekly?",
+            "answers": [
+                { "text": "Zoledronic acid", "correct": false },
+                { "text": "ibandronate", "correct": false },
+                { "text": "raloxifene", "correct": false },
+                { "text": "Alendronate", "correct": true }
+            ]
+        },
+        {
+            "question": "gold standard test for Osteoporosis ?",
+            "answers": [
+                { "text": "(DEXA) dual-energy x-ray absorptiometry", "correct": true },
+                { "text": "CT", "correct": false },
+                { "text": "MRI", "correct": false },
+                { "text": "Reynold test", "correct": false }
+            ]
+        },
+        {
+            "question": "Which of the following osteoporosis drugs can cause esophageal ulcers ?",
+            "answers": [
+                { "text": "denosumab", "correct": false },
+                { "text": "teriparatide", "correct": false },
+                { "text": "alendronate", "correct": true },
+                { "text": "zelodronic acid", "correct": false }
+            ]
+        },
+        {
+            "question": "Which of the following medications for osteoporosis will significantly reduce the risk of hip fracture ?",
+            "answers": [
+                { "text": "Phosphate", "correct": false },
+                { "text": "Risedronate", "correct": true },
+                { "text": "Raloxifene", "correct": false },
+                { "text": "Calcitonin", "correct": false }
+            ]
+        },
+        {
+            "question": "A 65-year patient suffered from Osteomalacia with finger numbness, tingling and burning of extremities. The doctor prescribed vitamin D and an IV calcium supplement. Which of the following calcium salts did the physician most likely prescribed ?",
+            "answers": [
+                { "text": "Calcium citrate (21%calcium)", "correct": false },
+                { "text": "Calcium lactate(13%calcium)", "correct": false },
+                { "text": "Calcium gluconate (9%calcium)", "correct": true },
+                { "text": "Calcium phosphate (39% calcium)", "correct": false }
+            ]
+        },
+        {
+            "question": "A 6-year-old child weighing 28 kg came to the clinic with viral infection. The physician prescribed acyclovir at a dose of 20 mg/kg four times a day. Acyclovir is available as 200 mg/5 ml oral suspension. How many milliliters would be administered per day ?",
+            "answers": [
+                { "text": "10", "correct": false },
+                { "text": "14", "correct": false },
+                { "text": "44", "correct": false },
+                { "text": "56", "correct": true }
+            ]
+        },
+        {
+            "question": "A physician prescribed heparin at a dose of 75 units/Kg every six hours for a child weighing 15 kg, heparin is available in 2.5 ml vial containing 12,500 units. How many milliliters of heparin solution would be administered every day ?",
+            "answers": [
+                { "text": "0.5", "correct": false },
+                { "text": "0.9", "correct": true },
+                { "text": "1.5", "correct": false },
+                { "text": "1.8", "correct": false }
+            ]
+        },
+        {
+            "question": "The following formula was prescribed by a dermatologist for a patient with dermatitis. Hydrocortisone 1.5% w/w, Cream base to make 50g. The pharmacist has two strengths of hydrocortisone creams in his hand, 2.5% and 1%. Therefore, in order to compound this prescription, the pharmacist is going to add these two creams strength together in certain proportions to fulfill this formulation. Which of the following is the weight ratio of the two strengths of hydrocortisone needed ?",
+            "answers": [
+                { "text": "1:2", "correct": false },
+                { "text": "1:1", "correct": false },
+                { "text": "0.5:1", "correct": true },
+                { "text": "2:1", "correct": false }
+            ]
+        },
+        {
+            "question": "The pharmacist received a prescription to extemporaneously prepare moxifloxacin oral suspension from the 400 mg tablet in a concentration of 20 mg/ml with total volume of 60 mL. Which of the following is the number of tablets of moxiflaxacin 400 mg needed to prepare the above prescription ?",
+            "answers": [
+                { "text": "2", "correct": false },
+                { "text": "3", "correct": true },
+                { "text": "4", "correct": false },
+                { "text": "6", "correct": false }
+            ]
+        },
+        {
+            "question": "Drug X has an infusion rate of 0.95 mg/kg/hr. Which of the following is the amount of drug X (in mg) needed for a 12- hr infusion if patient weight is 70 kg ?",
+            "answers": [
+                { "text": "66.5 mg", "correct": false },
+                { "text": "84 mg", "correct": false },
+                { "text": "665 mg", "correct": false },
+                { "text": "798 mg", "correct": true }
+            ]
+        },
+        {
+            "question": "A patient is to receive one mg of hydromorphine hydrochloride injection for pain. Hydromrophine hydrochloride is available as 500 mg in a 50 ml vial. How many milliliters would be injected ?",
+            "answers": [
+                { "text": "0.1", "correct": true },
+                { "text": "0.5", "correct": false },
+                { "text": "1.0", "correct": false },
+                { "text": "2.0", "correct": false }
+            ]
+        },
+        {
+            "question": "A solution contains 2.5 mg of a drug per milliliter. administered at a rate of 50 mg/hr. (1 ml = 30 drops). Which of the following Is the most appropriate infusion rate ?",
+            "answers": [
+                { "text": "5 drops/min", "correct": false },
+                { "text": "10 drops/min", "correct": true },
+                { "text": "20 drops/min", "correct": false },
+                { "text": "40 drops/min", "correct": false }
+            ]
+        },
+        {
+            "question": "A 2.5% intravenous drug is infused at a rate of 1.5 ml/min. Which of the amount of the drug (in mg) that is infused in each hour ?",
+            "answers": [
+                { "text": "25", "correct": false },
+                { "text": "225", "correct": false },
+                { "text": "2000", "correct": false },
+                { "text": "2250", "correct": true }
+            ]
+        },
+        {
+            "question": "A technician is preparing 250 ml of 70% (w/v) dextrose solution. Which of the following is the total amount of dextrose (in grams) in the final preparation ?",
+            "answers": [
+                { "text": "125 g", "correct": false },
+                { "text": "150 g", "correct": false },
+                { "text": "175 g", "correct": true },
+                { "text": "200 g", "correct": false }
+            ]
+        },
+        {
+            "question": "How many milliliters of paracetamol syrup of 120 mg/5 ml strength would be prepared using 1.8 kg of paracetamol ?",
+            "answers": [
+                { "text": "15,000 mL", "correct": false },
+                { "text": "30,000 mL", "correct": false },
+                { "text": "50,000 mL", "correct": false },
+                { "text": "75,000 mL", "correct": true }
+            ]
+        },
+        {
+            "question": "What is the percentage w/v of 10 ml vial that contains 50 mEq of ammonium chloride per 10 ml if 1 mEq of ammonium chloride = 0.0535g ?",
+            "answers": [
+                { "text": "0.535", "correct": false },
+                { "text": "2.675", "correct": true },
+                { "text": "5.350", "correct": false },
+                { "text": "26.750", "correct": false }
+            ]
+        },
+        {
+            "question": "One folic acid tablet contains 400 mcg of folic acid as an active ingredient. How many tablets would be required for the preparation of 30 grams of folic acid ?",
+            "answers": [
+                { "text": "5000 tablets", "correct": false },
+                { "text": "7500 tablets", "correct": false },
+                { "text": "50000 tablets", "correct": false },
+                { "text": "75000 tablets", "correct": true }
+            ]
+        },
+        {
+            "question": "A 6-year-old HIV infected boy measuring 0.9 m2 is to receive nevirapine 140 mg/m two times daily. Nevirapine is available as 50 mg/5 ml suspension. How many milliliters of nevirapine suspension would be administered per dose ?",
+            "answers": [
+                { "text": "6.3", "correct": false },
+                { "text": "12.6", "correct": true },
+                { "text": "14.0", "correct": false },
+                { "text": "16.5", "correct": false }
+            ]
+        },
+        {
+            "question": "A drug has a clearance value of 4.75 L/hour and 65% is cleared by renal excretion. Which of the following would be the non-renal clearance value ?",
+            "answers": [
+                { "text": "1.25 L/hrs", "correct": false },
+                { "text": "1.66 L/hrs", "correct": true },
+                { "text": "1.90 L/hrs", "correct": false },
+                { "text": "2.05 L/hrs", "correct": false }
+            ]
+        },
+        { 
+        "question": "A patient is to receive 400 ml intravenous infusion of a 1% drug that will be over 10 hours. Which of the following is the amount (milligrams) of the drug that will be delivered in 15 minutes?",
+        "answers": [
+            { "text": "100 mg", "correct": true },
+            { "text": "150 mg", "correct": false },
+            { "text": "200 mg", "correct": false },
+            { "text": "400 mg", "correct": false }
+        ]
+    },
+    { 
+        "question": "Penicillin-G potassium is available in a 50 ml vial containing 20 grams. Each milligram of penicillin-G potassium is equal to 1500 units. How many units of penicillin G potassium are there in each vial?",
+        "answers": [
+            { "text": "15,000,000", "correct": false },
+            { "text": "20,000,000", "correct": false },
+            { "text": "25,000,000", "correct": false },
+            { "text": "30,000,000", "correct": true }
+        ]
+    },
+    { 
+        "question": "A physician prescribes, for a 6-year-old child 10 mg omeprazole daily for seven days as a syrup formulation. Omeprazole capsules strength available in the pharmacy is 10 mg. Which of the following is the number of capsules required to make to suffice the total doses in the prescription if the final concentration syrup should be 2 mg/mL?",
+        "answers": [
+            { "text": "2", "correct": false },
+            { "text": "3", "correct": false },
+            { "text": "5", "correct": false },
+            { "text": "7", "correct": true }
+        ]
+    },
+    { 
+        "question": "A 35-year-old individual is receiving 20 mg of propranolol hydrochloride four times daily as a prophylaxis to migraine attacks. The drug has 25% bioavailability due to extensive first pass effect. What amount of the drug reaches the systemic circulation after dosing?",
+        "answers": [
+            { "text": "2.5 mg", "correct": false },
+            { "text": "5.0 mg", "correct": true },
+            { "text": "7.5 mg", "correct": false },
+            { "text": "10 mg", "correct": false }
+        ]
+    },
+    { 
+        "question": "A 55-year-old man with a history of recurrent back pain is admitted to the hospital. He was prescribed paracetamol 1000 mg P.O Q6hr PRN for 1 month. Available tablet is 500 mg. What is the maximum quantity given for a refill?",
+        "answers": [
+            { "text": "8 tablets", "correct": false },
+            { "text": "24 tablets", "correct": false },
+            { "text": "42 tablets", "correct": false },
+            { "text": "240 tablets", "correct": true }
+        ]
+    },
+    { 
+        "question": "A child weighing 25 kg is prescribed acetazolamide 2.5 mg/kg every 12 hours. Acetazolamide is available in a liquid dosage form with a strength of 25 mg/ml. How many milliliters would the patient be administered per dose?",
+        "answers": [
+            { "text": "2.5", "correct": true },
+            { "text": "5.0", "correct": false },
+            { "text": "7.5", "correct": false },
+            { "text": "10", "correct": false }
+        ]
+    },
+    { 
+        "question": "The diclophenac sodium suppository is prepared according to the following formula: Diclophenac sodium 2.5%, Triglyceride base to make 1 g. How many grams of diclophenac sodium should be used to prepare 24000 suppositories?",
+        "answers": [
+            { "text": "120", "correct": false },
+            { "text": "240", "correct": false },
+            { "text": "480", "correct": false },
+            { "text": "600", "correct": true }
+        ]
+    },
+    { 
+        "question": "Which of the following is the amount of dextrose (in grams) that is present in 100 ml of 10% dextrose solution?",
+        "answers": [
+            { "text": "1", "correct": false },
+            { "text": "10", "correct": true },
+            { "text": "100", "correct": false },
+            { "text": "1000", "correct": false }
+        ]
+    },
+    { 
+        "question": "A 4-year-old boy is admitted with dehydration. He is started on dextrose 5% and normal saline with 40 milliequivalents of potassium chloride per liter at a rate of 40 ml per hour. Weight is 16 kilograms. How much potassium chloride (in milliequivalents per kilogram per day) is he receiving?",
+        "answers": [
+            { "text": "2.4", "correct": true },
+            { "text": "3", "correct": false },
+            { "text": "4.5", "correct": false },
+            { "text": "6", "correct": false }
+        ]
+    },
+    { 
+        "question": "Which of the following is the percentage (%) strength of ketorolac tromethamine in an ophthalmic solution if 200 micrograms of the drug are present in 50 microliters of the solution?",
+        "answers": [
+            { "text": "0.25", "correct": false },
+            { "text": "0.40", "correct": true },
+            { "text": "0.50", "correct": false },
+            { "text": "0.80", "correct": false }
+        ]
+    },
+    { 
+        "question": "A 10 ml vial contains 1 gm of clindamycin hydrochloride. Each milligram of clindamycin hydrochloride is equivalent to 800 micrograms (mcg) of clindamycin. How much clindamycin in micrograms (mcg) is present in 3 ml solution?",
+        "answers": [
+            { "text": "240", "correct": false },
+            { "text": "2400", "correct": false },
+            { "text": "24000", "correct": false },
+            { "text": "240000", "correct": true }
+        ]
+    },
+    { 
+        "question": "A solution contains 27 mg of antipyrine per 500 microliters. How many grams of antipyrine are there in 3 ml of the solution?",
+        "answers": [
+            { "text": "0.162 gm", "correct": true },
+            { "text": "0.270 gm", "correct": false },
+            { "text": "162 gm", "correct": false },
+            { "text": "270 gm", "correct": false }
+        ]
+    },
+    { 
+        "question": "A 5-year-old girl weighs 16 kilograms and is 95 centimeters tall. Which of the following is her body surface area in squared meters (m²)?",
+        "answers": [
+            { "text": "0.1", "correct": false },
+            { "text": "0.4", "correct": false },
+            { "text": "0.6", "correct": true },
+            { "text": "0.9", "correct": false }
+        ]
+    },
+    { 
+        "question": "The following prescription is received in a hospital pharmacy: Losartan 25 mg, S: Take 1 tab BID M: 3 weeks. Which of the following instructions will be on the prescription label?",
+        "answers": [
+            { "text": "Take 1 tablet once daily (21 tablets)", "correct": false },
+            { "text": "Take 2 tablets once daily (42 tablets)", "correct": false },
+            { "text": "Take 1 tablet twice daily (42 tablets)", "correct": true },
+            { "text": "Take 2 tablets twice daily (48 tablets)", "correct": false }
+        ]
+    },
+    { 
+        "question": "How many milliliters are there in one tablespoonful in a metric system?",
+        "answers": [
+            { "text": "2.5 ml", "correct": false },
+            { "text": "5.0 ml", "correct": false },
+            { "text": "10 ml", "correct": false },
+            { "text": "15 ml", "correct": true }
+        ]
+    },
+    { 
+        "question": "A solution contains 2.5 mg of a drug per milliliter. The drug is to be administered at a rate of 50 mg/hr. (1 mL = 30 drops). Which of the following is the most appropriate infusion rate?",
+        "answers": [
+            { "text": "5 drops/min", "correct": false },
+            { "text": "10 drops/min", "correct": true },
+            { "text": "20 drops/min", "correct": false },
+            { "text": "40 drops/min", "correct": false }
+        ]
+    },
+    { 
+        "question": "A patient is to receive two drops of dexamethasone four times daily. The dexamethasone is available as a 0.1% solution in a 5 ml bottle with a dropper calibrated to deliver 16 drops per ml. How many days will the bottle last?",
+        "answers": [
+            { "text": "4", "correct": false },
+            { "text": "6", "correct": false },
+            { "text": "8", "correct": false },
+            { "text": "10", "correct": true }
+        ]
+    },
+    { 
+        "question": "What is the specific gravity of a liquid if 121.92 ml of it weighs 107.56 g?",
+        "answers": [
+            { "text": "0.882 s.g.", "correct": true },
+            { "text": "1.88 s.g.", "correct": false },
+            { "text": "2.88 s.g.", "correct": false },
+            { "text": "8.822 s.g.", "correct": false }
+        ]
+    },
+    { 
+        "question": "A physician prescribed 5000 units of heparin two times daily for five days. Heparin is available in a vial containing 20,000 units/ml. How many milliliters should be given for each dose?",
+        "answers": [
+            { "text": "0.25", "correct": true },
+            { "text": "0.50", "correct": false },
+            { "text": "0.75", "correct": false },
+            { "text": "1.50", "correct": false }
+        ]
+    }, { 
+        "question": "A solution contains 5 gm of drug per 25 ml. Which of the following is the concentration, in mg/ml, of the drug?",
+        "answers": [
+            { "text": "50 mg/ml", "correct": false },
+            { "text": "100 mg/ml", "correct": false },
+            { "text": "200 mg/ml", "correct": true },
+            { "text": "400 mg/ml", "correct": false }
+        ]
+    },
+    { 
+        "question": "A 20-year-old boy who weighs 10 kg is prescribed Drug X as 1 mg/kg/hour infusion. The pharmacy prepared the prescription by diluting 5 ml of 25 mg/ml concentration via to 100 ml with normal saline. Which of the following is the rate of infusion (in ml/hour)?",
+        "answers": [
+            { "text": "2", "correct": false },
+            { "text": "4", "correct": false },
+            { "text": "6", "correct": false },
+            { "text": "8", "correct": true }
+        ]
+    },
+    { 
+        "question": "A drug has a total body clearance of 2.5 L/hr. Its hepatic metabolism accounts for 25% during less blood perfusion and 40% when blood perfusion is higher to the liver. What will be the hepatic clearance value in the fed state of the stomach?",
+        "answers": [
+            { "text": "0.50 L/hr", "correct": false },
+            { "text": "0.75 L/hr", "correct": false },
+            { "text": "1.00 L/hr", "correct": true },
+            { "text": "1.50 L/hr", "correct": false }
+        ]
+    },
+    { 
+        "question": "A physician ordered Labetalol hydrochloride intravenous infusion at a dose of 500 micrograms/min over an hour for a hypertensive patient. Labetalol hydrochloride is available in a 20 ml vial containing 5 mg/ml of the drug. Which of the following is the amount (in milliliters) of labetalol hydrochloride solution that should be administered?",
+        "answers": [
+            { "text": "4.5", "correct": false },
+            { "text": "6", "correct": true },
+            { "text": "7.5", "correct": false },
+            { "text": "10", "correct": false }
+        ]
+    },
+    { 
+        "question": "An ointment was prepared by incorporating 15 g of a drug into 150 g of petrolatum. What would be the concentration of the drug in the ointment?",
+        "answers": [
+            { "text": "0.91%", "correct": false },
+            { "text": "1.00%", "correct": false },
+            { "text": "0.10%", "correct": false },
+            { "text": "10.00%", "correct": true }
+        ]
+    },
+    { 
+        "question": "A 2.5% intravenous drug is infused at a rate of 1.5 ml/min. What is the amount of the drug (in mg) that is infused in each hour?",
+        "answers": [
+            { "text": "25", "correct": false },
+            { "text": "225", "correct": false },
+            { "text": "2000", "correct": false },
+            { "text": "2250", "correct": true }
+        ]
+    },
+    { 
+        "question": "If a pharmacist has a stock solution of D5W and D50W, how many milliliters from each solution will be needed in order to prepare 450 ml of D15W solution?",
+        "answers": [
+            { "text": "D50W/D5W = 100/350", "correct": true },
+            { "text": "D50W/D5W = 350/100", "correct": false },
+            { "text": "D50W/D5W = 200/250", "correct": false },
+            { "text": "D50W/D5W = 250/200", "correct": false }
+        ]
+    },
+    { 
+        "question": "How much of 5% w/v solution would be required to prepare 60 ml of 5 mg/ml solution?",
+        "answers": [
+            { "text": "6 ml", "correct": true },
+            { "text": "10 ml", "correct": false },
+            { "text": "15 ml", "correct": false },
+            { "text": "18 ml", "correct": false }
+        ]
+    },
+    { 
+        "question": "The pharmacy receives a prescription for labetalol 800 mg twice daily for three days. The available strength of labetalol in the pharmacy is 200 mg. Which of the following is the number of 200 mg labetalol tablets needed to prepare the above prescription for the total duration?",
+        "answers": [
+            { "text": "8", "correct": false },
+            { "text": "12", "correct": false },
+            { "text": "16", "correct": false },
+            { "text": "24", "correct": true }
+        ]
+    },
+    { 
+        "question": "A drug vial contains 0.2% of drug X. Which of the following is the amount of drug X (in mg) in a 5 ml dose?",
+        "answers": [
+            { "text": "0.1", "correct": false },
+            { "text": "1", "correct": false },
+            { "text": "10", "correct": true },
+            { "text": "100", "correct": false }
+        ]
+    },
+    { 
+        "question": "A patient is to receive 25 mg of dextromethorphan four times daily for cough. The pharmacist dispensed two 125 ml bottles containing 10 mg of dextromethorphan per 5 ml. How many days will the two bottles last?",
+        "answers": [
+            { "text": "3", "correct": false },
+            { "text": "5", "correct": true },
+            { "text": "7", "correct": false },
+            { "text": "9", "correct": false }
+        ]
+    },
+    { 
+        "question": "A hospitalized patient with hypertension is prescribed nicardipine hydrochloride intravenous infusion at a dose of 5 mg per hour for four hours. Nicardipine hydrochloride is available as a 10 ml vial containing 25 mg of nicardipine hydrochloride. How many milliliters of nicardipine should be used?",
+        "answers": [
+            { "text": "2.5", "correct": false },
+            { "text": "4.0", "correct": false },
+            { "text": "8.0", "correct": true },
+            { "text": "10.0", "correct": false }
+        ]
+    },
+    { 
+        "question": "A 100 ml infusion bottle contains 2 g of potassium chloride (KCl). (Mol. wt. KCl = 74.6). Which of the following is the most likely amount of KCl present in the infusion bottle?",
+        "answers": [
+            { "text": "12.7 mEq", "correct": false },
+            { "text": "20 mEq", "correct": false },
+            { "text": "26.8 mEq", "correct": true },
+            { "text": "78.5 mEq", "correct": false }
+        ]
+    },
+    { 
+        "question": "Heparin is prepared in a piggyback which contains 25,000 units in 250 ml. How many milliliters of heparin per hour must be given to a 70-kilogram male patient if the infusion rate is 10 units/kg/hour?",
+        "answers": [
+            { "text": "5 ml", "correct": false },
+            { "text": "7 ml", "correct": true },
+            { "text": "10 ml", "correct": false },
+            { "text": "20 ml", "correct": false }
+        ]
+    },
+    { 
+        "question": "What is the weight of 60 ml olive oil (density: 0.92 g/ml)?",
+        "answers": [
+            { "text": "36.66 gm", "correct": false },
+            { "text": "49.60 gm", "correct": false },
+            { "text": "55.20 gm", "correct": true },
+            { "text": "65.86 gm", "correct": false }
+        ]
+    },
+    { 
+        "question": "How many grams of water are needed to make 100 grams of 5% (w/w) solution of potassium acetate?",
+        "answers": [
+            { "text": "57 g", "correct": false },
+            { "text": "95 g", "correct": false },
+            { "text": "115 g", "correct": true },
+            { "text": "140 g", "correct": false }
+        ]
+    },
+    { 
+        "question": "A patient is prescribed 0.25% alcaftadine ophthalmic solution, one drop for each eye per day. Alcaftadine is available in a 3 ml bottle and one ml contains 14 drops. How many days will the bottle last?",
+        "answers": [
+            { "text": "6", "correct": false },
+            { "text": "13", "correct": false },
+            { "text": "17", "correct": false },
+            { "text": "21", "correct": true }
+        ]
+    },
+    { 
+        "question": "A 500 ml infusion bottle contains 11.72 g of potassium chloride (KCl). The molecular weight of KCl is 74.6 grams. Which of the following is the amount of KCl, in milliequivalents (mEq), present in the bottle?",
+        "answers": [
+            { "text": "0.637 mEq", "correct": false },
+            { "text": "6.37 mEq", "correct": false },
+            { "text": "11.72 mEq", "correct": false },
+            { "text": "157.1 mEq", "correct": true }
+        ]
+    },
+        { 
+            "question": "A 65-year-old man (weight=70 kg) with acute decompensated heart failure is to be started on dobutamine 5 mcg/kg/minute. The infusion bag contains dobutamine 150 mg in 100 ml of 0.9% sodium chloride. He has normal renal function. Which of the following is the rate of infusion of dobutamine?",
+            "answers": [
+                { "text": "0.25 mL/hour", "correct": false },
+                { "text": "1.3 mL/hour", "correct": false },
+                { "text": "14 mL/hour", "correct": true },
+                { "text": "26 mL/hour", "correct": false }
+            ]
+        },
+        { 
+            "question": "A 6-year-old HIV infected boy measuring 0.9 m² is to receive nevirapine 140 mg/m² two times daily. Nevirapine is available as 50 mg/5 ml suspension. How many milliliters of nevirapine suspension would be administered per dose?",
+            "answers": [
+                { "text": "6.3", "correct": false },
+                { "text": "12.6", "correct": true },
+                { "text": "14.0", "correct": false },
+                { "text": "16.5", "correct": false }
+            ]
+        },
+        { 
+            "question": "A patient is to receive 750 ml 5% dextrose over five hours. The intravenous infusion set delivers 10 drops/ml. Which of the following is the flow rate in ml/min to deliver the prescribed volume?",
+            "answers": [
+                { "text": "1.5", "correct": false },
+                { "text": "2.0", "correct": false },
+                { "text": "2.5", "correct": true },
+                { "text": "3.0", "correct": false }
+            ]
+        },
+        { 
+            "question": "A pharmacist calculates a dose of 500 µg/min for continuous infusion of dopamine based on weight of the patient. The concentration of a premixed dopamine infusion is 400 mg/250 ml. What is the most likely amount of dopamine in ml received by the patient in the first hour of treatment?",
+            "answers": [
+                { "text": "10 ml", "correct": false },
+                { "text": "19 ml", "correct": true },
+                { "text": "24 ml", "correct": false },
+                { "text": "28 ml", "correct": false }
+            ]
+        },
+        { 
+            "question": "A drug was given to a patient with a constant intravenous infusion rate of 10 mg/hour. The half-life of the drug is three hours. Which of the following is the time in hours to reach steady state plasma concentration?",
+            "answers": [
+                { "text": "10", "correct": false },
+                { "text": "15", "correct": true },
+                { "text": "20", "correct": false },
+                { "text": "30", "correct": false }
+            ]
+        },
+        { 
+            "question": "A syrup is 70% w/v solution of sucrose in water. How much of sucrose is required to prepare 500 ml of this syrup?",
+            "answers": [
+                { "text": "250 g", "correct": false },
+                { "text": "300 g", "correct": false },
+                { "text": "350 g", "correct": true },
+                { "text": "400 g", "correct": false }
+            ]
+        },
+        { 
+            "question": "Lidocaine is commonly administered for patients exhibiting cardiac arrhythmias. Lidocaine pharmacokinetic parameters are as follows: half-life = 2 hours, clearance = 9 mL/min/kg, and volume of distribution = 70 L. Which of the following is the time (in minutes) needed to achieve 87.5% of the steady state concentration in a 70-kg individual?",
+            "answers": [
+                { "text": "77 minutes", "correct": false },
+                { "text": "0.077 minutes", "correct": true },
+                { "text": "0.77 minutes", "correct": false },
+                { "text": "7.7 minutes", "correct": false }
+            ]
+        },
+        { 
+            "question": "A 9-year-old child weighing 36 kg came to the clinic with chickenpox. The physician prescribed acyclovir at a dose of 20 mg/kg four times a day for five days. Acyclovir is available as 200 mg/5 ml oral suspension. How many milliliters of suspension should be dispensed?",
+            "answers": [
+                { "text": "240", "correct": false },
+                { "text": "320", "correct": false },
+                { "text": "360", "correct": true },
+                { "text": "540", "correct": false }
+            ]
+        },
+        { 
+            "question": "How many grams of dextrose are in a 250 ml bag of 10% dextrose?",
+            "answers": [
+                { "text": "12.5", "correct": false },
+                { "text": "25", "correct": true },
+                { "text": "50", "correct": false },
+                { "text": "100", "correct": false }
+            ]
+        },
+        { 
+            "question": "A water sample contains 9 ppm of magnesium. Which of the following is the percentage of magnesium in this sample?",
+            "answers": [
+                { "text": "0.9%", "correct": false },
+                { "text": "0.09%", "correct": false },
+                { "text": "0.009%", "correct": false },
+                { "text": "0.0009%", "correct": true }
+            ]
+        },
+        { 
+            "question": "Results data from a bioavailability study of four different dosage forms of an antibiotic drug is shown (see table). The volunteers fasted for 12 hours prior to taking the drug products. Urine samples were collected up to 72 hours after the administration of the drug to obtain the maximum urinary drug excretion. Which of the following is the absolute bioavailability of the tablet dosage form?",
+            "image": "images/1.PNG",
+            "answers": [
+                { "text": "80%", "correct": false },
+                { "text": "85%", "correct": true },
+                { "text": "90%", "correct": false },
+                { "text": "95%", "correct": false }
+            ]
+        },
+        { 
+            "question": "Which of the following is the expected bioavailability (F) of drugs given by intravenous route?",
+            "answers": [
+                { "text": "less than 25%", "correct": false },
+                { "text": "25%-50%", "correct": false },
+                { "text": "75% -100%", "correct": false },
+                { "text": "100%", "correct": true }
+            ]
+        },
+        { 
+            "question": "A patient presents a prescription with the following antiviral regimen. Start with 50 mg then decrease by 10 mg every 2 days until finished. Which of the following quantities of 5 mg tablets is needed to fill this prescription?",
+            "answers": [
+                { "text": "20", "correct": false },
+                { "text": "30", "correct": false },
+                { "text": "40", "correct": false },
+                { "text": "60", "correct": true }
+            ]
+        },
+        { 
+            "question": "Which of the following is the calculation of the apparent volume of distribution if the patient received 400 mg of intravenous medication that produced an immediate blood concentration of 10 micrograms/ml?",
+            "answers": [
+                { "text": "0.025 L", "correct": false },
+                { "text": "0.4 L", "correct": false },
+                { "text": "25 L", "correct": false },
+                { "text": "40 L", "correct": true }
+            ]
+        },
+        { 
+            "question": "A solution contains 2.5 mg of a drug per milliliter. The drug is to be administered at a rate of 50 mg/hr. (1 mL=30 drops). Which of the following is the most appropriate infusion rate?",
+            "answers": [
+                { "text": "5 drops/min", "correct": false },
+                { "text": "10 drops/min", "correct": true },
+                { "text": "20 drops/min", "correct": false },
+                { "text": "40 drops/min", "correct": false }
+            ]
+        },
+        { 
+            "question": "A 20 ml vial of penicillin-G potassium containing 2,000,000 units is available. Each mg of the drug is equivalent to 1600 units. How many milligrams of penicillin-G potassium are there in one ml of the solution?",
+            "answers": [
+                { "text": "12.50", "correct": false },
+                { "text": "62.50", "correct": false },
+                { "text": "160", "correct": false },
+                { "text": "1250", "correct": true }
+            ]
+        },
+        { 
+            "question": "A drug vial contains 0.2% of drug X. Which of the following is the amount of the drug X (in mg) in a 10 ml dose?",
+            "answers": [
+                { "text": "0.1", "correct": false },
+                { "text": "1", "correct": false },
+                { "text": "10", "correct": false },
+                { "text": "20", "correct": true }
+            ]
+        },
+        { 
+            "question": "The vitamin-D solution is available in a 2.5 ml bottle containing 36,000 international units. The recommended daily dose for children is 400 international units. Each ml of vitamin D solution contains 36 drops. How many drops should be administered to a child per day?",
+            "answers": [
+                { "text": "1", "correct": true },
+                { "text": "2", "correct": false },
+                { "text": "4", "correct": false },
+                { "text": "12", "correct": false }
+            ]
+        },
+        { 
+            "question": "The diagram shows the role of a vitamin as coenzyme for cystathionine synthase and cystathionase enzymes which catalyze the transsulfuration of methionine to cysteine (see image). Which of the following is the vitamin indicated by the star* in the figure?",
+            "image": "images/2.PNG",
+            "answers": [
+                { "text": "B2", "correct": false },
+                { "text": "B3", "correct": false },
+                { "text": "B5", "correct": false },
+                { "text": "B6", "correct": true }
+            ]
+        },
+        { 
+            "question": "Quinine is an important antimalarial drug with a very complicated structure and is very sensitive to stereochemistry (see image). Which pharmacological activity will the drug possess if the stereochemistry at the arrow changes from R to S?",
+            "image": "images/4.PNG",
+            "answers": [
+                { "text": "anticancer", "correct": false },
+                { "text": "antimalarial", "correct": false },
+                { "text": "anticoagulant", "correct": false },
+                { "text": "antiarrhythmic", "correct": true }
+            ]
+        },
+        { 
+            "question": "The structure of norepinephrine-serotonin reuptake inhibitor (NSRI) (see image). Which of the following structure modifications can transform this drug into a selective norepinephrine re-uptake inhibitor (SNRI) analogue?",
+            "image": "images/5.PNG",
+            "answers": [
+                { "text": "quaternization of the side chain amino group", "correct": false },
+                { "text": "transformation of the side chain amino group into a primary amine", "correct": false },
+                { "text": "replacement of the side chain N,N-dimethylamino group with a hydroxyl group", "correct": false },
+                { "text": "demethylation of the side chain tertiary amino group to yield a secondary amino group", "correct": true }
+            ]
+        },
+            { 
+                "question": "Thalidomide is a potent immunomodulatory drug used to treat leprosy. Thalidomide exists in two conformational structures with different pharmacological and toxicological activities. Teratogenicity is believed to be caused by one conformational structure (see image). Which of the following is the most appropriate term used to call the two conformations of thalidomide?",
+                "image": "images/6.PNG",
+                "answers": [
+                    { "text": "Isomers", "correct": false },
+                    { "text": "Epimers", "correct": false },
+                    { "text": "Enantiomers", "correct": true },
+                    { "text": "Diastereomers", "correct": false }
+                ]
+            },
+            { 
+                "question": "A structure of the glibenclamide (glyburide) (see image). Which of the following pharmacophores does Glibenclamide (glyburide) contain?",
+                "image": "images/7.PNG",
+                "answers": [
+                    { "text": "Benzenesulfate urea", "correct": false },
+                    { "text": "Benzenesulfinyl urea", "correct": false },
+                    { "text": "Benzenesulfhydryl urea", "correct": false },
+                    { "text": "Benzenesulphonyl urea", "correct": true }
+                ]
+            },
+            { 
+                "question": "A pharmacist adds 2 g of potassium chloride to 1L of D5W/1/2 normal saline. Atomic weights (see table). Which of the following is the most likely osmolality of the solution assuming the final volume is 1 L?",
+                "image": "images/8.PNG",
+                "answers": [
+                    { "text": "54 mosm/L", "correct": true },
+                    { "text": "300 mosm/L", "correct": false },
+                    { "text": "400 mosm/L", "correct": false },
+                    { "text": "460 mosm/L", "correct": false }
+                ]
+            },
+            { 
+                "question": "A budesonide inhaler delivers 200 puffs and each puff contains 100 micrograms of the drug. Which of the following is the amount (in milligrams) of total budesonide present in the inhaler?",
+                "answers": [
+                    { "text": "10 mg", "correct": false },
+                    { "text": "20 mg", "correct": true },
+                    { "text": "10000 mg", "correct": false },
+                    { "text": "20000 mg", "correct": false }
+                ]
+            },
+            { 
+                "question": "A 500 ml infusion bottle contains 11.72 g of potassium chloride (KCl). The molecular weight of KCl is 74.6 grams. Which of the following is the amount of KCl in milliequivalents (mEq) present in the bottle?",
+                "answers": [
+                    { "text": "0.637 mEq", "correct": false },
+                    { "text": "6.37 mEq", "correct": false },
+                    { "text": "11.72 mEq", "correct": false },
+                    { "text": "157.1 mEq", "correct": true }
+                ]
+            },
+            { 
+                "question": "A 500-mg dose of aspirin was given intravenously to a patient, producing an initial plasma concentration of 100 mg/L. If the half-life of the drug is 6.93 hours, what would be the total body clearance?",
+                "answers": [
+                    { "text": "50 Liters/hour", "correct": false },
+                    { "text": "10 Liters/hour", "correct": false },
+                    { "text": "5 Liters/hour", "correct": false },
+                    { "text": "0.5 Liters/hour", "correct": true }
+                ]
+            },
+            { 
+                "question": "How many grams of 5% diclofenac cream should be mixed with 100 g of 1% cream to make a 2.5% diclofenac cream?",
+                "answers": [
+                    { "text": "30 g", "correct": false },
+                    { "text": "60 g", "correct": true },
+                    { "text": "90 g", "correct": false },
+                    { "text": "120 g", "correct": false }
+                ]
+            },
+            { 
+                "question": "If a multivitamin syrup contains 1500 IU of vitamin A in each milliliter, which of the following quantities of international units of vitamin A would be provided by 1 teaspoonful?",
+                "answers": [
+                    { "text": "500", "correct": false },
+                    { "text": "750", "correct": true },
+                    { "text": "1000", "correct": false },
+                    { "text": "2250", "correct": false }
+                ]
+            },
+            { 
+                "question": "Penicillin-G potassium is available in a 50 ml vial containing 20 grams. Each milligram of penicillin-G potassium is equal to 1500 units. How many units of penicillin G potassium are there in each vial?",
+                "answers": [
+                    { "text": "15000000", "correct": false },
+                    { "text": "20000000", "correct": false },
+                    { "text": "25000000", "correct": false },
+                    { "text": "30000000", "correct": true }
+                ]
+            },
+            { 
+                "question": "A physician ordered Labetalol hydrochloride intravenous infusion at a dose of 500 micrograms/min over an hour for a hypertensive patient. Labetalol hydrochloride is available in a 20 ml vial containing 5 mg/ml of the drug. Which of the following is the amount (in milliliters) of labetalol hydrochloride solution that should be administered?",
+                "answers": [
+                    { "text": "4.5", "correct": false },
+                    { "text": "6", "correct": true },
+                    { "text": "7.5", "correct": false },
+                    { "text": "10", "correct": false }
+                ]
+            },
+            { 
+                "question": "A solution contains 448 mg of KCl (MW=74.5) and 468 mg of NaCl (MW=58.5) in 500 ml. Which of the following is the osmolar concentration of this solution?",
+                "answers": [
+                    { "text": "0.056", "correct": true },
+                    { "text": "0.065", "correct": false },
+                    { "text": "1.556", "correct": false },
+                    { "text": "1.256", "correct": false }
+                ]
+            },
+            { 
+                "question": "A 10 ml ampule of 0.25% nicardipine hydrochloride is given to a patient after being diluted with 5% dextrose to get a drug concentration of 0.1 mg/ml. How many milliliters of 5% dextrose should be used?",
+                "answers": [
+                    { "text": "25", "correct": false },
+                    { "text": "100", "correct": false },
+                    { "text": "240", "correct": true },
+                    { "text": "250", "correct": false }
+                ]
+            },
+            { 
+                "question": "A drug vial contains 0.4% of drug X. Which of the following is the amount of drug X (in mg) in a 5 ml dose?",
+                "answers": [
+                    { "text": "0.2", "correct": false },
+                    { "text": "2", "correct": false },
+                    { "text": "20", "correct": true },
+                    { "text": "200", "correct": false }
+                ]
+            },
+            { 
+                "question": "A patient is prescribed 15 mg of paclitaxel by intravenous infusion. Paclitaxel is added to 150 ml 5% dextrose solution. The infusion is given over two hours. Which of the following is the infusion rate?",
+                "answers": [
+                    { "text": "0.75 ml/min", "correct": false },
+                    { "text": "1.25 ml/min", "correct": true },
+                    { "text": "1.75 ml/min", "correct": false },
+                    { "text": "2.50 ml/min", "correct": false }
+                ]
+            },
+            { 
+                "question": "An elixir contains 5 mg of drug X per ml. Which of the following is the amount of the elixir (in micrograms) in one teaspoon dose?",
+                "answers": [
+                    { "text": "0.5", "correct": false },
+                    { "text": "1000", "correct": false },
+                    { "text": "1500", "correct": false },
+                    { "text": "25000", "correct": true }
+                ]
+            },
+            { 
+                "question": "A patient is receiving an intravenous infusion of theophylline at a rate of 0.48 mg/min. The average population pharmacokinetic parameters of theophylline are as follows: volume of distribution = 95 Liters, renal clearance 48 mL/min, and elimination half-life = 8 hours. Which of the following is the time (in hours) needed to achieve 93.75% of the final steady-state concentration?",
+                "answers": [
+                    { "text": "8", "correct": false },
+                    { "text": "12", "correct": false },
+                    { "text": "24", "correct": false },
+                    { "text": "32", "correct": true }
+                ]
+            },
+            { 
+                "question": "A 4-year-old boy is admitted with dehydration. He is started on Dextrose 5% and normal saline with 40 milliequivalents potassium chloride per liter at a rate of 40 ml per hour. His weight is 16 kilograms. How much potassium chloride (in milli equivalent per kilogram per day) is he receiving?",
+                "answers": [
+                    { "text": "2.4", "correct": true },
+                    { "text": "3", "correct": false },
+                    { "text": "4.5", "correct": false },
+                    { "text": "6", "correct": false }
+                ]
+            },
+            { 
+                "question": "Voltarol tablets contain 25 mg of Diclofenac Sodium. The molecular formula of Diclofenac Sodium is C14H10Cl2NO2.NA (see table). What is the amount of diclofenac per tablet of Voltarol?",
+                "image": "images/9.PNG",
+                "answers": [
+                    { "text": "20.99", "correct": false },
+                    { "text": "21.98", "correct": false },
+                    { "text": "23.19", "correct": true },
+                    { "text": "24.27", "correct": false }
+                ]
+            },
+                { 
+                    "question": "A drug X is available in 100 mg/5 ml bottle. A prescription calls for: Drug X 200 mg three times daily for 7 days. How many (ml) are needed for the five days?",
+                    "answers": [
+                        { "text": "7.5", "correct": false },
+                        { "text": "15", "correct": false },
+                        { "text": "75", "correct": false },
+                        { "text": "150", "correct": true }
+                    ]
+                },
+                { 
+                    "question": "A drug was given to a patient with a constant intravenous infusion rate of 10 mg/hour. The half-life of the drug is three hours. Which of the following is the time in hours to reach steady state plasma concentration?",
+                    "answers": [
+                        { "text": "10", "correct": false },
+                        { "text": "15", "correct": true },
+                        { "text": "20", "correct": false },
+                        { "text": "30", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A pharmacy intern is preparing a solution containing 8.4 g of drug from an available stock solution labeled as 20% w/v. Which of the following is the volume he must take from 20% w/v solution?",
+                    "answers": [
+                        { "text": "4.2 ml", "correct": false },
+                        { "text": "8.4 ml", "correct": false },
+                        { "text": "42 ml", "correct": true },
+                        { "text": "84 ml", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "The pharmacy receives a prescription for labetalol 800 mg twice daily for three days. The available strength of labetalol in the pharmacy is 200 mg. Which of the following is the number of 200 mg labetalol tablet needed to prepare the above prescriptions for the total duration?",
+                    "answers": [
+                        { "text": "8", "correct": false },
+                        { "text": "12", "correct": false },
+                        { "text": "16", "correct": false },
+                        { "text": "24", "correct": true }
+                    ]
+                },
+                { 
+                    "question": "A prescription order asks for compounding dimenhydrinate syrup of strength of 12.5 mg/5 ml. How many 50 mg tablets of dimenhydrinate are needed to prepare a 60 mL of the syrup?",
+                    "answers": [
+                        { "text": "1", "correct": false },
+                        { "text": "2", "correct": false },
+                        { "text": "3", "correct": true },
+                        { "text": "6", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "The weekly dose of docetaxel is 40 mg/m2. How many milliliters of docetaxel solution, 160 mg/16 ml would a patient measuring 1.5 m2 need every week?",
+                    "answers": [
+                        { "text": "4", "correct": false },
+                        { "text": "6", "correct": true },
+                        { "text": "8", "correct": false },
+                        { "text": "10", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A drug vial contains 0.2% of drug X. Which of the following is the amount of the drug X (in mg) in a 5 ml dose?",
+                    "answers": [
+                        { "text": "0.1", "correct": false },
+                        { "text": "1", "correct": false },
+                        { "text": "10", "correct": true },
+                        { "text": "100", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A 1 milliequivalent of calcium chloride =0.0735 g. How many milliequivalents (mEq) of calcium chloride are there in a 10 ml vial containing 10% calcium gluconate?",
+                    "answers": [
+                        { "text": "1.36 mEq", "correct": false },
+                        { "text": "13.6 mEq", "correct": true },
+                        { "text": "73.5 mEq", "correct": false },
+                        { "text": "136.0 mEq", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A 1 milliequivalent (1 mEq) of calcium gluconate = 0.215 g. How many milliequivalents (mEq) per ml of calcium gluconate are there in a 50 ml vial containing 5 g of calcium gluconate?",
+                    "answers": [
+                        { "text": "0.465 mEq/ml", "correct": true },
+                        { "text": "2.320 mEq/ml", "correct": false },
+                        { "text": "23.250 mEq/ml", "correct": false },
+                        { "text": "46.500 mEq/ml", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A 10 ml ampule of 0.25% nicardipine hydrochloride is given to a patient after proper dilution with 5% dextrose to get the drug concentration of 0.1 mg/ml. How many milliliters of 5% dextrose should be used?",
+                    "answers": [
+                        { "text": "25", "correct": false },
+                        { "text": "100", "correct": false },
+                        { "text": "240", "correct": true },
+                        { "text": "250", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A preparation used 0.06 grams of drug X to prepare 120 tablets. Which of the following is the amount of the drug (in micrograms) in each tablet?",
+                    "answers": [
+                        { "text": "0.5", "correct": false },
+                        { "text": "5", "correct": false },
+                        { "text": "50", "correct": false },
+                        { "text": "500", "correct": true }
+                    ]
+                },
+                { 
+                    "question": "A 50-year-old girl weighing 20 kg is brought to the clinic with Lyme disease. The physician prescribed cefuroxime 12.5 mg/kg twice daily for 14 days. The pharmacist has cefuroxime powder for suspension which after reconstitution with water forms a 100 ml suspension with a concentration of 125 mg/5 ml. How many bottles would the pharmacist dispense?",
+                    "answers": [
+                        { "text": "1", "correct": false },
+                        { "text": "2", "correct": false },
+                        { "text": "3", "correct": true },
+                        { "text": "4", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A child weighing 25 kg is prescribed acetazolamide 2.5 mg/kg every 12 hours. Acetazolamide is available in a liquid dosage form with a strength of 25 mg/ml. How many milliliters would the patient be administered per dose?",
+                    "answers": [
+                        { "text": "2.5", "correct": true },
+                        { "text": "5.0", "correct": false },
+                        { "text": "7.5", "correct": false },
+                        { "text": "10", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "Which of the following is the amount of a drug (in gm) that is needed to make 150 ml of a solution if each teaspoonful must contain 7.5 mg of the drug?",
+                    "answers": [
+                        { "text": "0.225", "correct": true },
+                        { "text": "0.75", "correct": false },
+                        { "text": "2.25", "correct": false },
+                        { "text": "7.50", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A young child (weight = 30 kg) diagnosed with pharyngitis has been prescribed Augmentin suspension (125 mg amoxicillin/31.25 mg clavulanate/5 ml) to be given as two teaspoons three times daily for five days. Which of the following is the minimum suspension volume that should be dispensed?",
+                    "answers": [
+                        { "text": "60", "correct": false },
+                        { "text": "90", "correct": false },
+                        { "text": "120", "correct": false },
+                        { "text": "150", "correct": true }
+                    ]
+                },
+                { 
+                    "question": "A 25 ml solution contains 5 grams of the drug. Which of the following is the drug concentration in mg/ml in the solution?",
+                    "answers": [
+                        { "text": "50 mg/ml", "correct": false },
+                        { "text": "100 mg/ml", "correct": false },
+                        { "text": "200 mg/ml", "correct": true },
+                        { "text": "400 mg/ml", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A 1000-mg dose of a drug was given intravenously to a 25-year-old male patient weighing 60 kg. The initial plasma concentration of the drug was found to be 10 mg/L, and the elimination rate constant was 0.1 h. Assuming linear kinetics, what would be the total body clearance?",
+                    "answers": [
+                        { "text": "10 litres/hour", "correct": true },
+                        { "text": "100 litres/hour", "correct": false },
+                        { "text": "150 litres/hour", "correct": false },
+                        { "text": "250 litres/hour", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A manufacturer wishes to produce a batch of compressed tablets each containing 800 mg of active ingredient, with a mean tablet weight of 1.2 g. Which of the following is the weight of active ingredient that will be required for a total batch size of 720 kg?",
+                    "answers": [
+                        { "text": "600 Kg", "correct": false },
+                        { "text": "480 Kg", "correct": true },
+                        { "text": "250 Kg", "correct": false },
+                        { "text": "240 Kg", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A 10 ml ampule of 0.25% nicardipine hydrochloride is given to a patient after proper dilution with 5% dextrose to get the drug concentration of 0.1 mg/ml. How many milliliters of 5% dextrose should be used?",
+                    "answers": [
+                        { "text": "25", "correct": false },
+                        { "text": "100", "correct": false },
+                        { "text": "240", "correct": true },
+                        { "text": "250", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A 500 ml intravenous infusion solution was prepared by adding 10 ml of 10% of anticancer drug to 490 ml of 5% dextrose. Which of the following is the percentage strength of the drug in the infusion solution?",
+                    "answers": [
+                        { "text": "0.2%", "correct": true },
+                        { "text": "0.4%", "correct": false },
+                        { "text": "0.5%", "correct": false },
+                        { "text": "1.0%", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A 5-year-old girl admitted to the Pediatric Intensive Care Unit (PICU) with severe hypotension. The physician prescribed dopamine infusion at a rate of 5 mcg/kilogram/minute. The child weighs 15 kilograms. How many milliliters are needed from an 80 mg/ml dopamine vial to prepare the 24-hour infusion?",
+                    "answers": [
+                        { "text": "1 ml", "correct": false },
+                        { "text": "1.4 ml", "correct": true },
+                        { "text": "2 ml", "correct": false },
+                        { "text": "2.5 ml", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A drug has a volume of distribution of 15 liters and an oral bioavailability of 0.6. What is the loading dose in mg required to reach a 0.8 mg/ml steady-state concentration?",
+                    "answers": [
+                        { "text": "200 mg", "correct": false },
+                        { "text": "2000 mg", "correct": false },
+                        { "text": "20000 mg", "correct": true },
+                        { "text": "20 mg", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "A 25-year-old man with leukemia admitted to a hematology oncology center. Who is allowed to read the patient file without additional permission?",
+                    "answers": [
+                        { "text": "Patient's cousin who is working as out-patient nurse in the hospital", "correct": false },
+                        { "text": "Medical resident in pediatric who wants to explore the risk of leukemia", "correct": false },
+                        { "text": "Clinical nutritionist who is assigned to calculate the requirements for the patient", "correct": true },
+                        { "text": "Pharmacy resident who is planning to do a research cell transplant", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "Which of the following anti-neoplastic medications is known to cause bone marrow suppression?",
+                    "answers": [
+                        { "text": "Bleomycin", "correct": false },
+                        { "text": "Vincristine", "correct": false },
+                        { "text": "Doxorubicin", "correct": true },
+                        { "text": "L-asparaginase", "correct": false }
+                    ]
+                },
+                { 
+                    "question": "Which of the following is an alkylating anticancer agent?",
+                    "answers": [
+                        { "text": "Cyclophosphamide", "correct": true },
+                        { "text": "Fluorouracil", "correct": false },
+                        { "text": "Doxorubicin", "correct": false },
+                        { "text": "Etoposide", "correct": false }
+                    ]
+                },
+                    { 
+                        "question": "42-year-old woman, a mother of 2 boys is diagnosed with cancer, treatment options includes either hysterectomy or chemotherapy. The patient refused the surgery because she still wants to have a daughter, and does not want to receive any chemotherapy to protect her hair and beauty. What will be the most appropriate suggestion for her?",
+                        "answers": [
+                            { "text": "To start chemotherapy with very low doses and less frequency", "correct": false },
+                            { "text": "To go with the option of surgery immediately because it is", "correct": false },
+                            { "text": "To discuss the risk and benefit with the patient and take the decision", "correct": true },
+                            { "text": "To force the patient to receive chemotherapy and wear synthetic hair extensions", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Which of the following anti-cancer alkaloids acts by stabilizing the microtubule polymer and protecting it from disassembly?",
+                        "answers": [
+                            { "text": "Paclitaxel", "correct": true },
+                            { "text": "Colchicine", "correct": false },
+                            { "text": "Vinblastine", "correct": false },
+                            { "text": "Camptothecin", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Which of the following is a recommendation to reduce the inadvertent intrathecal administration of vincristine?",
+                        "answers": [
+                            { "text": "Dispense the syringe without needle", "correct": false },
+                            { "text": "Dispense vincristine in a 60-ml syringe", "correct": false },
+                            { "text": "Dispense vincristine in a mini bag instead of a syringe", "correct": true },
+                            { "text": "Dispense the vial for the nurse to prepare at the bedside", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "What is the most common adverse reaction of doxorubicin?",
+                        "answers": [
+                            { "text": "Bone marrow depression", "correct": false },
+                            { "text": "Hepatic toxicity", "correct": false },
+                            { "text": "Cardiac toxicity", "correct": true },
+                            { "text": "Skin necrosis", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "What is the therapeutic indication for nilotinib?",
+                        "answers": [
+                            { "text": "Ulcerative colitis", "correct": false },
+                            { "text": "Familial hyperlipidemia", "correct": false },
+                            { "text": "Highly active and relapsing remitting multiple sclerosis", "correct": false },
+                            { "text": "Philadelphia chromosome positive chronic myelogenous leukemia", "correct": true }
+                        ]
+                    },
+                    { 
+                        "question": "40-year-old woman with breast cancer, topoisomerase is elevated. Which drug should be used?",
+                        "answers": [
+                            { "text": "Cyclophosphamide", "correct": false },
+                            { "text": "Melphalan", "correct": false },
+                            { "text": "Irinotecan", "correct": true },
+                            { "text": "Methotrexate", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Immune system plays an important role in cancer treatment by?",
+                        "answers": [
+                            { "text": "Macrophage", "correct": false },
+                            { "text": "Cytotoxic", "correct": true },
+                            { "text": "Complex", "correct": false },
+                            { "text": "Chelating", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Which of the following is recommended for breast cancer prevention?",
+                        "answers": [
+                            { "text": "Vitamin A 100", "correct": false },
+                            { "text": "Vitamin D 200", "correct": true },
+                            { "text": "None of them", "correct": false },
+                            { "text": "Vitamin A + Vitamin D", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "What is the benefit of cysteine in chemotherapy agents?",
+                        "answers": [
+                            { "text": "Increase target", "correct": false },
+                            { "text": "Increase effects", "correct": true },
+                            { "text": "Increase solubility", "correct": false },
+                            { "text": "More information needed", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Acetaminophen is an antipyretic and an analgesic drug. It binds to a cytosolic protein. Which of the following types of bonds is formed between the protonated amine of acetaminophen and the cytosolic acid of the aspartate residue of the protein?",
+                        "answers": [
+                            { "text": "Ionic bond", "correct": false },
+                            { "text": "Covalent bond", "correct": false },
+                            { "text": "Hydrogen bond", "correct": true },
+                            { "text": "Van der Waals interaction", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Which of the following molecules contains a double bond?",
+                        "answers": [
+                            { "text": "CH3", "correct": false },
+                            { "text": "CNH", "correct": false },
+                            { "text": "C2H2", "correct": false },
+                            { "text": "C2H4", "correct": true }
+                        ]
+                    },
+                    { 
+                        "question": "Which of the following can be used safely in a patient with sulfa allergy?",
+                        "answers": [
+                            { "text": "Gliclazide", "correct": false },
+                            { "text": "Furosemide", "correct": true },
+                            { "text": "Sulfamethoxazole", "correct": false },
+                            { "text": "Sodium thiosulfate", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Aspirin is a well-known antiplatelet aggregating agent. What is the role of the acetyl group in its antiplatelet activity?",
+                        "image": "images/10.PNG",
+                        "answers": [
+                            { "text": "It represents a good leaving group to form the active salicylic acid", "correct": false },
+                            { "text": "It provides hydrogen binding with tyrosine moiety on COX binding", "correct": false },
+                            { "text": "It provides covalent binding with serine moiety found on COX binding site", "correct": true },
+                            { "text": "It provides hydrophobic binding with a tryptophan moiety on COX binding site", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Examine the drug in the figure. What is the effect of replacement of the methoxyl group (boxed) with a hydroxyl group?",
+                        "image": "images/11.PNG",
+                        "answers": [
+                            { "text": "Decrease in analgesic activity", "correct": false },
+                            { "text": "Decrease in addition activity", "correct": false },
+                            { "text": "Reduction in the antitussive activity", "correct": true },
+                            { "text": "Lower affinity to morphine receptors", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "The structure of erythromycin. Which of the following is the reason why erythromycin is sensitive to acidic pH?",
+                        "image": "images/12.PNG",
+                        "answers": [
+                            { "text": "The presence of lactone group in the ring", "correct": false },
+                            { "text": "The presence of two basic sugars at position 3 and 5", "correct": false },
+                            { "text": "The presence of 6-methoxy groups at alternate positions of the macrolide ring", "correct": false },
+                            { "text": "Ketal formation between hydroxyl group (6 and 12) and ketone at position 9", "correct": true }
+                        ]
+                    },
+                    { 
+                        "question": "Which of the following polymorphic enzymes is responsible for the conversion of codeine to morphine?",
+                        "answers": [
+                            { "text": "CYP2D6", "correct": true },
+                            { "text": "CYP2C9", "correct": false },
+                            { "text": "CCR5 coreceptor", "correct": false },
+                            { "text": "N-Acetyltransferase", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Structures of four antidepressant drugs. Which of the following antidepressant structures undergoes a photo-oxidation reaction upon exposure to light?",
+                        "image": "images/13.PNG",
+                        "answers": [
+                            { "text": "1", "correct": true },
+                            { "text": "2", "correct": false },
+                            { "text": "3", "correct": false },
+                            { "text": "4", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "The chemical structure of four non-steroidal anti-inflammatory agents (NSAIDs). Which of the following NSAIDs has minimal possible gastric side effects?",
+                        "image": "images/14.PNG",
+                        "answers": [
+                            { "text": "Ibuprofen", "correct": false },
+                            { "text": "Celecoxib (selective COX-2 inhibitor)", "correct": true },
+                            { "text": "Indomethacin", "correct": false },
+                            { "text": "Diclofenac", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Which one of the following is the most common cause of drug instability?",
+                        "answers": [
+                            { "text": "Oxidation", "correct": true },
+                            { "text": "Racemization", "correct": false },
+                            { "text": "Epimerization", "correct": false },
+                            { "text": "Decarboxylation", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Structure of ciprofloxacin. Which of the following is the benefit of the piperazine group at this position?",
+                        "image": "images/16.PNG",
+                        "answers": [
+                            { "text": "Increases drug resistance to β-lactamase", "correct": false },
+                            { "text": "Improves the oral bioavailability of the drug", "correct": false },
+                            { "text": "Increases lipophilicity and hence penetration of the bacterial cell wall", "correct": false },
+                            { "text": "Improves the spectrum of antibacterial activity (especially Gram-negative)", "correct": true }
+                        ]
+                    },
+                    { 
+                        "question": "Which one of the following is the effect of alkaline buffers in commercial formulations of aspirin?",
+                        "answers": [
+                            { "text": "They have no effect on the rate of absorption", "correct": false },
+                            { "text": "They increase the rate of its absorption by alkalinizing the pH of the stomach", "correct": false },
+                            { "text": "They reduce the rate of absorption of aspirin by converting it to the less readily absorbed ionic form", "correct": false },
+                            { "text": "They increase the rate of absorption by increasing the pH immediately around the disintegrating aspirin particles and accelerating their dissolution", "correct": true }
+                        ]
+                    },
+                    { 
+                        "question": "Examine the chemical structure of diclofenac. Which of the following structures best represents a major active metabolite of diclofenac?",
+                        "image": "images/17.PNG",
+                        "answers": [
+                            { "text": "1", "correct": false },
+                            { "text": "2", "correct": false },
+                            { "text": "3", "correct": true },
+                            { "text": "4", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "The presented structure belongs to the proton pump inhibitor tenatoprazole. Which of the following metabolic reactions can occur at the pointed arrow on the structure?",
+                        "image": "images/18.PNG",
+                        "answers": [
+                            { "text": "Sulfation", "correct": false },
+                            { "text": "Oxidation", "correct": true },
+                            { "text": "Demethylation", "correct": false },
+                            { "text": "Glucuronidation", "correct": false }
+                        ]
+                    },
+                    { 
+                        "question": "Histamine (pKa=9.4) is an endogenous chemical released when an allergic reaction happens. As a pharmacist, you are responsible to understand the mechanism and the conformation of this chemical in the blood. Which of the following is the least dominant tautomer of histamine?",
+                        "image": "images/19.PNG",
+                        "answers": [
+                            { "text": "a", "correct": false },
+                            { "text": "b", "correct": false },
+                            { "text": "c", "correct": true },
+                            { "text": "d", "correct": false }
+                        ]
+                    },
+                        {
+                            "question": "D-Galactose and D-Mannose are monosaccharide sugar. They have the same number of carbons and the same functional group, but they differ in their configurations. This reflects their pharmacoceutical uses (see image). Which of the following types of stereo-isomerization do these sugars represent?",
+                            "answers": [
+                                { "text": "Isomers", "correct": false },
+                                { "text": "Epimers", "correct": false },
+                                { "text": "Anomers", "correct": false },
+                                { "text": "Diastereomers", "correct": true }
+                            ]
+                        },
+                        {
+                            "question": "Ropivancaine is an important local anesthetic. The figure shows the chemical structures of ropivacaine and 4 other local anesthetics (see image). Which of the following is the bioisoster for ropivacaine?",
+                            "answers": [
+                                { "text": "Etidocaine", "correct": false },
+                                { "text": "Bupivacaine", "correct": false },
+                                { "text": "Mepivacaine", "correct": false },
+                                { "text": "Levobupivacaine", "correct": true }
+                            ]
+                        },
+                        {
+                            "question": "Amphotericin undergo which reaction?",
+                            "answers": [
+                                { "text": "Hydrolysis", "correct": true },
+                                { "text": "Alkylation", "correct": false },
+                                { "text": "Reduction", "correct": false },
+                                { "text": "Oxidation", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Epimer of glucose?",
+                            "answers": [
+                                { "text": "Ribose", "correct": false },
+                                { "text": "Galactose", "correct": true },
+                                { "text": "Deoxyribose", "correct": false },
+                                { "text": "Sucrose", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Morphine to heroine?",
+                            "answers": [
+                                { "text": "Carboxylation", "correct": false },
+                                { "text": "Esterification", "correct": true },
+                                { "text": "Oxidation", "correct": false },
+                                { "text": "Hydrolysis", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Type of bond between amino acids?",
+                            "answers": [
+                                { "text": "Amide bond", "correct": true },
+                                { "text": "Disulfide bond", "correct": false },
+                                { "text": "Ionic bond", "correct": false },
+                                { "text": "Van der Waals bond", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Aspirin metabolism?",
+                            "answers": [
+                                { "text": "Methylation", "correct": false },
+                                { "text": "Hydroxylation", "correct": true },
+                                { "text": "Conjugation", "correct": false },
+                                { "text": "Esterification", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Bond between Carboxyl and amine?",
+                            "answers": [
+                                { "text": "Hydrogen bond", "correct": true },
+                                { "text": "Ionic bond", "correct": false },
+                                { "text": "Van der Waals bond", "correct": false },
+                                { "text": "Amide bond", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Structures of zidovudine antivirals, marked 4 area on structure and asked about which part to remove that make the antiviral drug not effective?",
+                            "image": "images/1.PNG",
+                            "answers": [
+                                { "text": "N3", "correct": true },
+                                { "text": "CH3", "correct": false },
+                                { "text": "C=O", "correct": false },
+                                { "text": "OH", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Which element is not involved in heterocyclic compounds?",
+                            "answers": [
+                                { "text": "N", "correct": false },
+                                { "text": "H", "correct": false },
+                                { "text": "Se", "correct": false },
+                                { "text": "Fe", "correct": true }
+                            ]
+                        },
+                        {
+                            "question": "Ephedrine phenylephrine addition of hydroxyl group what does it do to activity?",
+                            "answers": [
+                                { "text": "Increase alpha 1", "correct": true },
+                                { "text": "Decrease alpha 1", "correct": false },
+                                { "text": "Increase alpha 2", "correct": false },
+                                { "text": "Decrease alpha 2", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Which of the following is the active metabolite of primidone?",
+                            "answers": [
+                                { "text": "Phenytoin", "correct": false },
+                                { "text": "Dopamine", "correct": false },
+                                { "text": "Phenobarbital", "correct": true },
+                                { "text": "Methsuximide", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Which of the following is the therapeutic indication for methylphenidate?",
+                            "answers": [
+                                { "text": "Eczema", "correct": false },
+                                { "text": "Insomnia", "correct": false },
+                                { "text": "Anorexia nervosa", "correct": false },
+                                { "text": "Attention deficit disorder in children", "correct": true }
+                            ]
+                        },
+                        {
+                            "question": "A 6-year-old boy is brought with a complaint of uncontrollable spasm-like movements and excessive eye blinking for four months. Chronic motor disorder was diagnosed. Which of the following is the best management?",
+                            "answers": [
+                                { "text": "Pregabalin", "correct": false },
+                                { "text": "Haloperidol", "correct": true },
+                                { "text": "Methadone", "correct": false },
+                                { "text": "Chlorzoxazone", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Which of the following is an inhibitory neurotransmitter?",
+                            "answers": [
+                                { "text": "Aspartate", "correct": false },
+                                { "text": "Valproic acid", "correct": false },
+                                { "text": "Glutamate", "correct": false },
+                                { "text": "Gamma-aminobutyric acid (GABA)", "correct": true }
+                            ]
+                        },
+                        {
+                            "question": "67-year-old man presents with complaints of tremors, trouble walking, and a masked face. Parkinson’s disease is suspected. Levodopa is prescribed along with a compound to lower the required dose of levodopa and to achieve an effective brain dopamine concentration. Which of the following is that most likely compound?",
+                            "answers": [
+                                { "text": "Pergolide", "correct": false },
+                                { "text": "Selegiline", "correct": false },
+                                { "text": "Carbidopa", "correct": true },
+                                { "text": "Entacapone", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Which of the following is a potential side effect of using chlorpromazine in an elderly person?",
+                            "answers": [
+                                { "text": "Dyskinesia", "correct": false },
+                                { "text": "Constipation", "correct": false },
+                                { "text": "Urinary retention", "correct": false },
+                                { "text": "Tardive dyskinesia", "correct": true }
+                            ]
+                        },
+                        {
+                            "question": "14-year-old man expressed withdrawal symptoms from using benzodiazepine drug which included irritability and aggression. Which of the following types of benzodiazepines is more likely associated with these symptoms?",
+                            "answers": [
+                                { "text": "Long-acting benzodiazepines", "correct": false },
+                                { "text": "Ultra-short acting benzodiazepines", "correct": true },
+                                { "text": "Benzodiazepines with active metabolites", "correct": false },
+                                { "text": "Benzodiazepines with high plasma protein binding", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "A 38-year-old man is using citalopram 20 mg PO daily for depression which he has been taking for 1 year. A week ago, he had an infection and was prescribed linezolid 600 mg PO q12h for a total of 14 days. The patient began to get confused and easily agitated, breathing rapidly, started to sweat, and developed noticeable shaking. Which of the following is the name of this drug-drug interaction happening to this patient?",
+                            "answers": [
+                                { "text": "Hepatotoxicity", "correct": false },
+                                { "text": "Seizure activity", "correct": false },
+                                { "text": "Serotonin syndrome", "correct": true },
+                                { "text": "Stevens-Johnson syndrome", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "An elderly man presented to the emergency room with dizziness, consciousness issues, and respiratory depression. He was recently medicated for inability to sleep. Which of the following medications is the most likely drug involved in toxicity?",
+                            "answers": [
+                                { "text": "Aspirin", "correct": false },
+                                { "text": "Naproxen", "correct": false },
+                                { "text": "Diazepam", "correct": true },
+                                { "text": "Acetaminophen", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "An 18-year-old boy with a history of illicit drug use is suspected to have an overdose of benzodiazepines and is experiencing ataxia, drowsiness, and nystagmus. Which of the following would be the best antidote?",
+                            "answers": [
+                                { "text": "Activated charcoal 50 grams", "correct": false },
+                                { "text": "Flumazenil 300 mcg intravenously", "correct": true },
+                                { "text": "Naloxone 400 mcg intramuscularly", "correct": false },
+                                { "text": "Haloperidol 10 mg intramuscularly", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Which of the following is considered first-line therapy for the management of partial seizures?",
+                            "answers": [
+                                { "text": "Carbamazepine", "correct": true },
+                                { "text": "Phenobarbital", "correct": false },
+                                { "text": "Gabapentin", "correct": false },
+                                { "text": "Primidone", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Which of the following electrolyte imbalances predisposes to lithium toxicity?",
+                            "answers": [
+                                { "text": "Magnesium", "correct": false },
+                                { "text": "Potassium", "correct": false },
+                                { "text": "Calcium", "correct": false },
+                                { "text": "Sodium", "correct": true }
+                            ]
+                        },
+                        {
+                            "question": "Which of the following anticonvulsants needs serum level monitoring for optimizing safety and efficacy?",
+                            "answers": [
+                                { "text": "Phenytoin", "correct": true },
+                                { "text": "Lacosamide", "correct": false },
+                                { "text": "Topiramate", "correct": false },
+                                { "text": "Levetiracetam", "correct": false }
+                            ]
+                        },
+                        {
+                            "question": "Which of the following dosage regimens is approved for severe Alzheimer's disease?",
+                            "answers": [
+                                { "text": "Donepezil 23 mg daily", "correct": true },
+                                { "text": "Memantine 5 mg daily", "correct": false },
+                                { "text": "Rivastigmine 6 mg twice daily", "correct": false },
+                                { "text": "Galantamine 12 mg twice daily", "correct": false }
+                            ]
+                        } ,
+                            {
+                                "question": "Which of the following counseling points is most important to discuss with a patient who is taking carbidopa/levodopa?",
+                                "answers": [
+                                    { "text": "Should be taken on an empty stomach", "correct": false },
+                                    { "text": "High-fat meal may increase the absorption", "correct": false },
+                                    { "text": "Should not be taken with calcium supplements", "correct": false },
+                                    { "text": "High-protein meal may decrease the absorption", "correct": true }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following is the most likely reason for increased risk of falls in geriatric patients using tricyclic antidepressants?",
+                                "answers": [
+                                    { "text": "Palpitations", "correct": false },
+                                    { "text": "Weak muscles", "correct": false },
+                                    { "text": "Orthostatic hypotension", "correct": true },
+                                    { "text": "Difficulty in concentration", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following medications is the most appropriate for nausea induced by the antiParkinson's drug bromocriptine?",
+                                "answers": [
+                                    { "text": "Itopride", "correct": false },
+                                    { "text": "Domperidone", "correct": true },
+                                    { "text": "Metoclopramide", "correct": false },
+                                    { "text": "Chlorpheniramine", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following is the mechanism of action of entacapone?",
+                                "answers": [
+                                    { "text": "Inhibition of nicotinic receptors", "correct": false },
+                                    { "text": "Inhibition on dopamine-D2 receptors", "correct": false },
+                                    { "text": "Inhibition of monoamine oxidases (MAO)", "correct": false },
+                                    { "text": "Inhibition of catechol-O-methyltransferase (COMT)", "correct": true }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following drugs causes oligohydrosis?",
+                                "answers": [
+                                    { "text": "Phenytoin", "correct": false },
+                                    { "text": "Topiramate", "correct": true },
+                                    { "text": "Zonisamide", "correct": false },
+                                    { "text": "Oxcarbazepine", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following does mechanisms Carbidopa act as an anti-parkinsonian agent?",
+                                "answers": [
+                                    { "text": "Blocking dopamine receptors", "correct": false },
+                                    { "text": "Activating serotonin reuptake", "correct": false },
+                                    { "text": "Binding to alpha-7 nicotinic acetylcholine receptors", "correct": false },
+                                    { "text": "Decreasing the decarboxylation of levodopa in peripheral tissues", "correct": true }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following is the therapeutic use of the dietary supplement Valerian?",
+                                "answers": [
+                                    { "text": "Improve urinary flow", "correct": false },
+                                    { "text": "Reduce severity of a cold or virus infection", "correct": false },
+                                    { "text": "Improve memory", "correct": false },
+                                    { "text": "Mild sedative", "correct": true }
+                                ]
+                            },
+                            {
+                                "question": "61-year-old was recently diagnosed with Parkinson's disease He was prescribed an antiParkinson medication. Later, he was presented to the clinic with mydriasis and narrow angle glaucoma. Which of the following medication was prescribed?",
+                                "answers": [
+                                    { "text": "Amantadine", "correct": false },
+                                    { "text": "Bromocriptine", "correct": false },
+                                    { "text": "Trihexyphenidyl", "correct": true },
+                                    { "text": "Levodopa (L-DOPA)", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following is the active metabolite of primidone?",
+                                "answers": [
+                                    { "text": "Phenytoin", "correct": false },
+                                    { "text": "Dopamine", "correct": false },
+                                    { "text": "Phenobarbital", "correct": true },
+                                    { "text": "Methsuximide", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "A 45-year-old woman was prescribed a sedative for anxiety to be taken at night. Three days later, she presented complaining of drowsiness, dysphoria and motor depression every morning. Which of the following medications was most likely prescribed?",
+                                "answers": [
+                                    { "text": "Zolpidem", "correct": false },
+                                    { "text": "Diazepam", "correct": false },
+                                    { "text": "Ramelteon", "correct": true },
+                                    { "text": "Midazolam", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following medications is used to treat Alzheimer's disease?",
+                                "answers": [
+                                    { "text": "Donepezil", "correct": true },
+                                    { "text": "Amantadine", "correct": false },
+                                    { "text": "Trihexyphenidyl", "correct": false },
+                                    { "text": "Carbidopa-levodopa", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following receptors is the target for morphine action?",
+                                "answers": [
+                                    { "text": "Glutamate receptor", "correct": false },
+                                    { "text": "Interleukin-2 receptor", "correct": false },
+                                    { "text": "Mu (µ) opioid receptor", "correct": true },
+                                    { "text": "Acetylcholine receptor", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following side effects is common with short half-life hypnotics?",
+                                "answers": [
+                                    { "text": "Rebound insomnia", "correct": true },
+                                    { "text": "Development of tolerance", "correct": false },
+                                    { "text": "Induction of liver metabolic enzymes", "correct": false },
+                                    { "text": "Retrograde amnesia during the next day", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "A 67-year-old man presents with complaints of tremors, trouble walking and masked face, Parkinson's disease is suspected. Levodopa is prescribed along with a compound to lower the required dose of levodopa and to achieve an effective brain-dopamine concentration. Which of the following is the most likely compound?",
+                                "answers": [
+                                    { "text": "Pergolide", "correct": false },
+                                    { "text": "Selegiline", "correct": false },
+                                    { "text": "Carbidopa", "correct": true },
+                                    { "text": "Entacapone", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which anxiolytic drug has a slow onset of action?",
+                                "answers": [
+                                    { "text": "Diazepam", "correct": false },
+                                    { "text": "Buspirone (onset 2-4 weeks for anxiolytic effect)", "correct": true },
+                                    { "text": "Alprazolam", "correct": false },
+                                    { "text": "Phenobarbital", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following is the therapeutic use of the dietary supplement Valerian?",
+                                "answers": [
+                                    { "text": "Improve urinary flow", "correct": false },
+                                    { "text": "Reduce severity of a cold or virus infection", "correct": false },
+                                    { "text": "Improve memory", "correct": false },
+                                    { "text": "Mild sedative", "correct": true }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following statements best describes L-DOPA?",
+                                "answers": [
+                                    { "text": "It is absorbed and converted to carbidopa", "correct": false },
+                                    { "text": "It activates nicotinic acetylcholine receptors", "correct": false },
+                                    { "text": "It is the drug of choice in the treatment of Alzheimer's disease", "correct": false },
+                                    { "text": "It crosses the blood-brain barrier and is converted to dopamine", "correct": true }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following adverse effects is associated with the use of barbiturates in elderly?",
+                                "answers": [
+                                    { "text": "Ataxia", "correct": false },
+                                    { "text": "Agitation", "correct": false },
+                                    { "text": "Dementia", "correct": false },
+                                    { "text": "Hypotension", "correct": true }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following mechanisms of action most appropriately describes benzodiazepines?",
+                                "answers": [
+                                    { "text": "Inhibit GABA's actions at the GABA receptor", "correct": false },
+                                    { "text": "Potentiate 5-HT's actions at the 5-HT receptor", "correct": false },
+                                    { "text": "Potentiate GABA's actions at the GABA receptor", "correct": true },
+                                    { "text": "Potentiate glutamate's actions at the NMDA receptor", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following is a therapeutic use of lorazepam?",
+                                "answers": [
+                                    { "text": "Antihistamine", "correct": false },
+                                    { "text": "Analgesic", "correct": false },
+                                    { "text": "Hypnotic", "correct": true },
+                                    { "text": "Diuretic", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Case Epilepsy patient and positive HLA-B (1502) Which the following antiepileptic can be used?",
+                                "answers": [
+                                    { "text": "Levetiracetam", "correct": true },
+                                    { "text": "Lamotrigine", "correct": false },
+                                    { "text": "Phenytoin", "correct": false },
+                                    { "text": "Carbamazepine", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Drug of choice for patient with focal seizure and HLA-B 1502 positive?",
+                                "answers": [
+                                    { "text": "Levetiracetam", "correct": true },
+                                    { "text": "Carbamazepine", "correct": false },
+                                    { "text": "Lamotrigine", "correct": false },
+                                    { "text": "Phenobarbital", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following is the First line drug for Alzheimer’s?",
+                                "answers": [
+                                    { "text": "Amantadine", "correct": false },
+                                    { "text": "Donepezil", "correct": true },
+                                    { "text": "Levodopa", "correct": false },
+                                    { "text": "Dopamine", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following is the active metabolite of primidone?",
+                                "answers": [
+                                    { "text": "Phenytoin", "correct": false },
+                                    { "text": "Dopamine", "correct": false },
+                                    { "text": "Phenobarbital", "correct": true },
+                                    { "text": "Methsuximide", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Memantine mechanism of action in Alzheimer’s?",
+                                "answers": [
+                                    { "text": "Affinity uncompetitive N-methyl-D-aspartate (NMDA) receptor", "correct": true },
+                                    { "text": "Memantine also blocks the 5-hydroxytryptamine-3 receptor (at a potency similar to the NMDA receptor)", "correct": false },
+                                    { "text": "Blocking GABA Receptor", "correct": false },
+                                    { "text": "Opening GABA Receptor", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following mood stabilizers would be most appropriate in a patient with liver disease?",
+                                "answers": [
+                                    { "text": "Lithium", "correct": true },
+                                    { "text": "Valproic acid", "correct": false },
+                                    { "text": "Carbamazepine", "correct": false },
+                                    { "text": "None of the above", "correct": false }
+                                ]
+                            },
+                            {
+                                "question": "Which of the following medications would be first-line monotherapy for an acute episode of mania?",
+                                "answers": [
+                                    { "text": "Gabapentin", "correct": false },
+                                    { "text": "Lithium", "correct": true },
+                                    { "text": "Lamotrigine", "correct": false },
+                                    { "text": "Haloperidol", "correct": false }
+                                ]
+                            },
+                            {
+                                    "question": "Pregnant with tonic-clonic seizure?",
+                                    "answers": [
+                                        { "text": "Valproic acid + folic acid", "correct": false },
+                                        { "text": "Lamotrigine", "correct": true },
+                                        { "text": "Cyclizine", "correct": false },
+                                        { "text": "Metformin", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "Side effects of short half-life hypnotics?",
+                                    "answers": [
+                                        { "text": "Rebound insomnia", "correct": true },
+                                        { "text": "Development of tolerance", "correct": false },
+                                        { "text": "Addiction", "correct": false },
+                                        { "text": "Anorexia", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "Stevens-Johnson syndrome?",
+                                    "answers": [
+                                        { "text": "Valproic acid", "correct": true },
+                                        { "text": "Quinidine", "correct": false },
+                                        { "text": "Isoniazid", "correct": false },
+                                        { "text": "Ethosuximide", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "Common side effect of chlorpromazine?",
+                                    "answers": [
+                                        { "text": "Headache", "correct": false },
+                                        { "text": "Dry cough", "correct": false },
+                                        { "text": "Akathisia", "correct": true },
+                                        { "text": "Agitation", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "Breastfeeding + epilepsy?",
+                                    "answers": [
+                                        { "text": "Levetiracetam", "correct": true },
+                                        { "text": "Phenytoin", "correct": false },
+                                        { "text": "Carbamazepine", "correct": false },
+                                        { "text": "Topiramate", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "Phenytoin metabolism reaction is?",
+                                    "answers": [
+                                        { "text": "Oxidation", "correct": true },
+                                        { "text": "Decarboxylation", "correct": false },
+                                        { "text": "Hydration", "correct": false },
+                                        { "text": "Methylation", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "Parkinson patient has dry cough he was using Selegiline MAOI but stopped it before 3 weeks what to do?",
+                                    "answers": [
+                                        { "text": "It is reasonable to give", "correct": false },
+                                        { "text": "Dextromethorphan", "correct": true },
+                                        { "text": "Give Guaifenesin", "correct": false },
+                                        { "text": "Don't give Guaifenesin", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "Which of the following increases lithium concentration?",
+                                    "answers": [
+                                        { "text": "Caffeine", "correct": false },
+                                        { "text": "Diuretic", "correct": true },
+                                        { "text": "NSAIDs", "correct": false },
+                                        { "text": "Fluid intake", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "A 45-year-old man who has been injured in a car accident is brought into the emergency room. His blood alcohol level on admission is 275 mg/dL. Hospital records show a prior history of alcohol-related seizures. He mentions that he has been drinking heavily for the past 3 weeks. What treatment should be provided to the patient if he goes into withdrawal?",
+                                    "answers": [
+                                        { "text": "Lorazepam", "correct": true },
+                                        { "text": "Pentobarbital", "correct": false },
+                                        { "text": "Phenytoin", "correct": false },
+                                        { "text": "Buspirone", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "Another patient is also on BZD for anxiety and had a car accident due to drowsiness. She mentioned that she took cimetidine for heartburn. What happened?",
+                                    "answers": [
+                                        { "text": "Cimetidine increases the anxiolytic metabolism", "correct": false },
+                                        { "text": "Cimetidine decreased the anxiolytic metabolism", "correct": true },
+                                        { "text": "Cimetidine blocked GABA receptors", "correct": false },
+                                        { "text": "Cimetidine opened GABA receptors", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "Case of status epilepsy already got lorazepam IV. What drug next?",
+                                    "answers": [
+                                        { "text": "Phenytoin IV", "correct": true },
+                                        { "text": "Diazepam orally", "correct": false },
+                                        { "text": "Phenobarbital IV", "correct": false },
+                                        { "text": "Valerian orally", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "A colleague of yours asked you to identify the content of a green leaves herbal supplement he's been using for the past two weeks (as tea) to help him lose weight and boost his energy. He mentioned that he is starting to have the following symptoms: tremors, palpitations, and lack of sleep (insomnia). You prepared aqueous and organic solutions from the leaves and performed phytochemical screening tests to identify the plant. Which of the following is the most likely active ingredient in the above plant?",
+                                    "image": "images/20.PNG",
+                                    "answers": [
+                                        { "text": "Saponin", "correct": false },
+                                        { "text": "Alkaloid", "correct": true },
+                                        { "text": "Digitoxin", "correct": false },
+                                        { "text": "Reducing sugar", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "question": "49-year-old woman is regularly drinking an herbal tea made from dry senna fruit. She developed severe hepatotoxicity. Which of the following is the active glycoside of the senna that is associated with hepatotoxic effect?",
+                                    "answers": [
+                                        { "text": "Flavonoid", "correct": false },
+                                        { "text": "Saponin", "correct": false },
+                                        { "text": "Triterpene", "correct": false },
+                                        { "text": "Anthraquinone", "correct": true }
+                                    ]
+                                }                                                                                         
 ]
