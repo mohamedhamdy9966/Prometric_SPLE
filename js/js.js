@@ -105,7 +105,7 @@ function login(usernameInput, passwordInput) {
         "raghad": "raghad@2024",
         "ranakarim": "rana@2024",
         "rahaf" : "rahaf@2024",
-        "saleh" : "saleh@2024",
+        "fayihaa" : "nafea@2024",
         "nuran" : "alrayes@2024",
         "razan" : "razan@2024",
         // ends in 7/7
