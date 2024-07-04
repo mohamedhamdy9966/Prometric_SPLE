@@ -98,12 +98,7 @@ loginForm.addEventListener("submit", function(event) {
 function login(usernameInput, passwordInput) {
     const validCredentials = {
         "m": "m",
-        "haninmubarak": "hanin@2024",
-        "alaatallal": "alaa@2024",
-        "khansagasm": "khansa@2024",
-        "youssefelanzy": "youssef@2024",
-        "raghad": "raghad@2024",
-        "ranakarim": "rana@2024",
+        "user": "pass@2024",
         "rahaf" : "rahaf@2024",
         "fayihaa" : "nafea@2024",
         "nuran" : "alrayes@2024",
@@ -113,7 +108,8 @@ function login(usernameInput, passwordInput) {
         // ends in 21/7
         "moaz" : "moaz@2024",
         // ends in 14/8
-        // "galal" : "galal@2024"
+        "ameen" : "elkamali@2024"
+        // ends in 4/8
     };
 
     if (validCredentials[usernameInput] === passwordInput) {
