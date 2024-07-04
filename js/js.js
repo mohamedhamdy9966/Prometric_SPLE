@@ -98,6 +98,7 @@ loginForm.addEventListener("submit", function(event) {
 function login(usernameInput, passwordInput) {
     const validCredentials = {
         "m": "m",
+        "sara": "eid@2024",
         "user": "pass@2024",
         "rahaf" : "rahaf@2024",
         "fayihaa" : "nafea@2024",

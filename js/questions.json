@@ -4256,23 +4256,23 @@
                                         { "text": "Valerian orally", "correct": false }
                                     ]
                                 },
-                                {
-                                    "question": "A colleague of yours asked you to identify the content of a green leaves herbal supplement he's been using for the past two weeks (as tea) to help him lose weight and boost his energy. He mentioned that he is starting to have the following symptoms: tremors, palpitations, and lack of sleep (insomnia). You prepared aqueous and organic solutions from the leaves and performed phytochemical screening tests to identify the plant. Which of the following is the most likely active ingredient in the above plant?",
-                                    "image": "images/20.PNG",
-                                    "answers": [
-                                        { "text": "Saponin", "correct": false },
-                                        { "text": "Alkaloid", "correct": true },
-                                        { "text": "Digitoxin", "correct": false },
-                                        { "text": "Reducing sugar", "correct": false }
-                                    ]
-                                },
-                                {
-                                    "question": "49-year-old woman is regularly drinking an herbal tea made from dry senna fruit. She developed severe hepatotoxicity. Which of the following is the active glycoside of the senna that is associated with hepatotoxic effect?",
-                                    "answers": [
-                                        { "text": "Flavonoid", "correct": false },
-                                        { "text": "Saponin", "correct": false },
-                                        { "text": "Triterpene", "correct": false },
-                                        { "text": "Anthraquinone", "correct": true }
-                                    ]
-                                }                                                                                         
+{
+"question": "A colleague of yours asked you to identify the content of a green leaves herbal supplement he's been using for the past two weeks (as tea) to help him lose weight and boost his energy. He mentioned that he is starting to have the following symptoms: tremors, palpitations, and lack of sleep (insomnia). You prepared aqueous and organic solutions from the leaves and performed phytochemical screening tests to identify the plant. Which of the following is the most likely active ingredient in the above plant?",
+"image": "images/20.PNG",
+"answers": [
+{ "text": "Saponin", "correct": false },
+{ "text": "Alkaloid", "correct": true },
+{ "text": "Digitoxin", "correct": false },
+{ "text": "Reducing sugar", "correct": false }
+]
+},
+{
+"question": "49-year-old woman is regularly drinking an herbal tea made from dry senna fruit. She developed severe hepatotoxicity. Which of the following is the active glycoside of the senna that is associated with hepatotoxic effect?",
+"answers": [
+{ "text": "Flavonoid", "correct": false },
+{ "text": "Saponin", "correct": false },
+{ "text": "Triterpene", "correct": false },
+{ "text": "Anthraquinone", "correct": true }
+]
+}                                                                                      
 ]
