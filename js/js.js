@@ -269,7 +269,7 @@ document.addEventListener('mousedown', function(event) {
         // Check if the clicked element is a button
         if (event.target.classList.contains('btn')) {
             // Add line-through style to the clicked button's text
-            event.target.style.textDecoration = 'line-through';
+            event.target.style.textDecoration = 'line-through';      
         }
     }
 });

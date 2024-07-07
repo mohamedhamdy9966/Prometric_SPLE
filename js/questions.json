@@ -4274,5 +4274,323 @@
 { "text": "Triterpene", "correct": false },
 { "text": "Anthraquinone", "correct": true }
 ]
-}                                                                                      
+}  ,
+{
+    "question": " Which of the following is an alkaloid isolated from the autumn crocus plant and is useful in the treatment of the symptoms of gouty arthritis ?",
+    "answers": [
+    { "text": "Celecoxib", "correct": false },
+    { "text": "Ibuprofen", "correct": false },
+    { "text": "Colchicine", "correct": true },
+    { "text": "Rasburicase", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following herbal medicines may cause oral carcinoma if chewed daily ?",
+    "answers": [
+    { "text": "Areca nut", "correct": true },
+    { "text": "Clove buds", "correct": false },
+    { "text": "Mentha leaf", "correct": false },
+    { "text": "Saffron flower", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following herbal products can potentiate the effects of oral antidiabetic ?",
+    "answers": [
+    { "text": "Garlic", "correct": false },
+    { "text": "Ginseng", "correct": true },
+    { "text": "Green tea", "correct": false },
+    { "text": "Echinacea", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following plants has a sedative effect ?",
+    "answers": [
+    { "text": "Catha edulis (Khat)", "correct": false },
+    { "text": "atropa belladonna", "correct": false },
+    { "text": "pilocarpus jaborandi", "correct": false },
+    { "text": "valeriana officinalis (valerian)", "correct": true }
+    ]
+},
+{
+    "question": "Sennoside B is an anthranoid derivative present in Senna leaves used as a treatment for constipation. It is characterized by O-glycosides linkage. Its potential activity arises from its aglycon form. Which of the following types of aglycon is the active metabolite Sennoside B ?",
+    "answers": [
+    { "text": "dianthrone", "correct": false },
+    { "text": "oxanthrone", "correct": false },
+    { "text": "rheinanthrone", "correct": false },
+    { "text": "anthraquinone", "correct": true }
+    ]
+},
+{
+    "question": "A spot of strychnine and brucine mixture (S+B) has been applied on TLC (Thin Layer Chromatography) plate together with their standards in order to identify each alkaloid. The TLC plate has been developed in jar using chloroform: methanol (9:1) as mobile phase (see image).",
+    "image": "images/21.PNG",
+    "answers": [
+    { "text": " 0.36, 0.4", "correct": true },
+    { "text": " 2.76, 2.35", "correct": false },
+    { "text": " 3, 2.7", "correct": false },
+    { "text": " 6.4, 6.7", "correct": false }
+    ]
+},
+{
+    "question": " A patient was admitted to the hospital due to poisoning symptoms after ingesting an unknown herbal remedy from unknown source. The herbal drug has been submitted to the analytical lab for analysis. The laboratory phytochemical screening shows the following results: Which of the following substances is the most likely main content of the unknown herb ?",
+    "image": "images/22.PNG",
+    "answers": [
+    { "text": "Quinine", "correct": false },
+    { "text": "Digitalis", "correct": true },
+    { "text": "Morphine", "correct": false },
+    { "text": "Belladonna", "correct": false }
+    ]
+},
+{
+    "question": "Which dietary supplement can be suggested to overcome jetlag ?",
+    "answers": [
+    { "text": "Melatonin", "correct": true },
+    { "text": "Echinacea", "correct": false },
+    { "text": "Yohimbine", "correct": false },
+    { "text": "S-adenosyl-L- mwthionine (SAMe", "correct": false }
+    ]
+},
+{
+    "question": "plant use in peripheral arterial disease ?",
+    "answers": [
+    { "text": "ginger", "correct": false },
+    { "text": "ginkgo", "correct": true },
+    { "text": "Yohimbine", "correct": false },
+    { "text": "Echinacea", "correct": false }
+    ]
+},
+{
+    "question": "Which plant is 5Ht3 activity ?",
+    "answers": [
+    { "text": "ginger", "correct": true },
+    { "text": "Gingseng", "correct": false },
+    { "text": "Liqurice", "correct": false },
+    { "text": "Black peper", "correct": false }
+    ]
+},
+{
+    "question": "plant Using for cough ?",
+    "answers": [
+    { "text": "ginger", "correct": false },
+    { "text": "Gingseng", "correct": false },
+    { "text": "Liqurice", "correct": false },
+    { "text": "eucalyptus oil", "correct": true }
+    ]
+},
+{
+    "question": "alkaloid cause skeletal muscle relaxant ?",
+    "answers": [
+    { "text": "ephedrine", "correct": false },
+    { "text": "theophylline", "correct": false },
+    { "text": "Curare", "correct": true },
+    { "text": "Epinephrine", "correct": false }
+    ]
+},
+{
+    "question": "Alkaloid Cause Skeletal muscle contraction ?",
+    "answers": [
+        { "text": "ephedrine", "correct": true },
+        { "text": "theophylline", "correct": false },
+        { "text": "Curare", "correct": false },
+        { "text": "Epinephrine", "correct": false }
+    ]
+},
+{
+    "question": "What is the active ingredient in plant leaves ?",
+    "answers": [
+    { "text": "Pollen Grains", "correct": false },
+    { "text": "Chromsome", "correct": false },
+    { "text": "Tulip", "correct": false },
+    { "text": "chlorophyll", "correct": true }
+    ]
+},
+{
+    "question": "What is the benefit of grape seeds ?",
+    "answers": [
+    { "text": "antioxidant", "correct": true },
+    { "text": "anticancer", "correct": false },
+    { "text": "immunity", "correct": false },
+    { "text": "source of vitamins", "correct": false }
+    ]
+},
+{
+    "question": "best way to collect volatile oil ?",
+    "answers": [
+    { "text": "gas chromatography", "correct": true },
+    { "text": "liquid chromatography", "correct": false },
+    { "text": "solid chromatography", "correct": false },
+    { "text": "mixed chromatography", "correct": false }
+    ]
+},
+{
+    "question": "FDA approved that it induces sleep ?",
+    "answers": [
+    { "text": "ginger", "correct": false },
+    { "text": "black pepper", "correct": false },
+    { "text": "Liqurice", "correct": false },
+    { "text": "Lavandula", "correct": true }
+    ]
+},
+{
+    "question": "Cough with viral infection and green septum what to give ?",
+    "answers": [
+    { "text": "guaifensin", "correct": true },
+    { "text": "Dextromethorphan", "correct": false },
+    { "text": "Codeine", "correct": false },
+    { "text": "black pepper", "correct": false }
+    ]
+},
+{
+    "question": " An order for amoxicillin 500 mg three times daily for 7 days is prescribed. The pharmacy only stocks amoxicillin 250 mg capsules. Which of the following is the number of capsules the pharmacist should dispense ?",
+    "answers": [
+    { "text": "21", "correct": false },
+    { "text": "42", "correct": true },
+    { "text": "64", "correct": false },
+    { "text": "80", "correct": false }
+    ]
+},
+{
+    "question": "A pharmacist showed a patient how to use injection by pictures ?",
+    "answers": [
+    { "text": "Verbal", "correct": false },
+    { "text": "Non verbal", "correct": false },
+    { "text": "Physical", "correct": false },
+    { "text": "Visual", "correct": true }
+    ]
+},
+{
+    "question": "which of the following situation allow for accepting verbal order ?",
+    "answers": [
+    { "text": "in a code status", "correct": true },
+    { "text": "to start chemotherapy", "correct": false },
+    { "text": "to non Emergency patient", "correct": false },
+    { "text": "to ICU nurse", "correct": false }
+    ]
+},
+{
+    "question": "Cleaning is a very important step when working with laminar flow hoods. Which of the following disinfectants is most suitable for cleaning the hood before compounding a sterile preparation ?",
+    "answers": [
+    { "text": "70% Ethanol", "correct": false },
+    { "text": "90% Ethanol", "correct": false },
+    { "text": "70% isopropanol", "correct": true },
+    { "text": "90% isopropanol", "correct": false }
+    ]
+},
+{
+    "question": "Itraconazole capsules require acidic pH optimal dissolution and absorption. Which of the following is an appropriate advice to optimize the oral absorption of the drug ?",
+    "answers": [
+    { "text": "take it with food", "correct": true },
+    { "text": "take it on an empty stomach", "correct": false },
+    { "text": "take it with full glass of water", "correct": false },
+    { "text": "take it with a proton pump inhibitor", "correct": false }
+    ]
+},
+{
+    "question": "corticosteroids are given in sepsis for ?",
+    "answers": [
+    { "text": "Mortality", "correct": false },
+    { "text": "decrease pain scale", "correct": false },
+    { "text": "decrease staying in ICU", "correct": true },
+    { "text": "decrease need for fluids", "correct": false }
+    ]
+},
+{
+    "question": "A 32-year-old female with an acute flare of her Crohn's disease. She was started on methylprednisolone 4 mg once daily. The medical team is now ready to transition her to hydrocortisone once daily. What is the equivalent daily dose ?",
+    "answers": [
+    { "text": "20 mg", "correct": true },
+    { "text": "5 mg", "correct": false },
+    { "text": "8 mg", "correct": false },
+    { "text": "10 mg", "correct": false }
+    ]
+},
+{
+    "question": " 59-year-old male is currently taking prednisolone 10 mg. His physician would like to switch to an equivalent methylprednisolone dose. What is the correct dose ?",
+    "answers": [
+    { "text": "5 mg", "correct": false },
+    { "text": "8 mg", "correct": true },
+    { "text": "10 mg", "correct": false },
+    { "text": "20 mg", "correct": false }
+    ]
+},
+{
+    "question": " Medication order is given to the pharmacist (see table) . What is likely to be the final form of preparation ?",
+    "image": "images/23.PNG",
+    "answers": [
+    { "text": "A solution", "correct": false },
+    { "text": "A liniment", "correct": false },
+    { "text": "An emulsion", "correct": true },
+    { "text": "A suspension", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the basis of the biopharmaceutics classification system of drugs ?",
+    "answers": [
+    { "text": "permeability and solubility", "correct": true },
+    { "text": "solubility and molecular weight", "correct": false },
+    { "text": "solubility and partition coefficient", "correct": false },
+    { "text": "permeability and molecular weight", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following techniques will hinder tablet dissolution ?",
+    "answers": [
+    { "text": "adding surfactant agent", "correct": false },
+    { "text": "use of drugs crystalline state", "correct": false },
+    { "text": "micronization of drug powder", "correct": false },
+    { "text": "increasing tablet compression ", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is another name for a true solution ?",
+    "answers": [
+    { "text": "Heterogeneous mixture", "correct": false },
+    { "text": "homogeneous mixture", "correct": true },
+    { "text": "suspension", "correct": false },
+    { "text": "colloid", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the calculation of the apparent volume of distribution if the patient received 400 mg of intravenous medication that produced immediate blood concentration of 10 microgram/ml ?",
+    "answers": [
+    { "text": "0.025 L", "correct": false },
+    { "text": "0.4 L", "correct": false },
+    { "text": "25 L", "correct": false },
+    { "text": "40 L", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is another term for the ability of a liquid to dissolve in another ?",
+    "answers": [
+    { "text": "solubility equilibrium", "correct": false },
+    { "text": "solvation energy", "correct": false },
+    { "text": "hydrophilicity", "correct": false },
+    { "text": "miscibility", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following physicochemical characteristics of a drug decreases its transdermal penetration ?",
+    "answers": [
+    { "text": "nonionic from", "correct": false },
+    { "text": "high melting point", "correct": true },
+    { "text": "high concentration", "correct": false },
+    { "text": "molecular weight below 500", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the main purpose of levigating a suspension during extemporaneous compounding ?",
+    "answers": [
+    { "text": "improve flowability", "correct": false },
+    { "text": "reduce particle size", "correct": true },
+    { "text": "reduce the zeta potential", "correct": false },
+    { "text": "prevent microbial growth", "correct": false }
+    ]
+},
+{
+    "question": "suspension character ?",
+    "answers": [
+    { "text": "Hydrophobic to prevent aggregation", "correct": true },
+    { "text": "Hydrophilic to prevent aggregation", "correct": false },
+    { "text": "Hydrophobic to increase gastric empty", "correct": false },
+    { "text": "hydrphilic to increase gastric empty", "correct": false }
+    ]
+}                                                                                     
 ]
