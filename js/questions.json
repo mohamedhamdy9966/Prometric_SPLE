@@ -4964,84 +4964,85 @@
     ]
 },
 {
-    "question": "",
+    "question": "Which of the following electrocardiograph (ECG) represents atrial depolarization ?",
+    "imag": "images/25.PNG",
     "answers": [
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": true }
+    { "text": "P wave", "correct": true },
+    { "text": "PR interval", "correct": false },
+    { "text": "ST segment", "correct": false },
+    { "text": "QRS complex", "correct": false }
     ]
 },
 {
-    "question": "",
+    "question": "Which of the following in electrocardiograph (ECG) represent absolute refractory period ?",
     "answers": [
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": true }
+        { "text": "P wave", "correct": false },
+        { "text": "PR interval", "correct": false },
+        { "text": "ST segment", "correct": false },
+        { "text": "QRS complex", "correct": true }
     ]
 },
 {
-    "question": "",
+    "question": "Which of the following medications is a class-IA antiarrhythmic agent ?",
     "answers": [
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": true }
+    { "text": "quinidine", "correct": true },
+    { "text": "flecainide", "correct": false },
+    { "text": "verapamil", "correct": false },
+    { "text": "amiodarone", "correct": false }
     ]
 },
 {
-    "question": "",
+    "question": "Which one of the following conditions is a contraindication for the use of enalapril ?",
     "answers": [
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": true }
+    { "text": "pregnancy", "correct": true },
+    { "text": "HTN", "correct": false },
+    { "text": "DM", "correct": false },
+    { "text": "CHF", "correct": false }
     ]
 },
 {
-    "question": "",
+    "question": "which of the following is the best classification for Bisoprolol ?",
     "answers": [
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": true }
+    { "text": "beta 1 adrenergic receptor agonist", "correct": false },
+    { "text": "beta 1 adrenergic receptor blocker", "correct": true },
+    { "text": "alpha 1 adrenergic receptor blocker", "correct": false },
+    { "text": "non-selective beta-adrenergic receptor blocker", "correct": false }
     ]
 },
 {
-    "question": "",
+    "question": "Which of the following is the Vaughan Williams Classification for the antiarrhythmic drug procainamide ?",
     "answers": [
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": true }
+    { "text": " class IV", "correct": false },
+    { "text": "class lll", "correct": false },
+    { "text": "class II", "correct": false },
+    { "text": "class IA", "correct": true }
     ]
 },
 {
-    "question": "",
+    "question": "Which medication can cause orthostatic hypotension ?",
     "answers": [
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": true }
+    { "text": "prazosin", "correct": true },
+    { "text": "donepezil", "correct": false },
+    { "text": "rivastigmine", "correct": false },
+    { "text": "spironolactone", "correct": false }
     ]
 },
 {
-    "question": "",
+    "question": " Which of the following can the pharmacological property of hydralazine be directly responsible for ?",
     "answers": [
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": true }
+    { "text": "Relaxation of cardiac muscle", "correct": false },
+    { "text": "Blockade of dopamine receptor", "correct": false },
+    { "text": "Relaxation of vascular smooth muscle", "correct": true },
+    { "text": "Contraction of vascular smooth muscle", "correct": false }
     ]
 },
 {
-    "question": "",
+    "question": "A 31-year-old hypertensive man was treated for addiction to amphetamine. He was also discharged on an antihypertensive drug. Later, he presented with severe depression. Which of the following medications was most likely prescribed ?",
     "answers": [
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": false },
-    { "text": "", "correct": true }
+    { "text": "losartan", "correct": false },
+    { "text": "captopril", "correct": false },
+    { "text": "methyldopa", "correct": true },
+    { "text": "hydrochlorothiazide", "correct": false }
     ]
 }                                                                               
 ]
