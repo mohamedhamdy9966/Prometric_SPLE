@@ -4592,5 +4592,456 @@
     { "text": "Hydrophobic to increase gastric empty", "correct": false },
     { "text": "hydrphilic to increase gastric empty", "correct": false }
     ]
-}                                                                                     
+},
+{
+    "question": "vit c add as ?",
+    "answers": [
+    { "text": "preservative", "correct": true },
+    { "text": "coloring agent", "correct": false },
+    { "text": "flavoring agent", "correct": false },
+    { "text": "binder agent", "correct": false }
+    ]
+},
+{
+    "question": "Rate limiting step in oral dosage forms ?",
+    "answers": [
+    { "text": "diffusion", "correct": false },
+    { "text": "disintegration", "correct": false },
+    { "text": "dissolution", "correct": true },
+    { "text": "Binding", "correct": false }
+    ]
+},
+{
+    "question": " which of the following is the ratio of mass to the volume of object determined at a specific temp ?",
+    "answers": [
+    { "text": "Specific Gravity", "correct": false },
+    { "text": "Density", "correct": false },
+    { "text": "Absolute Density", "correct": true },
+    { "text": "Apparent Density", "correct": false }
+    ]
+},
+{
+    "question": "bentonite is ?",
+    "answers": [
+    { "text": "Preservative", "correct": false },
+    { "text": "emulsifying agent", "correct": false },
+    { "text": "suspending agent", "correct": true },
+    { "text": "vehicle", "correct": false }
+    ]
+},
+{
+    "question": "Vagum IS ?",
+    "answers": [
+    { "text": "Mixing agent", "correct": false },
+    { "text": "Binder agent", "correct": false },
+    { "text": "Emulsifying agent", "correct": false },
+    { "text": "Suspending agent", "correct": true }
+    ]
+},
+{
+    "question": "Uniformity test applied to determine the content of the ingredient in tablets ?",
+    "answers": [
+    { "text": "Bioequivalence", "correct": false },
+    { "text": "Dissolution", "correct": false },
+    { "text": "Purity", "correct": false },
+    { "text": "Potency", "correct": true }
+    ]
+},
+{
+    "question": "Expiry of Compounded syrup contain water is ?",
+    "answers": [
+    { "text": "1 month ", "correct": false },
+    { "text": "14 days ", "correct": false },
+    { "text": "9 days", "correct": false },
+    { "text": "7 days", "correct": true }
+    ]
+},
+{
+    "question": "Role of boric acid in eye prescription ?",
+    "answers": [
+    { "text": "action", "correct": false },
+    { "text": "non stable", "correct": false },
+    { "text": "Thinking", "correct": false },
+    { "text": "Stable", "correct": true }
+    ]
+},
+{
+    "question": "route of administration Highest bioavailability ?",
+    "answers": [
+    { "text": "IM", "correct": false },
+    { "text": "SC", "correct": false },
+    { "text": "inhalation", "correct": true },
+    { "text": "tablets", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is a component added as a binder ?",
+    "answers": [
+    { "text": "Lactose", "correct": false },
+    { "text": "previnlphenyl", "correct": false },
+    { "text": "Sucrose", "correct": false },
+    { "text": "starch", "correct": true }
+    ]
+},
+{
+    "question": "Observing evidence of instability during compounding is an important step. Which of the following is happened should have discarded the product and not dispense it ?",
+    "answers": [
+    { "text": "Color intensity", "correct": true },
+    { "text": "Weight Changing", "correct": false },
+    { "text": "Size of the holder", "correct": false },
+    { "text": "Chemical potency", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the ratio of the mass to the volume of object determined at a specified temperature ?",
+    "answers": [
+    { "text": "specific gravity", "correct": false },
+    { "text": "relative density", "correct": false },
+    { "text": "absolute density", "correct": true },
+    { "text": "apparent density", "correct": false }
+    ]
+},
+{
+    "question": "Which routes of administration result in faster absorption ?",
+    "answers": [
+    { "text": "oral", "correct": false },
+    { "text": "rectal", "correct": true },
+    { "text": "topical", "correct": false },
+    { "text": "subcutaneous", "correct": false }
+    ]
+},
+{
+    "question": "which of the following products is an oleaginous ointment base ?",
+    "answers": [
+    { "text": "Soft paraffin", "correct": true },
+    { "text": "Polysorb", "correct": false },
+    { "text": "Aquabase", "correct": false },
+    { "text": "Anhydrous lanolin", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the benefit from adding a conjugate of polyethylene glycol (PEG) in some medications like Peg-interferon ?",
+    "answers": [
+    { "text": "to extend the half-life of medications", "correct": true },
+    { "text": "to extend the shelf-life of medications", "correct": false },
+    { "text": "to enhance the effect of the medications", "correct": false },
+    { "text": "to enhance the elimination of the medications", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following resources is best to use for common compounding techniques and ingredients ?",
+    "answers": [
+    { "text": "Red book", "correct": false },
+    { "text": "Drug facts and comparison", "correct": false },
+    { "text": "Martindale: the complete drug reference", "correct": false },
+    { "text": "Remington: the science and practice of pharmacy", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is the most appropriate source for information on compounding medications ?",
+    "answers": [
+    { "text": "Micromedex", "correct": false },
+    { "text": "Orange book", "correct": false },
+    { "text": "A drug information website", "correct": false },
+    { "text": "United states pharmacopeia (USP)", "correct": true }
+    ]
+},
+{
+    "question": "Oleaginous base for ointment ?",
+    "answers": [
+    { "text": "linoline", "correct": false },
+    { "text": "White petroleum", "correct": true },
+    { "text": "water", "correct": false },
+    { "text": "Glycerine", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following capsules sizes has the largest size suitable for human patient ?",
+    "answers": [
+    { "text": "no. 0", "correct": false },
+    { "text": "no. 1", "correct": false },
+    { "text": "no. 5", "correct": false },
+    { "text": "no. 000", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is the term used to describe the pharmaceutical technique of grinding an insoluble substance to fine powder while wet ?",
+    "answers": [
+    { "text": "Trituration", "correct": false },
+    { "text": "Levigation", "correct": true },
+    { "text": "Attrition", "correct": false },
+    { "text": "Milling", "correct": false }
+    ]
+},
+{
+    "question": " Sterile preparation is a very complex manufacturing procedure that requires attention to the ingredients added in it. Which of the following ingredients can be added when preparing a sterile drug ?",
+    "answers": [
+    { "text": "Antioxidants", "correct": true },
+    { "text": "2% Benzyl alcohol", "correct": false },
+    { "text": "Bactericidal agents", "correct": false },
+    { "text": "1.9% Sodium Chloride", "correct": false }
+    ]
+},
+{
+    "question": "Special techniques are required during compounding of emulsion. Which of the following techniques is used for compounding of emulsion ?",
+    "answers": [
+    { "text": "dry gum", "correct": true },
+    { "text": "fusion mold", "correct": false },
+    { "text": "compression", "correct": false },
+    { "text": "heat technique", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the term used to describe the pharmaceutical technique of grinding an insoluble substance to fine powder while wet ?",
+    "answers": [
+    { "text": "trituration", "correct": false },
+    { "text": "levigation", "correct": true },
+    { "text": "attrition", "correct": false },
+    { "text": "milling", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following pharmaceutical activities should follow the USP chapter 797 standards ?",
+    "answers": [
+    { "text": "Compounding ophthalmic preparations", "correct": false },
+    { "text": "Compounding of sterile preparations", "correct": true },
+    { "text": "Dispensing of non-hazardous preparation", "correct": false },
+    { "text": "Compounding of extemporaneous preparations", "correct": false }
+    ]
+},
+{
+    "question": "Boric acid in preparation ?",
+    "answers": [
+    { "text": "puffer", "correct": true },
+    { "text": "stabilizes", "correct": false },
+    { "text": "preservative", "correct": false },
+    { "text": "binders", "correct": false }
+    ]
+},
+{
+    "question": "What dosage form should store at refrigerated even if it not opened ?",
+    "answers": [
+    { "text": "eye drops", "correct": false },
+    { "text": "oral solutions", "correct": false },
+    { "text": "suppository", "correct": true },
+    { "text": "tablets", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the most practical method for sterilizing ophthalmic solution ?",
+    "answers": [
+    { "text": "autoclaving for 15 minutes", "correct": false },
+    { "text": "autoclaving for 30 minutes", "correct": false },
+    { "text": "membrane filtration through 0.2-um filter", "correct": true },
+    { "text": "membrane filtration through 5-um filter", "correct": false }
+    ]
+},
+{
+    "question": "Which product enhance powder flow while using automatic filling tablet machine ?",
+    "answers": [
+    { "text": "Gelatin", "correct": false },
+    { "text": "Cellulose", "correct": false },
+    { "text": "Lubricant", "correct": true },
+    { "text": "Binder", "correct": false }
+    ]
+},
+{
+    "question": "prepration oil with water ?",
+    "answers": [
+    { "text": "suspension", "correct": false },
+    { "text": "emulsion", "correct": true },
+    { "text": "mixture", "correct": false },
+    { "text": "solution", "correct": false }
+    ]
+},
+{
+    "question": "is a heterogeneous mixture in which the solute particles do not dissolve ?",
+    "answers": [
+        { "text": "suspension", "correct": true },
+        { "text": "emulsion", "correct": false },
+        { "text": "mixture", "correct": false },
+        { "text": "solution", "correct": false }
+    ]
+},
+{
+    "question": "The easiest way to take ear drops ?",
+    "answers": [
+    { "text": "foam", "correct": false },
+    { "text": "solution", "correct": true },
+    { "text": "suspension", "correct": false },
+    { "text": "emulsion", "correct": false }
+    ]
+},
+{
+    "question": "why is there XL dosage form ?",
+    "answers": [
+    { "text": "to cover the bitter taste of the tablet", "correct": false },
+    { "text": "slow release", "correct": false },
+    { "text": "to make easier to swallow", "correct": false },
+    { "text": "sustained release or Extended Release", "correct": true }
+    ]
+},
+{
+    "question": "what mixture of distributed solid in a liquid ?",
+    "answers": [
+    { "text": "solution", "correct": false },
+    { "text": "Suspension", "correct": true },
+    { "text": "emulsion", "correct": false },
+    { "text": "mixture", "correct": false }
+    ]
+},
+{
+    "question": "suspended agent is important for preparing an oral suspension. Which of the following is the characteristic of this suspending agent ?",
+    "answers": [
+    { "text": "Hydrophilic, to inhibit agglomeration", "correct": true },
+    { "text": "Hydrophobic, to inhibit agglomeration", "correct": false },
+    { "text": "Hydrophilic, to prolong gastric emptying time", "correct": false },
+    { "text": "Hydrophobic, to prolong gastric emptying time", "correct": false }
+    ]
+},
+{
+    "question": "What is the usual shelf life for reconstituted and refrigerated antibiotic suspension ?",
+    "answers": [
+    { "text": "5 days", "correct": false },
+    { "text": "7 days", "correct": false },
+    { "text": "14 days", "correct": true },
+    { "text": "30 days", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following drugs may decrease heart rate ?",
+    "answers": [
+    { "text": "Hydrochlorothiazide", "correct": false },
+    { "text": "Isoproterenol", "correct": false },
+    { "text": "Amlodipine", "correct": false },
+    { "text": "Metoprolol", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is an indication for the use of streptokinase ?",
+    "answers": [
+    { "text": "tuberculosis", "correct": false },
+    { "text": "neoplastic disorders", "correct": false },
+    { "text": "myocardial infarction", "correct": true },
+    { "text": "impaired fat absorption", "correct": false }
+    ]
+},
+{
+    "question": "The effects of four anti-hypertensive drug classes (A-D) on the Renin-angiotensin system are shown (see table) . Which class is represented by the drug -C?",
+    "image": "images/24.PNG",
+    "answers": [
+    { "text": "Diuretics", "correct": false },
+    { "text": "Direct Renin inhibitors", "correct": false },
+    { "text": "Angiotensin II receptor blockers", "correct": true },
+    { "text": "Angiotensin converting enzyme inhibitor", "correct": false }
+    ]
+},
+{
+    "question": "69-year-oId woman presented with complains of severe dry cough for a has week ,she has been recently prescribed hydrochlorothiazide and captopril for hypertension ,salbutamol and fexofenadine for allergic asthma. Which drug is the most likely reason of the patient's complaint ?",
+    "answers": [
+    { "text": "Captopril", "correct": true },
+    { "text": "Salbutamol", "correct": false },
+    { "text": "Fexofenadine", "correct": false },
+    { "text": "Hydrochlorothiazide", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following best describes the role of colipase in digestion of lipids ?",
+    "answers": [
+    { "text": "It breaks down triglycerides into absorbable free fatty acids", "correct": false },
+    { "text": "It hydrolyzes cholesteryl esters into cholesterol and free fatty acids", "correct": false },
+    { "text": "It acts as co-enzyme for the action of lipase in the presence of bile acids", "correct": true },
+    { "text": "It plays an important role in the degradation and excretion of phospholipids", "correct": false }
+    ]
+},
+{
+    "question": "A 37-year-old mother breastfeeding her child has developed consistent high blood preassure. The physician consults the pharmacy to recommend an antihypertensive to control her blood pressure .Which of the following anti-hypertensive is most hazardous for the child ?",
+    "answers": [
+    { "text": "Atenolol", "correct": true },
+    { "text": "Verapamil", "correct": false },
+    { "text": "Metoprolol", "correct": false },
+    { "text": "Propranolol", "correct": false }
+    ]
+},
+{
+    "question": "",
+    "answers": [
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": true }
+    ]
+},
+{
+    "question": "",
+    "answers": [
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": true }
+    ]
+},
+{
+    "question": "",
+    "answers": [
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": true }
+    ]
+},
+{
+    "question": "",
+    "answers": [
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": true }
+    ]
+},
+{
+    "question": "",
+    "answers": [
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": true }
+    ]
+},
+{
+    "question": "",
+    "answers": [
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": true }
+    ]
+},
+{
+    "question": "",
+    "answers": [
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": true }
+    ]
+},
+{
+    "question": "",
+    "answers": [
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": true }
+    ]
+},
+{
+    "question": "",
+    "answers": [
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": false },
+    { "text": "", "correct": true }
+    ]
+}                                                                               
 ]
