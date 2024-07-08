@@ -3698,7 +3698,7 @@
                             ]
                         },
                         {
-                            "question": "Ropivancaine is an important local anesthetic. The figure shows the chemical structures of ropivacaine and 4 other local anesthetics (see image). Which of the following is the bioisoster for ropivacaine?",
+                            "question": "Ropivancaine is an important local anesthetic. The figure shows the chemical structures of ropivacaine and 4 other local anesthetics. Which of the following is the bioisoster for ropivacaine?",
                             "answers": [
                                 { "text": "Etidocaine", "correct": false },
                                 { "text": "Bupivacaine", "correct": false },
