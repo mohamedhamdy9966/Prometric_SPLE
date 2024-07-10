@@ -5044,5 +5044,186 @@
     { "text": "methyldopa", "correct": true },
     { "text": "hydrochlorothiazide", "correct": false }
     ]
-}                                                                               
+},
+{
+    "question": "Which of the following is most likely the reason for using amlodipine in the treatment of hypertension ?",
+    "answers": [
+    { "text": "selective beta 1 blocker", "correct": false },
+    { "text": "selective alpha 1 blocker", "correct": false },
+    { "text": "calcium channel blocker", "correct": true },
+    { "text": "selective serotonin reuptake inhibitor", "correct": false }
+    ]
+},
+{
+    "question": "A 90-year-old man with diabetes mellites, hypertension and congestive heart failure presented to his cardiology clinic complaining of nausea, anorexia and visual changes. Current home medications include; metformin, aspirin, lisinopril, atorvastatin and digoxin. (See lab result) Which of the following most likely explains the patient symptoms ?",
+    "image": "images/26.PNG",
+    "answers": [
+    { "text": "digoxin-lisinopril interaction", "correct": false },
+    { "text": "adverse drug reaction of atrovastatin", "correct": false },
+    { "text": "congestive heart failure exacerbation", "correct": false },
+    { "text": "high serum digoxin level due to renal impairment", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following of the hypertensive therapies is preferred to be used during the acute phase of ischemic stroke if elevated blood pressure should be treated ?",
+    "answers": [
+    { "text": "lisinopril", "correct": false },
+    { "text": "nicardipine", "correct": true },
+    { "text": "hydrochlorothiazide", "correct": false },
+    { "text": "metoprolol succinate", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the most appropriate time to draw a plasma blood sample for digoxin monitoring ?",
+    "answers": [
+    { "text": "2 hours post-dose", "correct": false },
+    { "text": "4 hours post-dose", "correct": false },
+    { "text": "5 hours post-dose", "correct": false },
+    { "text": "6 hours post-dose", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following parenteral anticoagulants require routine monitoring of coagulation lab parameters ?",
+    "answers": [
+    { "text": "UFH intravenously", "correct": true },
+    { "text": "UFH subcutaneously ", "correct": false },
+    { "text": "enoxaparin subcutaneously ", "correct": false },
+    { "text": "fondaparinux subcutaneously", "correct": false }
+    ]
+},
+{
+    "question": "36-year-old woman in her first trimester of pregnancy who is recently diagnosed with hypertension. Which of the following is the best and safest therapy ?",
+    "answers": [
+    { "text": "Aliskiren", "correct": false },
+    { "text": "Captopril", "correct": false },
+    { "text": "Valsartan", "correct": false },
+    { "text": "Labetalol", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following anti-arrhythmic drugs can is considered a rate control drug ?",
+    "answers": [
+    { "text": "sotalol", "correct": false },
+    { "text": "flecainide", "correct": false },
+    { "text": "amiodarone", "correct": true },
+    { "text": "propofenone", "correct": false }
+    ]
+},
+{
+    "question": "A 45-year-old lady known case hypertension since one year on the following medications: Lisinopril 5 mg orally once daily. Amlodipine 10 mg orally once daily. She was doing well and her blood pressure was controlled. In the last follow up visit, she informed her treating physician that she is planning to get pregnant. Which of the following is the most important decision to be taken for this patient before becoming pregnant ?",
+    "answers": [
+    { "text": "add methyldopa", "correct": false },
+    { "text": "discontinue lisinopril", "correct": true },
+    { "text": "continue same treatment in pregnancy", "correct": false },
+    { "text": "decrease lisinopril dose to 2.5 mg once daily", "correct": false }
+    ]
+},
+{
+    "question": "A 4-week infant is diagnosed with patient ductus arteriosus. The doctor wants to avoid performing surgery. Which drug will be administered to avoid a surgical closure ?",
+    "answers": [
+    { "text": "allopurinol", "correct": false },
+    { "text": "indomethacin", "correct": true },
+    { "text": "pseudoephedrine", "correct": false },
+    { "text": "brompheniramine", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following medications to be used under caution is in patients with ischemic heart disease ?",
+    "answers": [
+    { "text": "lisinopril", "correct": false },
+    { "text": "celecoxib", "correct": true },
+    { "text": "metoprolol", "correct": false },
+    { "text": "simvastatin", "correct": false }
+    ]
+},
+{
+    "question": "A 45-year-old patient with atrial fibrillation is treated with amiodarone 400 mg/day and rivaroxaban 20 mg/day with the evening meal. He has concern about his drugs routine monitoring. Which of the following would be the best recommended regarding amiodarone monitoring ?",
+    "answers": [
+    { "text": "Slit-lamp examination at baseline and annually", "correct": false },
+    { "text": "Renal function tests at baseline and annually", "correct": false },
+    { "text": "Cardiac enzymes at baseline and annually", "correct": false },
+    { "text": "Liver function tests at baseline and every 6 months", "correct": true }
+    ]
+},
+{
+    "question": "A 28-year-old woman presents with tachycardia and palpitations (ventricular ectopic beats). History revealed essential hypertension and asthma. Patient wants to conceive (mean become pregnant) BLOOD PRESSURE: 147/98mmHg. What is the most likely alternative to the β-blocker in terms of efficacy on pressure, heart rate and relative safety ?",
+    "answers": [
+    { "text": "Prazosin", "correct": false },
+    { "text": "Enalapril", "correct": false },
+    { "text": "Diltiazem", "correct": true },
+    { "text": "Methyldopa", "correct": false }
+    ]
+},
+{
+    "question": "A 68-year-old woman with a history of type-2 diabetes and dyslipidemia is on atenolol and lisinopril. The doctor wants to start statin as her estimated 10-year ASCVD risk is 10%. Which of the following would be the recommended station in (mg) ?",
+    "answers": [
+    { "text": "Atorvastatin 10 (moderate intensity statin)", "correct": false },
+    { "text": "Atorvastatin 40 (HIGH intensity statin)", "correct": true },
+    { "text": "Simvastatin 10 (low intensity statin)", "correct": false },
+    { "text": "Simvastatin 80", "correct": false }
+    ]
+},
+{
+    "question": "A 60-year-old man presents with complain of chest pain twice weekly. History revealed, chronic stable angina with hypertension and is on atenolol 100 mg daily. BP: 147/93 mmHg HR : 65/min. What is the best management ?",
+    "answers": [
+    { "text": "Add lisinopril 20 mg daily", "correct": false },
+    { "text": "Add amlodipine 5 mg daily", "correct": false },
+    { "text": "Diltiazem 30 mg every 8 hours", "correct": false },
+    { "text": "Add isosorbide dinitrate 20 mg twice daily", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following drugs is contraindicated in heart failure ?",
+    "answers": [
+    { "text": "Captopril", "correct": false },
+    { "text": "Celecoxib", "correct": true },
+    { "text": "Furosemide", "correct": false },
+    { "text": "Amiodarone", "correct": false }
+    ]
+},
+{
+    "question": "A 76-year-old cardiac male patient was transferred to the hospital for palpitation with a heart rate of 177 bpm. He is a heavy smoker and his past medical history includes hypertension, hyperlipidemia and coronary artery disease. His medications include aspirin, clopidogrel, carvedilol, valsartan and atorvastatin. He was diagnosed as having fibrillation. Which of the following is the CHA2DS2-VASC score for this patient ?",
+    "answers": [
+    { "text": "1", "correct": false },
+    { "text": "3", "correct": false },
+    { "text": "4", "correct": true },
+    { "text": "6", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following beta-blockers is indicated for use in heart failure patients ?",
+    "answers": [
+    { "text": "Esmolol", "correct": false },
+    { "text": "Atenolol", "correct": false },
+    { "text": "Labetalol", "correct": false },
+    { "text": "Carvedilol", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following drugs lower esophagus sphincter pressure and delay gastric emptying time ?",
+    "answers": [
+    { "text": "Lisinopril", "correct": false },
+    { "text": "amoxicilin", "correct": false },
+    { "text": "amlodipine", "correct": true },
+    { "text": "calcium carbonate", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following medication should be prescribed to the patients with angina to treat an acute attack ?",
+    "answers": [
+    { "text": "Ranolazine", "correct": false },
+    { "text": "Nitroglycerin skin patch", "correct": false },
+    { "text": "Isosorbide dinitrate SR capsules", "correct": false },
+    { "text": "Nitroglycerin sublingual tablets", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following antihypertensive agents is most likely to cause peripheral edema ?",
+    "answers": [
+    { "text": "Atenolol", "correct": false },
+    { "text": "Perindopril", "correct": false },
+    { "text": "Amlodipine", "correct": true },
+    { "text": "Candesartan", "correct": false }
+    ]
+}                                                                          
 ]
