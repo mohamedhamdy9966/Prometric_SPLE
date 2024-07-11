@@ -621,7 +621,7 @@
         ]
     },
     {
-        "question": "How gm of substance X must added to 2000 gm of 10% substance X solution in order to prepare 25% of substance X solution",
+        "question": "How gm of substance X must added to 2000 gm of 10% substance X solution in order to prepare 25% of substance X solution ?",
         "answers": [
             { "text": "400 gm", "correct": true },
             { "text": "40 gm", "correct": false },
@@ -2934,7 +2934,7 @@
             ]
         },
         { 
-            "question": "Lidocaine is commonly administered for patients exhibiting cardiac arrhythmias. Lidocaine pharmacokinetic parameters are as follows: half-life = 2 hours, clearance = 9 mL/min/kg, and volume of distribution = 70 L. Which of the following is the time (in minutes) needed to achieve 87.5% of the steady state concentration in a 70-kg individual?",
+            "question": "Lidocaine is commonly administered for patients exhibiting cardiac arrhythmias. Lidocaine pharmacokinetic parameters are as follows: half-life = 2 hours, clearance = 9 mL/min/kg, and volume of distribution = 70 L. Which of the following is the time (in minutes) needed to achieve 87.5% of the steady state concentration in a 70-kg individual ?",
             "answers": [
                 { "text": "77 minutes", "correct": false },
                 { "text": "0.077 minutes", "correct": true },

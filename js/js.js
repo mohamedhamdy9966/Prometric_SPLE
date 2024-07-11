@@ -101,10 +101,8 @@ function login(usernameInput, passwordInput) {
         "sara": "eid@2024",
         "rawan": "othman@2024",
         "rahaf" : "rahaf@2024",
-        "fayihaa" : "nafea@2024",
+        // "fayihaa" : "nafea@2024",
         "ranakarim" : "rana@2024",
-        // "razan" : "razan@2024",
-        // ends in 7/7
         "nada" : "kassem@2024",
         // ends in 21/7
         "moaz" : "moaz@2024",
