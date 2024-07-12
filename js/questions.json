@@ -5225,5 +5225,653 @@
     { "text": "Amlodipine", "correct": true },
     { "text": "Candesartan", "correct": false }
     ]
-}                                                                          
+},
+{
+    "question": "Which of the following conditions is a contraindication for the use of celecoxib ?",
+    "answers": [
+    { "text": "Ischemic heart disease", "correct": true },
+    { "text": "Renal failure", "correct": false },
+    { "text": "Diabetes", "correct": false },
+    { "text": "Asthma", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following medications is a class-IC antiarrhythmic agent ?",
+    "answers": [
+    { "text": "Quinidine", "correct": false },
+    { "text": "Flecainide", "correct": true },
+    { "text": "Verapamil", "correct": false },
+    { "text": "Amiodarone", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is an indication for the use of indapamide ?",
+    "answers": [
+    { "text": "Angina pectoris", "correct": false },
+    { "text": "Cardiac dysrhythmias", "correct": false },
+    { "text": "Essential hypertension", "correct": true },
+    { "text": "Acute myocardial infarction", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following calcium channel blockers is a non- dihydropyridine drug ?",
+    "answers": [
+    { "text": "Nicardipine", "correct": false },
+    { "text": "Amlodipine", "correct": false },
+    { "text": "Nifedipine", "correct": false },
+    { "text": "Diltiazem", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following drugs when given with verapamil can result in a major drug interaction ?",
+    "answers": [
+    { "text": "Digoxin", "correct": true },
+    { "text": "Sulindac", "correct": false },
+    { "text": "Naproxen", "correct": false },
+    { "text": "Piroxicam", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the pharmacological property of atenolol ?",
+    "answers": [
+    { "text": "nonselective beta-blocker", "correct": false },
+    { "text": "cardioselective beta 1-blocker", "correct": true },
+    { "text": "cardioselective beta 2-blocker", "correct": false },
+    { "text": "cardioselective beta 1-agonist", "correct": false }
+    ]
+},
+{
+    "question": "What is the pharmacological property of cardiac glycosides ?",
+    "answers": [
+    { "text": "alpha 1 blocker", "correct": false },
+    { "text": "potent bronchodilator", "correct": false },
+    { "text": "positive inotropic effect", "correct": true },
+    { "text": "negative inotropic effect", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the reason of using verapamil as an antiarrhythmic drug ?",
+    "answers": [
+    { "text": "it suppresses phase four depolarization", "correct": false },
+    { "text": "it stimulates the breakdown of adrenaline", "correct": false },
+    { "text": "it inhibits slow inward current of phase two of action potential", "correct": true },
+    { "text": "it increases the excitability of pyramidal neurons in the amygdala", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the best classification for Bisoprolol ?",
+    "answers": [
+    { "text": "beta 1 adrenergic receptor agonist", "correct": false },
+    { "text": "beta 1 adrenergic receptor blocker", "correct": true },
+    { "text": "alpha 1 adrenergic receptor blocker", "correct": false },
+    { "text": "non-selective beta-adrenergic receptor blocker", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is a pharmacological action of dopamine ?",
+    "answers": [
+    { "text": "elevation of blood pressure", "correct": false },
+    { "text": "paralysis of skeletal muscle", "correct": false },
+    { "text": "stimulation of gastric secretion", "correct": false },
+    { "text": "activation of cardiac contraction", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following medications is a class-IV antiarrhythmnic agent ?",
+    "answers": [
+    { "text": "quinidine", "correct": false },
+    { "text": "flecainide", "correct": false },
+    { "text": "verapamil", "correct": true },
+    { "text": "amiodarone", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following antihypertensive agents is most likely to cause peripheral edema ?",
+    "answers": [
+    { "text": "atenolol", "correct": false },
+    { "text": "perindopril", "correct": false },
+    { "text": "amlodipine", "correct": true },
+    { "text": "candesartan", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following mechanisms of actions most appropriately describes nifedipine ?",
+    "answers": [
+    { "text": "selective beta blocker", "correct": false },
+    { "text": "calcium channel blocker", "correct": true },
+    { "text": "non-selective beta blocker", "correct": false },
+    { "text": "angiotensin converting enzyme inhibitor", "correct": false }
+    ]
+},
+{
+    "question": "A 47-year-old man is admitted to hospital with atrial arrhythmia and is prescribed amiodarone. Which of the following is the most likely side effect to be monitored ?",
+    "answers": [
+    { "text": "ptosis", "correct": false },
+    { "text": "tinnitus", "correct": false },
+    { "text": "pulmonary toxicity", "correct": true },
+    { "text": "pseudomembranous enterocolitis", "correct": false }
+    ]
+},
+{
+    "question": "Which one of the following conditions is a contraindication for the use of angiotensin converting enzyme inhibitors ?",
+    "answers": [
+    { "text": "hypertension", "correct": false },
+    { "text": "diabetes melitus", "correct": false },
+    { "text": "idiopathic angioedema", "correct": true },
+    { "text": "congestive heart failure", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is a centrally acting alpha-2 (ꭤ2) adrenergic agonist ?",
+    "answers": [
+    { "text": "enalapril", "correct": false },
+    { "text": "labetalol", "correct": false },
+    { "text": "clonidine", "correct": true },
+    { "text": "nifedipine", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is a benefit of using dopamine in the treatment of cardiogenic shock ?",
+    "answers": [
+    { "text": "It selectively constricts renal and mesenteric beds", "correct": false },
+    { "text": "It increases the force of myocardial contraction", "correct": true },
+    { "text": "It lacks of peripheral vasoconstriction effect", "correct": false },
+    { "text": "It decreases cardiac output", "correct": false }
+    ]
+},
+{
+    "question": "A 75-year-old women with congestive heart failure is prescribed digoxin to improve cardiac muscle contractility. She has a marked improvement in her symptoms. What cellular action of digoxin is responsible for its pharmacological action ?",
+    "answers": [
+    { "text": "Inhibition of cAMP synthesis", "correct": false },
+    { "text": "Inhibition of Na + /k + ATPase enzyme", "correct": true },
+    { "text": "Inhibition of B adrenergic stimulation", "correct": false },
+    { "text": "Inhibition of mitochondrial calcium release", "correct": false }
+    ]
+},
+{
+    "question": "What is the main advantage of losartan over Lisinopril ?",
+    "answers": [
+    { "text": "Less hyperkalemia", "correct": false },
+    { "text": "Safe during pregnancy", "correct": false },
+    { "text": "Less induction of cough", "correct": true },
+    { "text": "Higher oral bioavailability", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is a selective ꭤ1 blocker ?",
+    "answers": [
+    { "text": "labetalol", "correct": false },
+    { "text": "terazosin", "correct": true },
+    { "text": "clonidine", "correct": false },
+    { "text": "captopril", "correct": false }
+    ]
+},
+{
+    "question": "patient has hypertension and Benign prostatic hyperplasia takes Lisinopril, prazosin another antihypertensive drug but still uncontrol He is having side effect Orthostatic hypotension ?",
+    "answers": [
+    { "text": "Add finasteride ", "correct": false },
+    { "text": "Stop prazosin", "correct": false },
+    { "text": "Discontinue prazosin and change to Alfuzosin", "correct": true },
+    { "text": "Add Captopril to control HTN", "correct": false }
+    ]
+},
+{
+    "question": "elderly complaining of urine incontinence And many drugs he use for htn . dm and so on His doctor write him prazosin for his problem but he syncope and asked for alternative ?",
+    "answers": [
+    { "text": "Beta blocker", "correct": false },
+    { "text": "Diltiazem", "correct": false },
+    { "text": "Alfuzosin", "correct": true },
+    { "text": "Decrease Dose Of Prazosin", "correct": false }
+    ]
+},
+{
+    "question": "How much the heart pump a liter of blood per minute ?",
+    "answers": [
+    { "text": "0.5 Liters", "correct": false },
+    { "text": "5 Liters", "correct": true },
+    { "text": "50 Liters", "correct": false },
+    { "text": "500 Liters", "correct": false }
+    ]
+},
+{
+    "question": "A common form of SVT in teenagers is ?",
+    "answers": [
+    { "text": "Atrial ectopic tachycardia", "correct": false },
+    { "text": "Atrial flutter", "correct": false },
+    { "text": "Junctional ectopic tachycardia ", "correct": false },
+    { "text": "AVNRT", "correct": true }
+    ]
+},
+{
+    "question": "which drugs used for VA and SVA ?",
+    "answers": [
+    { "text": "procainamide", "correct": false },
+    { "text": "sotalol", "correct": false },
+    { "text": "dofetilde", "correct": false },
+    { "text": "Flecainide", "correct": true }
+    ]
+},
+{
+    "question": "which drugs used for VA and SVA ?",
+    "answers": [
+    { "text": "procainamide", "correct": false },
+    { "text": "sotalol", "correct": false },
+    { "text": "dofetilde", "correct": false },
+    { "text": "propafenone", "correct": true }
+    ]
+},
+{
+    "question": "Responsible for generate impulse ?",
+    "answers": [
+    { "text": "SA node", "correct": true },
+    { "text": "AV node", "correct": false },
+    { "text": "purkinge fibers", "correct": false },
+    { "text": "purkinge neuros", "correct": false }
+    ]
+},
+{
+    "question": "anti arrhythmia patient with anti-arrhythmic test Hight TSH Low T3 ?",
+    "answers": [
+    { "text": "amlodipine", "correct": false },
+    { "text": "phenytoin", "correct": false },
+    { "text": "digoxin", "correct": false },
+    { "text": "amiodarone", "correct": true }
+    ]
+},
+{
+    "question": "Pt on amlodipine and has HTN Did CBC and found hyperproteinemia what to give ?",
+    "answers": [
+    { "text": "ACEI", "correct": true },
+    { "text": "Alpha blocker", "correct": false },
+    { "text": "CCB", "correct": false },
+    { "text": "Diuretics", "correct": false }
+    ]
+},
+{
+    "question": " 76- year-old cardiac male patient was transferred to the hospital for palpitation with a heart rate of 177 bpm. He is a heavy smoker and his past medical history includes hypertension, hyperlipidemia and coronary artery disease. His medications include aspirin, clopidogrel, carvedilol, valsartan and atorvastatin. He was diagnosed as having atrial fibrillation. Which of the following is the CHA2DS2-VASe score for this patient ?",
+    "answers": [
+    { "text": "1", "correct": false },
+    { "text": "2", "correct": false },
+    { "text": "3", "correct": false },
+    { "text": "4", "correct": true }
+    ]
+},
+{
+    "question": "Case patient has difficulty in voiding and he is already on oxybutynin and Lisinopril what to add ?",
+    "answers": [
+    { "text": "Prazocin", "correct": false },
+    { "text": "Sildenafil", "correct": false },
+    { "text": "Alfuzosin", "correct": true },
+    { "text": "Doxazosin", "correct": false }
+    ]
+},
+{
+    "question": "which of the following is an angiotensin converting enzyme inhibitor ?",
+    "answers": [
+    { "text": "enalapril", "correct": true },
+    { "text": "timolol", "correct": false },
+    { "text": "doxazosin", "correct": false },
+    { "text": "albuterol", "correct": false }
+    ]
+},
+{
+    "question": "Aspirin with inflammatory dose in myocardial infarction ?",
+    "answers": [
+    { "text": "anticipated harmful", "correct": false },
+    { "text": "anticipated beneficial ", "correct": false },
+    { "text": "Un anticipated harmful", "correct": false },
+    { "text": "Un anticipated beneficial ", "correct": true }
+    ]
+},
+{
+    "question": "Acute Heart failure Patient with shortness of breath(SOB) and peripheral edema, which forrester classification ?",
+    "answers": [
+    { "text": "dry and cold", "correct": false },
+    { "text": "wet and cold", "correct": false },
+    { "text": "dry and warm", "correct": false },
+    { "text": "wet and warm ", "correct": true }
+    ]
+},
+{
+    "question": "which of following is a vasopressor that is given in a fixed dose without titration for patients with Septic shock ?",
+    "answers": [
+    { "text": "dopamine", "correct": false },
+    { "text": "vasopressin", "correct": true },
+    { "text": "epinephrine", "correct": false },
+    { "text": "norepinephrine", "correct": false }
+    ]
+},
+{
+    "question": "septic shock patient unresponsive to Fluid what will you Give ?",
+    "answers": [
+    { "text": "vasopressin", "correct": false },
+    { "text": "dopamine", "correct": true },
+    { "text": "norepinephrine", "correct": false },
+    { "text": "doputamine", "correct": false }
+    ]
+},
+{
+    "question": "diagnosis of STEMI ?",
+    "answers": [
+    { "text": "elevated ST segment with increased troponin", "correct": true },
+    { "text": "elevated ST segment with increased bnp", "correct": false },
+    { "text": "elevated ST segment with increased CK", "correct": false },
+    { "text": "elevated ST segment with increased serotonin", "correct": false }
+    ]
+},
+{
+    "question": "Patient has allergic rhinitis doctor prescribe pseudoephedrine you found that he has history of hypertension what to do ?",
+    "answers": [
+    { "text": "Don't dispense the prescription", "correct": false },
+    { "text": "use pseudoephedrine with caution if controlled hypertension", "correct": true },
+    { "text": "use pseudoephedrine with caution if not controlled hypertension", "correct": false },
+    { "text": "replace pseudoephedrine", "correct": false }
+    ]
+},
+{
+    "question": "Patient taken lisinopril and many other medication (He has HTN,Dm ,dyslipidemia) with mode BPH prescribe prazosin 1mg then he develops orthostatic hypotension and what the best you will be ?",
+    "answers": [
+    { "text": "D/C lisinopril", "correct": false },
+    { "text": "D/C prazosin", "correct": false },
+    { "text": "D/C prazosin and give alfazosin", "correct": true },
+    { "text": "start finasterid as soon as possible", "correct": false }
+    ]
+},
+{
+    "question": "What heart rate(at rest) for patient use metoprolol and have atrial fibrillation ?",
+    "answers": [
+    { "text": "60 beat/min", "correct": true },
+    { "text": "90 beat/min", "correct": false },
+    { "text": "120 beat/min", "correct": false },
+    { "text": "200 beat / min", "correct": false }
+    ]
+},
+{
+    "question": "what is the main advantage of losartan over lisinopril ?",
+    "answers": [
+    { "text": "less induction of cough", "correct": true },
+    { "text": "higher oral bioavailability", "correct": false },
+    { "text": "lower oral bioavailability", "correct": false },
+    { "text": "more induction of cough", "correct": false }
+    ]
+},
+{
+    "question": "Duration of treatment for Aspirin in CV pt ?",
+    "answers": [
+    { "text": "1 year", "correct": false },
+    { "text": "3 years", "correct": false },
+    { "text": "4 years", "correct": false },
+    { "text": "5 years", "correct": true }
+    ] 
+},
+{
+    "question": "blood pressure in neonate ?",
+    "answers": [
+    { "text": "same adult", "correct": false },
+    { "text": "Higher than adult", "correct": false },
+    { "text": "Lowed that adult", "correct": true },
+    { "text": "same as toddler", "correct": false }
+    ]
+},
+{
+    "question": "A patient with angina and MI who takes ACEI and many other medicines. What should we give for high blood pressure ?",
+    "answers": [
+    { "text": "spironolactone", "correct": false },
+    { "text": "carvedilol", "correct": true },
+    { "text": "diltiazem", "correct": false },
+    { "text": "ARBs", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following conditions use the plate method as a lifestyle modification ?",
+    "answers": [
+    { "text": "hypertension", "correct": false },
+    { "text": "thyroid disorder", "correct": false },
+    { "text": "diabetes mellitus", "correct": true },
+    { "text": "myocardial infraction", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following conditions use 'the plate method' as lifestyle modification ?",
+    "answers": [
+    { "text": "asthma", "correct": false },
+    { "text": "dyslipidemia", "correct": false },
+    { "text": "hypertension", "correct": false },
+    { "text": "diabetes mellitus", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is the timeline when symptoms start to occur in type- 1 diabetes mellitus ?",
+    "answers": [
+    { "text": "as early when destruction of the islets of Langerhans of the pancreas is starting", "correct": false },
+    { "text": "when 50% of the islets of Langerhans of the pancreas are destroyed", "correct": false },
+    { "text": "when 70% of the islets of Langerhans of the pancreas are destroyed", "correct": true },
+    { "text": "when destruction of the islets of Langerhans of the pancreas is complete", "correct": false }
+    ]
+},
+{
+    "question": "Which of following play a role in calcium homeostasis ?",
+    "answers": [
+    { "text": "1,25-dihydrocycholecalciferol and calcitonin", "correct": true },
+    { "text": "1,25-dihydrocycholecalciferol and insulin", "correct": false },
+    { "text": "Parathyroid hormone and glucagon", "correct": false },
+    { "text": "Insulin and lipase", "correct": false }
+    ]
+},
+{
+    "question": "A 34-year-old woman who is still experiencing symptoms of hyperthyroidism despite treatment with carbimazole. Which medication can be added to provide additional symptomatic relief ?",
+    "answers": [
+    { "text": "Lisinopril", "correct": false },
+    { "text": "Ibuprofen", "correct": false },
+    { "text": "Propranolol", "correct": true },
+    { "text": "Prednisolone", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following studies represent a.cost-effectiveness study ?",
+    "answers": [
+    { "text": "Comparing costs for 2 therapeutically equivalent products", "correct": false },
+    { "text": "Comparing costs and savings of a pharmacokinetic service diabetes clinic", "correct": false },
+    { "text": "Comparing patients achieving control as the outcome for 2 antihyperglycemic drugs", "correct": true },
+    { "text": "Comparison of costs of 2 chemotherapy regimens with the using best supportive care", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following perspectives incorporates all the costs and regardless of who incurs or obtains them ?",
+    "answers": [
+    { "text": "Patient", "correct": false },
+    { "text": "Hospital", "correct": false },
+    { "text": "Societal", "correct": true },
+    { "text": "Ministry of Health", "correct": false }
+    ]
+},
+{
+    "question": "Question How to prepare a budget for the new year ?",
+    "answers": [
+    { "text": "Close stock + open stock + buyer products", "correct": false },
+    { "text": "Close stock - open stock + buyer products", "correct": false },
+    { "text": "Close stock + open stock + seller products", "correct": false },
+    { "text": "Open stock - close stock + Seller products", "correct": true }
+    ]
+},
+{
+    "question": "case about one using two drugs of cancer one with less side effect to choose what is cost ?",
+    "answers": [
+    { "text": "Cost-Effectiveness", "correct": true },
+    { "text": "Cost-Minimization", "correct": false },
+    { "text": "Case Study", "correct": false },
+    { "text": "Cohort Study", "correct": false }
+    ]
+},
+{
+    "question": "case about one using two drugs of cancer . one with less side effect to choose.what is cost ?",
+    "answers": [
+    { "text": "Cost-Effectiveness", "correct": true },
+    { "text": "Cost-Minimization", "correct": false },
+    { "text": "Case Study", "correct": false },
+    { "text": "Cohort Study", "correct": false }
+    ]
+},
+{
+    "question": "In pharmacoeconomics and outcomes research, QALYS are used utilities. QALY is the quality-adjusted life year. Which of the following is an interpretation of an individual with ?",
+    "answers": [
+    { "text": "Death", "correct": false },
+    { "text": "Coma", "correct": false },
+    { "text": "Illness", "correct": false },
+    { "text": "Perfect health", "correct": true }
+    ]
+},
+{
+    "question": "A pharmacist working in inpatient pharmacy received a request pharmacy and therapeutic (P&T) committee to evaluate a included in e hospital formulary. The request wants to have the value in a monetary value (dollar value). Which of the following pharmacoeconomics tools will the pharmacy to answer the request ?",
+    "answers": [
+    { "text": "Cost-utility analysis", "correct": false },
+    { "text": "Cost-benefit analysis", "correct": true },
+    { "text": "Cost-minimization analysis", "correct": false },
+    { "text": "Cost-effectiveness analysis", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following statements provides the best described incremental cost effectiveness ratio ?",
+    "answers": [
+    { "text": "The cost per extra benefit of a new strategy, independent", "correct": false },
+    { "text": "The extra cost to obtain an extra benefit when switching alternative to another", "correct": true },
+    { "text": "The cost per quality-adjusted life year gained", "correct": false },
+    { "text": "A summary measurement of efficiency", "correct": false }
+    ]
+},
+{
+    "question": "What kind of outcomes can be determined by cost-minimization ?",
+    "answers": [
+    { "text": "Monetary units (e.g., dollars)", "correct": false },
+    { "text": "Quality- adjusted life-years (QALYS)", "correct": false },
+    { "text": "Natural units (e.g., Life-years saved)", "correct": false },
+    { "text": "Comparing the cost of two identical products (e.g. generic brand)", "correct": true }
+    ]
+},
+{
+    "question": "What is the type of costs for traveling from Jeddah to Riyadh to health care from pharmacoeconomic perspective ?",
+    "answers": [
+    { "text": "Indirect", "correct": false },
+    { "text": "Intangible", "correct": false },
+    { "text": "Direct -non medical", "correct": true },
+    { "text": "Non-direct medical", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following pharmacoeconomic studies is the simple conducted ?",
+    "answers": [
+    { "text": "Cost-Utility Analysis", "correct": false },
+    { "text": "Cost-Benefit Analysis", "correct": false },
+    { "text": "Cost-Minimization Analysis", "correct": true },
+    { "text": "Cost-Effectiveness Analysis", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following pharmacoeconomic studies is the simplest because the outcomes are assumed to be equivalent and only the costs of intervention are compared ?",
+    "answers": [
+    { "text": "Cost-utility-benefit analysis", "correct": false },
+    { "text": "Cost-utility analysis", "correct": false },
+    { "text": "Cost-benefit analysis", "correct": false },
+    { "text": "Cost-minimization analysis", "correct": true }
+    ]
+},
+{
+    "question": "Case of a Patient taking some drugs and he got hyperkaliemia which one of these drug causes that ?",
+    "answers": [
+    { "text": "Theophylline", "correct": false },
+    { "text": "Spironolactone", "correct": true },
+    { "text": "Gentamicin", "correct": false },
+    { "text": "mannitol", "correct": false }
+    ]
+},
+{
+    "question": "A 75-year-old man with NYHA-IV heart failure has been started on furosemide 120 mg intravenous infusion to improve pulmonary edema. Which of the following is the recommended duration time for furosemide infusion ?",
+    "answers": [
+    { "text": "10 minutes", "correct": false },
+    { "text": "20 minutes", "correct": false },
+    { "text": "30 minutes", "correct": true },
+    { "text": "40 minutes", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following medications is an osmotic diuretic ?",
+    "answers": [
+    { "text": "mannitol", "correct": true },
+    { "text": "furosemide", "correct": false },
+    { "text": "spironolactone", "correct": false },
+    { "text": "hydrochlorothiazide", "correct": false }
+    ]
+},
+{
+    "question": "Which drug from loop Diuretic drug safe in patient with sulpha allergy ?",
+    "answers": [
+    { "text": "spironalactone", "correct": false },
+    { "text": "hydrochlorothiazide", "correct": false },
+    { "text": "acetazolamide", "correct": false },
+    { "text": "Ethacrynic acid", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following diuretics is an aldosterone antagonist ?",
+    "answers": [
+    { "text": "furosemide", "correct": false },
+    { "text": "acetazolamide", "correct": false },
+    { "text": "spironalactone", "correct": true },
+    { "text": "hydrochlorothiazide", "correct": false }
+    ]
+},
+{
+    "question": "A man patient is placed on a new medication to control his elevated BP. After one month he noted that his breasts have become enlarged and tender. Which of the following medication is the most properly prescribed ?",
+    "answers": [
+    { "text": "acetazolamide", "correct": false },
+    { "text": "chlorthalodone", "correct": false },
+    { "text": "spironolactone", "correct": true },
+    { "text": "hydrochlorothiazide", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is a potential side effect of chlorothiazide ?",
+    "answers": [
+    { "text": "Hyperkalemia", "correct": false },
+    { "text": "Hypocalcemia", "correct": false },
+    { "text": "Hypouricemia", "correct": false },
+    { "text": "Hypokalemia", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is a loop diuretic ?",
+    "answers": [
+    { "text": "Furosemide", "correct": true },
+    { "text": "Acetazolamide", "correct": false },
+    { "text": "Spironolactone", "correct": false },
+    { "text": "Hydrochlorothiazide", "correct": false }
+    ]
+},
+{
+    "question": "Patient female with food poisoning and went to hospital with troponin high NSTMI what is the management ?",
+    "answers": [
+    { "text": "aspirin 81 mg + ticagrelor", "correct": false },
+    { "text": "Aspirin 325 mg + ticagrelor", "correct": true },
+    { "text": "Aspirin 81 mg +Prasugrel", "correct": false },
+    { "text": "Aspirin 325 mg + prasugrel", "correct": false }
+    ]
+},
+{
+    "question": "Pt with Hypotension with high heart rate give him ?",
+    "answers": [
+    { "text": "Hypertonic Nacl", "correct": false },
+    { "text": "Albumin", "correct": false },
+    { "text": "Panamin-G", "correct": false },
+    { "text": "RL", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following cause digoxin toxicity ?",
+    "answers": [
+    { "text": "Hypomagnesemia", "correct": true },
+    { "text": "Hypercalcemia", "correct": false },
+    { "text": "Hypophosphate", "correct": false },
+    { "text": "Hypermagnesemia", "correct": false }
+    ]
+}                                                                         
 ]

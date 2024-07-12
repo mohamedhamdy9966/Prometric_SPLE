@@ -107,7 +107,7 @@ function login(usernameInput, passwordInput) {
         // ends in 21/7
         "moaz" : "moaz@2024",
         // ends in 14/8
-        "ameen" : "elkamali@2024"
+        "amein" : "elkamalei@2024"
         // ends in 4/8
     };
 
