@@ -5873,5 +5873,321 @@
     { "text": "Hypophosphate", "correct": false },
     { "text": "Hypermagnesemia", "correct": false }
     ]
-}                                                                         
+},
+{
+    "question": "Xalatan drops used for ?",
+    "answers": [
+    { "text": "Viral Infection", "correct": false },
+    { "text": "Bacterial Infection", "correct": false },
+    { "text": "Fungal Infection", "correct": false },
+    { "text": "Glaucoma", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following prostaglandin analogs is used specific for the treatment of glaucoma ?",
+    "answers": [
+    { "text": "alprostadil", "correct": false },
+    { "text": "latanoprost", "correct": true },
+    { "text": "carboprost", "correct": false },
+    { "text": "dinoprostone", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the most practical method for sterilizing ophthalmic solution ?",
+    "answers": [
+    { "text": "autoclave for 15 minutes", "correct": false },
+    { "text": "autoclave for 30 minutes", "correct": false },
+    { "text": "membrane filtration through 0.2-µm filter", "correct": true },
+    { "text": "membrane filtration through 5-µm filter", "correct": false }
+    ]
+},
+{
+    "question": "A 62-year-old woman is noted to have open-angle glaucoma. She accidentally applies excessive pilocarpine to her eyes. Which of the following is the most likely would be the expected results ?",
+    "answers": [
+    { "text": "Mydriasis", "correct": false },
+    { "text": "Dilation of blood vessels", "correct": true },
+    { "text": "Bronchial smooth muscle dilation", "correct": false },
+    { "text": "Decreased gastrointestinal motility", "correct": false }
+    ]
+},
+{
+    "question": "the prescription of a patient shows xalatan drops 1 drop o.n.m. 1 bottle which of the following is the most likely condition ?",
+    "answers": [
+    { "text": "cataract", "correct": false },
+    { "text": "glaucoma", "correct": true },
+    { "text": "blepharitis", "correct": false },
+    { "text": "conjuncitivits", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following lab results support a diagnosis of primary hyperthyroidism ?",
+    "answers": [
+    { "text": "low TSH and a low free T4", "correct": false },
+    { "text": "low TSH and elevated free T4", "correct": true },
+    { "text": "elevated TSH and low free T4", "correct": false },
+    { "text": "elevated TSH and elevated T4", "correct": false }
+    ]
+},
+{
+    "question": " pt DM2 symptoms ..who went to lose weight..HTN ,heart failure ..do life style change and excirses drug choice for DM 2 ?",
+    "answers": [
+    { "text": "Insulin", "correct": false },
+    { "text": "liraglutide", "correct": true },
+    { "text": "metformin", "correct": false },
+    { "text": "Glypuride", "correct": false }
+    ]
+},
+{
+    "question": "Best antipsychotic drug for diabetic patient ?",
+    "answers": [
+    { "text": "Clozapine", "correct": false },
+    { "text": "Aripiprazole", "correct": true },
+    { "text": "quetiapine", "correct": false },
+    { "text": "Phenytoin", "correct": false }
+    ]
+},
+{
+    "question": "Patient on TPN and nothing by oral (NOP) and A1C blood glucose is 11 Which drug add to this patient p ?",
+    "answers": [
+    { "text": "Gliclazide", "correct": false },
+    { "text": "NPH insulin", "correct": false },
+    { "text": "Glargin", "correct": false },
+    { "text": "Regular insulin", "correct": true }
+    ]
+},
+{
+    "question": "Pt called Seif Emad El Deen born and raised in Makka with hypertension, Heart failure, DM what is the first line after metformin ?",
+    "answers": [
+    { "text": "pioglitazone", "correct": false },
+    { "text": "Gliclazide", "correct": false },
+    { "text": "Empagliflozin", "correct": true },
+    { "text": "Insulin", "correct": false }
+    ]
+},
+{
+    "question": "Untreated hyperthyroidism in the elderly can result in ?",
+    "answers": [
+    { "text": "Mania", "correct": false },
+    { "text": "Atrial fibrillation", "correct": true },
+    { "text": "Deafness", "correct": false },
+    { "text": "Hirsutism", "correct": false }
+    ]
+},
+{
+    "question": "Why is propylthiouracil (PTU) the antithyroid therapy of choice in pregnant patients with Graves disease ?",
+    "answers": [
+    { "text": "It is less hepatotoxic than methimazole (MMI)", "correct": false },
+    { "text": "It may be less teratogenic than MMI", "correct": true },
+    { "text": "It has less risk of causing fetal hypothyroidism than MMI", "correct": false },
+    { "text": "It causes less agranulocytosis in these patients than MMI", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is not a secondary cause of dyslipidemia ?",
+    "answers": [
+    { "text": "Hypothyroidism", "correct": false },
+    { "text": "Hyperthyroidism", "correct": true },
+    { "text": "Diabetes", "correct": false },
+    { "text": "Protease inhibit", "correct": false }
+    ]
+},
+{
+    "question": "A 48 woman suffers from fatigue, weakness and polyurination and lab tests proved that she is diabetic A Doctor prescribed her 850 mg metformin twice a day and so blood sugar become normal but after sometime she did another lab tests and the result was hemoglubinated sugar increased by 1% than the last result what will you advise her ?",
+    "answers": [
+    { "text": "increase metformin dose", "correct": true },
+    { "text": "decrease metformin dose", "correct": false },
+    { "text": "do nothing", "correct": false },
+    { "text": "shifting to another type insulin", "correct": false }
+    ]
+},
+{
+    "question": "Case… Hyperthyroidism ?",
+    "answers": [
+    { "text": "Elevated TSH, increased T4", "correct": false },
+    { "text": "Increased T4, elevated TSH", "correct": false },
+    { "text": "Elevated TSH, decreased T4", "correct": false },
+    { "text": "Elevated T4, decreased TSH", "correct": true }
+    ]
+},
+{
+    "question": "DM 1 patient, give what ?",
+    "answers": [
+    { "text": "Sulfonylurea", "correct": false },
+    { "text": "GLP1", "correct": true },
+    { "text": "DDP", "correct": false },
+    { "text": "Pioglitazone", "correct": false }
+    ]
+},
+{
+    "question": "Main features of graves' disease include : ",
+    "answers": [
+    { "text": "diffuse goiter", "correct": false },
+    { "text": "thyroid eye disease", "correct": true },
+    { "text": "pretibial myxoedema", "correct": false },
+    { "text": "thyroid acropathy", "correct": false }
+    ]
+},
+{
+    "question": "case about a diabetic patient type 2 he takes metformin but his blood sugar is so high and uncontrolled and hb1ac was very high. what to take?",
+    "answers": [
+    { "text": "insulin glargine + sitaglaptin", "correct": false },
+    { "text": "insulin glargine + Metformin", "correct": false },
+    { "text": "insulin glargine + glyburide", "correct": false },
+    { "text": "insulin glargine + insulin aspart", "correct": true }
+    ]
+},
+{
+    "question": "longest duration of action ?",
+    "answers": [
+    { "text": "Degludec", "correct": true },
+    { "text": "Glargine", "correct": false },
+    { "text": "Aspart", "correct": false },
+    { "text": "NPH", "correct": false }
+    ]
+},
+{
+    "question": "to decrease side effects of metformin on GIT ?",
+    "answers": [
+    { "text": "Divide doses", "correct": true },
+    { "text": "take dose after two hours of eating", "correct": false },
+    { "text": "take it with antihistamine", "correct": false },
+    { "text": "take it with PPI", "correct": false }
+    ]
+},
+{
+    "question": "medication given for hyperthyroidism causes permanent decline in thyroid hormones ?",
+    "answers": [
+    { "text": "Carbimazole", "correct": false },
+    { "text": "PTU", "correct": false },
+    { "text": "methimazole", "correct": false },
+    { "text": "RAI radio active iodine", "correct": true }
+    ]
+},
+{
+    "question": "One of Hyperthyroidism ?",
+    "answers": [
+    { "text": "One of Hyperthyroidism", "correct": false },
+    { "text": "Sensitivity to cold", "correct": false },
+    { "text": "Nervousness", "correct": true },
+    { "text": "Depression", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following to be used with caution in renal failure ?",
+    "answers": [
+    { "text": "Glipizide", "correct": false },
+    { "text": "Rosiglitazone", "correct": false },
+    { "text": "Sitagliptin", "correct": true },
+    { "text": "Linagliptin", "correct": false }
+    ]
+},
+{
+    "question": "DM patient on insulin but he is not taking his dose, his HbA1c is 12%, he refuses taking insulin right dose bc of weight gain what do you do as a pharmacist ?",
+    "answers": [
+    { "text": "Refer to physician to decrease his insulin dose", "correct": false },
+    { "text": "decrease his doses", "correct": false },
+    { "text": "try to change his beliefs on insulin", "correct": true },
+    { "text": "tell him it's ok to not take his dose", "correct": false }
+    ]
+},
+{
+    "question": "Preventing Diabetic Foot Ulcers ?",
+    "answers": [
+    { "text": "Proper Footwear", "correct": false },
+    { "text": "Daily Foot Inspection", "correct": true },
+    { "text": "monitor blood sugar level", "correct": false },
+    { "text": "Weight Losses", "correct": false }
+    ]
+},
+{
+    "question": "Which anti-hyperthyroidism drug could cause agranulocytosis ?",
+    "answers": [
+    { "text": "Xylocaine", "correct": false },
+    { "text": "Metoprolol", "correct": false },
+    { "text": "Sodium lodide", "correct": false },
+    { "text": "Propylthiouracil", "correct": true }
+    ]
+},
+{
+    "question": "A 50-year-old Golf woman named Rana have 4 children taking several medicines like metformin, warfarin, Bisoprolol, sitaglaptin and B-Complex. Which of the following describes the mechanism of action of sitagliptin ?",
+    "answers": [
+    { "text": "Inhibit alpha glucosidase enzyme", "correct": false },
+    { "text": "Inhibit dipeptidyl peptidase 4 enzyme", "correct": true },
+    { "text": "Activate peroxisome proliferator- activated receptors", "correct": false },
+    { "text": "Closes ATP- dependent potassium channels in the B-cells", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the mechanism of action of liraglutide ?",
+    "answers": [
+    { "text": "Dipeptidyl peptidase 4 inhibitor", "correct": false },
+    { "text": "Glucagon like peptide-1receptor agonist", "correct": true },
+    { "text": "Sodium /glucose co-transporter 2 inhibitor", "correct": false },
+    { "text": "Activate peroxisme proliferator-activated receptor", "correct": false }
+    ]
+},
+{
+    "question": "A 50-year-old Saudi woman named Razan have 4 children 2 boys and 2 girls lives in a big apartament in riyad with hypertension and dyslipidemia. She presented today to her follow up visit with family medicine clinic. Her sister has a type 1 diabetes mellitus. No alcohol or cigarette use is reported. She is physically active for 2 minutes a week. • WEIGHT 51Kg • height 160cm . Which of the following is a risk factor for developing diabetes type 2 in this patient ?",
+    "answers": [
+    { "text": "Age", "correct": false },
+    { "text": "BMI", "correct": false },
+    { "text": "Gender", "correct": false },
+    { "text": "Family History", "correct": true }
+    ]
+},
+{
+    "question": "A patient named Moaz Ben Gabal loves watching football his favourite team is Al Ahly with DM type 2, with uncontrolled (high) blood glucose for years. The patient complains of burning and stabbing pain in his extremities started for years. Which of the following types of pain this patient is experiencing ?",
+    "answers": [
+    { "text": "Acute pain", "correct": false },
+    { "text": "Costochondritis", "correct": false },
+    { "text": "Neuropathic pain", "correct": true },
+    { "text": "inflammatory pain", "correct": false }
+    ]
+},
+{
+    "question": "A 33-year-old woman named Rahaf who presents with complains of fatigue weight gain. She is planning to become pregnant. She reported that she starts talking multivitamin and supplements her current medication is levothyroxine 100 mcg daily (see lab result). Which of the following is the dosage recommendations in (mcg) to take it daily for thyroid medication when she became pregnant ?",
+    "image": "images/27.PNG",
+    "answers": [
+    { "text": "levothyroxine-50", "correct": false },
+    { "text": "levothyroxine-75", "correct": false },
+    { "text": "levothyroxine-100", "correct": false },
+    { "text": "levothyroxine-125", "correct": true }
+    ]
+},
+{
+    "question": "which of the following insulins has the longest duration of action ?",
+    "answers": [
+    { "text": "Aspart", "correct": false },
+    { "text": "Detemir", "correct": false },
+    { "text": "Glargine", "correct": false },
+    { "text": "Degludec", "correct": true }
+    ]
+},
+{
+    "question": "A 65-year-old man called fahad loves travelling and oriental food married to 3 women and having 9 children was diagnosed with type 2 diabetes five year ago, maintained on metformin. Which of the following need to be monitored ?",
+    "answers": [
+    { "text": "Vitamin c level", "correct": false },
+    { "text": "Vitamin D level", "correct": false },
+    { "text": "Vitamin B1 leve", "correct": false },
+    { "text": "Vitamin B12 level", "correct": true }
+    ]
+},
+{
+    "question": "which of the following group of drugs can prevent the progression of micro- albuminuria to macro-albuminuria in patients with diabetic mellitus ?",
+    "answers": [
+    { "text": "Angiotensin-converting enzyme inhibitors", "correct": true },
+    { "text": "B-blockers", "correct": false },
+    { "text": "Diuretics", "correct": false },
+    { "text": "Digitalis", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following describe glucose uptake and usage by as compared to other tissues of the body ?",
+    "answers": [
+    { "text": "Brain cell can uptake and use glucose only in the presence", "correct": false },
+    { "text": "Brain cells can uptake and use glucose without being stimul insulin", "correct": true },
+    { "text": "Brain cells can uptake and use glucose when glucose is abol 100 mg/dL in the blood", "correct": false },
+    { "text": "Brain cells can uptake and use glucose when the insulin is at high level in the body", "correct": false }
+    ]
+}                                                                      
 ]
