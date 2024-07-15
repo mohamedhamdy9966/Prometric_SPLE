@@ -6189,5 +6189,321 @@
     { "text": "Brain cells can uptake and use glucose when glucose is abol 100 mg/dL in the blood", "correct": false },
     { "text": "Brain cells can uptake and use glucose when the insulin is at high level in the body", "correct": false }
     ]
-}                                                                      
+},
+{
+    "question": "A 45-year-old male is admitted to the hospital for craniotomy Phenytoin has been prescribed to him after the surgery. Before initiation of the drug the pharmacist suggested to do pharmacogenetics test and the results revealed that the patient carries the HLA-B*58:01 allele. Which of the following adverse effects is associated with this patient's allele type ?",
+    "answers": [
+    { "text": "bleeding", "correct": false },
+    { "text": "high blood pressure", "correct": false },
+    { "text": "increased risk of jaundice", "correct": false },
+    { "text": "severe cutaneous reaction", "correct": true }
+    ]
+},
+{
+    "question": "Approximately 415 million people have been diagnosis with diabetes Which of the following terms is referred to in the mentioned statement ?",
+    "answers": [
+    { "text": "Endemic", "correct": false },
+    { "text": "Epidemic", "correct": false },
+    { "text": "Incidence", "correct": false },
+    { "text": "Prevalence", "correct": true }
+    ]
+},
+{
+    "question": "What is the Latin abbreviation for (after meals) ?",
+    "answers": [
+    { "text": "A.C.", "correct": false },
+    { "text": "A.A.", "correct": false },
+    { "text": "P.C.", "correct": true },
+    { "text": "I.C.", "correct": false }
+    ]
+},
+{
+    "question": "What is the estimated amount of plasma in a 70-Kg male ?",
+    "answers": [
+    { "text": "3.5 liter", "correct": true },
+    { "text": "1.1 liter ", "correct": false },
+    { "text": "35 liter ", "correct": false },
+    { "text": "11 liter ", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the abbrevation for drug to be taken by mouth ?",
+    "answers": [
+    { "text": "P.O.", "correct": true },
+    { "text": "P.R.", "correct": false },
+    { "text": "PRN", "correct": false },
+    { "text": "U.D.", "correct": false }
+    ]
+},
+{
+    "question": "An adult female patient with weight 80 kg and 160 cm height. How do you categorize this patient weight based on the following classification ?",
+    "image": "images/28.PNG",
+    "answers": [
+    { "text": "obese", "correct": true },
+    { "text": "normal", "correct": false },
+    { "text": "overweight", "correct": false },
+    { "text": "underweight", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following describes the best patient instruction regarding the proper way to dispose of needles ?",
+    "answers": [
+    { "text": "Discard the needle in garbage", "correct": false },
+    { "text": "Return the needles to their original package", "correct": false },
+    { "text": "Discard the needles in a rigid and resistant container", "correct": true },
+    { "text": "If the needles is for personal use, you can use it for two times to reduce environment contamination", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following studies could establish the drug shelf-life ?",
+    "answers": [
+    { "text": "Bioavalability", "correct": false },
+    { "text": "Bioequivalence", "correct": false },
+    { "text": "Stability studies", "correct": true },
+    { "text": "Pharmacodynamic", "correct": false }
+    ]
+},
+{
+    "question": "What is the age range of a neonate ?",
+    "answers": [
+    { "text": "Birth to one week", "correct": false },
+    { "text": "Birth to one month", "correct": true },
+    { "text": "One month to six months", "correct": false },
+    { "text": "One month to twelve months", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following statements best represents the intravenous (IV) medications in the hospital facilities ?",
+    "answers": [
+    { "text": "IV drugs transmits the highest risk of infection", "correct": true },
+    { "text": "IV drugs are associated with lowest risk of undesirable side effects", "correct": false },
+    { "text": "IV solutions must be hypotonic to ensure compatibility with blood osmolarity", "correct": false },
+    { "text": "IV solutions must be hypertonic to ensure compatibility with blood osmolarity", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following type of water should be used for reconstitution of parenteral preparations ?",
+    "answers": [
+    { "text": "Sterile water", "correct": false },
+    { "text": "Distilled water", "correct": false },
+    { "text": "Sterile water for injection", "correct": true },
+    { "text": "Bacteriostatic water for injection", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following solutions is required for the reconstitution of parenteral formulations ?",
+    "answers": [
+    { "text": "USP standard sterile water", "correct": false },
+    { "text": "USP standard purified water", "correct": false },
+    { "text": "USP standard highly purified water", "correct": false },
+    { "text": "USP standard sterile water for injection", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following food supplement is rich in omega3 fatty acids ?",
+    "answers": [
+    { "text": "fish oil", "correct": true },
+    { "text": "palm oil", "correct": false },
+    { "text": "peanut oil", "correct": false },
+    { "text": "coconut oil", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is alternative name for vitamin B6 ?",
+    "answers": [
+    { "text": "biotin", "correct": false },
+    { "text": "thiamine", "correct": false },
+    { "text": "pyridoxine", "correct": true },
+    { "text": "cyanocobalamin", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following routes of drug administration provide 100% bio availability ?",
+    "answers": [
+    { "text": "intradermal injection", "correct": false },
+    { "text": "intravenous Injection", "correct": true },
+    { "text": "Intramuscular Injection", "correct": false },
+    { "text": "subcutaneous injection", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following statements best describes drug dependence ?",
+    "answers": [
+    { "text": "discontinuation of the drug will produce withdrawal symptoms", "correct": true },
+    { "text": "action of one drug is dependent on the presence of another drug", "correct": false },
+    { "text": "discontinuation of the drug will not produce withdrawal symptoms", "correct": false },
+    { "text": "patients progressively require increasingly larger doses of drug to achieve the same effect", "correct": false }
+    ]
+},
+{
+    "question": "An elderly man with hypothyroidism was started on thyroxin. The drug has a half- life of 72 hours. How long will it take to produce full effect ?",
+    "answers": [
+    { "text": "two days", "correct": false },
+    { "text": "one week", "correct": false },
+    { "text": "two weeks", "correct": true },
+    { "text": "two months", "correct": false }
+    ]
+},
+{
+    "question": "An extemporaneous drug label says to store the drug between 15 and 25 degrees centigrade. Which of the following is the most appropriate place where this drug should be stored ?",
+    "answers": [
+    { "text": "freezer", "correct": false },
+    { "text": "refrigerator", "correct": false },
+    { "text": "cool room", "correct": true },
+    { "text": "warm room", "correct": false }
+    ]
+},
+{
+    "question": "Cleaning is a very important step when working with laminar flow hoods. Which of the following disinfectants is most suitable for cleaning the hood before compounding a sterile preparation ?",
+    "answers": [
+    { "text": "70% Ethanol", "correct": false },
+    { "text": "90% Ethanol", "correct": false },
+    { "text": "70% Isopropanol", "correct": true },
+    { "text": "90% Isopropanol", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the source for standards for compounding sterile preparations to be followed in the hospital pharmacy ?",
+    "answers": [
+    { "text": "In World Health Organization (WHO) website", "correct": false },
+    { "text": "In Food and Drug Administration (FDA) website", "correct": false },
+    { "text": "In United States Pharmacopeia (USP) chapter 797", "correct": true },
+    { "text": "In Institute for Safe Medication practices (ISMP) publication ", "correct": false }
+    ]
+},
+{
+    "question": "Which following best describes the ( bio- psychological approach of health ) ?",
+    "answers": [
+    { "text": "Broad view that arrtributes disease outcome to the variable interaction of biological factory psychological factors, and social factors", "correct": true },
+    { "text": "Health constitutes the freedom from disease, pain, or defect, making the normal human condition ( healthy ).", "correct": false },
+    { "text": "The scientific measure of health and regards disease as the human body having a breakdown due to a biological reason", "correct": false },
+    { "text": "The biological component seeks to understand how the cause of the illness stems from the functioning of the individual's body ", "correct": false }
+    ]
+},
+{
+    "question": "what is the meaning of off-label drug use ?",
+    "answers": [
+    { "text": "use of drug without prescription", "correct": false },
+    { "text": "use of drug expiration date", "correct": false },
+    { "text": "use of drug outside the hospital", "correct": false },
+    { "text": "use of drug for unapproved indications", "correct": true }
+    ]
+},
+{
+    "question": "What kind of association between the variables if you want to association between age and depression pre/post drug (A) use ?",
+    "answers": [
+    { "text": "2 continuous variables", "correct": false },
+    { "text": "A continuous variable and a binary variable", "correct": true },
+    { "text": "A continuous variable and an ordinal variable", "correct": false },
+    { "text": "A continuous variable and a categorical variable", "correct": false }
+    ]
+},
+{
+    "question": "A 23-year-old man has recently been started on phenytoin for the treatment of epilepsy. He is taking no other medication he has noted recently swelling and bleeding of the gum and wants to know if this might be drug related.",
+    "answers": [
+    { "text": "Drug interaction facts", "correct": false },
+    { "text": "The Harriet Lane handbook", "correct": false },
+    { "text": "Meylers side effects of drugs", "correct": true },
+    { "text": "Natural Medicine comprehensive database", "correct": false }
+    ]
+},
+{
+    "question": "Which drug is banned in sport competitions by international Olympics ?",
+    "answers": [
+    { "text": "Furosemide", "correct": true },
+    { "text": "Atenolol", "correct": false },
+    { "text": "Celecoxib", "correct": false },
+    { "text": "Diclofenac", "correct": false }
+    ]
+},
+{
+    "question": "which one consider as physical examination ?",
+    "answers": [
+    { "text": "Regulatory", "correct": false },
+    { "text": "Percussion", "correct": false },
+    { "text": "Radiological", "correct": false },
+    { "text": "Pathological", "correct": true }
+    ]
+},
+{
+    "question": "Using Schilling test to detect amount of Vit ?",
+    "answers": [
+    { "text": "B9", "correct": false },
+    { "text": "B12", "correct": true },
+    { "text": "B6", "correct": false },
+    { "text": "C", "correct": false }
+    ]
+},
+{
+    "question": "When the patient at rest the volume of the blood found more in ?",
+    "answers": [
+    { "text": "vein", "correct": true },
+    { "text": "arterial", "correct": false },
+    { "text": "heart", "correct": false },
+    { "text": "pulmonary circulation", "correct": false }
+    ]
+},
+{
+    "question": "patient on internal nutrition came with lab tests, low phosphate low magnesium ?",
+    "answers": [
+    { "text": "purple syndrome", "correct": false },
+    { "text": "Grey's syndrome", "correct": false },
+    { "text": "John Hopkin's syndrome", "correct": false },
+    { "text": "Refeeding syndrome", "correct": true }
+    ]
+},
+{
+    "question": "which IV container need filtered needle ?",
+    "answers": [
+    { "text": "Vial", "correct": false },
+    { "text": "Bag", "correct": false },
+    { "text": "Ampoule", "correct": false },
+    { "text": "All IV preparation need filtered needle", "correct": true }
+    ]
+},
+{
+    "question": "boxed warning when using for teeth pain in infant lead to seizure and death ?",
+    "answers": [
+    { "text": "Clove oil", "correct": true },
+    { "text": "Ibuprofen suspension", "correct": false },
+    { "text": "Gel", "correct": false },
+    { "text": "Paracetamol suspension", "correct": false }
+    ]
+},
+{
+    "question": "What dose mean 2 in 1 ?",
+    "answers": [
+    { "text": "Dextrose and amino acids", "correct": true },
+    { "text": "Water and dextrose", "correct": false },
+    { "text": "Dextrose and lipoamino acid", "correct": false },
+    { "text": "Dextrose and amino acid and lipid", "correct": false }
+    ]
+},
+{
+    "question": "amount of water in adult ?",
+    "answers": [
+    { "text": "90%", "correct": false },
+    { "text": "80%", "correct": false },
+    { "text": "70%", "correct": false },
+    { "text": "60%", "correct": true }
+    ]
+},
+{
+    "question": "amount of water in neonate ?",
+    "answers": [
+        { "text": "90%", "correct": false },
+        { "text": "80%", "correct": true },
+        { "text": "70%", "correct": false },
+        { "text": "60%", "correct": false }
+    ]
+},
+{
+    "question": "intra synovial means ?",
+    "answers": [
+    { "text": "In spinal", "correct": false },
+    { "text": "Muscle", "correct": false },
+    { "text": "Joint", "correct": true },
+    { "text": "Neuros space", "correct": false }
+    ]
+}                                                                  
 ]
