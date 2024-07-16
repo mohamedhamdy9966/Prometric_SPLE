@@ -99,6 +99,7 @@ function login(usernameInput, passwordInput) {
     const validCredentials = {
         "m": "m",
         "sara": "eid@2024",
+        "yasser": "tallal@2024",
         "rawan": "othman@2024",
         "rahaf" : "rahaf@2024",
         "omar" : "alanzi@2024",
