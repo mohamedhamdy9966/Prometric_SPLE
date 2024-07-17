@@ -6505,5 +6505,638 @@
     { "text": "Joint", "correct": true },
     { "text": "Neuros space", "correct": false }
     ]
+},
+{
+    "question": "A Drug acts on non-receptor mechanism ?",
+    "answers": [
+    { "text": "Deferoxamine", "correct": true },
+    { "text": "Desloratadine", "correct": false },
+    { "text": "Atenolol", "correct": false },
+    { "text": "None of the above", "correct": false }
+    ]
+},
+{
+    "question": "The place on the body that gives the most accurate temperature ?",
+    "answers": [
+    { "text": "front head", "correct": false },
+    { "text": "mouth", "correct": false },
+    { "text": "rectal", "correct": true },
+    { "text": "axillary", "correct": false }
+    ]
+},
+{
+    "question": "which of the following can assist in regulation of sleeping pattern ?",
+    "answers": [
+    { "text": "eating before sleeping by 10 mins", "correct": false },
+    { "text": "doing aerobic exercises for 10 mins", "correct": true },
+    { "text": "taking several naps during the day", "correct": false },
+    { "text": "smoking only one cigarette before sleep", "correct": false }
+    ]
+},
+{
+    "question": "HIV, TB , AIDS ?",
+    "answers": [
+    { "text": "Chronic disease", "correct": false },
+    { "text": "Communicable disease", "correct": false },
+    { "text": "Non communicable", "correct": false },
+    { "text": "Acute disease", "correct": true }
+    ]
+},
+{
+    "question": "Women has signs of vitamin A deficiency, what are its natural forms ?",
+    "answers": [
+    { "text": "Olive oil", "correct": false },
+    { "text": "Liver oil", "correct": true },
+    { "text": "Argan oil", "correct": false },
+    { "text": "almond oil", "correct": false }
+    ]
+},
+{
+    "question": "Iso 7 ?",
+    "answers": [
+    { "text": "10", "correct": false },
+    { "text": "100", "correct": false },
+    { "text": "1000", "correct": false },
+    { "text": "10000", "correct": true }
+    ]
+},
+{
+    "question": "Where phase ll found in any location ?",
+    "answers": [
+    { "text": "Mitochondria", "correct": false },
+    { "text": "Endoplasmic reticulum", "correct": false },
+    { "text": "Cytoplasmic", "correct": true },
+    { "text": "nucleus", "correct": false }
+    ]
+},
+{
+    "question": "larger lymphoid organ ?",
+    "answers": [
+    { "text": "intestine", "correct": false },
+    { "text": "liver", "correct": false },
+    { "text": "muscle", "correct": false },
+    { "text": "spleen", "correct": true }
+    ]
+},
+{
+    "question": "which the following use in central vine ?",
+    "answers": [
+    { "text": "D5w", "correct": false },
+    { "text": "0.9 normal saline", "correct": false },
+    { "text": "3%normal saline", "correct": true },
+    { "text": "D10w", "correct": false }
+    ]
+},
+{
+    "question": "affinty ?",
+    "answers": [
+    { "text": "How long drug bind to receptors", "correct": false },
+    { "text": "how strongly drug bind to receptor", "correct": true },
+    { "text": "How long drug activate", "correct": false },
+    { "text": "how strongly drug activate", "correct": false }
+    ]
+},
+{
+    "question": "best source of essential fatty acids ?",
+    "answers": [
+    { "text": "Seafood", "correct": true },
+    { "text": "Plant", "correct": false },
+    { "text": "meat", "correct": false },
+    { "text": "fruits", "correct": false }
+    ]
+},
+{
+    "question": "Moderate physical activity ?",
+    "answers": [
+    { "text": "swimming", "correct": false },
+    { "text": "basketball", "correct": false },
+    { "text": "brisk walking", "correct": true },
+    { "text": "heavy", "correct": false }
+    ]
+},
+{
+    "question": "Gene mutation of UGT1a1 ?",
+    "answers": [
+    { "text": "atazanavir", "correct": true },
+    { "text": "Lamivudine", "correct": false },
+    { "text": "Zidovudine", "correct": false },
+    { "text": "simavastatin", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the exact date for a drug to be safety taken if its expiration date December 2018 ?",
+    "answers": [
+    { "text": "December 1,2018", "correct": false },
+    { "text": "December 15,2018", "correct": false },
+    { "text": "December 31,2018", "correct": true },
+    { "text": "January 1st,2019", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following concepts that most of public health strategies are based on ?",
+    "answers": [
+    { "text": "Primary prevention", "correct": true },
+    { "text": "Secondary prevention", "correct": false },
+    { "text": "Clean water and food", "correct": false },
+    { "text": "Ideal healthy community", "correct": false }
+    ]
+},
+{
+    "question": "Public health is the science of protecting the health of a community Which population from the following list is their target ?",
+    "answers": [
+    { "text": "People at risk of being sick", "correct": false },
+    { "text": "Injured and sick people", "correct": false },
+    { "text": "Mothers and children", "correct": false },
+    { "text": "Entire community", "correct": true }
+    ]
+},
+{
+    "question": "What resource should be used when searching for the most current clinical trials on the use of novel anticoagulants for pulmonary embolism ?",
+    "answers": [
+    { "text": "Pharmacotherapy, the pathophysiologic approach", "correct": false },
+    { "text": "PubMed", "correct": true },
+    { "text": "UpToDate", "correct": false },
+    { "text": "Micromedex", "correct": false }
+    ]
+},
+{
+    "question": "A 55-year-old man brought a prescription for Oxycontin on April year. The script from doctor is dated December 17 of last year prescription allows five refills. What quantity of fill (s) is - are likely to be received by the patient ?",
+    "answers": [
+    { "text": "1 Today+1 Refill", "correct": true },
+    { "text": "0 Today+0 Refill", "correct": false },
+    { "text": "1 Today+2 Refill", "correct": false },
+    { "text": "1 Today+0 Refill", "correct": false }
+    ]
+},
+{
+    "question": "How many phase of the clinical trials are required to approve a new drug ?",
+    "answers": [
+    { "text": "1 phase", "correct": false },
+    { "text": "2 phase", "correct": false },
+    { "text": "3 phase", "correct": true },
+    { "text": "4 phase", "correct": false }
+    ]
+},
+{
+    "question": "A patient was started on codeine 15 mg orally as needed for postoperative pain. One day after starting codeine, the patient presents to the Emergency Department with confusion, headache and shortness of breath. Which of the following most likely describes the patient's gentotype ?",
+    "answers": [
+    { "text": "slow metabolizer of CYP 2D6", "correct": false },
+    { "text": "slow metabolizer of CYP 2C9", "correct": false },
+    { "text": "rapid metabolizer of CYP 2C9", "correct": false },
+    { "text": "rapid metabolizer of CYP 2D6", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following genetic testing might derive a potential benefit from Trastuzumab therapy in a breast cancer patient ?",
+    "answers": [
+    { "text": "TPMT positive activity", "correct": false },
+    { "text": "VKORC1 genotype positive", "correct": false },
+    { "text": "HER2/gene genotype positive", "correct": true },
+    { "text": "HLA-B *5801 genotype positive", "correct": false }
+    ]
+},
+{
+    "question": "Breast cancer. The gene HER2 was negative we can use ?",
+    "answers": [
+    { "text": "Letrozole", "correct": true },
+    { "text": "Trustuzumb", "correct": false },
+    { "text": "Estrogen", "correct": false },
+    { "text": "Progesteron", "correct": false }
+    ]
+},
+{
+    "question": "A 3-year-old boy presents with diarrhea. His weight is 13 Kilograms. Which of the following is the most appropriate maintenance fluid requirement for this patient ?",
+    "answers": [
+    { "text": "1000 ml", "correct": false },
+    { "text": "1050 ml", "correct": false },
+    { "text": "1150 ml", "correct": true },
+    { "text": "1250 ml", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is most likely to be associated with heartburn ?",
+    "answers": [
+    { "text": "paracetamol", "correct": false },
+    { "text": "chlorpheniramine", "correct": false },
+    { "text": "potassium chloride", "correct": true },
+    { "text": "magnesium/aluminum hydroxide", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following medications is the most appropriate for nausea induced by the anti parkinson's drug bromocriptine ?",
+    "answers": [
+    { "text": "itopride", "correct": false },
+    { "text": "domperidone", "correct": true },
+    { "text": "metoclopramide", "correct": false },
+    { "text": "chlorpheniramine", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the main feature of celiac disease ?",
+    "answers": [
+    { "text": "Malabsorption of proteins", "correct": true },
+    { "text": "Increased protein degradation", "correct": false },
+    { "text": "Decreased excretion of proteins", "correct": false },
+    { "text": "Decreased breakdown of protein", "correct": false }
+    ]
+},
+{
+    "question": "A 39-year-old woman presents with complain of epigastria burning and pain for the last 6 month 33 / 272 significant medical history but reports an allergy to beta-lactam antibiotics. An office based Urea Breath Test is performed to diagnose Helicobacter pylori infection (see lab result). Which of the following is the most appropriate treatment regimen ?",
+    "image": "images/29.PNG",
+    "answers": [
+    { "text": "Levofloxacin and lansoprazole for 14 days", "correct": false },
+    { "text": "Omeprazole, clarithromycin, and amoxicillin for 10 days", "correct": false },
+    { "text": "Omeprazole, clarithromycin, and metronidazole for 14 days", "correct": true },
+    { "text": "Omeprazole, bismuth subsalicylate, tetracycline, and azithromycin for 14 days", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the most appropriate regimen to prevent constipation in a patient starting on morphine for pain ?",
+    "answers": [
+    { "text": "docusate and senna", "correct": true },
+    { "text": "bisacodyl and lactulose", "correct": false },
+    { "text": "polyethylene glycol and Metamucil", "correct": false },
+    { "text": "methylnaltrexone and magnesium sulfate", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following medications can cause pneumonia as a side effect ?",
+    "answers": [
+    { "text": "Lisinopril", "correct": false },
+    { "text": "Metformin", "correct": false },
+    { "text": "Simvastatin", "correct": false },
+    { "text": "Omeprazole", "correct": true }
+    ]
+},
+{
+    "question": "A 7-year-old girl presents with moderate dehydration due to vomiting (see lab results). What is the most suitable replacement fluid ?",
+    "image": "images/30.PNG",
+    "answers": [
+    { "text": "0.9% Sodium chloride", "correct": false },
+    { "text": "5% Dextrose with sodium bicarbonate", "correct": false },
+    { "text": "0.9% sodium chloride with potassium chloride", "correct": true },
+    { "text": "5% Dextrose - 0.225 % sodium chloride with potassium", "correct": false }
+    ]
+},
+{
+    "question": "which of the following drugs can be safely recommended to a patient that has been suffering from chronic constipation ?",
+    "answers": [
+    { "text": "Glycerol suppository", "correct": false },
+    { "text": "Ispaghula husk", "correct": true },
+    { "text": "Bisacodyl", "correct": false },
+    { "text": "Senna", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following regimen is the treatment of choice for a patient who develops a gastric ulcer cause by Helicobacter pylori infection ?",
+    "answers": [
+    { "text": "famotidine and amoxicillin", "correct": false },
+    { "text": "lansoprazole and clarithromycin", "correct": false },
+    { "text": "misoprostol, clarithromycin, amoxicillin", "correct": false },
+    { "text": "clarithromycin, amoxicillin and lansoprazole", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following areas in the brain is the main target for metoclopramide to produce antiemetic activity ?",
+    "answers": [
+    { "text": "pituitary gland", "correct": false },
+    { "text": "meso-limbic brain area", "correct": false },
+    { "text": "nigro-striatal brain area", "correct": false },
+    { "text": "chemoreceptor trigger zone", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following most likely is the action of histamine ?",
+    "answers": [
+    { "text": "constriction of capillaries", "correct": false },
+    { "text": "paralysis of skeletal muscle", "correct": false },
+    { "text": "elevation of blood pressure", "correct": false },
+    { "text": "stimulation of gastric secretion", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is the mechanism by which bisacodyl laxative relieves constipation ?",
+    "answers": [
+    { "text": "Causing colon relaxation", "correct": false },
+    { "text": "Acting as a surfactant to soften the stool", "correct": false },
+    { "text": "Absorbing water and forming a gelatinous mass", "correct": false },
+    { "text": "Stimulating enteric nerves to increase colonic contractions", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is the mechanism of action of loperamide antidiarrheal effect ?",
+    "answers": [
+    { "text": "Binding bile acids", "correct": false },
+    { "text": "Blocking of cholinergic receptors", "correct": false },
+    { "text": "Activation of the opioid receptors", "correct": true },
+    { "text": "Activation of alpha-2 adrenergic receptors", "correct": false }
+    ]
+},
+{
+    "question": "which drug should be used for both bone and GIT problems ?",
+    "answers": [
+    { "text": "Ca gluconate", "correct": false },
+    { "text": "Ca Carbonate", "correct": true },
+    { "text": "Metoclopramide", "correct": false },
+    { "text": "Omeprazole", "correct": false }
+    ]
+},
+{
+    "question": "patient with severe gastric pain radiating to right upper quadrant with vomiting and pain radiaties to back also and gets worse with fatty meals ?",
+    "answers": [
+    { "text": "Pancreatic", "correct": true },
+    { "text": "gallstones", "correct": false },
+    { "text": "hepatic disease", "correct": false },
+    { "text": "Kidney disease", "correct": false }
+    ]
+},
+{
+    "question": "When take Omeprazole ?",
+    "answers": [
+    { "text": "Morning with meal", "correct": false },
+    { "text": "Night before sleep", "correct": true },
+    { "text": "As need", "correct": false },
+    { "text": "stimulate adrenergic", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following tests can be used to confirm eradication of H. pylori q ?",
+    "answers": [
+    { "text": "Urea breath test", "correct": true },
+    { "text": "Stool antigen assay", "correct": false },
+    { "text": "EGD with biopsies", "correct": false },
+    { "text": "Wagner's test", "correct": false }
+    ]
+},
+{
+    "question": "Which one of the following medication can a gynecologist prescribe to a patient ?",
+    "answers": [
+    { "text": "Tamoxifen", "correct": false },
+    { "text": "Fingolimod", "correct": false },
+    { "text": "Anastrozole", "correct": false },
+    { "text": "Misoprostol", "correct": true }
+    ]
+},
+{
+    "question": "Which the following hormones maintains the concentration of water in the body ?",
+    "answers": [
+    { "text": "Vasopressin", "correct": true },
+    { "text": "Thyrotropin", "correct": false },
+    { "text": "Adrenocorticotropin", "correct": false },
+    { "text": "Luteinizing hormone", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following hormones stimulate mammy gland development and milk production ?",
+    "answers": [
+    { "text": "Prolactin", "correct": true },
+    { "text": "Oxytocin", "correct": false },
+    { "text": "Cortictropin", "correct": false },
+    { "text": "Growth hormone", "correct": false }
+    ]
+},
+{
+    "question": "Type of hypersensitivity for drug induced hemolytic anemia ?",
+    "answers": [
+    { "text": "Cytotoxic reaction", "correct": true },
+    { "text": "immediate sensitivity reaction", "correct": false },
+    { "text": "delayed sensitivity reaction", "correct": false },
+    { "text": "intermediate sensitivity reaction", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following immunoglobulin activates complement system ?",
+    "answers": [
+    { "text": "IgM", "correct": false },
+    { "text": "IgE", "correct": false },
+    { "text": "IgA", "correct": false },
+    { "text": "IgG", "correct": true }
+    ]
+},
+{
+    "question": "An 8-year-old child had difficulty in breathing, swelling of tips and tongue, and fainted following eating a piece of cake containing nuts. Which of the following types of hypersensitivity reactions the child is exhibiting ?",
+    "answers": [
+    { "text": "Immune-complex", "correct": false },
+    { "text": "Delayed hypersensitivity", "correct": false },
+    { "text": "Cytotoxic hypersensitivity", "correct": false },
+    { "text": "Immediate hypersensitivity", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following white blood cell types is the target of immunodeficiency virus during acquired immune deficiency syndrome (AIDS) ?",
+    "answers": [
+    { "text": "CD1 lymphocytes", "correct": false },
+    { "text": "CD2 lymphocytes", "correct": false },
+    { "text": "CD3 lymphocytes", "correct": false },
+    { "text": "CD4 lymphocytes", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following represents the immunity acquired by give living organism with attenuated virus ?",
+    "answers": [
+    { "text": "Local immunity", "correct": false },
+    { "text": "Passive immunity", "correct": false },
+    { "text": "Natural active immunity", "correct": false },
+    { "text": "Artificial active immunity", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is the first antibody to be produced new infection ?",
+    "answers": [
+    { "text": "IgM", "correct": true },
+    { "text": "IgG", "correct": false },
+    { "text": "IgA", "correct": false },
+    { "text": "IgE", "correct": false }
+    ]
+},
+{
+    "question": "A 28-year-old woman was recently diagnosed with Crohn's was started with high dose intravenous corticosteroids .she conversion to oral drugs and was started on infliximab, a tumour factor ꭤ(TNf-ꭤ), inhibitor. Which of the following tests should be performed prior to infliximab ?",
+    "answers": [
+    { "text": "HIV screening", "correct": false },
+    { "text": "Influenza screening", "correct": false },
+    { "text": "Hepatitis C screening", "correct": false },
+    { "text": "Tuberculosis screening", "correct": true }
+    ]
+},
+{
+    "question": "To which of the following the major histocompatibility complex unique ?",
+    "answers": [
+    { "text": "Each cell", "correct": false },
+    { "text": "Each organ", "correct": false },
+    { "text": "Each species ", "correct": false },
+    { "text": "Each individual", "correct": true }
+    ]
+},
+{
+    "question": "A 27-year-old man suffer from hepatitis C virus infection. His level of alanine aminotransferase and aspartate aminotransferase are high. In addition, liver biopsy showed mild fibrosis (see lab results). Which of the following drugs should be avoided in his case ?",
+    "image": "images/31.PNG",
+    "answers": [
+    { "text": "Amoxicillin", "correct": false },
+    { "text": "Pregabalin", "correct": false },
+    { "text": "Cephalexin", "correct": false },
+    { "text": "Methotrexate", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is used for the treatment of neo-vascular age-related muscular degeneration ?",
+    "answers": [
+    { "text": "Aflibercept", "correct": true },
+    { "text": "Latanoprost", "correct": false },
+    { "text": "Muromomab", "correct": false },
+    { "text": "Gemtuzumab", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following drugs is associated with progressive multifocal leukoencephalopathy side effect ?",
+    "answers": [
+    { "text": "Bisoprolol", "correct": false },
+    { "text": "Pregabalin", "correct": false },
+    { "text": "Doxycycline", "correct": false },
+    { "text": "Natalizumab", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is the site of action for aflibercept ?",
+    "answers": [
+    { "text": "Fibroblast growth factor", "correct": false },
+    { "text": "Human chorionic gonadotropin", "correct": false },
+    { "text": "Brain-derived neurotrophic factor", "correct": false },
+    { "text": "Vascular endothelial growth factor-A", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is involved in type 2 hypersensitivity ?",
+    "answers": [
+    { "text": "IgE", "correct": false },
+    { "text": "IgG", "correct": true },
+    { "text": "T lymphocytes", "correct": false },
+    { "text": "Macrophages", "correct": false }
+    ]
+},
+{
+    "question": "drug use in organ transplantation ?",
+    "answers": [
+    { "text": "Tamsulosin", "correct": false },
+    { "text": "Organophosphrus", "correct": false },
+    { "text": "Doxycycline", "correct": false },
+    { "text": "cyclosporine", "correct": true }
+    ]
+},
+{
+    "question": "Immune cells have Y shape that antibodies attaches to which part ?",
+    "answers": [
+    { "text": "Hinge side", "correct": false },
+    { "text": "Consistent h side", "correct": true },
+    { "text": "Variable h side", "correct": false },
+    { "text": "Variable L and h side", "correct": false }
+    ]
+},
+{
+    "question": "What is the secondary prevention ?",
+    "answers": [
+    { "text": "Vaccination", "correct": false },
+    { "text": "Immunization", "correct": false },
+    { "text": "Do exercise", "correct": false },
+    { "text": "Blood test", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following immunoglobulin (Ig) is frequently found to be elevated in asthmatic patients ?",
+    "answers": [
+    { "text": "IgA", "correct": false },
+    { "text": "IgE", "correct": true },
+    { "text": "IgM", "correct": false },
+    { "text": "IgD", "correct": false }
+    ]
+},
+{
+    "question": "which cells had antibody on its surface ?",
+    "answers": [
+    { "text": "B cell", "correct": true },
+    { "text": "T cell", "correct": false },
+    { "text": "T helper", "correct": false },
+    { "text": "T killer", "correct": false }
+    ]
+},
+{
+    "question": "part of immunoglobin attach to B-cell ?",
+    "answers": [
+    { "text": "Slight chain", "correct": false },
+    { "text": "heavy chain", "correct": true },
+    { "text": "nucleus", "correct": false },
+    { "text": "Mitochondria", "correct": false }
+    ]
+},
+{
+    "question": "part of immunoglobin attach to antigen ?",
+    "answers": [
+        { "text": "Slight chain", "correct": true },
+        { "text": "heavy chain", "correct": false },
+        { "text": "nucleus", "correct": false },
+        { "text": "Mitochondria", "correct": false }
+        ]
+},
+{
+    "question": "Which of the following drugs is considered as an enzyme inhibitor that may effect the metabolism of other drugs ?",
+    "answers": [
+    { "text": "phenytoin", "correct": false },
+    { "text": "furosemide", "correct": false },
+    { "text": "cimetidine", "correct": true },
+    { "text": "theophylline", "correct": false }
+    ]
+},
+{
+    "question": "major toxic effect of chloramphenicol in baby due to lack of which enzyme ?",
+    "answers": [
+    { "text": "Reductase enzyme", "correct": false },
+    { "text": "C- Methyltransferase enzyme", "correct": false },
+    { "text": "B- Methyltransferase enzyme", "correct": false },
+    { "text": "glucuronyltransferase enzyme", "correct": true }
+    ]
+},
+{
+    "question": "During prescription verification, a pharmacist identified a drug interaction in a 23-year-old woman diagnosed with urinary tract and prescribed an antibiotic. Pharmacist contacted the change to a drug that will not harm the patient. Which of the following antibiotics is the best option for the patient ?",
+    "answers": [
+    { "text": "Cephalexin", "correct": false },
+    { "text": "Ciprofloxacin", "correct": false },
+    { "text": "Nitrofurantoin", "correct": false },
+    { "text": "Trimethoprim-sulfamethoxazole", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following antibiotics is used in surgical prophylaxis of colorectal surgeries ?",
+    "answers": [
+    { "text": "Ampicillin", "correct": false },
+    { "text": "Cefoxitin", "correct": true },
+    { "text": "Linezolid", "correct": false },
+    { "text": "Augmentin", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the first line treatment of malaria can be caused by plasmodium falciparum in Saudi Arabia ?",
+    "answers": [
+    { "text": "Quinine", "correct": false },
+    { "text": "Primaquine", "correct": false },
+    { "text": "Artesunate", "correct": true },
+    { "text": "Doxycycline", "correct": false }
+    ]
+},
+{
+    "question": "A S7-year-old man who presents to an urgent care clinic with complains of 2-day history of high fever, muscle/bone ache, headache and loss of appetite. He has been in his usual state of health and reports close contacts of a sick friend with flu recently. Which of the following would be the best management ?",
+    "answers": [
+    { "text": "Amoxicillin: 500 mg PO q8h for 10 days", "correct": false },
+    { "text": "Azithromycin: 500 mg PO once daily for 3 days", "correct": false },
+    { "text": "Amoxicillin-clavulanic acid: 1 gm PO q12h for 1 week", "correct": false },
+    { "text": "Support treatment.(e.g., fluids, rest, antihistamine, paracetamol)", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following conditions is a serious adverse reaction of fluoroquinolone therapy ?",
+    "answers": [
+    { "text": "Eczema", "correct": false },
+    { "text": "Bleeding", "correct": false },
+    { "text": "Depression", "correct": false },
+    { "text": "Q-T interval prolongation", "correct": true }
+    ]
 }                                                                  
 ]
