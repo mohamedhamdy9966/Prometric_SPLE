@@ -7138,5 +7138,637 @@
     { "text": "Depression", "correct": false },
     { "text": "Q-T interval prolongation", "correct": true }
     ]
-}                                                                  
+},
+{
+    "question": "Which of the following is the reason doxycycline should be avoided in children less than 12 years ?",
+    "answers": [
+    { "text": "A High toxicity", "correct": false },
+    { "text": "Low tolerability", "correct": false },
+    { "text": "Risk of bleeding", "correct": false },
+    { "text": "Teeth discoloration", "correct": true }
+    ]
+},
+{
+    "question": "which one cause latent infection ?",
+    "answers": [
+    { "text": "polio", "correct": false },
+    { "text": "measles", "correct": false },
+    { "text": "rubella", "correct": false },
+    { "text": "varicella-zoster", "correct": true }
+    ]
+},
+{
+    "question": "Antibiotics can be used topical (ointment ) in MRSA infection ?",
+    "answers": [
+    { "text": "vancomycin ointment", "correct": false },
+    { "text": "Mupirocin ointment", "correct": true },
+    { "text": "Doxycycline cap", "correct": false },
+    { "text": "Tetracycline tb", "correct": false }
+    ]
+},
+{
+    "question": "case E coli with CKD ?",
+    "answers": [
+    { "text": "Ciprofloxacin 400 iv every 12 hrs", "correct": false },
+    { "text": "Ciprofloxacin 400 iv every 24 hrs", "correct": false },
+    { "text": "meropenem 500 iv every 8 hrs", "correct": true },
+    { "text": "meropenem 500 iv every 12 hrs", "correct": false }
+    ]
+},
+{
+    "question": "Antibiotic inhibit protein synthesis by 30 what effects ?",
+    "answers": [
+    { "text": "Elongation", "correct": false },
+    { "text": "initiation", "correct": true },
+    { "text": "termination", "correct": false },
+    { "text": "Radiation", "correct": false }
+    ]
+},
+{
+    "question": "Antibiotic inhibit protein synthesis by 50 what effect ?",
+    "answers": [
+    { "text": "Elongation", "correct": true },
+    { "text": "initiation", "correct": false },
+    { "text": "termination", "correct": false },
+    { "text": "Replication", "correct": false }
+    ]
+},
+{
+    "question": "Which one is encapsulated bacteria ?",
+    "answers": [
+    { "text": "Streptococcus Pneumoniae", "correct": true },
+    { "text": "Lactobacillus Acidophilus", "correct": false },
+    { "text": "Mycobacterium Tuberculosis", "correct": false },
+    { "text": "Salmonella Typhi", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following can be used for UTI infections ?",
+    "answers": [
+    { "text": "Garlic", "correct": false },
+    { "text": "Cranberry", "correct": true },
+    { "text": "Echinacea", "correct": false },
+    { "text": "Ginko", "correct": false }
+    ]
+},
+{
+    "question": "What is the adverse effect of fluoroquinolones ?",
+    "answers": [
+    { "text": "QT Prolongation", "correct": true },
+    { "text": "Rach", "correct": false },
+    { "text": "Increase Blood Pressure", "correct": false },
+    { "text": "Constipation", "correct": false }
+    ]
+},
+{
+    "question": "case about a child has pin worm infection. Which of the following is the best drug of choice ?",
+    "answers": [
+    { "text": "Mefloquine", "correct": false },
+    { "text": "Albendazole", "correct": true },
+    { "text": "Doxycycline", "correct": false },
+    { "text": "Metronidazole", "correct": false }
+    ]
+},
+{
+    "question": "case about a girl has sore throat (mild) without any infection or other symptoms what should you advise her ?",
+    "answers": [
+    { "text": "Gargle With Salt and Water", "correct": true },
+    { "text": "Clindamycin", "correct": false },
+    { "text": "Anti-Histamine", "correct": false },
+    { "text": "Ceftriaxone I.v Every 12 Hrs", "correct": false }
+    ]
+},
+{
+    "question": "use in the prevention of RSV in neonate ?",
+    "answers": [
+    { "text": "Palivizumab", "correct": true },
+    { "text": "osltumab", "correct": false },
+    { "text": "paracetamol", "correct": false },
+    { "text": "ascorbic acid", "correct": false }
+    ]
+},
+{
+    "question": "Months infant have RSV ?",
+    "answers": [
+    { "text": "Palivizumab", "correct": false },
+    { "text": "osltumab", "correct": false },
+    { "text": "ceftriaxone", "correct": false },
+    { "text": "supportive", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is a characteristic for facultative anaerobic ?",
+    "answers": [
+    { "text": "Only grow anaerobically", "correct": false },
+    { "text": "Only grow in the presence of oxygen", "correct": false },
+    { "text": "An anaerobe but can grow in the absence of oxygen", "correct": true },
+    { "text": "Require simultaneous presence of aerobic and anaerobic environments for growth", "correct": false }
+    ]
+},
+{
+    "question": "A 36-year-old man not known to have any medical illness diagnosed recently with an active pulmonary tuberculosis. Which of the following is the best regimen to start ?",
+    "answers": [
+    { "text": "Rifampin alone", "correct": false },
+    { "text": "Isoniazid alone", "correct": false },
+    { "text": "Isoniazid plus rifampin", "correct": false },
+    { "text": "Isoniazid, rifamnin. ethambutol and pyrazinamide", "correct": true }
+    ]
+},
+{
+    "question": "A 23-month-year-old, 14-kg infant, her mom brought her the hospital with signs and symptoms of bacterial meningitis. The baby attends day care and has a history of acute otitis media. A blood and CSF culture were ordered and pending. Which of the following is the empirical therapy for acute bacterial meningitis ?",
+    "answers": [
+    { "text": "Doxycycline plus linezolid", "correct": false },
+    { "text": "Ampicillin plus genfamicin", "correct": false },
+    { "text": "Cefuroxime plus ciprofloxacin", "correct": false },
+    { "text": "Ceftriaxone or cefotaxime plus vancomycin", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following micro-organisms causes typhoid fever ?",
+    "answers": [
+    { "text": "Shigella", "correct": false },
+    { "text": "Flavivirus", "correct": false },
+    { "text": "Salmonella", "correct": true },
+    { "text": "Treponema pallidum", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following describes the transmission mode of coronavirus ?",
+    "answers": [
+    { "text": "Respiratory route", "correct": true },
+    { "text": "Blood-borne route", "correct": false },
+    { "text": "Contaminated food and drinks", "correct": false },
+    { "text": "Direct contact with patient saliva", "correct": false }
+    ]
+},
+{
+    "question": "A 24-year-old male presented to the hospital with a skin infection the microbiology technician received a sample form this patient the sample in a special media was incubated over 24 hour and showed Staphylococcus aureus. The microbiologist used disk diffusion method to determine the susceptibility of different antibiotics (see image). What is the most sensitive antibiotic ?",
+    "image": "images/32.PNG",
+    "answers": [
+    { "text": "Ampicillin (Amp)", "correct": false },
+    { "text": "Vancomycin (Van)", "correct": false },
+    { "text": "Methicillin (Meth)", "correct": true },
+    { "text": "Penicillin (Control)", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following bacteria is involved in the development of dental carries ?",
+    "answers": [
+    { "text": "Streptococcus mutans", "correct": true },
+    { "text": "Listeria monocytogenes", "correct": false },
+    { "text": "Streptococcus", "correct": false },
+    { "text": "Corynebacterium diphtheria", "correct": false }
+    ]
+},
+{
+    "question": "What is the main method transmission of Brucella species ?",
+    "answers": [
+    { "text": "Airborne", "correct": false },
+    { "text": "Blood transfusion", "correct": false },
+    { "text": "Contact with infected person", "correct": false },
+    { "text": "ingestion of unpasteurized milk /milk products", "correct": true }
+    ]
+},
+{
+    "question": "A pregnant woman is travelling to a high risk malarial country which antimalarial prophylactic agent caries the most fetal risk in pregnant women ?",
+    "answers": [
+    { "text": "Mefloquine", "correct": false },
+    { "text": "Doxycycline", "correct": true },
+    { "text": "Chloroquine", "correct": false },
+    { "text": "Atovaquone-proguanil", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following viral infections best describes chronic infection ?",
+    "answers": [
+    { "text": "Infection in which host cell dies due to interference with normal cellular function", "correct": false },
+    { "text": "Infections in which there is uncontrolled growth or immortalization of the host cell", "correct": false },
+    { "text": "Infection in which virus persists within the host cell but new virions are not synthesized", "correct": false },
+    { "text": "Infection in which virus persists within the host cell and continues to replicate the virions", "correct": true }
+    ]
+},
+{
+    "question": "A 28-year-old pregnant female in labor is admitted to the hospital. She tested positive for Group B streptococcus colonization at her 36-week appointment. She has a penicillin allergy and her culture are resistant to both clindamycin and erythromycin. What is the recommended treatment for this patient ?",
+    "answers": [
+    { "text": "Cefazolin", "correct": false },
+    { "text": "Penicillin G", "correct": false },
+    { "text": "Ceftriaxone", "correct": false },
+    { "text": "Vancomycin", "correct": true }
+    ]
+},
+{
+    "question": "A 7-year-old boy presents with complain of itchiness around the anus at night. Lab tests revealed Enteroblus vermicularis infection (pin worm infection). Which of the following is the most appropriate management ?",
+    "answers": [
+    { "text": "fluconazole", "correct": false },
+    { "text": "praziquantel", "correct": false },
+    { "text": "pantoprazole", "correct": false },
+    { "text": "mebendazole", "correct": true }
+    ]
+},
+{
+    "question": "drugs may accumulate the tissues as result of their physicochemical characteristics or special affinity of the tissue for the drug. which of the following parts of the body dose tetracycline accumulate ?",
+    "answers": [
+    { "text": "liver", "correct": false },
+    { "text": "Bone", "correct": true },
+    { "text": "Muscle", "correct": false },
+    { "text": "Adipose tissue", "correct": false }
+    ]
+},
+{
+    "question": "A 55-year-old woman presents with symptoms of helicobacter pylori infections. She was previously treated with the classical amoxicillin, clarithromycin, omeprazole regimen. The physician is unable to obtain susceptibility testing for the Helicobacter pylori but the pattern of local antimicrobial resistance to penicillin's is well known. What would be the optimal treatment for her ?",
+    "answers": [
+    { "text": "amoxicillin(1g), clarithromycin(500mg) and metronidazole (500 mg) plus omeprazole (20mg) BID for 14 days", "correct": false },
+    { "text": "amoxicillin(1g), clarithromycin (500 mg) and metronidazole (500 mg) plus omeprazole (40mg) BID for 14 days", "correct": false },
+    { "text": "bismuth subsalicylate525 QID and tetracycline (500 mg) QID plus metronidazole (500 mg) and omeprazole (40mg) BID for 14 days", "correct": true },
+    { "text": "bismuth subsalicylate (2) and doxycycline (100 mg) QID plus metronidazole (500 mg) TID and omeprazole (40 mg) BID for 14 days", "correct": false }
+    ]
+},
+{
+    "question": "A 16-month-old baby with bronchopulmonary dysplasia is admitted Pediatric Intensive Care Unit with respiratory distress requiring in (see lab results). What is the best management ?",
+    "image": "images/33.PNG",
+    "answers": [
+    { "text": "Cefuroxime", "correct": false },
+    { "text": "Palivizumab", "correct": false },
+    { "text": "Corticosteroid", "correct": false },
+    { "text": "Intravenous fluids and supportive care", "correct": true }
+    ]
+},
+{
+    "question": "What is the description of viruses that live as parasites on bacteria ?",
+    "answers": [
+    { "text": "fungi", "correct": false },
+    { "text": "Lichens", "correct": false },
+    { "text": "Commensals", "correct": false },
+    { "text": "Bacteriophage", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is a B-lactamse enzyme ?",
+    "answers": [
+    { "text": "Plasmid", "correct": false },
+    { "text": "Pyrogens", "correct": false },
+    { "text": "DNA gyrase", "correct": false },
+    { "text": "Carbapenemase ", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following Clostridium spp. Is linked to the develop pseudomembranous colitis ?",
+    "answers": [
+    { "text": "C. tetani", "correct": false },
+    { "text": "C. difficile", "correct": true },
+    { "text": "C. botulinum", "correct": false },
+    { "text": "C. Perfringens", "correct": false }
+    ]
+},
+{
+    "question": "Which is the best treatment for staphylococcus aureus positive mastitis ?",
+    "answers": [
+    { "text": "Cephalexin", "correct": true },
+    { "text": "Clindamycin", "correct": false },
+    { "text": "Ciprofloxacin", "correct": false },
+    { "text": "Nitrofurantoin", "correct": false }
+    ]
+},
+{
+    "question": "A nurse has an inquiry about the appropriate time to Withdraw a trough gentamicin level for a patient. What is the best answer for her inquiry ?",
+    "answers": [
+    { "text": "1 hour after gentamicin administration", "correct": false },
+    { "text": "30 minutes after gentamicin administration", "correct": false },
+    { "text": "1 hour before the scheduled gentamicin dose", "correct": false },
+    { "text": "30 minutes before the scheduled gentamicin dose", "correct": true }
+    ]
+},
+{
+    "question": "A 6-year-old boy is diagnosed with a pin-worm infection. Which of the following drugs should be used for treatment ?",
+    "answers": [
+    { "text": "Mefloquine", "correct": false },
+    { "text": "Doxycycline", "correct": false },
+    { "text": "Albendazole", "correct": true },
+    { "text": "pyrimethamine", "correct": false }
+    ]
+},
+{
+    "question": "what is the recommended prophylactic therapy for pregnant women colonized with group B streptococcus in labor with penicillin allergies at high risk for anaphylaxis ?",
+    "answers": [
+    { "text": "Cefazoline", "correct": false },
+    { "text": "Linezolid", "correct": false },
+    { "text": "Penicillin G", "correct": false },
+    { "text": "Clindamycin", "correct": true }
+    ]
+},
+{
+    "question": "which of the following might develop in association with high serum amikacin ?",
+    "answers": [
+    { "text": "Bleeding", "correct": false },
+    { "text": "Ototoxicity", "correct": true },
+    { "text": "Liver failure", "correct": false },
+    { "text": "Visual changes", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following infections is prevented with the administration of 0.5% erythromycin eye ointment in newly born infants ?",
+    "answers": [
+    { "text": "mycoplasmal conjunctivitis", "correct": false },
+    { "text": "adenoviral conjunctivitis", "correct": false },
+    { "text": "gonococcal opthalmia", "correct": true },
+    { "text": "chlamydial Infection", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the most appropriate empiric treatment for a patient with community-acquired pneumonia requiring admission to the hospital ?",
+    "answers": [
+    { "text": "Doxycycline and azithromycin", "correct": false },
+    { "text": "Ceftriaxone and azithromycin", "correct": true },
+    { "text": "Moxifloxacin and ceftriaxone", "correct": false },
+    { "text": "Vancomycin and ceftriaxone", "correct": false }
+    ]
+},
+{
+    "question": "An 18-year-old healthy girl admitted to the hospital with a diagnosis of necrotizing pneumonia. She received vancomycin 1 gm IV q12h and meropenem 1 gm IV q8h. The trough level of vancomycin was 16 mcg/ml (normal range: 10- 20 mcg/ml). Which of the following is the next appropriate step in management of this patient ?",
+    "answers": [
+    { "text": "Continue the same treatment", "correct": true },
+    { "text": "Request a drug level for meropenem", "correct": false },
+    { "text": "Increase the dose of vancomycin to 2 gm IV q12h", "correct": false },
+    { "text": "Decrease the dose of vancomycin to 500 mg IV q12h", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following medications can cause hemolytic anemia in the newborn when used by a pregnant woman at full term ?",
+    "answers": [
+    { "text": "amoxicillin", "correct": false },
+    { "text": "ciprofloxacin", "correct": false },
+    { "text": "azithromycin", "correct": false },
+    { "text": "nitrofurantoin", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following classes of medications have been associated with the development of newborn kernicterus when used by pregnant women at full- term ?",
+    "answers": [
+    { "text": "Penicillin's", "correct": false },
+    { "text": "Vancomycin", "correct": false },
+    { "text": "Cephalosporins", "correct": false },
+    { "text": "Sulfa containing medications", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following mechanisms, cephalexin exerts antibacterial effects ?",
+    "answers": [
+    { "text": "inhibition of protein synthesis", "correct": false },
+    { "text": "destruction of the bacterial cell nucleus", "correct": false },
+    { "text": "inhibition of bacterial cell wall synthesis", "correct": true },
+    { "text": "detergent effect on the bacterial cell membrane", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following clinical conditions is treated with zanamivir ?",
+    "answers": [
+    { "text": "cytomegalovirus disease", "correct": false },
+    { "text": "myocardial infraction", "correct": false },
+    { "text": "bacterial infection", "correct": false },
+    { "text": "acute influenza", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following medications would inhibit uncoating of the viral RNA ?",
+    "answers": [
+    { "text": "acyclovir", "correct": false },
+    { "text": "vidarabine", "correct": false },
+    { "text": "didanosine", "correct": false },
+    { "text": "rimantadine", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following has similar antibacterial mechanism of penicillin ?",
+    "answers": [
+    { "text": "neomycin", "correct": false },
+    { "text": "cephalexin", "correct": true },
+    { "text": "tetracycline", "correct": false },
+    { "text": "clindamycin", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following best describes ceftazidime ?",
+    "answers": [
+    { "text": "A third-generation cephalosporin which covers gram negative and gram-positive organisms", "correct": true },
+    { "text": "A second-generation cephalosporin which covers gram negative and gram-positive organisms", "correct": false },
+    { "text": "A first-generation cephalosporin which covers gram positive organisms", "correct": false },
+    { "text": "An amino penicillin", "correct": false }
+    ]
+},
+{
+    "question": "A 60-year-old woman is admitted to the hospital for surgery. Colonization of gram-negative bacteria occurred after surgery. Which of the following is the best management ?",
+    "answers": [
+    { "text": "Cefprozil", "correct": false },
+    { "text": "Cephalexin", "correct": false },
+    { "text": "Ceftriaxone", "correct": true },
+    { "text": "Phenoxymethyl penicillin", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is an indication for ciprofloxacin ?",
+    "answers": [
+    { "text": "Fever", "correct": false },
+    { "text": "Arthropathy", "correct": false },
+    { "text": "Tuberculosis", "correct": false },
+    { "text": "Inhalational anthrax", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following drugs has poor oral bioavailability ?",
+    "answers": [
+    { "text": "Cefixime", "correct": false },
+    { "text": "Amoxicillin", "correct": false },
+    { "text": "Vancomycin", "correct": false },
+    { "text": "Ciprofloxacin", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is the drug of choice for chlamydia infection ?",
+    "answers": [
+    { "text": "Amikacin", "correct": false },
+    { "text": "Amoxicillin", "correct": false },
+    { "text": "Tetracycline", "correct": false },
+    { "text": "Azithromycin", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is the best treatment for st.aureus positive mastitis ?",
+    "answers": [
+    { "text": "Cephalexin", "correct": true },
+    { "text": "Nitrofurantoin", "correct": false },
+    { "text": "Clindamycin", "correct": false },
+    { "text": "Ciprofloxacin", "correct": false }
+    ]
+},
+{
+    "question": "case patient take pyrazinamide, ethambutol, rifampicin have problems in vison What is the drug responsibility for this side effect ?",
+    "answers": [
+    { "text": "amikacin", "correct": false },
+    { "text": "rifampicin", "correct": false },
+    { "text": "pyrazinamide", "correct": false },
+    { "text": "ethambutol", "correct": true }
+    ]
+},
+{
+    "question": "pregnant with vaginal discharge Candida diagnostic ?",
+    "answers": [
+    { "text": "fluconazole", "correct": false },
+    { "text": "clotrimazole", "correct": true },
+    { "text": "acyclovir", "correct": false },
+    { "text": "tetracycline", "correct": false }
+    ]
+},
+{
+    "question": "lab results HB , glucose, all in the range except high WBC ?",
+    "answers": [
+    { "text": "Anemia", "correct": false },
+    { "text": "Infection", "correct": true },
+    { "text": "hyperglycemia", "correct": false },
+    { "text": "HTN", "correct": false }
+    ]
+},
+{
+    "question": "What are the major constituents of the fungal cell wall ?",
+    "answers": [
+    { "text": "lysien", "correct": false },
+    { "text": "hyoscin", "correct": false },
+    { "text": "myosin", "correct": false },
+    { "text": "chitin", "correct": true }
+    ]
+},
+{
+    "question": "Vancomycin Trough Level ?",
+    "answers": [
+    { "text": "5_10", "correct": false },
+    { "text": "10_20 or (10-15)", "correct": true },
+    { "text": "30-40", "correct": false },
+    { "text": "20-25 or 20-27.5", "correct": false }
+    ]
+},
+{
+    "question": "target vancomycin trough in severe infection ?",
+    "answers": [
+    { "text": "5-10", "correct": false },
+    { "text": "15-25", "correct": false },
+    { "text": "15-20", "correct": true },
+    { "text": "10-25", "correct": false }
+    ]
+},
+{
+    "question": "Your colleagues has been contacted with c.difficile patient and used disinfectant wipes what to do ?",
+    "answers": [
+    { "text": "Use alcohol", "correct": false },
+    { "text": "Wash hands", "correct": true },
+    { "text": "Take tetracycline", "correct": false },
+    { "text": "Go To EMR", "correct": false }
+    ]
+},
+{
+    "question": "cyclosporine is given, which medication is safe to give with it ?",
+    "answers": [
+    { "text": "Azithromycin", "correct": true },
+    { "text": "erythromycin", "correct": false },
+    { "text": "clarithromycin", "correct": false },
+    { "text": "Organophosphrus", "correct": false }
+    ]
+},
+{
+    "question": "pregnant with HIV and viral load <100 which medication is given in delivery ?",
+    "answers": [
+    { "text": "Tenofovir", "correct": false },
+    { "text": "lamivudine", "correct": false },
+    { "text": "zidovudine", "correct": true },
+    { "text": "efavirenz", "correct": false }
+    ]
+},
+{
+    "question": "Gentamicin peak ?",
+    "answers": [
+    { "text": "one hour after dose", "correct": true },
+    { "text": "two hours before dose", "correct": false },
+    { "text": "one hour before dose", "correct": false },
+    { "text": "three hours before dose", "correct": false }
+    ]
+},
+{
+    "question": "mechanism of azole antifungal on fungi ?",
+    "answers": [
+    { "text": "inhibition of ergosterol of fungi", "correct": true },
+    { "text": "bind to the mermbane of fungi", "correct": false },
+    { "text": "induce in the membrane and destroy it", "correct": false },
+    { "text": "enter the membrane and explode", "correct": false }
+    ]
+},
+{
+    "question": "Ciprofloxacin reach first to ?",
+    "answers": [
+    { "text": "Liver ,adipose tissue ،brain", "correct": false },
+    { "text": "Brain , liver , adipose tissue", "correct": false },
+    { "text": "adipose tissue, liver , brain", "correct": false },
+    { "text": "brain , adipose tissue , liver", "correct": true }
+    ]
+},
+{
+    "question": "Tertacycline accumulation ?",
+    "answers": [
+    { "text": "bone", "correct": true },
+    { "text": "liver", "correct": false },
+    { "text": "tissue", "correct": false },
+    { "text": "kidney", "correct": false }
+    ]
+},
+{
+    "question": "What's Endotoxin ?",
+    "answers": [
+    { "text": "source of toxoplasmosis", "correct": false },
+    { "text": "part of gram negative", "correct": true },
+    { "text": "heat liable", "correct": false },
+    { "text": "released before lysis of the cell", "correct": false }
+    ]
+},
+{
+    "question": "best treatment for st.aureus positive mastitis ?",
+    "answers": [
+    { "text": "cephalexin", "correct": true },
+    { "text": "nitrofurantoin", "correct": false },
+    { "text": "clindamycin", "correct": false },
+    { "text": "ciprofloxacin", "correct": false }
+    ]
+},
+{
+    "question": "patient taking vancomycin when nurse can withdraw a trough vancomycin level for the patient ?",
+    "answers": [
+    { "text": "1hour before the scheduled vancomycin dose", "correct": false },
+    { "text": "30 mins after vancomycin administration", "correct": false },
+    { "text": "30 mins before the 4th dose", "correct": true },
+    { "text": "30 mins before vancomycin administration", "correct": false }
+    ]
+},
+{
+    "question": "Patient went for tooth extraction and the doctor prescribed antibiotic form as prophylaxis from endocarditis which of the following patient most need it ?",
+    "answers": [
+    { "text": "mitral valve", "correct": true },
+    { "text": "kidney transplant", "correct": false },
+    { "text": "Asthma", "correct": false },
+    { "text": "Diabetes", "correct": false }
+    ]
+},
+{
+    "question": "Ebola effect ?",
+    "answers": [
+    { "text": "common cold", "correct": false },
+    { "text": "Hemorrhagic fever", "correct": true },
+    { "text": "Pulmonary edema", "correct": false },
+    { "text": "Atypical pneumonia", "correct": false }
+    ]
+},
+{
+    "question": "2 years skin infection with penicillin allergy should take ?",
+    "answers": [
+    { "text": "Doxycycline", "correct": false },
+    { "text": "Amoxicillin + clavulanic acid", "correct": false },
+    { "text": "ampicillin", "correct": false },
+    { "text": "Sulfamethoxazole + teimethoprim", "correct": true }
+    ]
+}                                                                 
 ]
