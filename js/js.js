@@ -103,7 +103,7 @@ function login(usernameInput, passwordInput) {
         "rawan": "othman@2024",
         "rahaf" : "rahaf@2024",
         "omar" : "alanzi@2024",
-        // "user": "user990@2024",
+        "malaz": "malaz@2024",
         "hawary": "hawary@2024",
         "ranakarim" : "rana@2024",
         "nada" : "kassem@2024",
