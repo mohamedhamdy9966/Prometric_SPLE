@@ -98,16 +98,12 @@ loginForm.addEventListener("submit", function(event) {
 function login(usernameInput, passwordInput) {
     const validCredentials = {
         "m": "m",
-        "sara": "eid@2024",
-        "yasser": "tallal@2024",
         "rawan": "othman@2024",
-        "rahaf" : "rahaf@2024",
-        "omar" : "alanzi@2024",
         "malaz": "malaz@2024",
-        "hawary": "hawary@2024",
+        // "hawary": "hawary@2024",
         "ranakarim" : "rana@2024",
-        "nada" : "kassem@2024",
-        // ends in 21/7
+        "ahmed" : "samir@2024",
+        // ends in 8/8
         "moaz" : "moaz@2024",
         // ends in 14/8
         "amein" : "elkamalei@2024"
