@@ -7770,5 +7770,322 @@
     { "text": "ampicillin", "correct": false },
     { "text": "Sulfamethoxazole + teimethoprim", "correct": true }
     ]
-}                                                                 
+},
+{
+    "question": "Bacteria cause milk fermentation ?",
+    "answers": [
+    { "text": "Lactobacillus", "correct": true },
+    { "text": "Bacteroidetes", "correct": false },
+    { "text": "Chlamydia", "correct": false },
+    { "text": "Cyanobacteria", "correct": false }
+    ]
+},
+{
+    "question": "which antibiotic cause hyperkalemia ?",
+    "answers": [
+    { "text": "ciprofloxacin", "correct": false },
+    { "text": "Norfloxacin", "correct": false },
+    { "text": "Trimethoprim/sulfamethoxazole", "correct": true },
+    { "text": "Amoxicillin", "correct": false }
+    ]
+},
+{
+    "question": "Pseudomonas aeruginosa in gram stain ?",
+    "answers": [
+    { "text": "gram positive cocci", "correct": false },
+    { "text": "gram nigative cocci", "correct": false },
+    { "text": "gram positive bacilli", "correct": false },
+    { "text": "gram negative bacilli ", "correct": true }
+    ]
+},
+{
+    "question": "Amoglobin analysis, positive IGG and IGM pollination, and the type of infection ?",
+    "answers": [
+    { "text": "An old infection", "correct": false },
+    { "text": "The condition worsened", "correct": false },
+    { "text": "New condition", "correct": true },
+    { "text": "The earliest new case does not appear with the new infection A", "correct": false }
+    ]
+},
+{
+    "question": "which the following treatment Meningitis empiric treatment ?",
+    "answers": [
+    { "text": "Vancomycin", "correct": false },
+    { "text": "Ceftriaxone 2g 12 h IV 7-14 day", "correct": true },
+    { "text": "Ampicillin", "correct": false },
+    { "text": "Azithromycin", "correct": false }
+    ]
+},
+{
+    "question": "Epileptic pt. on phenytoin, which AB is suitable for him ?",
+    "answers": [
+    { "text": "Ciprofloxacin", "correct": false },
+    { "text": "Erythromycin", "correct": false },
+    { "text": "Azithromycin", "correct": true },
+    { "text": "Clarithomycin", "correct": false }
+    ]
+},
+{
+    "question": "Most effective infection control in hospital ?",
+    "answers": [
+    { "text": "Wearing gloves", "correct": false },
+    { "text": "Wearing mask", "correct": false },
+    { "text": "Don't contact with infected patient", "correct": false },
+    { "text": "Everyone entering hospital most wear PEE", "correct": true }
+    ]
+},
+{
+    "question": "Pt with E. coli UTI and given TMP/SMX but it turns out to be resistant what is the most appropriate alternative ?",
+    "answers": [
+    { "text": "Ciprofloxacin", "correct": true },
+    { "text": "Meropenem", "correct": false },
+    { "text": "TMP/SMX double strength", "correct": false },
+    { "text": "Sulfamethoxazole", "correct": false }
+    ]
+},
+{
+    "question": "clostridium difficile cause ?",
+    "answers": [
+    { "text": "salmonellosis", "correct": false },
+    { "text": "typhoid fever", "correct": false },
+    { "text": "pseudomembranous colitis", "correct": true },
+    { "text": "cholera", "correct": false }
+    ]
+}, 
+{
+    "question": "What type of cephalosporin has a least effect on pseudomonas aeruginosa ?",
+    "answers": [
+    { "text": "Cefazolin", "correct": true },
+    { "text": "Cefoxitin", "correct": false },
+    { "text": "Ceftazidime", "correct": false },
+    { "text": "Cefiderocol", "correct": false }
+    ]
+},
+{
+    "question": "A 65-year-old. diabetic man admitted to Emergency Department (ED) with a 3-day history of productive cough, shortness of breath (SOB) and chest pain. Chest X-ray showed bilateral lower infiltration Which conformed the diagnosis of pneumonia? An H1N1 virus was detected in nasal swab. Which of the following antivirals is the drug of choice in this case ?",
+    "answers": [
+    { "text": "Ribavirin", "correct": false },
+    { "text": "Acyclovir", "correct": false },
+    { "text": "Oseltamivir", "correct": true },
+    { "text": "Gancyclovir", "correct": false }
+    ]
+},
+{
+    "question": "A drug has a volume of distribution of 35L in a 70 Kg man. Which of the following best describes Its distribution ?",
+    "answers": [
+    { "text": "it is bound to DNA", "correct": false },
+    { "text": "it is dissolved in lipids", "correct": true },
+    { "text": "it has low bioavailability", "correct": false },
+    { "text": "it is mostly distributed in plasma", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following drugs exhibits dose-dependent pharmacokinetics at normal therapeutic doses ?",
+    "answers": [
+    { "text": "lithium", "correct": false },
+    { "text": "quinidine", "correct": false },
+    { "text": "phenytoin", "correct": true },
+    { "text": "sodium valproate", "correct": false }
+    ]
+},
+{
+    "question": "The ionization of the drug is very important to understand the pharmacodynamic of the drug. Which of the following forms are absorbed from the stomach ?",
+    "answers": [
+    { "text": "polar-ionized", "correct": false },
+    { "text": "polar-unionized", "correct": false },
+    { "text": "non polar ionized", "correct": false },
+    { "text": "non-polar-unionized", "correct": true }
+    ]
+},
+{
+    "question": "How long does it take for the body to remove 99% of the drug by first order elimination process after a single dose ?",
+    "answers": [
+    { "text": "2 half-lives", "correct": false },
+    { "text": "4 half-lives", "correct": false },
+    { "text": "7 half-lives", "correct": true },
+    { "text": "10 half-lives", "correct": false }
+    ]
+},
+{
+    "question": "he graphs represent quantal dose-response curves for the effect and lethality by a drug . ED= 5 TD= 20 What is the drug's therapeutic index? ",
+    "image": "images/34.PNG",
+    "answers": [
+    { "text": "0.9", "correct": false },
+    { "text": "1.1", "correct": false },
+    { "text": "4", "correct": true },
+    { "text": "10", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is a common enzyme polymorphism that could potentially alter clopidogrel efficacy ?",
+    "answers": [
+    { "text": "Cyp2c7", "correct": false },
+    { "text": "Cyp2c9", "correct": false },
+    { "text": "Cyp2c10", "correct": false },
+    { "text": "Cyp2c19", "correct": true }
+    ]
+},
+{
+    "question": "A 55-year-old man comes to the pharmacy complaining that has acetaminophen with codeine he started 2 days ago to manage has post- operative pain does not seem any better than when he uses acetaminophen alone. After the pharmacist reviews his profile, he noticed results from pharmacogenomics testing performed 3 years ago that shows he is a CYP2D6 poor metabolizer. Which is the best explanation why this patient does not seem to benefit from codeine ?",
+    "answers": [
+    { "text": "Codeine excretion is rapid", "correct": false },
+    { "text": "Codeine absorption is slower", "correct": true },
+    { "text": "Codeine is metabolized faster", "correct": false },
+    { "text": "Codeine dose should be increased", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following drugs will have decreased absorption when given with dietary calcium ?",
+    "answers": [
+    { "text": "enalapril", "correct": false },
+    { "text": "propranolol", "correct": false },
+    { "text": "doxycycline", "correct": true },
+    { "text": "acetylsalicylic acid", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following drugs is known to have significant variable bioavailability due to its extensive hepatic metabolism upon oral administration ?",
+    "answers": [
+    { "text": "Amoxicillin", "correct": false },
+    { "text": "Propranolol", "correct": true },
+    { "text": "Ciprofloxacin", "correct": false },
+    { "text": "Acetaminophen", "correct": false }
+    ]
+},
+{
+    "question": "Carbamazepine (pKa=13.2) is an antiepileptic drug used in the treatment of status epilepticus. This condition requires fast intervention with carbamazepine injection. Which of the following is most likely to describe what will happen if carbamazepine was given orally ?",
+    "answers": [
+    { "text": "Fast intervention because the drug will be ionized in the stomach", "correct": false },
+    { "text": "Slow intervention because the drug will be ionized in the stomach", "correct": true },
+    { "text": "Fast intervention because the drug will be unionized in the stomach", "correct": false },
+    { "text": "Slow intervention because the drug will be unionized in the stomach", "correct": false }
+    ]
+},
+{
+    "question": "A dose of 500 mg of a drug is administrated to a patient, and the concentration results at the indicated times are shown (see table). Which of the following is the half-life of the drug ?",
+    "image": "images/35.PNG",
+    "answers": [
+    { "text": "2 hours", "correct": false },
+    { "text": "3 hours", "correct": false },
+    { "text": "4 hours", "correct": true },
+    { "text": "6 hours", "correct": false }
+    ]
+},
+{
+    "question": "A 500-mg dose of aspirin was given intravenously to a patient produced an initial plasma concentration of 100 mg/L. If the half life of the drug is 6.93 hours, what would be the total body clearance ?",
+    "answers": [
+    { "text": "50 Liters/ hour", "correct": false },
+    { "text": "10 Liters/ hour", "correct": false },
+    { "text": "5 Liters/ hour", "correct": false },
+    { "text": "0.5 Liters/ hour", "correct": true }
+    ]
+},
+{
+    "question": "Which one of the following medications is known to be a powerful enzyme inducer ?",
+    "answers": [
+    { "text": "warfarin", "correct": false },
+    { "text": "rifampicin", "correct": true },
+    { "text": "itraconazole", "correct": false },
+    { "text": "metronidazole", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the mechanism by which Phenobarbital can decrease the therapeutic efficacy of tricyclic antidepressants when administered at the same time ?",
+    "answers": [
+    { "text": "increasing the excretion of tricyclic antidepressants", "correct": false },
+    { "text": "decreasing the excretion of tricyclic antidepressants", "correct": false },
+    { "text": "decreasing the metabolism of the drug by induction of microsomal enzymes", "correct": false },
+    { "text": "increasing the metabolism of the drug by induction of microsomal enzymes", "correct": true }
+    ]
+},
+{
+    "question": "A 50-year-old man on warfarin therapy started drinking an herbal tea extra (one gallon daily). A week later his INR dropped to 1.35 prior to that time, his INR had been in the range of 2.5- 3. Once the herbal tea was discontinued, the patient's INR came back up to 2.50. Which of the following is the content of the herbal tea extract ?",
+    "answers": [
+    { "text": "Anise", "correct": false },
+    { "text": "Ginger", "correct": false },
+    { "text": "Green tea", "correct": true },
+    { "text": "Chamomile", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following ranges of volume of distribution is deduced for warfarin (anticoagulant) that is 98% bound to proteins ?",
+    "answers": [
+    { "text": "3-5 L", "correct": true },
+    { "text": "40-50 L", "correct": false },
+    { "text": "50-500 L", "correct": false },
+    { "text": "5000-10000 L", "correct": false }
+    ]
+},
+{
+    "question": "Elderly patient what happened with absorption ?",
+    "answers": [
+    { "text": "Increase both lipophilic and hydrophilic drugs absorption", "correct": false },
+    { "text": "Decrease both", "correct": false },
+    { "text": "Increase lipholilic absorption and decrease hydrophilic absorption", "correct": true },
+    { "text": "decrease lipholilic absorption and increase hydrophilic absorption", "correct": false }
+    ]
+},
+{
+    "question": "Drug should not use be take with ciprofloxacin ?",
+    "answers": [
+    { "text": "ACEI", "correct": false },
+    { "text": "atorvastatin", "correct": false },
+    { "text": "metformin", "correct": false },
+    { "text": "ferrous sulfate", "correct": true }
+    ]
+},
+{
+    "question": "Drug acid Where will be high execrations ?",
+    "answers": [
+    { "text": "Pka 3.3 weak base", "correct": false },
+    { "text": "Pk 3.3 weak acid", "correct": false },
+    { "text": "Pka 6.8 weak base", "correct": true },
+    { "text": "Pka 6.8 weak acid", "correct": false }
+    ]
+},
+{
+    "question": "Which the antifungal more bond to CP450 ?",
+    "answers": [
+    { "text": "amphotericin", "correct": false },
+    { "text": "Voriconazole", "correct": true },
+    { "text": "Metronidazole", "correct": false },
+    { "text": "Albendazole", "correct": false }
+    ]
+},
+{
+    "question": "Drug enhanced it's absorption with ranitidine ?",
+    "answers": [
+    { "text": "lorazepam", "correct": false },
+    { "text": "Warfarin", "correct": false },
+    { "text": "Aspirin", "correct": false },
+    { "text": "Naproxen", "correct": true }
+    ]
+},
+{
+    "question": "Rifampicin affect cyp3A4 ?",
+    "answers": [
+    { "text": "Inducer", "correct": true },
+    { "text": "Inhibition", "correct": false },
+    { "text": "Elongation", "correct": false },
+    { "text": "Termination", "correct": false }
+    ]
+},
+{
+    "question": "which of the following increase the effect of Warfarin ?",
+    "answers": [
+    { "text": "Exercises", "correct": false },
+    { "text": "Diet", "correct": false },
+    { "text": "multivitamins", "correct": false },
+    { "text": "antibiotics", "correct": true }
+    ]
+},
+{
+    "question": "Sodium bicarbonate antacid makes an out elimination of ?",
+    "answers": [
+    { "text": "pka=1.2, weak acid", "correct": true },
+    { "text": "pka=5.1, weak acid", "correct": false },
+    { "text": "pka=7.8, weak base", "correct": false },
+    { "text": "pka= 9, weak base", "correct": false }
+    ]
+}                                                           
 ]
