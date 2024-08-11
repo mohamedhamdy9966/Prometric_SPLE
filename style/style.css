@@ -358,10 +358,6 @@ form input[type=button].operator {
     .app h1 {
         padding: 5px;
     }
-    /* Adjust styles for .sidebar */
-    .sidebar {
-        width: 20%; /* Adjust the width of .sidebar */
-    }
     /* Adjust styles for .user-input and .login-input */
     .user-input,
     .login-input {
@@ -413,6 +409,7 @@ form input[type=button].operator {
     }
     .sidebar {
         width: 20%; /* Adjust width */
+        display: block; /* Ensure the sidebar is displayed */
     }
     .question-image{
         width: 100px;

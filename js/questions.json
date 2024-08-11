@@ -8087,5 +8087,1193 @@
     { "text": "pka=7.8, weak base", "correct": false },
     { "text": "pka= 9, weak base", "correct": false }
     ]
-}                                                           
+},
+{
+    "question": "Drug enhanced it’s absorption with ranitidine ?",
+    "answers": [
+    { "text": "lorazepam", "correct": false },
+    { "text": "Warfarin", "correct": false },
+    { "text": "Aspirin", "correct": false },
+    { "text": "Naproxen", "correct": true }
+    ]
+},
+{
+    "question": "What dose linear pharmacokinetics mean ?",
+    "answers": [
+    { "text": "The clearance of the drug is not changing when dose increases", "correct": false },
+    { "text": "The plasms concentration versus time curve is a straight line", "correct": true },
+    { "text": "The half-life of the drug is equal to its volume of distribution", "correct": false },
+    { "text": "The drug levels in the body are in steady state", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is a characteristic cholesterol ?",
+    "answers": [
+    { "text": "Cholesterol has hydroxyl group at carbons", "correct": false },
+    { "text": "Cholesterol is a very hydrophilic compound", "correct": false },
+    { "text": "Cholesterol has four fused hydrocarbon rings", "correct": true },
+    { "text": "Cholesterol has three double bonds in its structure", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following best describe the main pharmacological property of cholestyramine ?",
+    "answers": [
+    { "text": "Decreases excretion of cholesterol", "correct": false },
+    { "text": "Lowers high density lipoprotein (HDL) level", "correct": false },
+    { "text": "Increases low density lipoprotein (LDL) level", "correct": false },
+    { "text": "Increase the efficiency of lipoprotein removal", "correct": true }
+    ]
+},
+{
+    "question": "Drugs for dyslipidemia Cause interaction with multiple chronic disease ?",
+    "answers": [
+    { "text": "Niacin", "correct": false },
+    { "text": "Rosuvastatin", "correct": true },
+    { "text": "Acetylcholine", "correct": false },
+    { "text": "Others", "correct": false }
+    ]
+},
+{
+    "question": "Which side effect can be caused by statin therapy ?",
+    "answers": [
+    { "text": "Fatty liver", "correct": false },
+    { "text": "New onset diabetes", "correct": true },
+    { "text": "Gout", "correct": false },
+    { "text": "Flushing", "correct": false }
+    ]
+},
+{
+    "question": "57-year-old man with liver cirrhosis and ascites and a Child-Pugh class score of 8 is having severe pain due to injury. What would be the recommended medication ?",
+    "answers": [
+    { "text": "Codeine", "correct": false },
+    { "text": "Morphine", "correct": false },
+    { "text": "Diclofenac", "correct": false },
+    { "text": "Acetaminophen", "correct": true }
+    ]
+},
+{
+    "question": "patient on tpn for 17 day all liver enzyme high except albumin normal, Normal amylase and normal lipase. What’s the complication if tpn in this patient ?",
+    "answers": [
+    { "text": "liver stenosis", "correct": false },
+    { "text": "liver cirrhosis", "correct": true },
+    { "text": "pancreatitis", "correct": false },
+    { "text": "cholestasis", "correct": false }
+    ]
+},
+{
+    "question": "patient with lab results high GGT, high ALT and high AST, what disease ?",
+    "answers": [
+    { "text": "Cirrhosis", "correct": true },
+    { "text": "hepatic steatoria", "correct": false },
+    { "text": "cholestasis", "correct": false },
+    { "text": "stenosis", "correct": false }
+    ]
+},
+{
+    "question": "simvastatin best time take it ?",
+    "answers": [
+    { "text": "after breakfast", "correct": false },
+    { "text": "after lunch", "correct": false },
+    { "text": "before lunch", "correct": false },
+    { "text": "bedtime", "correct": true }
+    ]
+},
+{
+    "question": "which of the following drugs is used for premature ejaculation ?",
+    "answers": [
+    { "text": "atenolol", "correct": false },
+    { "text": "dapoxetine", "correct": true },
+    { "text": "olanzapine", "correct": false },
+    { "text": "aripiprazole", "correct": false }
+    ]
+},
+{
+    "question": "which of the following medication is used treat benign prostatic hyperplasia ?",
+    "answers": [
+    { "text": "donepezil", "correct": false },
+    { "text": "etanercept", "correct": false },
+    { "text": "tamsulosin", "correct": true },
+    { "text": "carbidopa", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following medications is an anti-androgen ?",
+    "answers": [
+    { "text": "Danazol", "correct": false },
+    { "text": "Tamoxifen", "correct": false },
+    { "text": "Finasteride", "correct": true },
+    { "text": "Mifepristone", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following marketing mix contains market cover assortments ?",
+    "answers": [
+    { "text": "Price", "correct": false },
+    { "text": "Place", "correct": true },
+    { "text": "Product", "correct": false },
+    { "text": "Promotion", "correct": false }
+    ]
+},
+{
+    "question": "at is the main purpose of pharmacy marketing jobs ?",
+    "answers": [
+    { "text": "create new jobs", "correct": false },
+    { "text": "Sell cosmetic products", "correct": true },
+    { "text": "sell prescription drugs", "correct": false },
+    { "text": "overcome unemployment", "correct": false }
+    ]
+},
+{
+    "question": "What is the principle of marketing Options are to ?",
+    "answers": [
+    { "text": "gain customer", "correct": false },
+    { "text": "satisfaction", "correct": true },
+    { "text": "increase sales", "correct": false },
+    { "text": "increase salary", "correct": false }
+    ]
+},
+{
+    "question": " You have a pharmacy and you want to sell it, and the one who buys it from you is asking for sales and profits and what you give ?",
+    "answers": [
+    { "text": "you give him the sales records", "correct": false },
+    { "text": "net profit", "correct": true },
+    { "text": "uniforms like that", "correct": false },
+    { "text": "total profit", "correct": false }
+    ]
+},
+{
+    "question": "Before marketing Phase 4 ?",
+    "answers": [
+    { "text": "III", "correct": true },
+    { "text": "IV", "correct": false },
+    { "text": "V", "correct": false },
+    { "text": "VI", "correct": false }
+    ]
+},
+{
+    "question": "Price of product was increased from 100 SA Riyals to 105 SA Riyals. This resulted in a large decline on demand from 120 to 80Which of the following types of demand does this product follow ?",
+    "answers": [
+    { "text": "Elastic", "correct": true },
+    { "text": "Latent", "correct": false },
+    { "text": "Inelastic", "correct": false },
+    { "text": "Unaffected", "correct": false }
+    ]
+},
+{
+    "question": "which enzyme inhibits bacterial cell wall ?",
+    "answers": [
+    { "text": "lyzosome", "correct": false },
+    { "text": "Lipase", "correct": false },
+    { "text": "transcriptase", "correct": false },
+    { "text": "lysosoma", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following drugs found under the narcotic classification ?",
+    "answers": [
+    { "text": "Fentanyl", "correct": true },
+    { "text": "Midazolam", "correct": false },
+    { "text": "Loprazolam", "correct": false },
+    { "text": "Pentobarbital", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following statements best describe drug dependence ?",
+    "answers": [
+    { "text": "Discontinuation of the drug will produce withdrawal symptoms", "correct": true },
+    { "text": "Action of one drug is dependent on the presence of another drug", "correct": false },
+    { "text": "Discontinuation of the drug will not produce withdrawal symptoms", "correct": false },
+    { "text": "Patients progressively require increasingly larger doses of drug to achieve the same effect", "correct": false }
+    ]
+},
+{
+    "question": "how long the control drug should be administered by IV rout ?",
+    "answers": [
+    { "text": "12h", "correct": false },
+    { "text": "24h", "correct": false },
+    { "text": "36h", "correct": false },
+    { "text": "48h", "correct": true }
+    ]
+},
+{
+    "question": "What is required in a narcotic prescription option ?",
+    "answers": [
+    { "text": "more than one narcotic agent can be included in the same prescription", "correct": false },
+    { "text": "single narcotic agent written at the top with red pen", "correct": true },
+    { "text": "the original copy is given to the patient", "correct": false },
+    { "text": "allowed without prescription if doctor phoned the pharamcy", "correct": false }
+    ]
+},
+{
+    "question": "drug causes A Constipation or B depression or C withdrawal symptoms ?",
+    "answers": [
+    { "text": "morphine/naloxone/ pentazocine", "correct": false },
+    { "text": "morphine/naletroxone/ methadone", "correct": false },
+    { "text": "morphine/naloxone/ Pentazocine", "correct": true },
+    { "text": "morphine/methadone/naletroxone", "correct": false }
+    ]
+},
+{
+    "question": "drug causes A Constipation or B depression or C dependence symptoms ?",
+    "answers": [
+    { "text": "morphine/naletroxone / pentazocine", "correct": false },
+    { "text": "morphine/naloxone/ methadone", "correct": true },
+    { "text": "morphine/naloxone/ Pentazocine", "correct": false },
+    { "text": "morphine/methadone/naletroxone", "correct": false }
+    ]
+},
+{
+    "question": "pt take morphine 90 mg and want replace by fentanyl patch ?",
+    "answers": [
+    { "text": "30 mcg", "correct": false },
+    { "text": "15 mcg", "correct": false },
+    { "text": "25 mcg", "correct": true },
+    { "text": "10 mg", "correct": false }
+    ]
+},
+{
+    "question": "patient used morphine 50 mg twice daily he want to change fentanyl patch ?",
+    "answers": [
+    { "text": "25 mcg", "correct": true },
+    { "text": "50 mcg", "correct": false },
+    { "text": "100 mcg", "correct": false },
+    { "text": "125 mcg", "correct": false }
+    ]
+},
+{
+    "question": "A 23-year-old drug addict man was brought to the Emergency Room with severe agitation and excitement. He was administered intravenous diazepam, with no improvement in his condition. Which of the following is the mostly likely drug the patient was addicted on ?",
+    "answers": [
+    { "text": "Opioids", "correct": false },
+    { "text": "Cocaine", "correct": false },
+    { "text": "Pregabalin", "correct": false },
+    { "text": "Cannabinoids", "correct": true }
+    ]
+},
+{
+    "question": "A 10-year-old boy is brought with complaints of fever sore throat and non- productive cough for 1 day. Which of the following is best regimen for non- productive cough ?",
+    "answers": [
+    { "text": "Codeine 10 mg 4 times daily", "correct": false },
+    { "text": "Guaifenesin 50 mg 4 times daily", "correct": false },
+    { "text": "Dextromethorphan 15 mg twice daily (10-20mg every 4-h)", "correct": false },
+    { "text": "Dextromethorphan 30 mg twice daily", "correct": true }
+    ]
+},
+{
+    "question": "case about patient with runny nose and complain about and need fast relief of congestion ?",
+    "answers": [
+    { "text": "pheniramine", "correct": false },
+    { "text": "pseudoephedrine", "correct": true },
+    { "text": "intranasal cromolyn", "correct": false },
+    { "text": "corticosteroid", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following drugs has a high abuse potential ?",
+    "answers": [
+    { "text": "nifedipine", "correct": false },
+    { "text": "allopurinol", "correct": false },
+    { "text": "Varenichine", "correct": false },
+    { "text": "methylphenidate", "correct": true }
+    ]
+},
+{
+    "question": "How to measuring pain in child ?",
+    "answers": [
+    { "text": "Numerical Rating Scales (NRS)", "correct": false },
+    { "text": "Verbal Rating Scales (VRS)", "correct": false },
+    { "text": "Visual Analog Scales (VAS)", "correct": false },
+    { "text": "Faces Pain Scale-Revised", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following drugs has both an anti- Inflammatory and analgesic activity ?",
+    "answers": [
+    { "text": "codeine", "correct": false },
+    { "text": "pethidine", "correct": false },
+    { "text": "ibuprofen", "correct": true },
+    { "text": "paracetamol", "correct": false }
+    ]
+},
+{
+    "question": "A 4-week Infant is diagnosed with patent ductus arteriosis. The doctor wants to avoid performing surgery. Which drug will be administered to avoid surgical closure ?",
+    "answers": [
+    { "text": "allopurinol", "correct": false },
+    { "text": "Indomethacin", "correct": true },
+    { "text": "pseudoephedrine", "correct": false },
+    { "text": "bromopheniramine", "correct": false }
+    ]
+} ,
+{
+    "question": "which of the following instructions should be provided to a patient receiving fentanyl transdermal patches ?",
+    "answers": [
+    { "text": "Apply on area with fresh wound", "correct": false },
+    { "text": "Avoid increase in body core temperature", "correct": true },
+    { "text": "Store patches in the refrigerator to decrease stinging sensation", "correct": false },
+    { "text": "Apply heating pads on the transdermal patch to improve absorption", "correct": false }
+    ]
+},
+{
+    "question": "A 60-year-old man with 6-year history of myocardial infarction and gout. He presented to the clinic complain of severe pain in his first left consistent with acute gout flare. He mentions that he can't colchicine. What is the most appropriate pharmacotherapy recommendation for his acute flare-associated pain ?",
+    "answers": [
+    { "text": "Ibuprofen", "correct": true },
+    { "text": "Allopurinol", "correct": false },
+    { "text": "Indomethacin", "correct": false },
+    { "text": "Acetaminophen", "correct": false }
+    ]
+},
+{
+    "question": "An 88-year-old frail woman with osteoarthritis has difficulty in walking and pain. She has no other medical history and has failed numerous aids to help her with the pain. Which of the following drugs is the best recommendation ?",
+    "answers": [
+    { "text": "Acetaminophen", "correct": false },
+    { "text": "Glucosamine D", "correct": false },
+    { "text": "Celecoxib", "correct": true },
+    { "text": "Ibuprofen", "correct": false }
+    ]
+},
+{
+    "question": "A 65-year-old woman is suffering from osteoarthritis. She complains of severe pain and is prescribed naproxen 500 mg twice a day, Which of the following adverse effects may be seen with long term use of naproxen ?",
+    "answers": [
+    { "text": "Cirrhosis", "correct": false },
+    { "text": "Renal failure", "correct": true },
+    { "text": "Hypotension", "correct": false },
+    { "text": "Irritable Bowel Syndrome", "correct": false }
+    ]
+},
+{
+    "question": "A 45-year-old surgeon has developed symmetric early morning stiffiness in her hands. She has to do several fong surgical procedures in the next few months. Which of the following non-steriodal anti-inflammatory agents (NSAIDS) has the longest duration of action ?",
+    "answers": [
+    { "text": "piroxicam", "correct": true },
+    { "text": "Ibuprofen", "correct": false },
+    { "text": "naproxen", "correct": false },
+    { "text": "diclofenac", "correct": false }
+    ]
+},
+{
+    "question": "A 28-year-old woman who is 8 months pregnant is taking naproxen 500 mg twice daily for the past four weeks to treat severe backache. Which of the following health issues at the time of birth puts the neonate at higher risk ?",
+    "answers": [
+    { "text": "asthma", "correct": false },
+    { "text": "cardiac arrhythmias", "correct": false },
+    { "text": "uncontrolled bleeding", "correct": true },
+    { "text": "gastroesophageal Reflux Disease", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following drugs has both an anti-inflammatory and analgesic activity ?",
+    "answers": [
+    { "text": "Codeine", "correct": false },
+    { "text": "Pethidine", "correct": false },
+    { "text": "Ibuprofen", "correct": true },
+    { "text": "Paracetamol", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the mechanism of action of anti- inflammatory action of aspirin ?",
+    "answers": [
+    { "text": "Inhibition of nitric oxide synthesis", "correct": false },
+    { "text": "Reduction in leukotrienes formation", "correct": false },
+    { "text": "Increased synthesis of prostaglandins", "correct": false },
+    { "text": "Decreased synthesis of prostaglandins", "correct": true }
+    ]
+},
+{
+    "question": "Aspirin is dispensed to an infant as antipyretic, which of the following we should ask before dispensing the medication ?",
+    "answers": [
+    { "text": "weight", "correct": false },
+    { "text": "Age", "correct": true },
+    { "text": "Height", "correct": false },
+    { "text": "Head circumference", "correct": false }
+    ]
+},
+{
+    "question": "patient has osteoarthritis in knee ?",
+    "answers": [
+    { "text": "paracetamol", "correct": true },
+    { "text": "gabtin", "correct": false },
+    { "text": "glucosamine", "correct": false },
+    { "text": "Pregabalin", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following antigout medications acts by decreasing serum levels but increasing urine levels of uric acid, thus increasing the risk of kidney stone development ?",
+    "answers": [
+    { "text": "colchicine", "correct": false },
+    { "text": "allopurinol", "correct": false },
+    { "text": "rasburicase", "correct": false },
+    { "text": "probenecid", "correct": true }
+    ]
+},
+{
+    "question": "what is the ibuprofen and aspirin drug drug interaction ?",
+    "answers": [
+    { "text": "Increase Bleeding", "correct": false },
+    { "text": "Increase Blood Pressure", "correct": false },
+    { "text": "Decrease Blood Pressure", "correct": false },
+    { "text": "Increase Risk Of Myopathy", "correct": true }
+    ]
+},
+{
+    "question": "Plant Alkaloid uses in Acute gout attack ?",
+    "answers": [
+    { "text": "Naproxen", "correct": false },
+    { "text": "Colchicine", "correct": true },
+    { "text": "Allopurinol", "correct": false },
+    { "text": "Indomethacin", "correct": false }
+    ]
+},
+{
+    "question": "Xanthine oxidase inhibitors uses in gout ?",
+    "answers": [
+    { "text": "Allopurinol", "correct": true },
+    { "text": "Sulindac", "correct": false },
+    { "text": "Naproxen", "correct": false },
+    { "text": "Indomethacin", "correct": false }
+    ]
+},
+{
+    "question": "elderly renal pt ?",
+    "answers": [
+    { "text": "Ibuprofen", "correct": false },
+    { "text": "sulindac", "correct": false },
+    { "text": "indomethacin", "correct": false },
+    { "text": "codeine+paracetamol", "correct": true }
+    ]
+},
+{
+    "question": "NSAIDs low git risk ?",
+    "answers": [
+    { "text": "Ibuprofen", "correct": false },
+    { "text": "Celecoxib", "correct": true },
+    { "text": "Ketoprofen", "correct": false },
+    { "text": "Dexaprofen", "correct": false }
+    ]
+},
+{
+    "question": "drug not use in gout patient ?",
+    "answers": [
+    { "text": "enalapril", "correct": false },
+    { "text": "diuretic", "correct": true },
+    { "text": "Atenolol", "correct": false },
+    { "text": "propranolol", "correct": false }
+    ]
+},
+{
+    "question": "What is the main absorptive function of the colon ?",
+    "answers": [
+    { "text": "Iron", "correct": false },
+    { "text": "Triglycerides", "correct": false },
+    { "text": "Water and glucose", "correct": false },
+    { "text": "Sodium, chloride, and water", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following parts of the body does urea synthesis take ?",
+    "answers": [
+    { "text": "Liver", "correct": true },
+    { "text": "Heart", "correct": false },
+    { "text": "Blood", "correct": false },
+    { "text": "Kidney", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the most appropriate advice to give to asthmatic patients as non-pharmacological management ?",
+    "answers": [
+    { "text": "Air purifiers will help ease the patients' symptoms", "correct": false },
+    { "text": "OB Weight-loss is unlikely to affect their symptoms now", "correct": false },
+    { "text": "Patients should be trained on breathing exercise programs", "correct": true },
+    { "text": "OD.increase physical activity", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following counselling points is best to discuss with a patient who is taking levothyroxine ?",
+    "answers": [
+    { "text": "It can be taken with calcium supplements or dietary foods with no problems", "correct": false },
+    { "text": "Take it in the morning on an empty stomach, at least 30 mins (before breakfast)", "correct": true },
+    { "text": "If you miss a dose, make sure to double the next scheduled levothyroxine dose", "correct": false },
+    { "text": "Take it immediately after the breakfast with a large glass of water to avoid stomach upset", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is considered intentional non-adherence ?",
+    "answers": [
+    { "text": "Patient unable to swallow", "correct": false },
+    { "text": "Confusion", "correct": false },
+    { "text": "Forgets", "correct": false },
+    { "text": "Afraid of side effects", "correct": true }
+    ]
+},
+{
+    "question": "drug used after trial in hospital ?",
+    "answers": [
+    { "text": "internal validity", "correct": false },
+    { "text": "external validity", "correct": true },
+    { "text": "reliability", "correct": false },
+    { "text": "assurance", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following have means that individuals have the capacity to understand basic health information to make appropriate health decisions ?",
+    "answers": [
+    { "text": "Health literacy", "correct": true },
+    { "text": "Cultural competency", "correct": false },
+    { "text": "Communication skills", "correct": false },
+    { "text": "Professional communication", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following communication techniques is the most appropriate at the message you want to deliver to a patient (or healthcare provider) is received correctly ?",
+    "answers": [
+    { "text": "Feedback", "correct": true },
+    { "text": "Direct contact", "correct": false },
+    { "text": "High voice tone", "correct": false },
+    { "text": "Non-verbal communication", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following strategies are used with low literacy patients to Encourage them to change their behavior ?",
+    "answers": [
+    { "text": "Keep information focused and organized", "correct": false },
+    { "text": "Use a normal speaking tone and volume", "correct": false },
+    { "text": "Use briefer educational sessions", "correct": false },
+    { "text": "Use more visual aids", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following strategies are used with older adult patients to encourage them to change their behavior ?",
+    "answers": [
+    { "text": "Use teach-back more often throughout the session", "correct": true },
+    { "text": "Introduce new concepts more slowly", "correct": false },
+    { "text": "Use briefer educational sessions", "correct": false },
+    { "text": "Use more visual aids", "correct": false }
+    ]
+},
+{
+    "question": "Which one of the following question's types is used to identify a certain piece of information ?",
+    "answers": [
+    { "text": "Leading questions", "correct": false },
+    { "text": "Open ended questions", "correct": false },
+    { "text": "Closed ended question", "correct": true },
+    { "text": "Process and outcome questions", "correct": false }
+    ]
+},
+{
+    "question": "Which one of the following questioning techniques uses hints and aid patients in answering questions ?",
+    "answers": [
+    { "text": "Changing questions", "correct": false },
+    { "text": "Empathic responding", "correct": false },
+    { "text": "Prompting while asking", "correct": true },
+    { "text": "Redirection the questions", "correct": false }
+    ]
+},
+{
+    "question": "A 62-year-old man who just had a needle biopsy of pancreas adenocarcinoma. A pharmacist saw his brother in the hall, and him not to tell the patient because the knowledge would be very on his health. A family conference to discuss the prognosis is scheduled for later that afternoon. What is the way for the healthcare practitioner to handle the situation ?",
+    "answers": [
+    { "text": "The healthcare practitioner should ask the patient how he the information in front of the rest of the family, and for some family discussion time for this matter", "correct": false },
+    { "text": "The healthcare practitioner should honor the request of the member who is protecting his beloved brother from the patient", "correct": true },
+    { "text": "The healthcare practitioner should tell the patient withholding information is not permitted under any circum", "correct": false },
+    { "text": "The patient should withhold informing the patient about the 2 pancreatic cancer because of the grave diagnosis", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following communication skills can help patient complete their train of thought ?",
+    "answers": [
+    { "text": "Closed-ended questions", "correct": false },
+    { "text": "Facial expression", "correct": false },
+    { "text": "Use of reminders", "correct": true },
+    { "text": "Body posture", "correct": false }
+    ]
+},
+{
+    "question": "A pharmacist is working in a busy community pharmacy where has several patients at the counter. A patient brought to you for Sildenafil for erectile dysfunction. Which of the following is the best way of communication with you to provide counseling ?",
+    "answers": [
+    { "text": "Ask other patients to leave the pharmacy in order to commu with the patient", "correct": false },
+    { "text": "To protect patient privacy, no need to communicate with just provide the drug to him", "correct": false },
+    { "text": "Ask the patient to move to a private area in the pharmacy hear you clearly and ask questions", "correct": true },
+    { "text": "Write down the instructions in a paper and provide it to him talking to him in front of other patients", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following scenarios is considered a violation of the ethics ?",
+    "answers": [
+    { "text": "Submitting a research approval extension request to institutional review board after failling to finish the project within the approved period", "correct": false },
+    { "text": "Distributing questionnaires to patients waiting in emergency collect information about their health status without a consent page", "correct": true },
+    { "text": "Calling patients to collect information after telling them about the project and getting their agreements", "correct": false },
+    { "text": "Drawing blood samples after getting the approval from institutional review board", "correct": false }
+    ]
+},
+{
+    "question": "There are four principles in biomedical ethics these ethics autonomy justice, Beneficence, and one more principle. Which of following as the fourth principles of biomedical ethics ?",
+    "answers": [
+    { "text": "Privacy", "correct": false },
+    { "text": "Dilemmas", "correct": false },
+    { "text": "Non-maleficence", "correct": true },
+    { "text": "Conflict of interest", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following documents created by the World medical Which Association is the statement of ethical principles for medical research involving human subjects ?",
+    "answers": [
+    { "text": "Ethics Code", "correct": false },
+    { "text": "Belmont Report", "correct": false },
+    { "text": "Nuremberg Zode", "correct": false },
+    { "text": "Declaration of Helsinki", "correct": true }
+    ]
+} ,
+{
+    "question": "Which one of the following statements accurately explain the idea of Diffusion of innovation therapy for health promotion ?",
+    "answers": [
+    { "text": "Psychological process of creativity", "correct": false },
+    { "text": "The way how people develop new idea", "correct": false },
+    { "text": "How new ideas are controlled by a culture", "correct": false },
+    { "text": "The method of disseminating innovative ideas a through a culture", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following measurements is used to assess patient adherence ?",
+    "answers": [
+    { "text": "Drug Utilization reviews", "correct": false },
+    { "text": "Medication Event System", "correct": true },
+    { "text": "Medication Possession Ratio", "correct": false },
+    { "text": "Medication therapy management", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following best describe pharmacy health literacy assessment ?",
+    "answers": [
+    { "text": "Measure how well the pharmacy is serving patients with limited health literacy skills", "correct": true },
+    { "text": "Discover gaps in the written information provided to served patients", "correct": false },
+    { "text": "Explore understanding of health care information by the illiterate", "correct": false },
+    { "text": "Assess the level of literacy in the served patients", "correct": false }
+    ]
+},
+{
+    "question": "Research investigators must submit all research protocols to the institutional review board and obtain approval before performing the research. What is the main purpose of this board ?",
+    "answers": [
+    { "text": "To help in collecting the date", "correct": false },
+    { "text": "To provide the needed fund for the research", "correct": false },
+    { "text": "To safeguard the rights of human research subjects", "correct": true },
+    { "text": "To calculate the most appropriate sample size for the research", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is used as an electronic medication dispenser to improve medication adherence ?",
+    "answers": [
+    { "text": "Text messaging", "correct": false },
+    { "text": "Cell phone calendar", "correct": false },
+    { "text": "E-pill Multi Alarm Time Cap", "correct": false },
+    { "text": "Med-E-Lert Automatic pill Dispenser", "correct": true }
+    ]
+},
+{
+    "question": "A pharmacy department needs to design a system to maximize the value of the drug therapy to the patients, which of the following systems should the pharmacy department operate ?",
+    "answers": [
+    { "text": "Patient safety program", "correct": false },
+    { "text": "Pharmacy benefit management", "correct": false },
+    { "text": "Pharmacy networking and bar-coding system", "correct": false },
+    { "text": "Communication with the prescriber and the therapist", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is the major risk associated with the use of over-the- counter drugs ?",
+    "answers": [
+    { "text": "Increased cost without benefit", "correct": false },
+    { "text": "Decreased drug-drug interactions", "correct": false },
+    { "text": "Increased potential for misuse and abuse", "correct": false },
+    { "text": "Increased risk of adverse events", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following situations allow for accepting verbal order ?",
+    "answers": [
+    { "text": "In a code status", "correct": true },
+    { "text": "To start chemotherapy", "correct": false },
+    { "text": "When prescriber is on vacation", "correct": false },
+    { "text": "For a non-formulary drug request", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the best approach for your patient when his/here objective measures of adherence are inconsistent with the subjective measures ?",
+    "answers": [
+    { "text": "I noticed there were some missing refills of your medication and I'm concerned that there might be a problem", "correct": false },
+    { "text": "Your refill rerecords provides that you did net refilled your medication for the few months ago, do you want to be refilled now ?", "correct": false },
+    { "text": "Many of my patients have some difficulties remembering to take their medication, what kind of problems have you experienced", "correct": false },
+    { "text": "Sounds like you are not sure about how to take your medicine you show me how to take it", "correct": true }
+    ]
+},
+{
+    "question": "A patient visits pharmacy with fever and cough but has no prescription patients requests for acetaminophen, dextromethorphan syrup, glycerin suppository and amoxicillin 500 mg capsules. Which of the following needs prescription for delivery ?",
+    "answers": [
+    { "text": "Amoxicillin capsules", "correct": true },
+    { "text": "Glycerin suppository", "correct": false },
+    { "text": "Acetaminophen tablet", "correct": false },
+    { "text": "Dextromethorphan syrup", "correct": false }
+    ]
+},
+{
+    "question": "which of the following systems can be integrated with computerized physician order entry to guide physician during prescribing medications ?",
+    "answers": [
+    { "text": "Smart plumbs", "correct": false },
+    { "text": "barcode systems", "correct": false },
+    { "text": "Electronic distribution cabinets", "correct": false },
+    { "text": "Clinical decision support system ", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is considered a direct method to measure adherence ?",
+    "answers": [
+    { "text": "Pill count", "correct": false },
+    { "text": "Pharmacy record", "correct": false },
+    { "text": "Patients' questionnaires", "correct": false },
+    { "text": "Body drug concentration", "correct": true }
+    ]
+},
+{
+    "question": "Which of the ethical principles do violate as a pharmacist when time and give consultations to only relative ?",
+    "answers": [
+    { "text": "justice", "correct": true },
+    { "text": "autonomy", "correct": false },
+    { "text": "beneficence", "correct": false },
+    { "text": "non-maleficence ", "correct": false }
+    ]
+},
+{
+    "question": "The treatment of tuberculosis (AntiTB) involves multiple medication have to be taken for a long period of time. Which of the following is the best way to ensure patient adherence AntiTB ?",
+    "answers": [
+    { "text": "Apply Direct Observed Therapy, Short course strategy (DOT)", "correct": true },
+    { "text": "Add multivitamins to increase absorption of AntiTB", "correct": false },
+    { "text": "Interview the patient to assess their knowledge about AntiTB", "correct": false },
+    { "text": "Review current medications profile to avoid drug-drug inten with AntiTB ", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the name of the body responsible for the approval of research in health institutions ?",
+    "answers": [
+    { "text": "Date Review Board", "correct": false },
+    { "text": "Research Review Board", "correct": false },
+    { "text": "Institutional Review Board", "correct": true },
+    { "text": "Date and Safety Monitoring Board", "correct": false }
+    ]
+},
+{
+    "question": "A hospital conducted a pharmacovigilance (PV) activity to detected events after certain treatment, by asking patients directly and patient records. Which of the following is the type of PV activity conducted by ?",
+    "answers": [
+    { "text": "Active PV", "correct": true },
+    { "text": "Passive PV", "correct": false },
+    { "text": "Mandatory PV", "correct": false },
+    { "text": "Spontaneous PV", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following agents can exert an antipsychotic effect which appears to be due to a dopamine receptor blockade in the central nervous system ?",
+    "answers": [
+    { "text": "Fluoxetine", "correct": false },
+    { "text": "Bupropion", "correct": false },
+    { "text": "Bromocriptine", "correct": false },
+    { "text": "Chlorpromazine", "correct": true }
+    ]
+},
+{
+    "question": "patient with major depression should receive antidepressant therapy for at least ?",
+    "answers": [
+    { "text": "2 weeks", "correct": false },
+    { "text": "6 weeks", "correct": false },
+    { "text": "2 months", "correct": false },
+    { "text": "6 months", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following Drugs is used for positive symptoms of schizophrenia ?",
+    "answers": [
+    { "text": "Haloperidol", "correct": true },
+    { "text": "Levodopa", "correct": false },
+    { "text": "Sertraline", "correct": false },
+    { "text": "Citalopram", "correct": false }
+    ]
+},
+{
+    "question": "what is the Clozapine test monitoring ?",
+    "answers": [
+    { "text": "Neutropenia", "correct": true },
+    { "text": "Liver Functions", "correct": false },
+    { "text": "Kidney Functions", "correct": false },
+    { "text": "Testing of Vitamin B12 Levels", "correct": false }
+    ]
+},
+{
+    "question": "A 22-year-old male presents to the primary care physician with complaints of uncomfortable sensation in his legs during the day and he must constantly move them. History reveals that he has schizophrenia and is treated with antipsychotics over the last three months. Which of the following antipsychotic agent is this patient most likely takes.",
+    "answers": [
+    { "text": "Clozapine", "correct": false },
+    { "text": "Haloperidol", "correct": true },
+    { "text": "Olanzapine", "correct": false },
+    { "text": "Risperidone", "correct": false }
+    ]
+},
+{
+    "question": "A patient (she was an elderly I think 75) has a seizure, a history of arrhythmia and is diagnosed with depression. What's the best management ?",
+    "answers": [
+    { "text": "Bupropion", "correct": false },
+    { "text": "imipramine", "correct": false },
+    { "text": "prazosin", "correct": false },
+    { "text": "Paroxetine", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following drugs is used for premature ejaculation ?",
+    "answers": [
+    { "text": "Atenolol", "correct": false },
+    { "text": "Dapoxetine", "correct": true },
+    { "text": "Olanzapine", "correct": false },
+    { "text": "Aripiprazole", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is a pharmacological property of chlorpromazine ?",
+    "answers": [
+    { "text": "antihistamine", "correct": true },
+    { "text": "anti emetic drug", "correct": false },
+    { "text": "cholinesterase inhibitor", "correct": false },
+    { "text": "selective serotonin reuptake inhibitor", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following Is the effect of smoking on serum olanzapine levels ?",
+    "answers": [
+    { "text": "has no effect", "correct": false },
+    { "text": "Increase in serum olanzapine levels", "correct": false },
+    { "text": "decrease in serum olanzapine levels", "correct": true },
+    { "text": "decrease In olanzapine levels initially then increase in It", "correct": false }
+    ]
+},
+{
+    "question": "An 18-year-old obese girl with newly diagnosed depressive illness is being advised to start antidepressant treatment. Which of the following is best to initiate ?",
+    "answers": [
+    { "text": "Bupropion", "correct": true },
+    { "text": "Paroxetine", "correct": false },
+    { "text": "Mirtazapine", "correct": false },
+    { "text": "Amitriptyline", "correct": false }
+    ]
+},
+{
+    "question": "A 68-year-old woman with type-2 diabetes, neuropathy and seizures has been newly diagnosed with depressive illness. Which of the following medication would be best to initiate ?",
+    "answers": [
+    { "text": "Bupropion", "correct": false },
+    { "text": "Duloxetine", "correct": true },
+    { "text": "Paroxetine", "correct": false },
+    { "text": "Amitriptyline", "correct": false }
+    ]
+},
+{
+    "question": "A 27-year-old man presents with complaints of excessive checking and cleaning habits since childhood Obsessive compulsive disorder is diagnosed Which of the following is the most appropriate management ?",
+    "answers": [
+    { "text": "Phentermine", "correct": false },
+    { "text": "Clomipramine", "correct": true },
+    { "text": "Levetiracetam", "correct": false },
+    { "text": "Methylphenidate", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following drugs that are used for mania has a narrow therapeutic index ?",
+    "answers": [
+    { "text": "lithium", "correct": true },
+    { "text": "haloperidol", "correct": false },
+    { "text": "aripiprazole", "correct": false },
+    { "text": "Clonazepam", "correct": false }
+    ]
+},
+{
+    "question": "Copd category B ttt ?",
+    "answers": [
+    { "text": "Prazocin", "correct": false },
+    { "text": "propafenone", "correct": false },
+    { "text": "ipratropium", "correct": false },
+    { "text": "Tiotropium", "correct": true }
+    ]
+},
+{
+    "question": "what is the therapeutic use of salbutamol ?",
+    "answers": [
+    { "text": "antibiotic", "correct": false },
+    { "text": "anti emetic", "correct": false },
+    { "text": "anticoagulant", "correct": false },
+    { "text": "bronchodilator", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following receptors is the main site of action for salbutamol to produce its pharmacological activity in asthma ?",
+    "answers": [
+    { "text": "Beta 1 agonist", "correct": false },
+    { "text": "Beta 2 agonist", "correct": true },
+    { "text": "Alpha 2 agonist", "correct": false },
+    { "text": "Alpha 2 antagonist", "correct": false }
+    ]
+},
+{
+    "question": "Which agent is a powerful dilator of bronchial smooth muscle and can be used in the treatment of patients with asthma ?",
+    "answers": [
+    { "text": "phenoxybenzamine", "correct": false },
+    { "text": "entacapone", "correct": false },
+    { "text": "propranolol", "correct": false },
+    { "text": "albuterol", "correct": true }
+    ]
+},
+{
+    "question": "Which bio similar drug is approved for the treatment of moderate to severe allergic asthma ?",
+    "answers": [
+    { "text": "Infliximab", "correct": false },
+    { "text": "Efalizumab", "correct": false },
+    { "text": "Omalizumab", "correct": true },
+    { "text": "Trastuzumab", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is a side effect of albuterol ?",
+    "answers": [
+    { "text": "Convulsion", "correct": false },
+    { "text": "Bradycardia", "correct": false },
+    { "text": "Tachycardia", "correct": true },
+    { "text": "Hypotension", "correct": false }
+    ]
+} ,
+{
+    "question": "case about status asthmaticus ?",
+    "answers": [
+    { "text": "saba", "correct": true },
+    { "text": "Laba", "correct": false },
+    { "text": "ics", "correct": false },
+    { "text": "Methylprednisolone", "correct": false }
+    ]
+},
+{
+    "question": "Medication used with exercise induce asthma ?",
+    "answers": [
+    { "text": "Tiotropium", "correct": false },
+    { "text": "Cromlyn", "correct": false },
+    { "text": "Cortisone", "correct": false },
+    { "text": "Salmeterol", "correct": true }
+    ]
+},
+{
+    "question": "Which of the following is a side effect of using inhaled corticosteroids in patient with bronchial asthma ?",
+    "answers": [
+    { "text": "Tachycardia", "correct": true },
+    { "text": "Hyperkalemia", "correct": false },
+    { "text": "Hypoglycemia", "correct": false },
+    { "text": "Hyperglycemia", "correct": false }
+    ]
+},
+{
+    "question": "A non-smoker patient suffers from wheezing and chest tightness, what medication he should use ?",
+    "answers": [
+    { "text": "B2 agonist", "correct": true },
+    { "text": "corticosteroids", "correct": false },
+    { "text": "omalizumab", "correct": false },
+    { "text": "Prazocin", "correct": false }
+    ]
+},
+{
+    "question": "A woman suffers from acute asthma attack, what is the best choice for her attack ?",
+    "answers": [
+    { "text": "Ipratropium", "correct": false },
+    { "text": "Tiotropium", "correct": false },
+    { "text": "corticosteroids", "correct": true },
+    { "text": "perindopril", "correct": false }
+    ]
+},
+{
+    "question": "Patient with lab results normal except for hypokalemia (was 3 ) which is the most likely the cause ?",
+    "answers": [
+    { "text": "inhaled corticosteroids", "correct": false },
+    { "text": "Leukotriene antagonist", "correct": false },
+    { "text": "Inhaled beta agonist ", "correct": true },
+    { "text": "Inhaled anti muscarinic ", "correct": false }
+    ]
+},
+{
+    "question": "case asthma classification of patient has twice cough/w and no interference with daily activity ?",
+    "answers": [
+    { "text": "intermediate", "correct": true },
+    { "text": "mild persistent", "correct": false },
+    { "text": "moderate president", "correct": false },
+    { "text": "sever persistent", "correct": false }
+    ]
+},
+{
+    "question": "What is the maximum beyond use date of repackage drug ?",
+    "answers": [
+    { "text": "3 months", "correct": false },
+    { "text": "6 months", "correct": true },
+    { "text": "9 months", "correct": false },
+    { "text": "11 months", "correct": false }
+    ]
+},
+{
+    "question": "Phenobarbital prescription as outpatient for how many days ?",
+    "answers": [
+    { "text": "30", "correct": true },
+    { "text": "60", "correct": false },
+    { "text": "70", "correct": false },
+    { "text": "90", "correct": false }
+    ]
+},
+{
+    "question": "Narcotics prescription ?",
+    "answers": [
+    { "text": "7 days", "correct": true },
+    { "text": "3 days", "correct": false },
+    { "text": "1 month", "correct": false },
+    { "text": "6 months", "correct": false }
+    ]
+},
+{
+    "question": "Non Narcotics prescription ?",
+    "answers": [
+        { "text": "7 days", "correct": false },
+        { "text": "3 days", "correct": false },
+        { "text": "1 month", "correct": true },
+        { "text": "6 months", "correct": false }
+    ]
+},
+{
+    "question": "Patient came to the pharmacy with prescription that was prescribed 95 days ago, what should you do ?",
+    "answers": [
+    { "text": "dispense the necessary medication only", "correct": false },
+    { "text": "dispense for one month only", "correct": false },
+    { "text": "ask the patient for the latest prescription", "correct": true },
+    { "text": "refuse dispense", "correct": false }
+    ]
+},
+{
+    "question": "Who can open pharmacy in saudia ?",
+    "answers": [
+    { "text": "Only Saudi citizen", "correct": true },
+    { "text": "Can be non Saudi but register pharmacists should be there to manage shifts", "correct": false },
+    { "text": "Can be non Saudi but manager should be Saudi citizen", "correct": false },
+    { "text": "only pharmacist can open", "correct": false }
+    ]
+},
+{
+    "question": "Which ministry is responsible for cases of recovery and the number of diseases during the Hajj season ?",
+    "answers": [
+    { "text": "WHO", "correct": false },
+    { "text": "SFDA", "correct": false },
+    { "text": "MOHAU", "correct": true },
+    { "text": "FBI", "correct": false }
+    ]
+},
+{
+    "question": "A fresh graduate was employed by a pharmaceutical company. The company asked her to create a direct-to-consumer advertisement of one of their products that is sold in two dosages: one for prescription and one dosage is sold OTC. Soon after the advero was live the Saudi FDA contacted the company to take it down. Explain why ?",
+    "answers": [
+    { "text": "Because direct-to-consumer advertisement is prohibited in Saudi Arabia", "correct": false },
+    { "text": "Because advertisement of prescription products is prohibited in Saudi Arabia", "correct": true },
+    { "text": "Because they did not pay an initial fee", "correct": false },
+    { "text": "Because they paid less than agreed", "correct": false }
+    ]
+},
+{
+    "question": "Who is responsible to promote the health in Saudi Arabia ?",
+    "answers": [
+    { "text": "Saudi Food and Drug Authority (SFDA)", "correct": false },
+    { "text": "Ministry of Education (MOE)", "correct": false },
+    { "text": "Ministry of Health (MOH)", "correct": true },
+    { "text": "Health Colleges", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following best describes the structure of the healthcare systems in Saudi Arabia ?",
+    "answers": [
+    { "text": "Primary care based", "correct": false },
+    { "text": "Private based care", "correct": false },
+    { "text": "3-tier system", "correct": true },
+    { "text": "2-tier system", "correct": false }
+    ]
+},
+{
+    "question": "Who is responsible to produce regulation for practicing health professions that include pharmacist ?",
+    "answers": [
+    { "text": "Minister of Health (MOH)", "correct": false },
+    { "text": "Dean of the college of pharmacy", "correct": false },
+    { "text": "Executive director of Saudi Food and drug Authority", "correct": false },
+    { "text": "Board of Trustees of the Saudi Commission for Health specialties", "correct": true }
+    ]
+},
+{
+    "question": "Which governmental agency gives approval to generic medical enter the drug market in Saudi Arabia after completing all requirements ?",
+    "answers": [
+    { "text": "Ministry of Health (MOH)", "correct": false },
+    { "text": "Ministry of Commerce (MOC)", "correct": false },
+    { "text": "Saudi Food and Drug Authority (SFDA)", "correct": true },
+    { "text": "Saudi Commission for Health Specialists (SCFHS)", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following governmental bodies is responsible for diseases prevention during Hajj ?",
+    "answers": [
+    { "text": "Ministry of Health", "correct": true },
+    { "text": "Saudi Health Council", "correct": false },
+    { "text": "Saudi Food and drug authority", "correct": false },
+    { "text": "Saudi commission for Health specialists", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following local organization's primary mission is to the safety and quality of healthcare in health institution ?",
+    "answers": [
+    { "text": "Saudi central board for accreditation of healthcare institutions (CBAHI)", "correct": true },
+    { "text": "Saudi Commission for Health Specialties (SCFHS)", "correct": false },
+    { "text": "Saudi Food and Drug Authority (SFDA)", "correct": false },
+    { "text": "Saudi pharmaceutical Society (SPS)", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the time after which morphine empty vials are to be discarded ?",
+    "answers": [
+    { "text": "3 months", "correct": false },
+    { "text": "6 months", "correct": true },
+    { "text": "9 months", "correct": false },
+    { "text": "11 months", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following is the validity of diazepam prescription (in days). According to ministry of health rules and regulation ?",
+    "answers": [
+    { "text": "3", "correct": false },
+    { "text": "7", "correct": true },
+    { "text": "10", "correct": false },
+    { "text": "14", "correct": false }
+    ]
+},
+{
+    "question": "A pharmacist is hired as in charge of controlled medication pharmacist made inventory record for controlled medications pharmacy before the old pharmacist left. Which of the following is most likely to receive the original record ?",
+    "answers": [
+    { "text": "Pharmacy", "correct": true },
+    { "text": "Hospital Administration", "correct": false },
+    { "text": "Medical Record Department", "correct": false },
+    { "text": "Saudi Food and Drug authority", "correct": false }
+    ]
+},
+{
+    "question": "Which of the following drugs causes water retention ?",
+    "answers": [
+    { "text": "codeine", "correct": false },
+    { "text": "tramadol", "correct": false },
+    { "text": "indomethacin", "correct": true },
+    { "text": "acetaminophen", "correct": false }
+    ]
+},
+{
+    "question": "When to use Erythropoietin ?",
+    "answers": [
+    { "text": "iron deficiency", "correct": true },
+    { "text": "B12", "correct": false },
+    { "text": "Follic Acid", "correct": false },
+    { "text": "Asthma", "correct": false }
+    ]
+},
+{
+    "question": "Polystyrene role ?",
+    "answers": [
+    { "text": "⬆ ca", "correct": false },
+    { "text": "⬆ Zn", "correct": false },
+    { "text": "⬆ Hg", "correct": false },
+    { "text": "⬆ K", "correct": true }
+    ]
+}                                           
 ]
