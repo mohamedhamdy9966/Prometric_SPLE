@@ -1503,8 +1503,8 @@
 //         question: "A Child called Fahad came with his parents suffers from bowel, leg, and bone pain, What should be given ?" ,
 //         answers: [
 //             { text: "Calcidol" ,correct:false},
-//             { text: "Folic acid" ,correct:true},
-//             { text: "Ergocholecaliferol" ,correct:false},
+//             { text: "Folic acid" ,correct:false},
+//             { text: "Ergocholecaliferol" ,correct:true},
 //             { text: "Ferritin" ,correct:false},
 //         ]
 //     },
