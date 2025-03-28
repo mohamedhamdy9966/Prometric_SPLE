@@ -101,7 +101,7 @@ function login(usernameInput, passwordInput) {
         // "rawan": "othman@2024",
         // "malaz": "malaz@2024",
         // "hawary": "hawary@2024",
-        "ranakarim" : "rana@2024",
+        // "ranakarim" : "rana@2024",
         // "ahmed" : "samir@2024",
         // ends in 8/8
         // "moaz" : "moaz@2024",
